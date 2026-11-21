@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Endungen hören und schreiben
+summary: Mr Hill stellt eine Werkstatt für Wörter neben die Klangpartitur. Du hörst, wie -s und -ed klingen, und schreibst Wörter vor Endungen richtig.
+pages: [das-brauchst-du, rechtschreibung-endungen]

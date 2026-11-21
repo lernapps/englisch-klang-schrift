@@ -28,14 +28,18 @@ def partitur(title, cols, top="legende", mid="legende", note=None):
     if mid == "legende":
         b.append(f'<rect x="130" y="78" width="342" height="34" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
                  f'<text x="301" y="101" text-anchor="middle" {F} font-size="20" fill="{GREY}">kommt später</text>')
-    widths = [max(76, 17 * len(c[0]) + 44) for c in cols]
+    widths = [max(76, 17 * len(c[0] or "–") + 44) for c in cols]
     gap = 10
     x = 130 + max(0, (342 - sum(widths) - gap * (len(cols) - 1)) / 2)
     xs = []
     for (ipa, text, silent), w in zip(cols, widths):
         xs.append(x + w / 2)
-        b.append(f'<rect x="{x:.0f}" y="132" width="{w}" height="48" rx="8" fill="{BLUE}"/>'
-                 f'<text x="{x + w / 2:.0f}" y="164" text-anchor="middle" {F} font-size="26" fill="#fff">{e(ipa)}</text>')
+        if ipa is None:
+            b.append(f'<rect x="{x:.0f}" y="132" width="{w}" height="48" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
+                     f'<text x="{x + w / 2:.0f}" y="164" text-anchor="middle" {F} font-size="26" fill="{GREY}">–</text>')
+        else:
+            b.append(f'<rect x="{x:.0f}" y="132" width="{w}" height="48" rx="8" fill="{BLUE}"/>'
+                     f'<text x="{x + w / 2:.0f}" y="164" text-anchor="middle" {F} font-size="26" fill="#fff">{e(ipa)}</text>')
         spans = "".join(f'<tspan fill="{GREY}">{e(ch)}</tspan>' if i in (silent or []) else e(ch) for i, ch in enumerate(text))
         b.append(f'<text x="{x + w / 2:.0f}" y="208" text-anchor="middle" {F} font-size="22" fill="{INK}">{spans}</text>')
         x += w + gap
@@ -51,6 +55,56 @@ PARTITUREN = {
     "partitur-lautschrift": ("Klangpartitur mit einer Zeile Laute: zwei blaue Karten mit Lautschrift unter den Wörtern big und book",
                              [("bɪɡ", "big", None), ("bʊk", "book", None)], "legende", "legende"),
 }
+
+PARTITUREN["partitur-silent-letters"] = (
+    "Klangpartitur mit einer Zeile Laute: das Wort knee hat eine graue gestrichelte Karte für das k und blaue Karten für n und iː",
+    [(None, "k", [0]), ("n", "n", None), ("iː", "ee", None)], "legende", "legende")
+
+
+def verschmelzen(title, a, b, c):
+    """Zwei Karten (Lautschrift, Schreibung) werden zu einer: a + b = c."""
+    body = []
+    body.append(f'<text x="6" y="42" {F} font-size="22" fill="{GREY}">Melodie</text>')
+    body.append(f'<text x="6" y="104" {F} font-size="22" fill="{GREY}">Betonung</text>')
+    body.append(f'<text x="6" y="164" {F} font-size="22" fill="{INK}">Laute</text>')
+    for yy, hh in ((14, 44), (78, 34)):
+        body.append(f'<rect x="130" y="{yy}" width="342" height="{hh}" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
+                    f'<text x="301" y="{yy + (28 if hh == 44 else 23)}" text-anchor="middle" {F} font-size="20" fill="{GREY}">kommt später</text>')
+    def card(x, w, ipa, text):
+        return (f'<rect x="{x}" y="132" width="{w}" height="48" rx="8" fill="{BLUE}"/>'
+                f'<text x="{x + w / 2}" y="164" text-anchor="middle" {F} font-size="26" fill="#fff">{e(ipa)}</text>'
+                f'<text x="{x + w / 2}" y="208" text-anchor="middle" {F} font-size="22" fill="{INK}">{e(text)}</text>')
+    body.append(card(124, 82, *a))
+    body.append(f'<text x="222" y="164" text-anchor="middle" {F} font-size="26" fill="{INK}">+</text>')
+    body.append(card(238, 82, *b))
+    body.append(f'<text x="340" y="164" text-anchor="middle" {F} font-size="26" fill="{INK}">=</text>')
+    body.append(card(360, 106, *c))
+    return svg(480, 230, title, "\n".join("  " + l for l in body) + "\n")
+
+
+VERSCHMELZEN = {
+    "partitur-kurzformen": ("Klangpartitur mit einer Zeile Laute: die Karte ʃiː für she und die Karte ɪz für is werden zu einer Karte ʃiːz für she's",
+                            ("ʃiː", "she"), ("ɪz", "is"), ("ʃiːz", "she's")),
+}
+
+
+def werkstatt(title, rows):
+    h = 48 + 56 * len(rows)
+    body = [f'<text x="240" y="30" text-anchor="middle" {F} font-size="22" fill="{INK}">Werkstatt: Was passiert vor der Endung?</text>']
+    for i, (word, griff, endung, ergebnis) in enumerate(rows):
+        y = 48 + i * 56
+        body.append(f'<rect x="6" y="{y}" width="92" height="46" rx="8" fill="{GREEN}"/><text x="52" y="{y + 31}" text-anchor="middle" {F} font-size="22" fill="#fff">{e(word)}</text>')
+        body.append(f'<rect x="100" y="{y}" width="190" height="46" rx="8" fill="#e6b800"/><text x="195" y="{y + 31}" text-anchor="middle" {F} font-size="20" fill="#222">{e(griff)}</text>')
+        body.append(f'<rect x="300" y="{y}" width="58" height="46" rx="8" fill="{BLUE}"/><text x="329" y="{y + 31}" text-anchor="middle" {F} font-size="22" fill="#fff">{e(endung)}</text>')
+        body.append(f'<text x="368" y="{y + 31}" {F} font-size="22" fill="{INK}">= {e(ergebnis)}</text>')
+    return svg(480, h, title, "\n".join("  " + l for l in body) + "\n")
+
+
+WERKSTAETTEN = {
+    "werkstatt-endungen": ("Die Werkstatt zeigt drei Handgriffe vor einer Endung: stop plus ed wird stopped durch Verdoppeln, cry plus s wird cries durch y zu ie, make plus ing wird making, weil das e wegfällt",
+                           [("stop", "Konsonant doppeln", "ed", "stopped"), ("cry", "y wird ie", "s", "cries"), ("make", "e fällt weg", "ing", "making")]),
+}
+
 
 def bubble(x, y, w, text, tail):
     return (f'  <rect x="{x}" y="{y}" width="{w}" height="56" rx="14" fill="#fff" stroke="#333" stroke-width="2"/>\n'
@@ -80,10 +134,28 @@ SZENEN = {
         board(405, 2) + bubble(10, 8, 130, "aim", 70) + bubble(165, 8, 130, "Aim?", 214)),
 }
 
+SZENEN["szene-silent-letters"] = (
+    "Sophie liest das Wort an der Tafel mit dem k vor, Amir lacht; Mr Hill zeigt auf die Klangpartitur",
+    {"sophie": (60, 135, 0.8), "amir": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    board(405, 2) + bubble(10, 8, 150, "k-nee?", 70) + bubble(190, 8, 130, "Ha ha!", 230))
+SZENEN["szene-rechtschreibung-endungen"] = (
+    "Peter überlegt an der Tafel, wie er eine Endung an ein Wort hängt; Mr Hill und Ellie schauen zu",
+    {"peter": (60, 135, 0.8), "ellie": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    bubble(10, 8, 280, "plan + ed = ?", 70))
+SZENEN["szene-kurzformen"] = (
+    "Ellie ruft etwas und zeigt auf eine Tasche; Amir und Mr Hill hören zu",
+    {"amir": (60, 125, 0.85), "ellie": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    bubble(150, 8, 300, "That's my bag!", 214))
+
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for name, (title, cols, top, mid) in PARTITUREN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(partitur(title, cols, top, mid))
+    for name, (title, a, b, c) in VERSCHMELZEN.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(verschmelzen(title, a, b, c))
+    for name, (title, rows) in WERKSTAETTEN.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(werkstatt(title, rows))
     for name, (title, figs, extra) in SZENEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(szene(title, figs, extra))
     print("ok")

@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Das Verb be, Fragen mit do und does und die Fragewörter noch einmal kurz, bevor Mr Hill zeigt, wie man Sätze kurz und mit Melodie spricht.
+recap: [englisch/to-be, englisch/simple-present-fragen, englisch/fragewoerter]
+scope: "Die Seite wiederholt nur drei Bausteine aus anderen Explainern: das Verb be (am, is, are), Fragen und Verneinung im simple present mit do und does und die Fragewörter. Neue Inhalte gibt es nicht, auch keine Übung. Kurzformen und die Melodie von Fragen kommen auf den nächsten Seiten."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. **Ich kann im simple present mit do und does Fragen stellen und mit don’t und doesn’t verneinen.** Das ist der Baustein „Simple present: Fragen und Verneinung“. **Ich kann Fragen mit who, what, where, when, why, how und whose stellen.** Das ist der Baustein „Fragewörter“. Alle drei brauchst du gleich beim Sprechen. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Das Verb be
+        header: [Person, Form]
+        rows:
+          - [I, am]
+          - [he / she / it, is]
+          - [you / we / they, are]
+      - type: table
+        caption: Klassenzimmer-Poster · Fragen und Fragewörter
+        header: [Art, Beispiel]
+        rows:
+          - [Frage mit do, "Do you like tea?"]
+          - [Frage mit does, "Does Amir like tea?"]
+          - [Fragewörter, "who, what, where, when, why, how, whose"]
+      - type: text
+        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Verb to be](https://lernapps.net/apps/map/englisch/c/to-be/), [Simple present: Fragen und Verneinung](https://lernapps.net/apps/map/englisch/c/simple-present-fragen/) und [Fragewörter](https://lernapps.net/apps/map/englisch/c/fragewoerter/)."
+  - type: section
+    id: weiter
+    title: Was jetzt kommt
+    blocks:
+      - type: text
+        text: "Mr Hill sagt: „Im Gespräch sprechen wir nicht jedes Wort einzeln.“ Sophie, Ellie, Peter und Amir probieren aus, wie man zwei Wörter zu einem verschmilzt und wie die Stimme bei einer Frage klingt."
