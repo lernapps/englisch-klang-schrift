@@ -10,22 +10,22 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-lautschrift.svg
-        alt: "Im Klassenzimmer hängt eine Tafel mit drei Zeilen: Melodie, Betonung und Laute. Mr Hill steht darunter. Sophie sagt in einer Sprechblase „aim“, Ellie schaut mit der Sprechblase „Aim?“ zu ihr."
+        alt: "Im Klassenzimmer hängt eine Tafel mit drei Zeilen: Melodie, Betonung und Laute. Mr Hill steht rechts neben der Tafel. Sophie sagt in einer Sprechblase „aim“, Ellie schaut mit der Sprechblase „Aim?“ zu ihr."
         caption: "Von links: Sophie (Zöpfe) liest laut, Ellie (roter Pferdeschwanz) wundert sich, rechts steht Mr Hill (graue Haare) an der Klangpartitur."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mr Hill hat eine **Klangpartitur** aufgehängt: eine Tafel mit drei Zeilen. Später tragen die Kinder dort Laute, Betonung und Melodie ein. Sophie liest den Ausdruck I'm aus Hello, Millbrook! mit ihrer Lesehilfe vor: „aim“. Ellie fragt: „Aim?“ und sagt, sie spreche I'm anders aus."
+        text: "Mr Hill hat eine **Klangpartitur** aufgehängt: eine Tafel mit drei Zeilen. Später tragen die Kinder dort Laute, Betonung und Melodie ein. Sophie liest den Ausdruck I'm aus Hello, Millbrook! mit ihrer Lesehilfe vor: „aim“. Ellie fragt: „Aim?“ Sie spricht I'm anders aus."
       - type: single-choice
         id: lautschrift-start
         text: Was zeigt die Szene über die Lesehilfe mit deutschen Buchstaben?
         options:
-          - text: Sie zeigt den Klang nur ungefähr, englische Kinder lesen sie anders.
+          - text: Sie zeigt den Klang nur ungefähr.
             correct: true
             info: "Die Lesehilfe geht vom Deutschen aus. Ellie spricht I'm anders."
           - text: Sie ist richtig, und Ellie spricht I'm falsch aus.
             correct: false
-            info: "Ellie ist Engländerin und spricht richtig. Die Lesehilfe ist nicht genau."
+            info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm."
           - text: Wer die Lesehilfe kennt, spricht jedes Wort richtig aus.
             correct: false
             info: Mit deutschen Buchstaben lässt sich nicht jeder englische Laut aufschreiben.
@@ -40,11 +40,11 @@ blocks:
     title: Ein Zeichen für jeden Laut
     blocks:
       - type: text
-        text: "Die **Lautschrift** schreibt jeden Laut mit einem eigenen Zeichen auf, zwischen Schrägstrichen: /ʃ/. Sie ist für alle gleich, auch für englische Kinder. Jede Zeile der Tabelle ist eine **Lautkarte**: ein Zeichen mit einem Beispielwort. Die untere Zeile der Klangpartitur zeigt sie: Jede blaue Karte ist ein Wort in Lautschrift. Die gestrichelten Zeilen füllen wir später."
+        text: "Die **Lautschrift** schreibt jeden Laut mit einem eigenen Zeichen auf, zwischen Schrägstrichen: /ʃ/. Sie ist für alle gleich, auch für englische Kinder. Jede Zeile der Tabelle ist eine **Lautkarte**: ein Zeichen mit einem Beispielwort. In der unteren Zeile der Klangpartitur stehen ganze Wörter in Lautschrift, jedes auf einer blauen Karte. Die gestrichelten Zeilen füllen wir später."
       - type: figure
         image: images/partitur-lautschrift.svg
         alt: "Die Klangpartitur mit drei Zeilen. In der unteren Zeile stehen zwei blaue Karten: eine Karte mit den Zeichen bɪɡ unter dem Wort big und eine Karte mit kæt unter dem Wort cat. Die beiden oberen Zeilen sind gestrichelt."
-        caption: "Zwei Wörter, zwei Karten: Oben steht der Klang, darunter die Schreibung."
+        caption: "Zwei Wörter, zwei Karten: Auf der Karte steht der Klang, darunter die Schreibung."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -58,16 +58,19 @@ blocks:
           - ["/ɪ/", big, kurzes „i“ wie in Bitte]
           - ["/æ/", cat, zwischen „a“ und „ä“]
           - ["/ɑː/", car, langes „a“ wie in Bahn]
-          - ["/ʊ/", book, kurzes „u“ wie in Mutter]
+          - ["/ʊ/", book, kurzes „u“ wie in Mutter (nicht lang)]
       - type: note
         title: Merke
         blocks:
           - type: text
-            text: "**Ein Zeichen, ein Laut.** Die Schreibung kann wechseln, das Zeichen bleibt: c klingt in cat wie /k/ und in city wie /s/. Das Zeichen **ː** sieht aus wie ein Doppelpunkt und macht einen Laut lang. Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /f/, /k/, /m/, /p/, /s/, /t/. Auch /ɡ/ klingt wie das g in Garten, es sieht nur etwas anders aus als ein g."
+            text: |
+              - **Ein Zeichen, ein Laut.** Ein Laut kann verschieden geschrieben werden, das Zeichen bleibt gleich: c klingt in cat wie /k/ und in city wie /s/.
+              - Das Zeichen **ː** sieht aus wie ein Doppelpunkt und macht einen Laut lang.
+              - Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /f/, /k/, /m/, /p/, /s/, /t/. Auch /ɡ/ klingt wie das g in Garten.
       - type: speaking-task
         id: lautschrift-karten
         language: en
-        task: "Höre vier Lautkarten im Satz: Satz 1 shoe, Satz 2 chair, Satz 3 sing, Satz 4 cat. Sprich das Wort mit."
+        task: "Höre vier Sätze. Darin steckt je ein Wort aus der Tabelle: shoe, chair, sing, cat. Sprich das Wort mit."
         items:
           - audio: sophie-has-a-new-shoe-today.mp3
             text: Sophie has a new shoe today.
@@ -103,17 +106,17 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/lautschrift/
       - type: single-choice
         id: lautschrift-erster-laut
-        text: Welches Zeichen steht für den ersten Laut von cheese?
+        text: Welches Zeichen steht für den ersten Laut von chicken?
         options:
           - text: "/tʃ/"
             correct: true
-            info: "Das ch in cheese ist ein einziger Laut: /tʃ/, wie „tsch“ in Matsch."
+            info: "Das ch in chicken ist ein einziger Laut: /tʃ/, wie „tsch“ in Matsch."
           - text: "/ʃ/"
             correct: false
-            info: "Das ist der Laut in shoe. Bei cheese kommt ein t davor: /tʃ/."
+            info: "Das ist der Laut in shoe. Bei chicken kommt ein t davor: /tʃ/."
           - text: "/k/"
             correct: false
-            info: "Das c vor h klingt in cheese nicht wie /k/. Die Buchstaben ch ergeben zusammen /tʃ/."
+            info: "Das c vor h klingt in chicken nicht wie /k/. Die Buchstaben ch ergeben zusammen /tʃ/."
         explanation: Zwei Buchstaben können einen einzigen Laut ergeben.
         links:
           - title: Lernlandkarte Englisch · Lautschrift
@@ -157,7 +160,7 @@ blocks:
             target: chips
             mistakes:
               - answer: ships
-                message: Der erste Laut ist /tʃ/ mit einem t davor. Er ist nicht /ʃ/.
+                message: Der erste Laut ist /tʃ/ („tsch“), nicht /ʃ/ („sch“).
               - answer: "/tʃɪps/"
                 message: Schreibe das Wort, nicht die Zeichen.
         hint: Sprich die Zeichen nacheinander. Welches Wort kennst du?
@@ -181,7 +184,7 @@ blocks:
       - type: speaking-task
         id: lautschrift-nachsprechen
         language: en
-        task: Höre den Satz, nimm dich auf und höre dich an. Bewerte dich selbst. Die App hört nicht zu.
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
         items:
           - audio: sophie-and-peter-eat-chips-together.mp3
             text: Sophie and Peter eat chips together.
