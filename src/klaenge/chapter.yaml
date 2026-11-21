@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Englische Laute und Lautschrift
+summary: Mr Hill hängt die Klangpartitur auf. Du liest die Zeichen der Lautschrift, unterscheidest ähnliche Vokale, sprichst th, w, v und r, hörst stimmhafte Wortenden und erkennst stumme Buchstaben.
+pages: [lautschrift]

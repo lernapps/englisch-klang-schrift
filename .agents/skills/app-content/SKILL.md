@@ -67,7 +67,7 @@ Aufbau leicht → schwer: zuordnen/wählen → Lücke → schreiben mit Cue → 
 - **Zungenbild** (`zunge-th.svg`): eigene Zeichnung der Zungenstellung bei /θ/ und /ð/.
 - **Szenen** (`szene-<seite>.svg`): die Figuren als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook), unverändert; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; die Bildunterschrift nennt, wer wer ist.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb). Poster sind `table`-Blöcke.
-- Gebaut: (wird mit den Seiten ergänzt.)
+- Gebaut: `partitur-lautschrift`, `szene-lautschrift` (Skript `make_partitur.py`, Eintrag je Bild in `PARTITUREN` und `SZENEN`; Audio: `~/.cache/lernapps/audio/venv/bin/python .agents/skills/app-content/scripts/regen_audio.py .agents/skills/app-content/scripts/audio-texte.json`).
 
 ## Sources
 
@@ -77,7 +77,21 @@ Wörter außerhalb von A1/A2 (auf der Seite erklärt): (wird mit den Seiten erg�
 
 ## Hörliste (vor dem Veröffentlichen von einem Menschen anzuhören)
 
-Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr). Jede Datei aus `src/audio/` muss ein Mensch mit Englisch hören, besonders die Minimalpaare. Tabelle: Datei, Satz, erwartetes Minimalwort, Prüfstand (offen / gehört, in Ordnung / ändern). (wird mit den Dateien ergänzt.)
+Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr). Jede Datei aus `src/audio/` muss ein Mensch mit Englisch hören, besonders die Minimalpaare. Tabelle: Datei, Satz, erwartetes Minimalwort, Prüfstand (offen / gehört, in Ordnung / ändern). Hörprobe: `.vibe/hoerprobe/` (sheep, ship, bed, bet, thank, sank in der Satzmitte, noch nicht angehört).
+
+| Datei (src/audio/) | Seite | Satz | erwartetes Wort/Laut | Prüfstand |
+|---|---|---|---|---|
+| `sophie-has-a-new-shoe-today.mp3` | klaenge/lautschrift | Sophie has a new shoe today. | shoe /ʃ/ | offen |
+| `ellie-has-a-red-chair-again.mp3` | klaenge/lautschrift | Ellie has a red chair again. | chair /tʃ/ | offen |
+| `peter-likes-to-sing-together.mp3` | klaenge/lautschrift | Peter likes to sing together. | sing /ŋ/ | offen |
+| `peter-has-a-black-cat-upstairs.mp3` | klaenge/lautschrift | Peter has a black cat upstairs. | cat /æ/ | offen |
+| `amir-eats-cheese-every-morning.mp3` | klaenge/lautschrift | Amir eats cheese every morning. | cheese /tʃ/ | offen |
+| `ellie-buys-chips-for-the-party.mp3` | klaenge/lautschrift | Ellie buys chips for the party. | chips /tʃ/ | offen |
+| `a-pig-sits-in-the-garden.mp3` | klaenge/lautschrift | A pig sits in the garden. | pig /ɡ/ | offen |
+| `sophie-and-peter-eat-chips-together.mp3` | klaenge/lautschrift | Sophie and Peter eat chips together. | chips /tʃ/ | offen |
+| `amir-has-a-chair-in-the-kitchen.mp3` | klaenge/lautschrift | Amir has a chair in the kitchen. | chair /tʃ/ | offen |
+| `ellie-has-a-fish-and-a-green-apple.mp3` | klaenge/lautschrift | Ellie has a fish and a green apple. | fish /ʃ/, green /iː/ | offen |
+
 
 ## Adding a chapter or round
 

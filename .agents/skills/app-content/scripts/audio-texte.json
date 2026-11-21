@@ -1,1 +1,12 @@
-{}
+{
+  "src/audio/sophie-has-a-new-shoe-today.mp3": "Sophie has a new shoe today.",
+  "src/audio/ellie-has-a-red-chair-again.mp3": "Ellie has a red chair again.",
+  "src/audio/peter-likes-to-sing-together.mp3": "Peter likes to sing together.",
+  "src/audio/peter-has-a-black-cat-upstairs.mp3": "Peter has a black cat upstairs.",
+  "src/audio/amir-eats-cheese-every-morning.mp3": "Amir eats cheese every morning.",
+  "src/audio/ellie-buys-chips-for-the-party.mp3": "Ellie buys chips for the party.",
+  "src/audio/a-pig-sits-in-the-garden.mp3": "A pig sits in the garden.",
+  "src/audio/sophie-and-peter-eat-chips-together.mp3": "Sophie and Peter eat chips together.",
+  "src/audio/amir-has-a-chair-in-the-kitchen.mp3": "Amir has a chair in the kitchen.",
+  "src/audio/ellie-has-a-fish-and-a-green-apple.mp3": "Ellie has a fish and a green apple."
+}

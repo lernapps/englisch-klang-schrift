@@ -1,0 +1,190 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Die Zeichen der Lautschrift
+description: "Sophies Lesehilfe für I'm klingt wie ein anderes englisches Wort. Du lernst die ersten Zeichen der Lautschrift und liest damit neue Wörter."
+competencies: [lautschrift]
+scope: "Die Seite führt die Lautschrift ein: ein Zeichen für jeden Laut, zwischen Schrägstrichen, ː für einen langen Laut, für alle gleich. Sie ersetzt die deutsche Lesehilfe aus Hello, Millbrook! (gud-BAI, aim, fenk ju), weil eine Lesehilfe vom Deutschen ausgeht (aim ist ein eigenes englisches Wort). Gelernt werden acht Zeichen (/ʃ/, /tʃ/, /ŋ/, /iː/, /ɪ/, /æ/, /ɑː/, /ʊ/) und dass viele Zeichen wie die Buchstaben aussehen und klingen (/b/, /d/, /k/, /m/, /p/, /t/). Britische Schreibung. Nicht hier, weil sie auf späteren Seiten stehen: ähnliche Vokale im Vergleich, th, w, v, r, Wortenden, stumme Buchstaben, Betonungszeichen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie liest laut
+    blocks:
+      - type: figure
+        image: images/szene-lautschrift.svg
+        alt: "Im Klassenzimmer hängt eine Tafel mit drei Zeilen: Melodie, Betonung und Laute. Mr Hill steht darunter. Sophie sagt in einer Sprechblase „aim“, Ellie schaut mit einer Sprechblase „Eh?“ zu ihr."
+        caption: "Von links: Sophie (Zöpfe) liest laut, Ellie (roter Pferdeschwanz) wundert sich, rechts steht Mr Hill (graue Haare) an der Klangpartitur."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill hat die **Klangpartitur** aufgehängt. Sophie liest den Ausdruck I'm aus Hello, Millbrook! mit ihrer Lesehilfe vor: „aim“. Ellie schaut verwundert."
+      - type: single-choice
+        id: lautschrift-start
+        text: Warum wundert sich Ellie?
+        options:
+          - text: Das Wort aim gibt es im Englischen, es klingt aber anders.
+            correct: true
+            info: "Die Lesehilfe geht vom Deutschen aus. Ein englisches Kind liest aim anders, wie im Wort name."
+          - text: Sophie hat das große I mit einem kleinen i verwechselt.
+            correct: false
+            info: Sophie hat das große I richtig gelesen. Der Fehler liegt in der Lesehilfe, nicht im Buchstaben.
+          - text: Im Englischen liest man das große I immer wie „ie“.
+            correct: false
+            info: "Das große I klingt je nach Wort anders. Die Schreibung allein verrät den Laut nicht."
+        explanation: Eine Lesehilfe schreibt englische Laute mit deutschen Buchstaben auf. Das klappt nur ungefähr.
+        links:
+          - title: Lernlandkarte Englisch · Lautschrift
+            url: https://lernapps.net/apps/map/englisch/c/lautschrift/
+      - type: text
+        text: "**Das kannst du danach:** Du liest die wichtigsten Zeichen der Lautschrift und findest so heraus, wie ein neues Wort klingt."
+  - type: section
+    id: neu
+    title: Ein Zeichen für jeden Laut
+    blocks:
+      - type: text
+        text: "Die **Lautschrift** schreibt jeden Laut mit einem eigenen Zeichen auf, zwischen Schrägstrichen: /ʃ/. Sie ist für alle gleich, auch für englische Kinder. Die untere Zeile der Klangpartitur zeigt sie: Jede blaue **Lautkarte** ist ein Wort in Lautschrift. Die gestrichelten Zeilen füllen wir später."
+      - type: figure
+        image: images/partitur-lautschrift.svg
+        alt: "Die Klangpartitur mit drei Zeilen. In der unteren Zeile stehen zwei blaue Lautkarten: eine Karte mit den Zeichen θæŋk unter dem Wort Thank und eine Karte mit juː unter dem Wort you. Die beiden oberen Zeilen sind gestrichelt."
+        caption: "Die untere Zeile der Klangpartitur. Die Karten zeigen den Klang, darunter steht die Schreibung."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Lautkarten · Die ersten Zeichen"
+        header: [Zeichen, Beispielwort, So klingt es ungefähr]
+        rows:
+          - ["/ʃ/", shoe, „sch“ wie in Schuh]
+          - ["/tʃ/", chair, „tsch“ wie in Matsch]
+          - ["/ŋ/", sing, „ng“ wie in Ring]
+          - ["/iː/", green, langes „i“ wie in Biene]
+          - ["/ɪ/", big, kurzes „i“ wie in Bitte]
+          - ["/æ/", cat, zwischen „a“ und „ä“]
+          - ["/ɑː/", car, langes „a“ wie in Bahn]
+          - ["/ʊ/", book, kurzes „u“ wie in Mutter]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Ein Zeichen, ein Laut.** Die Schreibung kann wechseln, das Zeichen bleibt: c klingt in cat wie /k/ und in city wie /s/. Das Zeichen **ː** sieht aus wie ein Doppelpunkt und macht einen Laut lang. Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /k/, /m/, /p/, /t/."
+      - type: speaking-task
+        id: lautschrift-karten
+        language: en
+        task: Höre dir vier Lautkarten im Satz an. Achte auf das Wort aus der Tabelle. Aufnehmen musst du hier nicht.
+        items:
+          - audio: sophie-has-a-new-shoe-today.mp3
+            text: Sophie has a new shoe today.
+          - audio: ellie-has-a-red-chair-again.mp3
+            text: Ellie has a red chair again.
+          - audio: peter-likes-to-sing-together.mp3
+            text: Peter likes to sing together.
+          - audio: peter-has-a-black-cat-upstairs.mp3
+            text: Peter has a black cat upstairs.
+        hint: Die Aufnahme ist eine KI-Stimme. Die Tabelle gilt, wenn du dir unsicher bist.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: lautschrift-zuordnen
+        text: Welches Zeichen steckt in welchem Wort?
+        pairs:
+          - left: "/ʃ/"
+            right: fish
+          - left: "/tʃ/"
+            right: cheese
+          - left: "/ŋ/"
+            right: song
+          - left: "/iː/"
+            right: tea
+          - left: "/ɑː/"
+            right: park
+        distractors: [house]
+        explanation: Suche den Laut im Wort, nicht den Buchstaben. Das sh in fish ist ein einziger Laut, ebenso das ch in cheese.
+        links:
+          - title: Lernlandkarte Englisch · Lautschrift
+            url: https://lernapps.net/apps/map/englisch/c/lautschrift/
+      - type: single-choice
+        id: lautschrift-erster-laut
+        text: Welches Zeichen steht für den ersten Laut von cheese?
+        options:
+          - text: "/tʃ/"
+            correct: true
+            info: "Das ch in cheese ist ein einziger Laut: /tʃ/, wie „tsch“ in Matsch."
+          - text: "/ʃ/"
+            correct: false
+            info: "Das ist der Laut in shoe. Bei cheese kommt ein t davor: /tʃ/."
+          - text: "/k/"
+            correct: false
+            info: "Das c vor h klingt in cheese nicht wie /k/. Die Buchstaben ch ergeben zusammen /tʃ/."
+        explanation: Zwei Buchstaben können einen einzigen Laut ergeben.
+        links:
+          - title: Lernlandkarte Englisch · Lautschrift
+            url: https://lernapps.net/apps/map/englisch/c/lautschrift/
+      - type: number
+        id: lautschrift-zaehlen
+        text: "Das Wort fish hat in Lautschrift die Zeichen /fɪʃ/. Wie viele Laute hat es?"
+        answer: 3
+        tolerance: 0
+        mistakes:
+          - answer: 4
+            message: Du hast die Buchstaben gezählt. Die Buchstaben sh ergeben nur einen Laut.
+        hint: Zähle die Zeichen zwischen den Schrägstrichen.
+        explanation: Die Lautschrift hat ein Zeichen für jeden Laut. /fɪʃ/ hat drei Zeichen, aber fish hat vier Buchstaben.
+        links:
+          - title: Lernlandkarte Englisch · Lautschrift
+            url: https://lernapps.net/apps/map/englisch/c/lautschrift/
+      - type: language-task
+        id: lautschrift-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Wort, das in Lautschrift steht.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: "/bæɡ/"
+            target: bag
+            mistakes:
+              - answer: beg
+                message: Das Zeichen /æ/ klingt zwischen „a“ und „ä“. Es steht für den Buchstaben a.
+          - cue: "/pɪɡ/"
+            target: pig
+            mistakes:
+              - answer: pick
+                message: Das letzte Zeichen ist /ɡ/ wie im Wort Garten, nicht /k/.
+          - cue: "/tʃɪps/"
+            target: chips
+            mistakes:
+              - answer: ships
+                message: Der erste Laut ist /tʃ/ mit einem t davor. Er ist nicht /ʃ/.
+        hint: Sprich die Zeichen nacheinander. Welches Wort kennst du?
+      - type: language-task
+        id: lautschrift-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: amir-eats-cheese-every-morning.mp3
+            target: Amir eats cheese every morning.
+          - audio: ellie-buys-chips-for-the-party.mp3
+            target: Ellie buys chips for the party.
+          - audio: a-pig-sits-in-the-garden.mp3
+            target: A pig sits in the garden.
+        hint: Schreibe das Wort mit /tʃ/ oder /ɡ/ so, wie du es von der Lautkarte kennst.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: lautschrift-nachsprechen
+        language: en
+        task: Höre den Satz, nimm dich auf und höre dich an. Bewerte dich danach selbst. Die App hört nicht zu und sagt nicht, ob du es richtig gesprochen hast.
+        items:
+          - audio: sophie-and-peter-eat-chips-together.mp3
+            text: Sophie and Peter eat chips together.
+          - audio: amir-has-a-chair-in-the-kitchen.mp3
+            text: Amir has a chair in the kitchen.
+          - audio: ellie-has-a-fish-and-a-green-apple.mp3
+            text: Ellie has a fish and a green apple.
+        hint: Sprich langsam. Achte auf die Laute, die du heute gelernt hast.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill sagt: „Ein kleiner Laut macht aus einem Wort ein anderes.“ Welche Laute das sind und wie du sie unterscheidest, lernst du auf der nächsten Seite."

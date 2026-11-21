@@ -41,6 +41,7 @@ Ich kann englische Laute, Wörter und Sätze verständlich sprechen, die Lautsch
 - Minimalwörter stehen nie am Satzende, immer in der Satzmitte vor einem zweisilbigen Schluss („Look, a sheep again.“), damit die Stimme sie nicht abschneidet. (guess)
 - Recap-Seiten nur in Kapitel 2 und 3; Kapitel 1 braucht von außen nichts.
 - Figuren und Orte wie in `konventionen.md`; kein neuer Ort: die Lautkarten hängen als „Klangpartitur“ im Klassenzimmer neben Zeitstrahl und Satzleiste, Mr Hill bringt sie mit. (guess)
+- `scope` in `app.yaml` und auf jeder Seite: ja, weil einzelne Seiten eine `open-task` zur Anwendung haben und der Tutor Aussprache nur nach dem Seitenumfang beurteilen soll (wie #473).
 
 
 ## Notes
@@ -79,6 +80,19 @@ Quellen (geöffnet am 2026-11-21): en.wikipedia.org „Help:IPA/English“ (Zeic
 Anschluss an die Vorgänger (gelesen: #473 englisch-saetze-bauen; Struktur gleich übernommen): Seitenabschnitte `einstieg`, `neu`, `uebung`, `anwenden`, `weiter`; Wiederholungsseite `das-brauchst-du` mit Tabelle ohne Übung; Figuren aus `millbrook-klassenzimmer.svg` (#470); Bildfamilie (dort Satzleiste, hier Klangpartitur) mit Skript erzeugt.
 
 Auflagen der Orchestrator-Session zum Plan (Antwort „Ja, so bauen“): Musterseite `lautschrift` plus eine **Hörprobe** (4–6 Sätze mit ship/sheep, bed/bet, thank/sank in der Satzmitte, Dateinamen in den Notes, vor dem Bau aller Seiten); britische Lautschrift, Quelle „Help:IPA/English“ im Inhaltsführer; (a) `competencies:` mit Karten-Ids, Wiederholungsseiten ohne; (b) jede Seite mit Hören hat die richtige Antwort auch ohne Ton im Text überprüfbar, die Rückmeldung belehrt nie nur aufgrund einer Aufnahme; (c) Selbstbewertung beim Sprechen sagt ehrlich, dass die App keine Aussprache beurteilt; (d) Distraktoren nur echte Lernerfehler mit eigener Meldung; (e) Skriptprüfung auf Dubletten vor dem Checkpoint „Veröffentlichen“. Prüfungen: Lerner-Check der Musterseite und Sprachprüfung (Sub-Agent Klasse 5/6).
+
+Hörprobe (für die Ersteller:in zum Anhören, Dateien in `.vibe/hoerprobe/`, bf_emma, mit regen_audio.py bearbeitet, nicht angehört):
+
+| Datei | Satz | erwartetes Minimalwort |
+|---|---|---|
+| `sheep.mp3` | Look, a sheep again. | sheep /ʃiːp/ |
+| `ship.mp3` | Look, a ship again. | ship /ʃɪp/ |
+| `bed.mp3` | I like this bed very much. | bed /bɛd/ mit stimmhaftem d |
+| `bet.mp3` | I like this bet very much. | bet /bɛt/ mit stimmlosem t |
+| `thank.mp3` | They thank the teacher today. | thank /θæŋk/ |
+| `sank.mp3` | They sank the boat today. | sank /sæŋk/ |
+
+Hörliste der Musterseite: siehe `.agents/skills/app-content/SKILL.md`, Abschnitt „Hörliste“ (14 Dateien in `src/audio/`, Prüfstand offen).
 
 ## Explore
 
@@ -231,17 +245,18 @@ Spätere Inkremente: Kapitel 4 und 5 (Stufe 7-8) füllen die mittlere Zeile; die
 
 - [x] Load skill `lernapps-cli`. Create the app as its section "Create" says:
       `npx --no -- lernapps create --archetype explainer`.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Muster: app.yaml (Strang englisch/aussprache, Kapitel klaenge, endungen, gespraech), chapter.yaml von klaenge, Seite klaenge/lautschrift mit Szene, Bild partitur-lautschrift (Skript make_partitur.py), Lautkarten-Tabelle, mindestens vier Übungen, Diktat und Nachsprechen; Audio-Pipeline mit regen_audio.py und audio-texte.json; Hörliste in den Notes. Zeigt: Klangpartitur, Lesehilfe gegen Lautschrift.
-<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
+- [x] Muster: app.yaml (Strang englisch/aussprache, Kapitel klaenge, endungen, gespraech), chapter.yaml von klaenge, Seite klaenge/lautschrift mit Szene, Bild partitur-lautschrift (Skript make_partitur.py), Lautkarten-Tabelle, mindestens vier Übungen, Diktat und Nachsprechen; Audio-Pipeline mit regen_audio.py und audio-texte.json; Hörliste in den Notes. Zeigt: Klangpartitur, Lesehilfe gegen Lautschrift.
+- [ ] Muster bauen (versehentlich zu früh abgehakt, hier nachgeholt): app.yaml (Strang englisch/aussprache, Kapitel klaenge, endungen, gespraech; scope), chapter.yaml von klaenge, Seite klaenge/lautschrift mit Szene szene-lautschrift.svg, Bild partitur-lautschrift (make_partitur.py), Lautkarten-Tabelle, mindestens vier Übungen, Diktat und Nachsprechen, Audio mit regen_audio.py, Hörprobe (4-6 Sätze ship/sheep, bed/bet, thank/sank) und Hörliste in den Notes; Commit.
+<!-- tasks: pattern (2 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
