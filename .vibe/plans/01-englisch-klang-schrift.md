@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -78,6 +78,7 @@ Quellen (geöffnet am 2026-11-21): en.wikipedia.org „Help:IPA/English“ (Zeic
 
 Anschluss an die Vorgänger (gelesen: #473 englisch-saetze-bauen; Struktur gleich übernommen): Seitenabschnitte `einstieg`, `neu`, `uebung`, `anwenden`, `weiter`; Wiederholungsseite `das-brauchst-du` mit Tabelle ohne Übung; Figuren aus `millbrook-klassenzimmer.svg` (#470); Bildfamilie (dort Satzleiste, hier Klangpartitur) mit Skript erzeugt.
 
+Auflagen der Orchestrator-Session zum Plan (Antwort „Ja, so bauen“): Musterseite `lautschrift` plus eine **Hörprobe** (4–6 Sätze mit ship/sheep, bed/bet, thank/sank in der Satzmitte, Dateinamen in den Notes, vor dem Bau aller Seiten); britische Lautschrift, Quelle „Help:IPA/English“ im Inhaltsführer; (a) `competencies:` mit Karten-Ids, Wiederholungsseiten ohne; (b) jede Seite mit Hören hat die richtige Antwort auch ohne Ton im Text überprüfbar, die Rückmeldung belehrt nie nur aufgrund einer Aufnahme; (c) Selbstbewertung beim Sprechen sagt ehrlich, dass die App keine Aussprache beurteilt; (d) Distraktoren nur echte Lernerfehler mit eigener Meldung; (e) Skriptprüfung auf Dubletten vor dem Checkpoint „Veröffentlichen“. Prüfungen: Lerner-Check der Musterseite und Sprachprüfung (Sub-Agent Klasse 5/6).
 
 ## Explore
 
@@ -172,8 +173,9 @@ Anschluss an die Vorgänger (gelesen: #473 englisch-saetze-bauen; Struktur gleic
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, so bauen. lautschrift als Musterseite mit Hörprobe, britische Lautschrift, Bedingungen a bis e.
 
 ### Content method
 
@@ -227,7 +229,7 @@ Spätere Inkremente: Kapitel 4 und 5 (Stufe 7-8) füllen die mittlere Zeile; die
 
 ### Tasks
 
-- [ ] Load skill `lernapps-cli`. Create the app as its section "Create" says:
+- [x] Load skill `lernapps-cli`. Create the app as its section "Create" says:
       `npx --no -- lernapps create --archetype explainer`.
 - [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
