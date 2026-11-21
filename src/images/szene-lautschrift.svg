@@ -44,20 +44,20 @@
   <rect width="640" height="340" fill="#f4efe2"/>
   <rect y="270" width="640" height="70" fill="#c9a77a"/>
   <rect x="405" y="2" width="200" height="130" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>
-  <rect x="415" y="16" width="180" height="30" rx="6" fill="none" stroke="#8a8577" stroke-dasharray="5 3"/>
-  <text x="505" y="37" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#8a8577">Melodie</text>
-  <rect x="415" y="54" width="180" height="30" rx="6" fill="none" stroke="#8a8577" stroke-dasharray="5 3"/>
-  <text x="505" y="75" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#8a8577">Betonung</text>
-  <rect x="415" y="92" width="180" height="30" rx="6" fill="#2c6fd8" stroke="#8a8577" stroke-dasharray="0"/>
-  <text x="505" y="113" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#fff">Laute</text>
+  <rect x="415" y="16" width="180" height="32" rx="6" fill="none" stroke="#8a8577" stroke-dasharray="5 3"/>
+  <text x="505" y="37" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#8a8577">Melodie</text>
+  <rect x="415" y="54" width="180" height="32" rx="6" fill="none" stroke="#8a8577" stroke-dasharray="5 3"/>
+  <text x="505" y="75" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#8a8577">Betonung</text>
+  <rect x="415" y="92" width="180" height="32" rx="6" fill="#2c6fd8" stroke="#8a8577" stroke-dasharray="0"/>
+  <text x="505" y="113" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#fff">Laute</text>
   <rect x="10" y="8" width="130" height="56" rx="14" fill="#fff" stroke="#333" stroke-width="2"/>
   <path d="M70 64 l12 20 l12 -20" fill="#fff" stroke="#333" stroke-width="2"/>
   <rect x="72" y="60" width="20" height="6" fill="#fff"/>
   <text x="75.0" y="46" text-anchor="middle" font-family="sans-serif" font-size="27" fill="#222">aim</text>
-  <rect x="165" y="8" width="110" height="56" rx="14" fill="#fff" stroke="#333" stroke-width="2"/>
+  <rect x="165" y="8" width="130" height="56" rx="14" fill="#fff" stroke="#333" stroke-width="2"/>
   <path d="M214 64 l12 20 l12 -20" fill="#fff" stroke="#333" stroke-width="2"/>
   <rect x="216" y="60" width="20" height="6" fill="#fff"/>
-  <text x="220.0" y="46" text-anchor="middle" font-family="sans-serif" font-size="27" fill="#222">Eh?</text>
+  <text x="230.0" y="46" text-anchor="middle" font-family="sans-serif" font-size="27" fill="#222">Aim?</text>
   <use href="#hill" transform="translate(400,125) scale(0.85)"/>
   <use href="#sophie" transform="translate(60,135) scale(0.8)"/>
   <use href="#ellie" transform="translate(190,125) scale(0.85)"/>

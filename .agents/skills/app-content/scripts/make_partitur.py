@@ -15,29 +15,29 @@ def svg(w, h, title, body, defs=""):
 
 def partitur(title, cols, top="legende", mid="legende", note=None):
     """cols: Liste von (Lautschrift, Schreibung, stumm). stumm: Zeichen der Schreibung, die grau gesetzt werden (Position als Index-Liste).
-    top: "legende" (gestrichelter Rahmen, kommt in Kapitel 3) oder Liste "up"/"down"/None je Spalte.
+    top: "legende" (gestrichelter Rahmen, kommt später) oder Liste "up"/"down"/None je Spalte.
     mid: "legende" (gestrichelter Rahmen, kommt später)."""
     h = 230
     b = []
-    b.append(f'<text x="8" y="40" {F} font-size="16" fill="{GREY}">Melodie</text>')
-    b.append(f'<text x="8" y="104" {F} font-size="16" fill="{GREY}">Betonung</text>')
-    b.append(f'<text x="8" y="164" {F} font-size="16" fill="{INK}">Laute</text>')
+    b.append(f'<text x="6" y="42" {F} font-size="22" fill="{GREY}">Melodie</text>')
+    b.append(f'<text x="6" y="104" {F} font-size="22" fill="{GREY}">Betonung</text>')
+    b.append(f'<text x="6" y="164" {F} font-size="22" fill="{INK}">Laute</text>')
     if top == "legende":
-        b.append(f'<rect x="100" y="14" width="372" height="44" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
-                 f'<text x="286" y="42" text-anchor="middle" {F} font-size="16" fill="{GREY}">kommt in Kapitel 3</text>')
+        b.append(f'<rect x="130" y="14" width="342" height="44" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
+                 f'<text x="301" y="42" text-anchor="middle" {F} font-size="20" fill="{GREY}">kommt später</text>')
     if mid == "legende":
-        b.append(f'<rect x="100" y="78" width="372" height="34" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
-                 f'<text x="286" y="101" text-anchor="middle" {F} font-size="16" fill="{GREY}">kommt später</text>')
-    widths = [max(70, 15 * len(c[0]) + 34) for c in cols]
+        b.append(f'<rect x="130" y="78" width="342" height="34" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
+                 f'<text x="301" y="101" text-anchor="middle" {F} font-size="20" fill="{GREY}">kommt später</text>')
+    widths = [max(76, 17 * len(c[0]) + 44) for c in cols]
     gap = 10
-    x = 100 + max(0, (372 - sum(widths) - gap * (len(cols) - 1)) / 2)
+    x = 130 + max(0, (342 - sum(widths) - gap * (len(cols) - 1)) / 2)
     xs = []
     for (ipa, text, silent), w in zip(cols, widths):
         xs.append(x + w / 2)
         b.append(f'<rect x="{x:.0f}" y="132" width="{w}" height="48" rx="8" fill="{BLUE}"/>'
-                 f'<text x="{x + w / 2:.0f}" y="164" text-anchor="middle" {F} font-size="22" fill="#fff">{e(ipa)}</text>')
+                 f'<text x="{x + w / 2:.0f}" y="164" text-anchor="middle" {F} font-size="26" fill="#fff">{e(ipa)}</text>')
         spans = "".join(f'<tspan fill="{GREY}">{e(ch)}</tspan>' if i in (silent or []) else e(ch) for i, ch in enumerate(text))
-        b.append(f'<text x="{x + w / 2:.0f}" y="208" text-anchor="middle" {F} font-size="18" fill="{INK}">{spans}</text>')
+        b.append(f'<text x="{x + w / 2:.0f}" y="208" text-anchor="middle" {F} font-size="22" fill="{INK}">{spans}</text>')
         x += w + gap
     if isinstance(top, list):
         for cx, d in zip(xs, top):
@@ -48,8 +48,8 @@ def partitur(title, cols, top="legende", mid="legende", note=None):
     return svg(480, h, title, "\n".join("  " + l for l in b) + "\n")
 
 PARTITUREN = {
-    "partitur-lautschrift": ("Klangpartitur mit einer Zeile Laute: zwei blaue Karten mit Lautschrift unter den Wörtern Thank und you",
-                             [("θæŋk", "Thank", None), ("juː", "you", None)], "legende", "legende"),
+    "partitur-lautschrift": ("Klangpartitur mit einer Zeile Laute: zwei blaue Karten mit Lautschrift unter den Wörtern big und cat",
+                             [("bɪɡ", "big", None), ("kæt", "cat", None)], "legende", "legende"),
 }
 
 def bubble(x, y, w, text, tail):
@@ -63,8 +63,8 @@ def board(x, y):
     s = f'  <rect x="{x}" y="{y}" width="200" height="130" rx="8" fill="#fff" stroke="#333" stroke-width="2"/>\n'
     for i, (t, c) in enumerate([("Melodie", GREY), ("Betonung", GREY), ("Laute", BLUE)]):
         yy = y + 14 + i * 38
-        s += f'  <rect x="{x+10}" y="{yy}" width="180" height="30" rx="6" fill="{c if t=="Laute" else "none"}" stroke="{GREY}" stroke-dasharray="{"0" if t=="Laute" else "5 3"}"/>\n'
-        s += f'  <text x="{x+100}" y="{yy+21}" text-anchor="middle" {F} font-size="16" fill="{"#fff" if t=="Laute" else GREY}">{t}</text>\n'
+        s += f'  <rect x="{x+10}" y="{yy}" width="180" height="32" rx="6" fill="{c if t=="Laute" else "none"}" stroke="{GREY}" stroke-dasharray="{"0" if t=="Laute" else "5 3"}"/>\n'
+        s += f'  <text x="{x+100}" y="{yy+21}" text-anchor="middle" {F} font-size="22" fill="{"#fff" if t=="Laute" else GREY}">{t}</text>\n'
     return s
 
 def szene(title, figs, extra):
@@ -77,7 +77,7 @@ def szene(title, figs, extra):
 SZENEN = {
     "szene-lautschrift": ("Mr Hill hängt die Klangpartitur an die Wand; Sophie liest vor, Ellie schaut verwundert",
         {"hill": (400, 125, 0.85), "sophie": (60, 135, 0.8), "ellie": (190, 125, 0.85)},
-        board(405, 2) + bubble(10, 8, 130, "aim", 70) + bubble(165, 8, 110, "Eh?", 214)),
+        board(405, 2) + bubble(10, 8, 130, "aim", 70) + bubble(165, 8, 130, "Aim?", 214)),
 }
 
 if __name__ == "__main__":
