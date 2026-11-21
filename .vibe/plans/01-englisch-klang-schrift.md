@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 2 }
 ---
 
 # Plan: englisch-klang-schrift, first version
@@ -92,7 +92,13 @@ Hörprobe (für die Ersteller:in zum Anhören, Dateien in `.vibe/hoerprobe/`, bf
 | `thank.mp3` | They thank the teacher today. | thank /θæŋk/ |
 | `sank.mp3` | They sank the boat today. | sank /sæŋk/ |
 
-Hörliste der Musterseite: siehe `.agents/skills/app-content/SKILL.md`, Abschnitt „Hörliste“ (14 Dateien in `src/audio/`, Prüfstand offen).
+Hörliste der Musterseite: siehe `.agents/skills/app-content/SKILL.md`, Abschnitt „Hörliste“ (10 Dateien in `src/audio/`, Prüfstand offen).
+
+Prüfungen der Musterseite `klaenge/lautschrift` (Funde und Behebung):
+- Lerner-Check (Sub-Agent Klasse 5, 360 und 1280 px): Bildschrift bei 360 px unlesbar (Partitur- und Szenenbeschriftung 7 bis 9 px) → Schrift 22 bis 27 im viewBox; ː am Kartenrand abgeschnitten → Karten breiter; Einstiegsfrage vor der Erklärung nicht beantwortbar (aim als Wort unbekannt) → Szene und Frage neu, Grund in `explanation`; „Klangpartitur“, „Lautschrift“, „Kapitel“ unerklärt → Satz im Einstieg, Bild sagt „kommt später“; Zeichen /f/ /ɡ/ /s/ fehlten (Merke) → ergänzt; Bild zeigte Thank you mit nicht gelehrtem /θ/ → Bild green book; Hör-Aufgabe mit acht Sätzen und Aufnahmeknöpfen → vier Sätze, Aufgabe nennt shoe, chair, sing, cat; „richtig“ plus „Achte auf Groß- und Kleinschreibung“ → `case: ok`; Zahl-Eingabe ohne Hinweis → „mit Ziffern“; Diktat ohne Satzhinweis → „jeden Satz ganz“; Eingabe der Lautschrift selbst ohne Meldung → eigene `mistakes`.
+- Sprachprüfung (Sub-Agent): „Lautkarte“ für zwei Dinge → nur Tabellenzeile; Konjunktiv „spreche“ → Indikativ; richtige Option war die längste → gekürzt; cheese-Frage verriet sich aus der Zuordnung → chicken; Merke dicht → Liste mit drei Punkten; /ʊ/-Hinweis → „(nicht lang)“; Bildunterschrift „Oben“ → „Auf der Karte“; „spricht richtig“ → „Für sie klingt aim nicht nach I'm“.
+- Orchestrator-Auflagen (Musterseite): Zuordnung ohne cheese (zweites Zeichen /iː/) und ohne Distraktor house → lunch, keine Distraktoren (matching hat keine Meldung je Eintrag, Eigenheit der Vorlage); pig und chips stehen nicht im Grundwortschatz → durch bag, hat, milk ersetzt; Diktat mit neuen Wörtern (book, chair, big, green, shoe, sings, kitchen) und `mistakes`; Bild green book statt big cat (nicht fast dieselbe Lösung wie die Schreibaufgabe); Einstieg: aim klingt wie „eim“ erklärt, zweite vorsichtige falsche Option; Alt-Text: Mr Hill unter der Tafel; Hörliste 10 Dateien.
+- Zweiter Lerner-Check (Sub-Agent Klasse 5, geänderte Stellen): alle Rückmeldungen wie beabsichtigt und wahr, Audio 10/10, kein Querscroll. Funde und Behebung: Grund der Einstiegsfrage nur teilweise auffindbar und richtige Option als Einzige vorsichtig/kürzeste → Ellie sagt „Aim ist ein englisches Wort“ in der Szenenbeschreibung, drei Optionen gleich gebaut („Sie zeigt den Klang …“); „Lesehilfe“ und „Ausdruck“ unerklärt → „(ich bin)“ und „Aussprache in deutschen Buchstaben“; Bild green book enthielt r und n (nicht erklärt) → big book, Merke nennt /h/ /l/ /n/ dazu, Text sagt „ohne Schrägstriche“; Diktat-Meldung nannte „langes u“ → „Buchstaben oe am Ende“; Hör-Aufgabe unklar (Wort oder Satz) → „sprich sie nach“, Hinweis ehrlich zur KI-Stimme. Offen, Eigenheiten der Vorlage (nicht geändert): „Deine Fassung kann trotzdem richtig sein“ bei falschen Wörtern im Diktat, „Antworte zuerst“ bei „drei“ in Worten, schmale Felder bei 360 px, Zuordnung ohne Distraktor lösbar durch Ausschluss (matching ohne Meldung je Eintrag).
 
 ## Explore
 

@@ -10,26 +10,26 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-lautschrift.svg
-        alt: "Im Klassenzimmer hängt eine Tafel mit drei Zeilen: Melodie, Betonung und Laute. Mr Hill steht rechts neben der Tafel. Sophie sagt in einer Sprechblase „aim“, Ellie schaut mit der Sprechblase „Aim?“ zu ihr."
+        alt: "Im Klassenzimmer hängt eine Tafel mit drei Zeilen: Melodie, Betonung und Laute. Mr Hill steht rechts unter der Tafel. Sophie sagt in einer Sprechblase „aim“, Ellie schaut mit der Sprechblase „Aim?“ zu ihr."
         caption: "Von links: Sophie (Zöpfe) liest laut, Ellie (roter Pferdeschwanz) wundert sich, rechts steht Mr Hill (graue Haare) an der Klangpartitur."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mr Hill hat eine **Klangpartitur** aufgehängt: eine Tafel mit drei Zeilen. Später tragen die Kinder dort Laute, Betonung und Melodie ein. Sophie liest den Ausdruck I'm aus Hello, Millbrook! mit ihrer Lesehilfe vor: „aim“. Ellie fragt: „Aim?“ Sie spricht I'm anders aus."
+        text: "Mr Hill hat eine **Klangpartitur** aufgehängt: eine Tafel mit drei Zeilen. Später tragen die Kinder dort Laute, Betonung und Melodie ein. Sophie liest den Ausdruck I'm („ich bin“) aus Hello, Millbrook! mit ihrer Lesehilfe vor: „aim“. Das ist die Aussprache in deutschen Buchstaben. Ellie sagt: „Aim ist ein englisches Wort. Ich spreche I'm anders aus.“"
       - type: single-choice
         id: lautschrift-start
         text: Was zeigt die Szene über die Lesehilfe mit deutschen Buchstaben?
         options:
-          - text: Sie zeigt den Klang nur ungefähr.
+          - text: Sie zeigt den Klang nur ungefähr, nicht ganz genau.
             correct: true
-            info: "Die Lesehilfe geht vom Deutschen aus. Ellie spricht I'm anders."
-          - text: Sie ist richtig, und Ellie spricht I'm falsch aus.
+            info: "Die Lesehilfe geht vom Deutschen aus. Für Ellie klingt sie nach einem anderen Wort."
+          - text: Sie zeigt den Klang meist genau, nur Ellie hört falsch.
             correct: false
-            info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm."
-          - text: Wer die Lesehilfe kennt, spricht jedes Wort richtig aus.
+            info: Ellie hört richtig. Aim ist im Englischen ein anderes Wort.
+          - text: Sie zeigt den Klang genau, aber Ellie spricht falsch.
             correct: false
-            info: Mit deutschen Buchstaben lässt sich nicht jeder englische Laut aufschreiben.
-        explanation: Eine Lesehilfe schreibt englische Laute mit deutschen Buchstaben auf. Das klappt nur ungefähr.
+            info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau."
+        explanation: "Im Englischen gibt es das Wort aim (Ziel). Es klingt wie „eim“ und nicht wie I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr."
         links:
           - title: Lernlandkarte Englisch · Lautschrift
             url: https://lernapps.net/apps/map/englisch/c/lautschrift/
@@ -40,10 +40,10 @@ blocks:
     title: Ein Zeichen für jeden Laut
     blocks:
       - type: text
-        text: "Die **Lautschrift** schreibt jeden Laut mit einem eigenen Zeichen auf, zwischen Schrägstrichen: /ʃ/. Sie ist für alle gleich, auch für englische Kinder. Jede Zeile der Tabelle ist eine **Lautkarte**: ein Zeichen mit einem Beispielwort. In der unteren Zeile der Klangpartitur stehen ganze Wörter in Lautschrift, jedes auf einer blauen Karte. Die gestrichelten Zeilen füllen wir später."
+        text: "Die **Lautschrift** schreibt jeden Laut mit einem eigenen Zeichen auf, zwischen Schrägstrichen: /ʃ/. Sie ist für alle gleich, auch für englische Kinder. Jede Zeile der Tabelle ist eine **Lautkarte**: ein Zeichen mit einem Beispielwort. In der unteren Zeile der Klangpartitur stehen ganze Wörter in Lautschrift, jedes auf einer blauen Karte. Die gestrichelten Zeilen füllen wir später. Auf den Karten stehen die Zeichen ohne Schrägstriche."
       - type: figure
         image: images/partitur-lautschrift.svg
-        alt: "Die Klangpartitur mit drei Zeilen. In der unteren Zeile stehen zwei blaue Karten: eine Karte mit den Zeichen bɪɡ unter dem Wort big und eine Karte mit kæt unter dem Wort cat. Die beiden oberen Zeilen sind gestrichelt."
+        alt: "Die Klangpartitur mit drei Zeilen. In der unteren Zeile stehen zwei blaue Karten: eine Karte mit den Zeichen bɪɡ unter dem Wort big und eine Karte mit bʊk unter dem Wort book. Die beiden oberen Zeilen sind gestrichelt."
         caption: "Zwei Wörter, zwei Karten: Auf der Karte steht der Klang, darunter die Schreibung."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -66,11 +66,11 @@ blocks:
             text: |
               - **Ein Zeichen, ein Laut.** Ein Laut kann verschieden geschrieben werden, das Zeichen bleibt gleich: c klingt in cat wie /k/ und in city wie /s/.
               - Das Zeichen **ː** sieht aus wie ein Doppelpunkt und macht einen Laut lang.
-              - Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /f/, /k/, /m/, /p/, /s/, /t/. Auch /ɡ/ klingt wie das g in Garten.
+              - Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /f/, /h/, /k/, /l/, /m/, /n/, /p/, /s/, /t/. Auch /ɡ/ klingt wie das g in Garten.
       - type: speaking-task
         id: lautschrift-karten
         language: en
-        task: "Höre vier Sätze. Darin steckt je ein Wort aus der Tabelle: shoe, chair, sing, cat. Sprich das Wort mit."
+        task: "Höre vier Sätze und sprich sie nach. In jedem steckt ein Wort aus der Tabelle: shoe, chair, sing, cat."
         items:
           - audio: sophie-has-a-new-shoe-today.mp3
             text: Sophie has a new shoe today.
@@ -80,7 +80,7 @@ blocks:
             text: Peter likes to sing together.
           - audio: peter-has-a-black-cat-upstairs.mp3
             text: Peter has a black cat upstairs.
-        hint: Die Aufnahme ist eine KI-Stimme. Wenn du unsicher bist, gilt die Tabelle.
+        hint: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
   - type: section
     id: uebung
     title: Übung
@@ -92,15 +92,14 @@ blocks:
           - left: "/ʃ/"
             right: fish
           - left: "/tʃ/"
-            right: cheese
+            right: lunch
           - left: "/ŋ/"
             right: song
           - left: "/iː/"
             right: tea
           - left: "/ɑː/"
             right: park
-        distractors: [house]
-        explanation: Suche den Laut im Wort, nicht den Buchstaben.
+        explanation: "Suche den Laut, nicht den Buchstaben: sh und ch sind je ein Laut."
         links:
           - title: Lernlandkarte Englisch · Lautschrift
             url: https://lernapps.net/apps/map/englisch/c/lautschrift/
@@ -116,7 +115,7 @@ blocks:
             info: "Das ist der Laut in shoe. Bei chicken kommt ein t davor: /tʃ/."
           - text: "/k/"
             correct: false
-            info: "Das c vor h klingt in chicken nicht wie /k/. Die Buchstaben ch ergeben zusammen /tʃ/."
+            info: "Die Buchstaben ch ergeben zusammen /tʃ/, nicht /k/."
         explanation: Zwei Buchstaben können einen einzigen Laut ergeben.
         links:
           - title: Lernlandkarte Englisch · Lautschrift
@@ -144,38 +143,43 @@ blocks:
             target: bag
             mistakes:
               - answer: beg
-                message: Das Zeichen /æ/ klingt zwischen „a“ und „ä“. Es steht für den Buchstaben a.
+                message: /æ/ steht hier für den Buchstaben a.
               - answer: back
                 message: Das letzte Zeichen ist /ɡ/, nicht /k/.
               - answer: "/bæɡ/"
                 message: Schreibe das Wort, nicht die Zeichen.
-          - cue: "/pɪɡ/"
-            target: pig
+          - cue: "/hæt/"
+            target: hat
             mistakes:
-              - answer: pick
-                message: Das letzte Zeichen ist /ɡ/ wie im Wort Garten, nicht /k/.
-              - answer: "/pɪɡ/"
-                message: Schreibe das Wort, nicht die Zeichen.
-          - cue: "/tʃɪps/"
-            target: chips
+              - answer: hut
+                message: /æ/ steht für den Buchstaben a.
+          - cue: "/mɪlk/"
+            target: milk
             mistakes:
-              - answer: ships
-                message: Der erste Laut ist /tʃ/ („tsch“), nicht /ʃ/ („sch“).
-              - answer: "/tʃɪps/"
-                message: Schreibe das Wort, nicht die Zeichen.
-        hint: Sprich die Zeichen nacheinander. Welches Wort kennst du?
+              - answer: milch
+                message: Englisch schreibt man milk, mit k am Ende.
+        hint: Sprich die Zeichen nacheinander.
       - type: language-task
         id: lautschrift-hoeren
         languages: { source: de, target: en }
         task: Höre zu und schreibe jeden Satz ganz auf.
         form: { case: ok, punctuation: ok }
         items:
-          - audio: amir-eats-cheese-every-morning.mp3
-            target: Amir eats cheese every morning.
-          - audio: ellie-buys-chips-for-the-party.mp3
-            target: Ellie buys chips for the party.
-          - audio: a-pig-sits-in-the-garden.mp3
-            target: A pig sits in the garden.
+          - audio: peter-reads-a-book-on-the-chair-today.mp3
+            target: Peter reads a book on the chair today.
+            mistakes:
+              - answer: Peter reads a book on the cher today.
+                message: "Der Laut /tʃ/ schreibt man ch, wie in chair."
+          - audio: sophie-finds-a-big-green-shoe-upstairs.mp3
+            target: Sophie finds a big green shoe upstairs.
+            mistakes:
+              - answer: Sophie finds a big green shu upstairs.
+                message: Man schreibt shoe, mit den Buchstaben oe am Ende.
+          - audio: ellie-sings-with-amir-in-the-kitchen.mp3
+            target: Ellie sings with Amir in the kitchen.
+            mistakes:
+              - answer: Ellie sings with Amir in the kitchin.
+                message: Man schreibt kitchen, mit tch in der Mitte.
         hint: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
   - type: section
     id: anwenden
@@ -186,8 +190,8 @@ blocks:
         language: en
         task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
         items:
-          - audio: sophie-and-peter-eat-chips-together.mp3
-            text: Sophie and Peter eat chips together.
+          - audio: sophie-and-peter-eat-cheese-together.mp3
+            text: Sophie and Peter eat cheese together.
           - audio: amir-has-a-chair-in-the-kitchen.mp3
             text: Amir has a chair in the kitchen.
           - audio: ellie-has-a-fish-and-a-green-apple.mp3

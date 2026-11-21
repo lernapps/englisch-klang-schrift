@@ -73,7 +73,7 @@ Aufbau leicht → schwer: zuordnen/wählen → Lücke → schreiben mit Cue → 
 
 Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; andere stehen unten in „Wörter außerhalb von A1/A2“). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA), geöffnet am 2026-11-21: `https://en.wikipedia.org/wiki/Help:IPA/English` (Zeichen und Beispielwörter, britische Schreibung /əʊ/ statt /oʊ/, kein r nach Vokal in nicht-rhotischen Akzenten), `English plurals`, `Intonation (linguistics)`, `English orthography`. Nicht geprüft: Oxford- oder Cambridge-Wörterbuch (kein Zugriff), deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
-Wörter außerhalb von A1/A2 (auf der Seite erklärt): (wird mit den Seiten ergänzt.)
+Wörter außerhalb von A1/A2 (auf der Seite erklärt): `klaenge/lautschrift`: keine (alle englischen Wörter der Seite gegen die Liste geprüft, 2026-11-21; Namen ausgenommen). Pig und chips stehen nicht in der Liste und werden nicht mehr abgefragt. Weitere Seiten: mit der Skriptprüfung gegen die Liste ergänzen.
 
 ## Hörliste (vor dem Veröffentlichen von einem Menschen anzuhören)
 
@@ -85,13 +85,12 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `ellie-has-a-red-chair-again.mp3` | klaenge/lautschrift | Ellie has a red chair again. | chair /tʃ/ | offen |
 | `peter-likes-to-sing-together.mp3` | klaenge/lautschrift | Peter likes to sing together. | sing /ŋ/ | offen |
 | `peter-has-a-black-cat-upstairs.mp3` | klaenge/lautschrift | Peter has a black cat upstairs. | cat /æ/ | offen |
-| `amir-eats-cheese-every-morning.mp3` | klaenge/lautschrift | Amir eats cheese every morning. | cheese /tʃ/ | offen |
-| `ellie-buys-chips-for-the-party.mp3` | klaenge/lautschrift | Ellie buys chips for the party. | chips /tʃ/ | offen |
-| `a-pig-sits-in-the-garden.mp3` | klaenge/lautschrift | A pig sits in the garden. | pig /ɡ/ | offen |
-| `sophie-and-peter-eat-chips-together.mp3` | klaenge/lautschrift | Sophie and Peter eat chips together. | chips /tʃ/ | offen |
-| `amir-has-a-chair-in-the-kitchen.mp3` | klaenge/lautschrift | Amir has a chair in the kitchen. | chair /tʃ/ | offen |
+| `amir-has-a-chair-in-the-kitchen.mp3` | klaenge/lautschrift | Amir has a chair in the kitchen. | chair /tʃ/, kitchen /tʃ/ | offen |
 | `ellie-has-a-fish-and-a-green-apple.mp3` | klaenge/lautschrift | Ellie has a fish and a green apple. | fish /ʃ/, green /iː/ | offen |
-
+| `peter-reads-a-book-on-the-chair-today.mp3` | klaenge/lautschrift | Peter reads a book on the chair today. | book /ʊ/, chair /tʃ/ | offen |
+| `sophie-finds-a-big-green-shoe-upstairs.mp3` | klaenge/lautschrift | Sophie finds a big green shoe upstairs. | big /ɪ/, green /iː/, shoe /ʃ/ | offen |
+| `ellie-sings-with-amir-in-the-kitchen.mp3` | klaenge/lautschrift | Ellie sings with Amir in the kitchen. | sings /ŋ/, kitchen /tʃ/ | offen |
+| `sophie-and-peter-eat-cheese-together.mp3` | klaenge/lautschrift | Sophie and Peter eat cheese together. | cheese /tʃ/, /iː/ | offen |
 
 ## Adding a chapter or round
 
@@ -115,4 +114,15 @@ Aus #470, #472, #473 und `konventionen.md` Abschnitt 7 übernommen:
 - Hinweise und Meldungen nennen weder „Spalte“ noch „Poster“ noch „oben“.
 - Ein Begriff steht auf der Seite, bevor eine Übung ihn braucht; höchstens drei neue Begriffe je Absatz; ein Merke-Kasten hat zwei bis drei Aussagen.
 - Bei `accepted` mit `?` in der Flow-Liste den Eintrag in Anführungszeichen setzen.
-Aus dieser App: (wird mit den Prüfungen ergänzt.)
+Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüfung):
+- Bildschrift mindestens 22 im 480er viewBox (Partitur) und 27 in Sprechblasen der Szene, sonst ist sie bei 360 px nicht lesbar; ein Zeichen wie ː muss innerhalb der Karte liegen (Kartenbreite 17 je Zeichen plus 44).
+- Der Einstieg einer Seite stellt keine Frage, die erst die Erklärung beantwortet: die Szene und die Antwort-`explanation` tragen den Grund.
+- Antworten einer Auswahl sind gleich lang; die richtige ist nicht die längste und nicht die einzige vorsichtige.
+- Ein Distraktor ist ein echter Lernerfehler mit eigener `info`; `matching` hat keine Meldung je Eintrag und keine Distraktoren, `multiple-choice` oder `single-choice` mit `info` benutzen, wenn der Fehler eine Meldung braucht.
+- Eine Übungsfrage mit einem Wort, das in der Zuordnung davor steht, verrät sich: andere Wörter abfragen. Bild, Tabelle, Zuordnung, Schreiben und Diktat nehmen je andere Wörter.
+- Ein Wort, das ein zweites Zeichen derselben Aufgabe enthält (cheese: /tʃ/ und /iː/), macht die Frage mehrdeutig.
+- Das Wort „Lautkarte“ nur für eine Zeile der Lautkarten-Tabelle; die blauen Karten der Partitur heißen „Karten“.
+- Schreibaufgaben mit `case: ok`, sonst meldet die App „richtig“ und im gleichen Satz „Achte auf Groß- und Kleinschreibung“; Diktate: ganze Sätze, `punctuation: ok`, mit `mistakes` je Satz.
+- Nach der Eingabe „drei“ in einem `number`-Feld meldet die App nur „Antworte zuerst“: die Aufgabe sagt „mit Ziffern“.
+- Höchstens vier Sätze je `speaking-task` zum Anhören; mehr wirkt wie viele Aufnahmeknöpfe.
+- Pig und chips stehen nicht im Grundwortschatz: nicht abfragen.

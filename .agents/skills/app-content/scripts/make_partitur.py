@@ -48,8 +48,8 @@ def partitur(title, cols, top="legende", mid="legende", note=None):
     return svg(480, h, title, "\n".join("  " + l for l in b) + "\n")
 
 PARTITUREN = {
-    "partitur-lautschrift": ("Klangpartitur mit einer Zeile Laute: zwei blaue Karten mit Lautschrift unter den Wörtern big und cat",
-                             [("bɪɡ", "big", None), ("kæt", "cat", None)], "legende", "legende"),
+    "partitur-lautschrift": ("Klangpartitur mit einer Zeile Laute: zwei blaue Karten mit Lautschrift unter den Wörtern big und book",
+                             [("bɪɡ", "big", None), ("bʊk", "book", None)], "legende", "legende"),
 }
 
 def bubble(x, y, w, text, tail):
