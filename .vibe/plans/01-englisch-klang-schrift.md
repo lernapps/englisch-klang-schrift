@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -118,9 +118,10 @@ Anschluss an die Vorgänger (gelesen: #473 englisch-saetze-bauen; Struktur gleic
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, Plan-Phase. Keine Einzelwörter, ganze Sätze, Hörliste in Notes und Inhaltsführer; speaking-task-Player ok, keine Komponente; an Hello, Millbrook! anknüpfen (Lesehilfe vs. Lautschrift); Begriffe wie #472/#473/#475; Hörsätze ohne Dubletten.
 
 ### Answers
 
@@ -159,17 +160,17 @@ Anschluss an die Vorgänger (gelesen: #473 englisch-saetze-bauen; Struktur gleic
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -181,6 +182,38 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+Quelle der Wörter: Grundwortschatz Englisch A1/A2 (`https://lernapps.net/apps/map/englisch/grundwortschatz/`); Wörter außerhalb werden auf der Seite erklärt und im Inhaltsführer gelistet. Kinder, Orte, Ton wie `konventionen.md`; Hörtexte nur ganze Sätze, Stimme `bf_emma`, `regen_audio.py` aus #470.
+
+Seitenaufbau wie #473: Abschnitte `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Klangpartitur, Karten, Merke), `uebung` (mindestens vier, leicht → schwer), `anwenden` (`speaking-task` oder `open-task`), `weiter`. Je Seite höchstens 350 Wörter, höchstens eine kurze Tabelle, Übungs-IDs mit Seitenpräfix, Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`. Geschichte: Mr Hill hängt neben Zeitstrahl und Satzleiste die **Klangpartitur** auf (drei Zeilen: unten Laute, Mitte Betonung, oben Melodie) und eine Wand voller **Lautkarten**; Sophie, Ellie, Peter und Amir sprechen nach, hören einander und sammeln Karten. Neue Begriffe der App (immer gleich): Klangpartitur, Lautkarte, Lautschrift, Minimalpaar, stummer Buchstabe (grau).
+
+Audio-Entwurf (Anweisung des Orchestrators): Zuordnung Zeichen ↔ Beispielwort steht in Text und Tabelle, das Hören ergänzt. Nichts hängt am Klang einer einzigen Aufnahme: Diktate nehmen Sätze, in denen der Zusammenhang das Minimalwort festlegt („The sheep eat grass again.“ / „The ship leaves the port again.“), damit auch eine unscharfe Aufnahme nicht falsch belehrt; der Player der `speaking-task` mit je einem Satz je Lautkarte ist das „Antippen und Hören“. Ein Minimalwort steht nie am Satzende. Die Hörliste (Datei, Satz, erwartetes Minimalwort, Prüfstand) steht in diesen Notes und im Inhaltsführer; ein Mensch hört vor dem Veröffentlichen gezielt jede Datei an. Kein Hörsatz steht wörtlich oder fast wörtlich im Poster, in der Merke, im Einstieg, Bild oder in einer anderen Übung derselben Seite (Skriptprüfung vor dem Checkpoint).
+
+Seiten (Reihenfolge = Kapitelreihenfolge):
+1. `klaenge/lautschrift` (`lautschrift`): Einstieg: Sophie liest an der Wand die Lesehilfe aus Hello, Millbrook! (gud-BAI, aim, fenk ju); Ellie: „Die ist deutsch, ich lese sie anders.“ Aufgabe: Wer liest „aim“ gleich, Amir mit ei oder Peter mit ai? (Auswahl, drei Optionen). Neu: Lautschrift sagt, wie ein Wort klingt, unabhängig von der Schreibung, für alle gleich (das leistet die Lesehilfe nicht); Schrägstriche, ein Zeichen = ein Laut, ː = lang. Partitur zeigt die untere Zeile für „I’m Sophie.“ (Beispiel nur im Bild). Eine kurze Tabelle „Lautkarten · Die ersten Zeichen“ mit 8 bis 10 Karten (/ʃ/, /tʃ/, /ŋ/, /iː/, /ɪ/, /æ/ …). Übungen: Zeichen ↔ Wort zuordnen (andere Wörter als die Tabelle), Wort aus Lautschrift auswählen, Lücke in der Schreibung aus der Lautschrift, „ein Laut, viele Schreibungen“ (c in cat – city), Nachsprechen. Bild: `partitur-lautschrift` (untere Zeile gefüllt, übrige als Legende). Hörsätze: 3 bis 4.
+2. `klaenge/vokale` (`vokale`, braucht `lautschrift`): Minimalpaare ship – sheep, cat – cut. Einstieg: Peter hat ein Foto vom Bauernhof, Mr Hill fragt nach dem Tier; die Kinder merken, dass ein Laut die Bedeutung ändert. Neu: kurz /ɪ æ ʌ ʊ/ gegen lang /iː ɑː uː/ als Paare, ː zeigt die Länge. Übungen: Paar zuordnen, Wort nach Kontext wählen, Lücke, Diktat mit Kontext-Sätzen, Nachsprechen. Fehler: lang/kurz vertauscht, /æ/ wie deutsches ä, /ʌ/ wie a. Bild: `partitur-vokale`.
+3. `klaenge/konsonanten-th-w` (`konsonanten-th-w`): th /θ ð/, w /w/ gegen v /v/, englisches r /r/ (ohne Zäpfchen). Zungenbild als eigene Zeichnung; Paare thank – sank, west – vest (nur A1/A2-Wörter oder erklärt). Fehler: th als s oder f, w als v, deutsches r. Bild: `partitur-konsonanten` mit Zungenskizze.
+4. `klaenge/stimmhafte-auslaute` (`stimmhafte-auslaute`, braucht `konsonanten-th-w`): bed – bet, dog – dock, bad – bat; Deutsch macht am Ende immer hart (Rad = Rat), Englisch nicht. Hand an den Hals: summt es? (Selbstversuch). Fehler: hart am Ende. Bild: `partitur-auslaute` (Wortende hervorgehoben, Minimalwort nicht am Satzende).
+5. `klaenge/silent-letters` (`silent-letters`): knife, write, listen, climb, Wednesday (nur A1/A2 oder erklärt). Stumme Buchstaben grau im Bild (Partitur unten, kein Laut über dem Buchstaben). Übungen: durchstreichen (`multiple-choice` mit Buchstaben), nach Lautschrift schreiben, Diktat, Korrektur (nife → knife). Fehler: k in knife mitsprechen, Schreibung ohne k.
+6. `endungen/das-brauchst-du` (Recap [plural, simple-past, present-progressive]): zwei kurze Tabellen („Klassenzimmer-Poster · Plural“, „… · simple past mit -ed“), keine Übung. Die Seite nimmt die Aussprache nicht vorweg.
+7. `endungen/endungen-s-ed` (`endungen-s-ed`): Gruppen nach dem letzten Laut des Wortes (cats /s/, dogs /z/, buses /ɪz/; walked /t/, played /d/, wanted /ɪd/). Die Kinder sortieren Karten zuerst nach dem letzten Laut und leiten die Regel ab, bevor sie sie lesen. Fehler: alle -ed wie „ed“, alle -s wie /s/. Bild: `partitur-endungen`.
+8. `endungen/rechtschreibung-endungen` (`rechtschreibung-endungen`): Werkstatt (Bild): Wort links, Endung rechts, in der Mitte ändert sich etwas: Doppeln (stop – stopped), y → ie (cry – cries), e fällt (make – making). Kinder leiten die drei Handgriffe an Wortpaaren ab. Fehler: stoped, cryes, makeing, playes. Bild: `werkstatt-endungen`.
+9. `gespraech/das-brauchst-du` (Recap [to-be, simple-present-fragen, fragewoerter]): Tabellen mit am/is/are, do/does-Frage, Fragewörter; keine Übung; Begriffe aus #472 und #473 (Helfer, Satzleiste).
+10. `gespraech/kurzformen` (`kurzformen`): I’m, you’re, she’s, don’t, isn’t; zwei Lautkarten werden eine, der Apostroph steht für ausgelassene Buchstaben; I’m /aɪm/, don’t /dəʊnt/. Fehler: do’nt, its/it’s, im statt I’m. Bild: `partitur-kurzformen` (zwei Karten schmelzen zu einer).
+11. `gespraech/intonation-fragen` (`intonation-fragen`): obere Zeile eingeführt; Ja/Nein-Frage steigt, Aussage, Aufforderung und Frage mit Fragewort fallen (Grundregel; Ausnahmen Stufe 7-8). Pfeile im Bild; Übung: Pfeil zur Satzart zuordnen, Satzart wählen, Sätze nach Pfeil zuordnen, Nachsprechen. Fehler: jede Frage steigt (deutsche Gewohnheit). Bild: `partitur-melodie`.
+
+Engagement je Seite: Einstieg = leichte Aufgabe in den ersten Blöcken vor der Erklärung, mit Grund der Antwort; Wechsel = Bild → Karte → Übung (kein langer Textlauf); Belohnung = was sie jetzt lesen oder sprechen können („Du liest jetzt jedes Zeichen auf der Wand“), am Kapitelende ein Rückblick (`weiter`); Geschichte = jede Seite endet mit dem nächsten Schritt an der Wand; Wiederholung nur mit anderem Material.
+
+Muster je Kompetenz (Skill `lernapps-exercise-patterns`): Zeichen ↔ Wort `matching` (rechte Einträge verschieden); Aussprache aus Lautschrift `single-choice` mit mindestens drei echten Lernerfehlern; Schreibung `language-task` mode `gap` oder `write` mit `cue`, `mistakes` mit eigener Meldung (stoped, cryes, makeing, do’nt, its/it’s); Sortieren nach letztem Laut `matching` oder `multiple-choice`; Hören und Schreiben `language-task` mit `audio`; Nachsprechen `speaking-task`; `open-task` nur zur Anwendung auf zwei Seiten. Vorlage-Eigenheiten: `ordering` zeigt Auswahlfelder (nicht verwenden), `accepted` wirkt nicht, `punctuation: ok`, `mistakes` im Modus `choice` unsichtbar.
+
+Bilder: Familie `src/images/partitur-<seite>.svg` mit Skript `.agents/skills/app-content/scripts/make_partitur.py` (Karten, drei Zeilen, Schrift ab 16 im 480er viewBox, Hintergrund #f4efe2); Lernzweck: sie zeigt, welche Zeile die Seite füllt; die Legende nennt unten = Laute, Mitte = Betonung (leer, später), oben = Melodie. Dazu `szene-<seite>.svg` mit den Figuren als `<g id>` aus `millbrook-klassenzimmer.svg` (hello-millbrook). Skizzen in `.vibe/sketches/`.
+
+Komponenten: keine (`prefer-built-in-block`): „Antippen und Hören“ ist der Player der `speaking-task`; Ziehen von Karten wäre ein Wunsch für ein Inkrement.
+
+Selbsteinschätzung je Kapitel (`selfAssessment`): je Seite 1 bis 2 Übungen ohne Audio und ohne Bezug auf Tabelle oder Bild.
+
+Spätere Inkremente: Kapitel 4 und 5 (Stufe 7-8) füllen die mittlere Zeile; die Bildfamilie und das Skript sind dafür gebaut.
+
 
 ## Code
 
@@ -205,11 +238,21 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Muster: app.yaml (Strang englisch/aussprache, Kapitel klaenge, endungen, gespraech), chapter.yaml von klaenge, Seite klaenge/lautschrift mit Szene, Bild partitur-lautschrift (Skript make_partitur.py), Lautkarten-Tabelle, mindestens vier Übungen, Diktat und Nachsprechen; Audio-Pipeline mit regen_audio.py und audio-texte.json; Hörliste in den Notes. Zeigt: Klangpartitur, Lesehilfe gegen Lautschrift.
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Seite klaenge/vokale: Minimalpaare lang und kurz, Bild partitur-vokale, Übungen mit Kontext-Diktat; Hörliste ergänzen.
+- [ ] Seite klaenge/konsonanten-th-w: th, w, v, r mit Zungenbild und Übungen.
+- [ ] Seite klaenge/stimmhafte-auslaute: bed – bet, dog – dock, Selbstversuch Hals, Übungen; Kapitel klaenge mit Rückblick und selfAssessment.
+- [ ] Seite klaenge/silent-letters: stumme Buchstaben grau im Bild, Übungen mit Korrektur.
+- [ ] Kapitel endungen: chapter.yaml, Wiederholungsseite das-brauchst-du (plural, simple-past, present-progressive) und Seite endungen-s-ed mit Sortieren nach letztem Laut.
+- [ ] Seite endungen/rechtschreibung-endungen: Werkstatt-Bild, drei Handgriffe, Übungen mit mistakes (stoped, cryes, makeing); Rückblick und selfAssessment des Kapitels.
+- [ ] Kapitel gespraech: chapter.yaml, Wiederholungsseite das-brauchst-du (to-be, simple-present-fragen, fragewoerter) und Seite kurzformen mit Bild partitur-kurzformen.
+- [ ] Seite gespraech/intonation-fragen: obere Zeile der Partitur, Pfeile, Übungen; Rückblick und selfAssessment des Kapitels; Start-/Einstiegsseiten und Medienübersicht prüfen.
+- [ ] Skriptprüfung aller Seiten: keine Hörsätze als Dubletten in Poster, Merke, Einstieg, Bild oder Übungen derselben Seite; Wörter gegen Grundwortschatz; Hörliste (Datei, Satz, Minimalwort) in Notes und Inhaltsführer vollständig.
+<!-- tasks: pages (9 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
