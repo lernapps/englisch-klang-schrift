@@ -134,15 +134,15 @@ blocks:
         task: In jedem Satz ist die Kurzform falsch geschrieben. Schreibe den Satz richtig.
         form: { case: ok, punctuation: ok }
         items:
-          - cue: Were late for school.
-            target: We're late for school.
+          - cue: Peter cant swim.
+            target: Peter can't swim.
             mistakes:
-              - answer: Were late for school.
-                message: Were heißt „waren“. Für we are braucht man we're.
-          - cue: Doesnt Peter like tea?
-            target: Doesn't Peter like tea?
+              - answer: Peter cant swim.
+                message: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
+          - cue: Amir hasnt got a bike.
+            target: Amir hasn't got a bike.
             mistakes:
-              - answer: Doesnt Peter like tea?
+              - answer: Amir hasnt got a bike.
                 message: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
         hint: Prüfe die Kurzform.
       - type: language-task

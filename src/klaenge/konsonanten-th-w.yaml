@@ -145,16 +145,10 @@ blocks:
             mistakes:
               - answer: sink
                 message: Sink hat am Anfang ein s. Hier steht /θ/, geschrieben th.
-          - cue: "/ðɪs/"
-            target: this
-            mistakes:
-              - answer: dis
-                message: Das Zeichen /ð/ schreibt man th, nicht d.
+          - cue: "/ðæt/"
+            target: that
           - cue: "/wɪʃ/"
             target: wish
-            mistakes:
-              - answer: vish
-                message: Das erste Zeichen ist /w/ mit runden Lippen, geschrieben w.
         hint: Welches Wort kennst du? Beachte das erste Zeichen.
       - type: language-task
         id: konsonanten-hoeren

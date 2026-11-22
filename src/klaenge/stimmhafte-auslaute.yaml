@@ -145,11 +145,11 @@ blocks:
         task: Höre zu und schreibe jeden Satz ganz auf.
         form: { case: ok, punctuation: ok }
         items:
-          - audio: a-dog-sleeps-under-the-table-today.mp3
-            target: A dog sleeps under the table today.
+          - audio: the-kid-hides-under-the-table-today.mp3
+            target: The kid hides under the table today.
             mistakes:
-              - answer: A dock sleeps under the table today.
-                message: "Ein dock ist ein Anleger für Schiffe. Hier schläft ein Hund: dog, mit summendem g am Ende."
+              - answer: The kit hides under the table today.
+                message: Kit endet mit /t/, das nicht summt. Ein Kind ist ein kid, mit summendem d am Ende.
           - audio: ellie-has-a-bad-cold-this-morning.mp3
             target: Ellie has a bad cold this morning.
             mistakes:

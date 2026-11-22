@@ -142,10 +142,10 @@ blocks:
             mistakes:
               - answer: Is Peter at home this afternoon.
                 message: Das ist eine Frage. Am Ende steht ein Fragezeichen.
-          - audio: close-the-door-for-amir.mp3
-            target: (Close the door for Amir.|Close the door for Amir!)
+          - audio: please-carry-the-bag-for-amir.mp3
+            target: (Please carry the bag for Amir.|Please carry the bag for Amir!)
             mistakes:
-              - answer: Close the door for Amir?
+              - answer: Please carry the bag for Amir?
                 message: Das ist eine Aufforderung. Am Ende steht ein Punkt.
           - audio: where-does-mrs-parker-work-today.mp3
             target: Where does Mrs Parker work today?

@@ -97,8 +97,8 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `peter-is-getting-a-new-bag-today.mp3` | endungen/rechtschreibung-endungen | Peter is getting a new bag today. | Wort mit Endung -ing, -s oder -ed | offen |
 | `peter-stayed-at-home-yesterday.mp3` | endungen/rechtschreibung-endungen | Peter stayed at home yesterday. | Wort mit Endung -ing, -s oder -ed | offen |
 | `sophie-is-shopping-with-mrs-parker.mp3` | endungen/rechtschreibung-endungen | Sophie is shopping with Mrs Parker. | Wort mit Endung -ing, -s oder -ed | offen |
-| `close-the-door-for-amir.mp3` | gespraech/intonation-fragen | Close the door for Amir. | Aufforderung | offen |
 | `is-peter-at-home-this-afternoon.mp3` | gespraech/intonation-fragen | Is Peter at home this afternoon? | Frage (Dateien der Fragen steigen nicht) | offen |
+| `please-carry-the-bag-for-amir.mp3` | gespraech/intonation-fragen | Please carry the bag for Amir. | Aufforderung | offen |
 | `where-does-mrs-parker-work-today.mp3` | gespraech/intonation-fragen | Where does Mrs Parker work today? | Frage mit Fragewort | offen |
 | `ellie-doesnt-like-coffee-today.mp3` | gespraech/kurzformen | Ellie doesn't like coffee today. | doesn't | offen |
 | `hows-mrs-parker-today.mp3` | gespraech/kurzformen | How's Mrs Parker today? | how's | offen |
@@ -132,7 +132,6 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `mr-hill-writes-a-long-text-today.mp3` | klaenge/silent-letters | Mr Hill writes a long text today. | writes: w stumm | offen |
 | `peter-talks-to-mrs-parker-every-morning.mp3` | klaenge/silent-letters | Peter talks to Mrs Parker every morning. | talks: l stumm | offen |
 | `sophie-climbs-the-big-tree-with-ellie.mp3` | klaenge/silent-letters | Sophie climbs the big tree with Ellie. | climbs: b stumm | offen |
-| `a-dog-sleeps-under-the-table-today.mp3` | klaenge/stimmhafte-auslaute | A dog sleeps under the table today. | stimmhaftes oder stimmloses Wortende | offen |
 | `amir-puts-the-bag-on-the-table.mp3` | klaenge/stimmhafte-auslaute | Amir puts the bag on the table. | stimmhaftes oder stimmloses Wortende | offen |
 | `ellie-has-a-bad-cold-this-morning.mp3` | klaenge/stimmhafte-auslaute | Ellie has a bad cold this morning. | stimmhaftes oder stimmloses Wortende | offen |
 | `i-like-this-bed-very-much-today.mp3` | klaenge/stimmhafte-auslaute | I like this bed very much today. | bed: d summt | offen |
@@ -142,6 +141,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `peter-has-a-big-cat-and-a-small-dog-today.mp3` | klaenge/stimmhafte-auslaute | Peter has a big cat and a small dog today. | stimmhaftes oder stimmloses Wortende | offen |
 | `the-boat-is-at-the-dock-today.mp3` | klaenge/stimmhafte-auslaute | The boat is at the dock today. | dock: k summt nicht | offen |
 | `the-dog-is-very-big-and-friendly.mp3` | klaenge/stimmhafte-auslaute | The dog is very big and friendly. | dog: g summt | offen |
+| `the-kid-hides-under-the-table-today.mp3` | klaenge/stimmhafte-auslaute | The kid hides under the table today. | kid: d summt | offen |
 | `ellie-wants-to-sit-on-the-seat-again.mp3` | klaenge/vokale | Ellie wants to sit on the seat again. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 | `look-a-sheep-again.mp3` | klaenge/vokale | Look, a sheep again. | sheep /ʃiːp/ (lang) | offen |
 | `look-a-ship-again.mp3` | klaenge/vokale | Look, a ship again. | ship /ʃɪp/ (kurz) | offen |
@@ -151,7 +151,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `please-leave-the-bag-in-the-kitchen.mp3` | klaenge/vokale | Please leave the bag in the kitchen. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 | `sophie-and-ellie-live-in-a-small-village.mp3` | klaenge/vokale | Sophie and Ellie live in a small village. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen · Fehllaut-Schnitt (−55 ms) · Ende prüfen (nach dem Schnitt) |
 | `sophie-sees-a-sheep-and-a-ship-today.mp3` | klaenge/vokale | Sophie sees a sheep and a ship today. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
-| `the-bag-is-full-of-books-today.mp3` | klaenge/vokale | The bag is full of books today. | full /ʊ/ | offen |
+| `the-bag-is-full-of-apples-today.mp3` | klaenge/vokale | The bag is full of apples today. | full /ʊ/ | offen |
 
 ## Adding a chapter or round
 

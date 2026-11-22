@@ -42,7 +42,6 @@
   "src/audio/mother-thinks-the-weather-is-lovely-today.mp3": "Mother thinks the weather is lovely today.",
   "src/audio/i-like-this-bed-very-much-today.mp3": "I like this bed very much today.",
   "src/audio/the-boat-is-at-the-dock-today.mp3": "The boat is at the dock today.",
-  "src/audio/a-dog-sleeps-under-the-table-today.mp3": "A dog sleeps under the table today.",
   "src/audio/ellie-has-a-bad-cold-this-morning.mp3": "Ellie has a bad cold this morning.",
   "src/audio/amir-puts-the-bag-on-the-table.mp3": "Amir puts the bag on the table.",
   "src/audio/peter-has-a-big-cat-and-a-small-dog-today.mp3": "Peter has a big cat and a small dog today.",
@@ -60,7 +59,6 @@
   "src/audio/amir-buys-a-new-watch-today.mp3": "Amir buys a new watch today.",
   "src/audio/sophie-washes-the-dishes-this-evening.mp3": "Sophie washes the dishes this evening.",
   "src/audio/peter-takes-a-long-walk-this-morning.mp3": "Peter takes a long walk this morning.",
-  "src/audio/the-bag-is-full-of-books-today.mp3": "The bag is full of books today.",
   "src/audio/amir-visits-his-uncle-every-sunday.mp3": "Amir visits his uncle every Sunday.",
   "src/audio/ellie-drives-the-van-slowly.mp3": "Ellie drives the van slowly.",
   "src/audio/the-dog-is-very-big-and-friendly.mp3": "The dog is very big and friendly.",
@@ -69,5 +67,7 @@
   "src/audio/peter-cleaned-his-room-yesterday.mp3": "Peter cleaned his room yesterday.",
   "src/audio/amir-painted-a-picture-yesterday.mp3": "Amir painted a picture yesterday.",
   "src/audio/is-peter-at-home-this-afternoon.mp3": "Is Peter at home this afternoon?",
-  "src/audio/close-the-door-for-amir.mp3": "Close the door for Amir."
+  "src/audio/the-bag-is-full-of-apples-today.mp3": "The bag is full of apples today.",
+  "src/audio/the-kid-hides-under-the-table-today.mp3": "The kid hides under the table today.",
+  "src/audio/please-carry-the-bag-for-amir.mp3": "Please carry the bag for Amir."
 }

@@ -335,7 +335,7 @@ Commit erreicht: Explore, Plan und Code abgeschlossen; Checkpoints Recherche, Pl
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
-Ersteller:in (Mensch), 3 Nachrichten nach dem Plan: (1) Pull-Request zum Anhören der Aufnahmen, (2) Urteil zur Hörprobe („die kritischen Terme sind alle gut zu unterscheiden“), (3) Frage zu den Karten der Klangpartitur auf der Seite zu den Kurzformen (die Karten kamen in den Wiederholungsseiten nicht vor; behoben). Dazu eine Aufforderung, einen abgebrochenen Prüfauftrag erneut zu versuchen. Die Orchestrator-Session (in der Rolle der Ersteller:in) beantwortete die Checkpoints und gab Auflagen zur Musterseite, zu den Seiten, zum Gesamtcheck und zum Fehllaut-Schnitt der Aufnahmen.
+Ersteller:in (Mensch), 4 Nachrichten nach dem Plan: (1) Pull-Request zum Anhören der Aufnahmen, (2) Urteil zur Hörprobe („die kritischen Terme sind alle gut zu unterscheiden“), (3) Frage zu den Karten der Klangpartitur auf der Seite zu den Kurzformen (die Karten kamen in den Wiederholungsseiten nicht vor; behoben), (4) „Versuch es noch einmal“ nach einem Prüfauftrag, der wegen einer Nutzungsgrenze abbrach. Die Orchestrator-Session (in der Rolle der Ersteller:in) beantwortete die Checkpoints und gab Auflagen zur Musterseite, zu den Seiten, zum Gesamtcheck und zum Fehllaut-Schnitt der Aufnahmen; sie zählt nicht als Mensch.
 
 ### Where I had to guess
 

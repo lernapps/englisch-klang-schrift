@@ -88,7 +88,7 @@ blocks:
         text: Welches Zeichen steckt in welchem Wort?
         pairs:
           - left: "/iː/"
-            right: meet
+            right: tea
           - left: "/ɪ/"
             right: fish
           - left: "/uː/"
@@ -97,7 +97,7 @@ blocks:
             right: cup
           - left: "/æ/"
             right: man
-        explanation: Das Zeichen ː steht bei den langen Vokalen in leave und food.
+        explanation: Das Zeichen ː steht bei den langen Vokalen in tea und food.
         links:
           - title: Lernlandkarte Englisch · Vokale
             url: https://lernapps.net/apps/map/englisch/c/vokale/
@@ -153,10 +153,10 @@ blocks:
             mistakes:
               - answer: Please live the bag in the kitchen.
                 message: Live heißt „wohnen“. Lassen heißt leave, mit langem iː.
-          - audio: the-bag-is-full-of-books-today.mp3
-            target: The bag is full of books today.
+          - audio: the-bag-is-full-of-apples-today.mp3
+            target: The bag is full of apples today.
             mistakes:
-              - answer: The bag is fool of books today.
+              - answer: The bag is fool of apples today.
                 message: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
         hint: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
   - type: section
