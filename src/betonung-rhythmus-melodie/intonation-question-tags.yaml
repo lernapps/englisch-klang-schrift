@@ -2,14 +2,14 @@
 title: Fragst du wirklich?
 description: "Sophie und Ellie chatten über den Test am Freitag. Du lernst, was die Stimme am question tag verrät: Fragt jemand wirklich, oder erwartet er Zustimmung?"
 competencies: [intonation-question-tags]
-scope: "Die Seite zeigt die Melodie bei question tags. Steigt die Stimme am Tag, fragt man wirklich und weiß es nicht sicher. Fällt sie, erwartet man Zustimmung und weiß es schon. Der Pfeil in der oberen Zeile der Klangpartitur zeigt es. Die Melodie wird in der App nicht vorgesprochen, weil die Stimme in dieser App sie nicht zeigen kann. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der question tags, Haltung und Gefühl in der Melodie."
+scope: "Die Seite zeigt die Melodie bei question tags. Steigt die Stimme am question tag, fragt man wirklich und weiß es nicht sicher. Fällt sie, erwartet man Zustimmung und weiß es schon. Der Pfeil in der oberen Zeile der Klangpartitur zeigt es. Die Melodie wird in der App nicht vorgesprochen, weil die Stimme in dieser App sie nicht zeigen kann. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der question tags, Haltung und Gefühl in der Melodie."
 blocks:
   - type: section
     id: einstieg
     title: Der Test am Freitag
     blocks:
       - type: text
-        text: "Sophie (13) und Ellie (13) schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Tag** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht."
+        text: "Sophie (13) und Ellie (13) schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Anhängsel** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht."
       - type: single-choice
         id: tag-melodie-start
         text: Wohin geht die Stimme am Ende einer Frage mit Ja oder Nein, wie bei „Is it big?“?
@@ -47,7 +47,7 @@ blocks:
             source: wirklich fragen
       - type: text
         text: |
-          **Sophie:** hey Ellie! you're at home, aren't you?
+          **Sophie:** hey Ellie! you're online, aren't you?
 
           **Ellie:** yes. why?
 
@@ -67,22 +67,22 @@ blocks:
         id: tag-verstehen
         text: Wann will Sophie wirklich eine Antwort?
         options:
-          - text: Bei der Frage nach dem Testtag
+          - text: Bei der Frage nach dem Datum des Tests
             correct: true
             info: Sie weiß nicht sicher, wann der Test ist.
           - text: Bei der Bemerkung über die Kälte
             correct: false
             info: Dass es kalt ist, weiß sie schon.
-          - text: Bei der Frage, ob Ellie zu Hause ist
+          - text: Bei der Frage, ob Ellie online ist
             correct: false
-            info: Sie sieht, dass Ellie im Chat ist.
+            info: Sie sieht, dass Ellie schreibt.
         explanation: Beim Testtag fragt Sophie wirklich.
         links:
           - title: Lernlandkarte Englisch · Satzmelodie bei question tags
             url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
       - type: single-choice
         id: tag-belegen
-        text: Welche Zeile erklärt, was die Stimme am Tag macht?
+        text: Welche Zeile erklärt, was die Stimme am question tag macht?
         options:
           - text: "Ellie: Mr Hill says: if you really ask, your voice goes up on the tag. if you want agreement, it goes down."
             correct: true
@@ -99,10 +99,10 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
   - type: section
     id: neu
-    title: Der Pfeil am Tag
+    title: Der Pfeil am question tag
     blocks:
       - type: text
-        text: "Ein **question tag** hängt an einer Aussage: It's cold, isn't it? Die Melodie am Tag zeigt, was du willst. Steigt die Stimme, **fragst du wirklich**. Fällt sie, **erwartest du Zustimmung**. Das Bild zeigt beide Fälle mit denselben Wörtern."
+        text: "Ein **question tag** hängt an einer Aussage: It's cold, isn't it? Die Melodie am question tag zeigt, was du willst. Steigt die Stimme, **fragst du wirklich**. Fällt sie, **erwartest du Zustimmung**. Das Bild zeigt beide Fälle mit denselben Wörtern."
       - type: figure
         image: images/partitur-tag-steigt.svg
         alt: "Klangpartitur: It's cold, isn't it? Über dem Tag am Ende zeigt ein roter Pfeil nach oben."
@@ -122,8 +122,8 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Steigt** die Stimme am Tag, fragst du wirklich.
-              - **Fällt** die Stimme am Tag, erwartest du Zustimmung.
+              - **Steigt** die Stimme am question tag, fragst du wirklich.
+              - **Fällt** die Stimme am question tag, erwartest du Zustimmung.
               - Die Wörter bleiben gleich. Nur die Melodie ändert die Bedeutung.
               - Im Text zeigt das Komma die Pause vor dem Tag.
   - type: section
@@ -132,7 +132,7 @@ blocks:
     blocks:
       - type: single-choice
         id: tag-fragen
-        text: "Amir sucht seine Jacke und fragt Ellie: „You've seen my jacket, haven't you?“ Er weiß es wirklich nicht. Wohin geht die Stimme am Tag?"
+        text: "Amir sucht seine Jacke und fragt Ellie: „You've seen my jacket, haven't you?“ Er weiß es wirklich nicht. Wohin geht die Stimme am question tag?"
         options:
           - text: Sie steigt.
             correct: true
@@ -149,7 +149,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
       - type: number
         id: tag-zustimmung
-        text: "Ellie, Amir und Peter sehen ein Fußballspiel. Ellie sagt: „Great match, isn't it?“ Alle jubeln. Amir hat nicht hingesehen und fragt: „He scored, didn't he?“ Peter liest die Anzeigetafel und sagt: „We're winning, aren't we?“ Bei wie vielen Sätzen fällt die Stimme am Tag? Schreibe die Zahl mit Ziffern."
+        text: "Ellie, Amir und Peter sehen ein Fußballspiel. Ellie sagt: „Great match, isn't it?“ Alle jubeln. Amir hat nicht hingesehen und fragt: „He scored, didn't he?“ Peter liest die Anzeigetafel und sagt: „We're winning, aren't we?“ Bei wie vielen Sätzen fällt die Stimme am question tag? Schreibe die Zahl mit Ziffern."
         answer: 2
         tolerance: 0
         mistakes:
@@ -164,7 +164,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
       - type: multiple-choice
         id: tag-erkennen
-        text: In welchen Situationen fällt die Stimme am Tag?
+        text: In welchen Situationen fällt die Stimme am question tag?
         options:
           - text: "Peter sieht ein tolles Tor und sagt: „That was a great goal, wasn't it?“"
             correct: true
@@ -221,4 +221,4 @@ blocks:
     title: Rückblick und nächster Schritt
     blocks:
       - type: text
-        text: "Ellie schreibt: „Jetzt hörst du, wie wir wirklich sprechen.“ In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am Tag verrät."
+        text: "Ellie schreibt: „Jetzt hörst du, wie wir wirklich sprechen.“ In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am question tag verrät."

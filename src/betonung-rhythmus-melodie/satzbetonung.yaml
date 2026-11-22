@@ -14,7 +14,7 @@ blocks:
         id: satzbetonung-start
         text: "Welche Wörter betonst du im deutschen Satz „Ich habe einen großen Hund“ am stärksten?"
         options:
-          - text: habe, großen, Hund
+          - text: großen, Hund
             correct: true
             info: Diese Wörter tragen die Bedeutung.
           - text: Ich, einen
@@ -98,7 +98,7 @@ blocks:
     title: Starke und leise Wörter
     blocks:
       - type: text
-        text: "Im englischen Satz tragen die Wörter mit Inhalt die Betonung: Nomen, Verben, Adjektive und Fragewörter. Kleine Wörter wie a, the, to, and und of sind schwach. In der Klangpartitur zeigen große rote Punkte die starken Wörter."
+        text: "Im englischen Satz tragen die Wörter mit Inhalt die Betonung: Nomen, Verben, Adjektive, Adverbien (wie today) und Fragewörter. Kleine Wörter wie a, the, to, and und of sind schwach. In der Klangpartitur zeigen große rote Punkte die starken Wörter."
       - type: figure
         image: images/partitur-satzbetonung.svg
         alt: "Klangpartitur: der Satz Go to the shop mit vier Karten. Große rote Punkte über go und shop, kleine Punkte über to und the."
@@ -112,7 +112,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Stark** sind Nomen, Verben, Adjektive und Fragewörter. Sie tragen die Bedeutung.
+              - **Stark** sind Nomen, Verben, Adjektive, Adverbien und Fragewörter. Sie tragen die Bedeutung.
               - **Schwach** sind kleine Wörter wie a, the, to, and, of.
               - **Rhythmus:** Die starken Wörter kommen ungefähr im gleichen Abstand. Kleine Wörter dazwischen sprichst du schneller.
               - Wer jedes Wort gleich stark spricht, klingt wie ein Roboter.

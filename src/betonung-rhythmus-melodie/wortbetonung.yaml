@@ -38,7 +38,7 @@ blocks:
         languages: { source: de, target: en }
         entries:
           - target: present
-            source: das Geschenk · schenken, zeigen
+            source: das Geschenk · überreichen, vorstellen
           - target: record
             source: die Aufnahme · aufnehmen
           - target: stress
@@ -111,7 +111,7 @@ blocks:
         licence: CC-BY-4.0
       - type: figure
         image: images/partitur-wortbetonung-verb.svg
-        alt: "Klangpartitur: present als Verb, schenken oder zeigen. Zwei Karten, prɪ und ˈzent, über der ersten ein kleiner Punkt, über der zweiten ein großer roter."
+        alt: "Klangpartitur: present als Verb, überreichen oder vorstellen. Zwei Karten, prɪ und ˈzent, über der ersten ein kleiner Punkt, über der zweiten ein großer roter."
         caption: "present als Verb: Die zweite Silbe ist betont."
         source: eigene Zeichnung
         licence: CC-BY-4.0

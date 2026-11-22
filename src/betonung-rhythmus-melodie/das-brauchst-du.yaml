@@ -2,7 +2,7 @@
 title: Das brauchst du hier
 description: Question tags noch einmal kurz und die Melodie der Fragen aus Kapitel 3, bevor Sophie und Ellie im Chat zeigen, was die Stimme bei einem Tag verrät.
 recap: englisch/question-tags
-scope: "Die Seite wiederholt nur einen Baustein aus einem anderen Explainer: Question tags, also das kurze Anhängsel am Satzende (It's cold, isn't it?), mit be, do und did. Dazu wird die Melodie der Fragen aus Kapitel 3 in einem Satz erinnert. Neue Inhalte gibt es nicht, auch keine Übung. Was die Stimme am Tag bedeutet, kommt auf der nächsten Seite."
+scope: "Die Seite wiederholt nur einen Baustein aus einem anderen Explainer: Question tags, also das kurze Anhängsel am Satzende (It's cold, isn't it?), mit be, do und did. Dazu wird die Melodie der Fragen aus Kapitel 3 in einem Satz erinnert. Neue Inhalte gibt es nicht, auch keine Übung. Was die Stimme am question tag bedeutet, kommt auf der nächsten Seite."
 blocks:
   - type: section
     id: einstieg
@@ -31,4 +31,4 @@ blocks:
     title: Was jetzt kommt
     blocks:
       - type: text
-        text: "Sophie schreibt mit Ellie über den Test am Freitag. Ellie merkt, dass Sophie manchmal nur bestätigen lassen will, was sie schon weiß. Das hört man an der Stimme, am Tag."
+        text: "Sophie schreibt mit Ellie über den Test am Freitag. Ellie merkt, dass Sophie manchmal nur bestätigen lassen will, was sie schon weiß. Das hört man an der Stimme, am question tag."

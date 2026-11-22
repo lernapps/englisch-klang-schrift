@@ -213,7 +213,7 @@ blocks:
           - text: Du nennst ein Wort mit starker Form, allein oder am Satzende.
             source: /betonung-rhythmus-melodie/schwache-formen/#neu
         solution: |
-          I like pasta and cheese. We go to the shop on Saturday. I buy a bag of rice. What is the sauce for? Mitten im Satz klingt and schwach, am Ende von for hört man die starke Form.
+          I like pasta and cheese. We go to the shop on Saturday. I buy a bag of rice. What is the sauce for? Mitten im Satz klingt and schwach, bei for am Satzende hört man die starke Form.
         hint: Sprich jeden Satz leise vor und achte auf die kleinen Wörter.
   - type: section
     id: weiter

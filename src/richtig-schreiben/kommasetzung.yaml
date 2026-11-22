@@ -2,7 +2,7 @@
 title: Wann steht ein Komma?
 description: "Sophie schreibt einen Blog über ihr erstes Quartal in Millbrook. Du lernst, wann im Englischen ein Komma steht: nach einer Einleitung, bei nicht notwendigen Relativsätzen und in Aufzählungen."
 competencies: [kommasetzung]
-scope: "Die Seite zeigt Kommas nach englischen Regeln. Ein Komma steht nach einer einleitenden Zeit-, Orts- oder Wortgruppe am Satzanfang (Last summer, we went to Wales), vor und nach einem nicht notwendigen Relativsatz (My brother, who lives in London, is a pilot), zwischen den Gliedern einer Aufzählung, aber im britischen Englisch nicht vor and. Ein notwendiger Relativsatz hat keine Kommas, und vor einem that-Satz steht kein Komma. Ein Komma zeigt eine Pause, die man auch hört. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der Relativsätze selbst, andere Satzzeichen, Betonung."
+scope: "Die Seite zeigt Kommas nach englischen Regeln. Ein Komma steht nach einer einleitenden Zeit-, Orts- oder Wortgruppe am Satzanfang (Last summer, we went to Wales), vor und nach einem nicht notwendigen Relativsatz (My brother, who lives in London, is a pilot), zwischen den Gliedern einer Aufzählung, aber im britischen Englisch meist nicht vor and. Ein notwendiger Relativsatz hat keine Kommas, und vor einem that-Satz steht kein Komma. Ein Komma zeigt eine Pause, die man auch hört. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der Relativsätze selbst, andere Satzzeichen, Betonung."
 blocks:
   - type: section
     id: einstieg
@@ -44,7 +44,7 @@ blocks:
           - target: honestly
             source: ehrlich gesagt
           - target: strange
-            source: fremd
+            source: seltsam, ungewohnt
       - type: text
         text: |
           **My first term in Millbrook**
@@ -104,7 +104,7 @@ blocks:
         text: "Ein Komma zeigt eine kleine Pause, die man auch hört. Das Bild zeigt drei Sätze in Karten. Ein rotes Komma steht dort, wo man kurz Luft holt."
       - type: figure
         image: images/satzband-komma.svg
-        alt: "Drei Sätze als grüne Karten. Erster Satz: Last summer, rotes Komma, we went to Wales. Zweiter Satz: My brother, rotes Komma, who lives in London, rotes Komma, is a pilot. Dritter Satz ohne Komma: The boy who lives next door, is my friend, beide Karten dicht nebeneinander."
+        alt: "Drei Sätze als grüne Karten. Erster Satz: Last summer, rotes Komma, we went to Wales. Zweiter Satz: My brother, rotes Komma, who lives in London, rotes Komma, is a pilot. Dritter Satz ganz ohne Komma: The boy who lives next door is my friend, beide Karten dicht nebeneinander."
         caption: "Ein Komma steht nach einer Einleitung und um einen nicht notwendigen Relativsatz. Im dritten Satz gibt es keine Pause."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -113,9 +113,9 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Nach einer Einleitung** am Satzanfang steht ein Komma: Zeit, Ort oder ein Wort wie now.
+              - **Nach einer Einleitung** am Satzanfang steht meist ein Komma: Zeit, Ort oder ein Wort wie now. Nach ganz kurzen Einleitungen ist es freiwillig.
               - **Nicht notwendiger Relativsatz:** ein Komma davor und eines danach. Notwendiger Relativsatz: keine Kommas.
-              - **In einer Aufzählung** stehen Kommas zwischen den Gliedern, aber im britischen Englisch nicht vor and.
+              - **In einer Aufzählung** stehen Kommas zwischen den Gliedern, aber im britischen Englisch meist nicht vor and.
               - **Vor einem that-Satz** steht im Englischen kein Komma, anders als im Deutschen.
   - type: section
     id: uebung
@@ -127,11 +127,11 @@ blocks:
         task: Setze die fehlenden Kommas. Schreibe den ganzen Satz.
         form: { case: ok, punctuation: wrong }
         items:
-          - cue: Yesterday we visited my grandmother.
-            target: Yesterday, we visited my grandmother.
+          - cue: On a rainy day in October we visited my grandmother.
+            target: On a rainy day in October, we visited my grandmother.
             mistakes:
-              - answer: Yesterday we visited my grandmother.
-                message: Nach der Einleitung am Satzanfang steht ein Komma.
+              - answer: On a rainy day in October we visited my grandmother.
+                message: Nach einer längeren Einleitung am Satzanfang steht ein Komma.
           - cue: My dog who is very old sleeps all day.
             target: My dog, who is very old, sleeps all day.
             mistakes:
@@ -141,7 +141,7 @@ blocks:
             target: She has apples, pears and oranges.
             mistakes:
               - answer: She has apples, pears, and oranges.
-                message: Vor and steht im britischen Englisch kein Komma.
+                message: Im britischen Englisch setzt man vor and meist kein Komma.
         hint: Wo holst du beim Vorlesen kurz Luft?
       - type: single-choice
         id: komma-notwendig
@@ -166,11 +166,11 @@ blocks:
         task: Höre zu und schreibe jeden Satz ganz auf. Setze die Kommas.
         form: { case: ok, punctuation: wrong }
         items:
-          - audio: after-school-peter-plays-football-in-the-garden.mp3
-            target: After school, Peter plays football in the garden.
+          - audio: after-the-long-lesson-peter-plays-football-in-the-garden.mp3
+            target: After the long lesson, Peter plays football in the garden.
             mistakes:
-              - answer: After school Peter plays football in the garden.
-                message: Nach der Einleitung am Satzanfang steht ein Komma.
+              - answer: After the long lesson Peter plays football in the garden.
+                message: Nach einer längeren Einleitung am Satzanfang steht ein Komma.
           - audio: my-teacher-who-is-very-kind-helps-us-today.mp3
             target: My teacher, who is very kind, helps us today.
             mistakes:
@@ -185,7 +185,7 @@ blocks:
         id: komma-blog
         task: "Schreibe fünf englische Sätze für einen Blog über deine Schule. Verwende eine Einleitung am Satzanfang, einen nicht notwendigen Relativsatz und eine Aufzählung. Schreibe danach in zwei Sätzen auf Deutsch: Sind die englischen Kommaregeln für dich leichter oder schwerer als die deutschen? Begründe."
         points:
-          - text: Nach der Einleitung am Satzanfang steht ein Komma.
+          - text: Nach einer längeren Einleitung am Satzanfang steht ein Komma.
             source: /richtig-schreiben/kommasetzung/#neu
           - text: Der nicht notwendige Relativsatz steht zwischen zwei Kommas.
             source: /richtig-schreiben/kommasetzung/#neu
@@ -194,7 +194,7 @@ blocks:
           - text: Du begründest deine Meinung.
             kind: form
         solution: |
-          Every morning, I walk to school. My friend Tom, who lives next door, comes with me. In the canteen we have pasta, salad and fruit. In German, there is a comma before every dass-clause. In English there is not, so I find the English rules easier.
+          Every morning, I walk to school. My friend Tom, who lives next door, comes with me. In the canteen, we have pasta, salad and fruit. After lunch, we play football. On Fridays, my class goes swimming. Im Deutschen steht vor jedem dass-Satz ein Komma. Im Englischen nicht, darum finde ich die englischen Regeln leichter.
         hint: Prüfe jeden Satz auf Pausen.
   - type: section
     id: weiter

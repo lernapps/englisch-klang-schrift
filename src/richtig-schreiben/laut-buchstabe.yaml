@@ -44,7 +44,7 @@ blocks:
           - target: due
             source: fällig
           - target: exists
-            source: es gibt es
+            source: existiert, gibt es
           - target: fits
             source: passt
       - type: text
@@ -150,11 +150,11 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/laut-buchstabe/
       - type: single-choice
         id: laut-buchstabe-satz
-        text: "Welches Wort passt? I go to school every ___."
+        text: "Welches Wort passt? I read a book every ___."
         options:
           - text: week
             correct: true
-            info: Week heißt „Woche“. Jede Woche geht man in die Schule.
+            info: Week heißt „Woche“. Jede Woche liest man ein Buch.
           - text: weak
             correct: false
             info: Weak klingt gleich, heißt aber „schwach“.
@@ -196,7 +196,7 @@ blocks:
           - audio: please-write-the-right-word-today.mp3
             target: Please write the right word today.
             mistakes:
-              - answer: Please right the write answer, Amir.
+              - answer: Please right the write word today.
                 message: Write heißt „schreiben“, right heißt „richtig“. Der Satz sagt, welches Wort wohin gehört.
           - audio: we-can-hear-the-band-outside.mp3
             target: We can hear the band outside.

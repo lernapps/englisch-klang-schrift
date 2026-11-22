@@ -173,7 +173,7 @@ Hörprobe 2 (`.vibe/hoerprobe2/`: present/record Nomen und Verb, far away, bread
 | `the-bag-is-full-of-apples-today.mp3` | klaenge/vokale | The bag is full of apples today. | full /ʊ/ | offen |
 | `we-can-hear-the-band-outside.mp3` | richtig-schreiben/laut-buchstabe | We can hear the band outside. | hear / here | offen |
 | `please-write-the-right-word-today.mp3` | richtig-schreiben/laut-buchstabe | Please write the right word today. | write / right | offen |
-| `after-school-peter-plays-football-in-the-garden.mp3` | richtig-schreiben/kommasetzung | After school, Peter plays football in the garden. | Pause nach der Einleitung | offen |
+| `after-the-long-lesson-peter-plays-football-in-the-garden.mp3` | richtig-schreiben/kommasetzung | After the long lesson, Peter plays football in the garden. | Pause nach der Einleitung | offen · Fehllaut-Schnitt (−93 ms) |
 | `my-teacher-who-is-very-kind-helps-us-today.mp3` | richtig-schreiben/kommasetzung | My teacher, who is very kind, helps us today. | Pause um den Relativsatz | offen |
 | `i-bought-a-present-for-sophie.mp3` | betonung-rhythmus-melodie/wortbetonung | I bought a present for Sophie. | present (Nomen): erste Silbe betont | gehört, in Ordnung (Hörprobe 2, Ersteller:in) |
 | `we-present-the-show-tomorrow.mp3` | betonung-rhythmus-melodie/wortbetonung | We present the show tomorrow. | present (Verb): zweite Silbe betont | gehört, in Ordnung (Hörprobe 2, Ersteller:in) |

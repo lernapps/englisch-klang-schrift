@@ -2,7 +2,7 @@
 title: Wörter rutschen zusammen
 description: "Peter nimmt Sophie beim Vorlesen auf und sagt, sie klinge wie ein Roboter. Du lernst, wie ein Laut am Wortende zum nächsten Wort rutscht, und was das r in far away damit zu tun hat."
 competencies: [bindungen]
-scope: "Die Seite zeigt Bindungen im Satz. Endet ein Wort auf einen Konsonanten und beginnt das nächste mit einem Vokal, rutscht der Laut hinüber (an apple klingt wie a-napple). Im britischen Englisch spricht man ein r am Wortende nicht, aber vor einem Vokal im nächsten Wort hört man es (far away). In der Klangpartitur zeigt ein roter Bogen die Bindung. Nicht hier, weil sie auf anderen Seiten stehen: Betonung im Wort, schwache Formen, Satzbetonung und Rhythmus."
+scope: "Die Seite zeigt Bindungen im Satz. Endet ein Wort auf einen Konsonantenlaut und beginnt das nächste mit einem Vokal, rutscht der Laut hinüber (an apple klingt wie a-napple). Im britischen Englisch spricht man ein r am Wortende nicht, aber vor einem Vokal im nächsten Wort hört man es (far away). In der Klangpartitur zeigt ein roter Bogen die Bindung. Nicht hier, weil sie auf anderen Seiten stehen: Betonung im Wort, schwache Formen, Satzbetonung und Rhythmus."
 blocks:
   - type: section
     id: einstieg
@@ -108,7 +108,7 @@ blocks:
       - type: figure
         image: images/partitur-bindung-konsonant.svg
         alt: "Klangpartitur: an apple mit vier Karten ə, n, ˈæ und pl. Ein roter Bogen verbindet das n mit dem Vokal der nächsten Karte."
-        caption: "Endet ein Wort auf einen Konsonanten und beginnt das nächste mit einem Vokal, rutscht der Laut hinüber."
+        caption: "Endet ein Wort auf einen Konsonantenlaut und beginnt das nächste mit einem Vokal, rutscht der Laut hinüber."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -124,7 +124,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Konsonant + Vokal:** Endet ein Wort auf einen Konsonanten und beginnt das nächste mit einem Vokal, spricht man beides zusammen.
+              - **Konsonant + Vokal:** Endet ein Wort auf einen Konsonantenlaut und beginnt das nächste mit einem Vokal, spricht man beides zusammen.
               - **Linking r:** Ein r am Wortende hört man nur, wenn das nächste Wort mit einem Vokal beginnt.
               - **Vor einem Konsonanten** gibt es keine Bindung. Die Wörter bleiben sauber getrennt.
               - Wer jedes Wort allein spricht, klingt abgehackt.
