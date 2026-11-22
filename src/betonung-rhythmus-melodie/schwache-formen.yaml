@@ -33,16 +33,20 @@ blocks:
     id: lesestueck
     title: In der Küche
     blocks:
-      - type: note
-        title: Am Rand · Wörter aus dem Dialog
-        blocks:
-          - type: text
-            text: |
-              - **recipe** · das Rezept
-              - **flour** · das Mehl
-              - **weak** · schwach
-              - **butter** · die Butter
-              - **really short** · ganz kurz
+      - type: vocabulary
+        caption: Am Rand · Wörter aus dem Dialog
+        languages: { source: de, target: en }
+        entries:
+          - target: recipe
+            source: das Rezept
+          - target: flour
+            source: das Mehl
+          - target: weak
+            source: schwach
+          - target: butter
+            source: die Butter
+          - target: really short
+            source: ganz kurz
       - type: text
         text: |
           **Mrs Parker:** Sophie, can you read the recipe for me? My hands are full of flour.

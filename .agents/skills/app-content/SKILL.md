@@ -208,3 +208,4 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Am Seitenende steht ein Schritt, den die nächste Seite aufnimmt: gleiche Figuren, gleicher Ort (p1 → p2: Peter und das Foto).
 - Wiederholungsseiten erinnern auch an Begriffe aus früheren Kapiteln dieser App (Klangpartitur, Karte, stimmhaft/stimmlos) mit Link auf die Seite, die sie einführt; eine Seite nennt nie eine „Karte“, die nicht auf Seite 1 oder in der Wiederholung steht.
 - Zeichen, die ein Bild zeigt, sind vorher im Text oder in der Tabelle eingeführt (ɛ in bɛd steht im Text der Seite zu den Wortenden).
+- Wörter am Rand (Glossar vor dem Lesestück) stehen im Block `vocabulary` (`languages: { source: de, target: en }`, `entries` mit `target` und `source`), nicht in einer Tabelle (lernapps-explainer, `references/language-tasks.md`). Die einzige Tabelle einer Seite bleibt für Daten wie „Starke und schwache Formen“ (seit Templates 0.14.0).

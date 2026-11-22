@@ -33,14 +33,18 @@ blocks:
     id: lesestueck
     title: Der Chat
     blocks:
-      - type: table
+      - type: vocabulary
         caption: Am Rand · Wörter aus dem Chat
-        header: [Wort, Bedeutung]
-        rows:
-          - [present, "das Geschenk · schenken, zeigen"]
-          - [record, die Aufnahme · aufnehmen]
-          - [stress, die Betonung]
-          - [the same, das Gleiche]
+        languages: { source: de, target: en }
+        entries:
+          - target: present
+            source: das Geschenk · schenken, zeigen
+          - target: record
+            source: die Aufnahme · aufnehmen
+          - target: stress
+            source: die Betonung
+          - target: the same
+            source: das Gleiche
       - type: text
         text: |
           **Amir:** hi Sophie! what are you doing?

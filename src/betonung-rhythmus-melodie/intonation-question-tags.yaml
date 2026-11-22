@@ -33,14 +33,18 @@ blocks:
     id: lesestueck
     title: Der Chat
     blocks:
-      - type: table
+      - type: vocabulary
         caption: Am Rand · Wörter aus dem Chat
-        header: [Wort, Bedeutung]
-        rows:
-          - [tag, das Anhängsel am Satzende]
-          - [agree, zustimmen]
-          - [lesson, die Unterrichtsstunde]
-          - [really ask, wirklich fragen]
+        languages: { source: de, target: en }
+        entries:
+          - target: tag
+            source: das Anhängsel am Satzende
+          - target: agree
+            source: zustimmen
+          - target: lesson
+            source: die Unterrichtsstunde
+          - target: really ask
+            source: wirklich fragen
       - type: text
         text: |
           **Sophie:** hey Ellie! you're at home, aren't you?

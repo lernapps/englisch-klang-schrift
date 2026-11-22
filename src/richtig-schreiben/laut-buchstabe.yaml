@@ -33,15 +33,20 @@ blocks:
     id: lesestueck
     title: Der Chat
     blocks:
-      - type: table
+      - type: vocabulary
         caption: Am Rand · Wörter aus dem Chat
-        header: [Wort, Bedeutung]
-        rows:
-          - [postcard, Postkarte]
-          - [spell checker, Rechtschreibprüfung]
-          - [due, fällig]
-          - [exists, es gibt es]
-          - [fits, passt]
+        languages: { source: de, target: en }
+        entries:
+          - target: postcard
+            source: Postkarte
+          - target: spell checker
+            source: Rechtschreibprüfung
+          - target: due
+            source: fällig
+          - target: exists
+            source: es gibt es
+          - target: fits
+            source: passt
       - type: text
         text: |
           **Sophie:** omg Ellie, help! Mr Hill's postcard is due tomorrow

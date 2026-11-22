@@ -33,14 +33,18 @@ blocks:
     id: lesestueck
     title: Die Aufnahme
     blocks:
-      - type: table
+      - type: vocabulary
         caption: Am Rand · Wörter aus dem Dialog
-        header: [Wort, Bedeutung]
-        rows:
-          - [robot, Roboter]
-          - [slide, gleiten]
-          - [reading, das Vorlesen]
-          - [farm, Bauernhof]
+        languages: { source: de, target: en }
+        entries:
+          - target: robot
+            source: Roboter
+          - target: slide
+            source: gleiten
+          - target: reading
+            source: das Vorlesen
+          - target: farm
+            source: Bauernhof
       - type: text
         text: |
           **Peter:** Sophie, can I record you? Mr Hill wants a reading from everyone.

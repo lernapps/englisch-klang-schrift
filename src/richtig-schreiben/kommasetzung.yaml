@@ -33,14 +33,18 @@ blocks:
     id: lesestueck
     title: Der Blog
     blocks:
-      - type: table
+      - type: vocabulary
         caption: Am Rand · Wörter aus dem Blog
-        header: [Wort, Bedeutung]
-        rows:
-          - [host mother, Gastmutter]
-          - [pancakes, Pfannkuchen]
-          - [honestly, ehrlich gesagt]
-          - [strange, fremd]
+        languages: { source: de, target: en }
+        entries:
+          - target: host mother
+            source: Gastmutter
+          - target: pancakes
+            source: Pfannkuchen
+          - target: honestly
+            source: ehrlich gesagt
+          - target: strange
+            source: fremd
       - type: text
         text: |
           **My first term in Millbrook**

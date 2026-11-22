@@ -33,15 +33,18 @@ blocks:
     id: lesestueck
     title: Die Nachricht
     blocks:
-      - type: note
-        title: Am Rand · Wörter aus der Nachricht
-        blocks:
-          - type: text
-            text: |
-              - **rhythm** · der Rhythmus
-              - **tap** · klopfen
-              - **castle** · das Schloss
-              - **photos** · die Fotos
+      - type: vocabulary
+        caption: Am Rand · Wörter aus der Nachricht
+        languages: { source: de, target: en }
+        entries:
+          - target: rhythm
+            source: der Rhythmus
+          - target: tap
+            source: klopfen
+          - target: castle
+            source: das Schloss
+          - target: photos
+            source: die Fotos
       - type: text
         text: |
           **Hi everyone!**
