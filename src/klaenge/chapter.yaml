@@ -2,3 +2,20 @@
 title: Englische Laute und Lautschrift
 summary: Mr Hill hängt die Klangpartitur auf. Du liest die Zeichen der Lautschrift, unterscheidest ähnliche Vokale, sprichst th, w, v und r, hörst stimmhafte Wortenden und erkennst stumme Buchstaben.
 pages: [lautschrift, vokale, konsonanten-th-w, stimmhafte-auslaute, silent-letters]
+selfAssessment:
+  pages:
+    - exercises:
+        - /klaenge/lautschrift/#lautschrift-zaehlen
+        - /klaenge/lautschrift/#lautschrift-schreiben
+    - exercises:
+        - /klaenge/vokale/#vokale-lesen
+        - /klaenge/vokale/#vokale-schreiben
+    - exercises:
+        - /klaenge/konsonanten-th-w/#konsonanten-lesen
+        - /klaenge/konsonanten-th-w/#konsonanten-w-v
+    - exercises:
+        - /klaenge/stimmhafte-auslaute/#auslaute-lesen
+        - /klaenge/stimmhafte-auslaute/#auslaute-schreiben
+    - exercises:
+        - /klaenge/silent-letters/#silent-letters-erkennen
+        - /klaenge/silent-letters/#silent-letters-schreiben

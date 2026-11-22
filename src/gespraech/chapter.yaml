@@ -2,3 +2,12 @@
 title: Sprechen wie im Gespräch
 summary: Im Gespräch kürzen wir Wörter ab, und die Stimme geht rauf und runter. Du sprichst und schreibst Kurzformen und sprichst Fragen, Aussagen und Aufforderungen mit der passenden Melodie.
 pages: [das-brauchst-du, kurzformen, intonation-fragen]
+selfAssessment:
+  pages:
+    - exercises:
+        - /gespraech/kurzformen/#kurzformen-zuordnen
+        - /gespraech/kurzformen/#kurzformen-schreiben
+    - exercises:
+        - /gespraech/intonation-fragen/#intonation-satzart
+        - /gespraech/intonation-fragen/#intonation-waehlen
+        - /gespraech/intonation-fragen/#intonation-fragewort

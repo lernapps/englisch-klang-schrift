@@ -2,3 +2,11 @@
 title: Endungen hören und schreiben
 summary: Mr Hill stellt eine Werkstatt für Wörter neben die Klangpartitur. Du hörst, wie -s und -ed klingen, und schreibst Wörter vor Endungen richtig.
 pages: [das-brauchst-du, endungen-s-ed, rechtschreibung-endungen]
+selfAssessment:
+  pages:
+    - exercises:
+        - /endungen/endungen-s-ed/#endungen-s-waehlen
+        - /endungen/endungen-s-ed/#endungen-ed-eigene-silbe
+    - exercises:
+        - /endungen/rechtschreibung-endungen/#rechtschreibung-ing
+        - /endungen/rechtschreibung-endungen/#rechtschreibung-s-ed
