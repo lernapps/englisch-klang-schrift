@@ -40,7 +40,7 @@ blocks:
     title: Wo die Zunge und die Lippen liegen
     blocks:
       - type: text
-        text: "Der Laut **th** hat zwei Formen: /θ/ in thank klingt hauchig, /ð/ in the summt. Beide sprichst du mit der Zunge zwischen den Zähnen."
+        text: "Der Laut **th** hat zwei Formen: /θ/ in thank klingt hauchig, /ð/ in the klingt weicher. Beide sprichst du mit der Zunge zwischen den Zähnen."
       - type: figure
         image: images/zunge-th.svg
         alt: "Zwei Zeichnungen der Zunge im Mund von der Seite. Links liegt die Zungenspitze zwischen den oberen und unteren Zähnen, beschriftet mit th. Rechts liegt die Zungenspitze hinter den oberen Zähnen, beschriftet mit s."
@@ -52,7 +52,7 @@ blocks:
         header: [Zeichen, Beispielwort, So sprichst du es]
         rows:
           - ["/θ/", thank, "Zunge zwischen den Zähnen, hauchig"]
-          - ["/ð/", the, "Zunge zwischen den Zähnen, summend"]
+          - ["/ð/", the, "Zunge zwischen den Zähnen, weich"]
           - ["/w/", west, "Lippen rund, kein Zahnkontakt"]
           - ["/v/", van, obere Zähne auf der Unterlippe]
           - ["/r/", red, "Zungenspitze nach hinten, nicht rollen"]
@@ -96,7 +96,7 @@ blocks:
             right: very
           - left: "/r/"
             right: rain
-        explanation: Das th in three klingt hauchig, das th in mother summt.
+        explanation: Das th in three klingt hauchig, das th in mother weicher.
         links:
           - title: Lernlandkarte Englisch · Konsonanten th, w, v, r
             url: https://lernapps.net/apps/map/englisch/c/konsonanten-th-w/
@@ -129,8 +129,8 @@ blocks:
             info: Das w sprichst du mit runden Lippen. Das ist der Laut in west.
           - text: "/f/"
             correct: false
-            info: Das v in Vater klingt wie f. Im Englischen ist v ein eigener, summender Laut.
-        explanation: Das englische v summt und ist ein eigener Laut.
+            info: Das v in Vater klingt wie f. Im Englischen ist v ein eigener, weicher Laut.
+        explanation: Das englische v ist weich und ein eigener Laut.
         links:
           - title: Lernlandkarte Englisch · Konsonanten th, w, v, r
             url: https://lernapps.net/apps/map/englisch/c/konsonanten-th-w/
@@ -199,4 +199,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Amir hält die Hand an den Hals und spricht zwei Wörter. Mr Hill sagt: „Hört genau, wo es summt.“ Das hörst du auf der nächsten Seite."
+        text: "Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr Hill sagt: „Jetzt hört genau auf das Ende der Wörter.“ Das hörst du auf der nächsten Seite."

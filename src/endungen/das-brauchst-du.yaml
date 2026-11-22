@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das brauchst du hier
-description: Plural, simple past mit -ed und present progressive noch einmal kurz, bevor Mr Hill die Werkstatt für Endungen aufhängt.
+description: Plural, simple past mit -ed, present progressive und simple present noch einmal kurz, bevor Mr Hill die Werkstatt für Endungen hinstellt.
 recap: [englisch/plural, englisch/simple-past, englisch/present-progressive, englisch/simple-present]
 scope: "Die Seite wiederholt nur vier Bausteine aus anderen Explainern: den Plural der Nomen (-s, -es, unregelmäßig), das simple past mit regelmäßigen Verben (-ed), das present progressive (am, is, are plus -ing) und das simple present (-s bei he, she, it). Neue Inhalte gibt es nicht, auch keine Übung. Wie die Endungen klingen und wie sich die Schreibung davor ändert, kommt auf den nächsten Seiten."
 blocks:

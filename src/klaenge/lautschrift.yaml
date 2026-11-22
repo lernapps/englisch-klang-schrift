@@ -29,7 +29,7 @@ blocks:
           - text: Sie zeigt den Klang genau, aber Ellie spricht falsch.
             correct: false
             info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau."
-        explanation: "Im Englischen gibt es das Wort aim (Ziel). Es klingt anders als I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr."
+        explanation: "Im Englischen gibt es das Wort aim (Ziel). In Lautschrift steht I'm als /aɪm/ und aim als /eɪm/. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr."
         links:
           - title: Lernlandkarte Englisch · Lautschrift
             url: https://lernapps.net/apps/map/englisch/c/lautschrift/
@@ -202,4 +202,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill sagt: „Ein kleiner Laut macht aus einem Wort ein anderes.“ Welche Laute das sind und wie du sie unterscheidest, lernst du auf der nächsten Seite."
+        text: "Peter zeigt Mr Hill ein Foto. Mr Hill fragt etwas, und ein einziger Laut entscheidet. Mr Hill sagt: „Ein kleiner Laut macht aus einem Wort ein anderes.“ Welche Laute das sind und wie du sie unterscheidest, lernst du auf der nächsten Seite."

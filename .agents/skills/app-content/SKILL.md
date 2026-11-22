@@ -77,7 +77,7 @@ Wörter außerhalb von A1/A2 (auf der Seite erklärt): `klaenge/lautschrift`: ke
 
 ## Hörliste (vor dem Veröffentlichen von einem Menschen anzuhören)
 
-Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr). Die Ersteller:in hat die Hörprobe (`.vibe/hoerprobe/`: sheep, ship, bed, bet, thank, sank in der Satzmitte) angehört: die kritischen Paare sind gut zu unterscheiden. Alle anderen Dateien bleiben offen. Die Hüllkurve aller Dateien wurde mit `scripts/enden_pruefen.py` auf einen Fehllaut am Ende geprüft (kurzer letzter Abschnitt nach einer Senke): fünf Dateien sind markiert („Ende prüfen“), alle anderen haben einen letzten Abschnitt von mindestens 90 ms. Alle Sätze enden auf ein zwei- oder mehrsilbiges Wort. Jede Datei aus `src/audio/` muss ein Mensch mit Englisch hören, besonders die Minimalpaare. Tabelle: Datei, Satz, erwartetes Minimalwort, Prüfstand (offen / gehört, in Ordnung / ändern). Hörprobe: `.vibe/hoerprobe/` (sheep, ship, bed, bet, thank, sank in der Satzmitte, noch nicht angehört).
+Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr). Die Ersteller:in hat die Hörprobe (`.vibe/hoerprobe/`: sheep, ship, bed, bet, thank, sank in der Satzmitte) angehört: die kritischen Paare sind gut zu unterscheiden. Alle anderen Dateien bleiben offen. Die Hüllkurve aller Dateien wurde mit `scripts/enden_pruefen.py` auf einen Fehllaut am Ende geprüft (kurzer letzter Abschnitt nach einer Senke): vier Dateien sind markiert („Ende prüfen“), alle anderen haben einen letzten Abschnitt von mindestens 90 ms. Alle Sätze enden auf ein zwei- oder mehrsilbiges Wort. Jede Datei aus `src/audio/` muss ein Mensch mit Englisch hören, besonders die Minimalpaare. Tabelle: Datei, Satz, erwartetes Minimalwort, Prüfstand (offen / gehört, in Ordnung / ändern). Hörprobe: `.vibe/hoerprobe/` (sheep, ship, bed, bet, thank, sank in der Satzmitte, noch nicht angehört).
 
 | Datei (src/audio/) | Seite | Satz | erwartetes Wort/Laut | Prüfstand |
 |---|---|---|---|---|
@@ -97,16 +97,9 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `peter-is-getting-a-new-bag-today.mp3` | endungen/rechtschreibung-endungen | Peter is getting a new bag today. | Wort mit Endung -ing, -s oder -ed | offen |
 | `peter-stayed-at-home-yesterday.mp3` | endungen/rechtschreibung-endungen | Peter stayed at home yesterday. | Wort mit Endung -ing, -s oder -ed | offen |
 | `sophie-is-shopping-with-mrs-parker.mp3` | endungen/rechtschreibung-endungen | Sophie is shopping with Mrs Parker. | Wort mit Endung -ing, -s oder -ed | offen |
-| `close-the-window-please-sophie.mp3` | gespraech/intonation-fragen | Close the window, please, Sophie. | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen · Ende prüfen (kurzer letzter Abschnitt) |
-| `do-you-like-cheese-amir.mp3` | gespraech/intonation-fragen | Do you like cheese, Amir? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
 | `is-ellie-at-home-this-afternoon.mp3` | gespraech/intonation-fragen | Is Ellie at home this afternoon? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `is-the-teacher-at-home-today.mp3` | gespraech/intonation-fragen | Is the teacher at home today? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
 | `open-the-window-for-mrs-parker.mp3` | gespraech/intonation-fragen | Open the window for Mrs Parker. | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `please-sit-down-sophie.mp3` | gespraech/intonation-fragen | Please sit down, Sophie. | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `the-bag-is-red-and-the-door-is-open.mp3` | gespraech/intonation-fragen | The bag is red and the door is open. | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `what-do-you-want-for-lunch-amir.mp3` | gespraech/intonation-fragen | What do you want for lunch, Amir? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
 | `where-does-mrs-parker-work-today.mp3` | gespraech/intonation-fragen | Where does Mrs Parker work today? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `where-is-the-teacher-this-morning.mp3` | gespraech/intonation-fragen | Where is the teacher this morning? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
 | `ellie-doesnt-like-coffee-today.mp3` | gespraech/kurzformen | Ellie doesn't like coffee today. | doesn't | offen |
 | `hows-mrs-parker-today.mp3` | gespraech/kurzformen | How's Mrs Parker today? | how's | offen |
 | `we-arent-hungry-this-morning.mp3` | gespraech/kurzformen | We aren't hungry this morning. | aren't | offen |
@@ -122,7 +115,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `sophie-looks-at-the-blue-sky-again.mp3` | klaenge/konsonanten-th-w | Sophie looks at the blue sky again. | the /ð/ | offen |
 | `sophie-thinks-about-the-party-tomorrow.mp3` | klaenge/konsonanten-th-w | Sophie thinks about the party tomorrow. | th, w, v oder r | offen |
 | `they-thank-the-teacher-today.mp3` | klaenge/konsonanten-th-w | They thank the teacher today. | thank /θ/ | offen |
-| `three-brothers-wait-in-the-window.mp3` | klaenge/konsonanten-th-w | Three brothers wait in the window. | th, w, v oder r | offen |
+| `three-brothers-wait-at-the-window.mp3` | klaenge/konsonanten-th-w | Three brothers wait at the window. | three /θ/, window /w/ | offen |
 | `amir-has-a-chair-in-the-kitchen.mp3` | klaenge/lautschrift | Amir has a chair in the kitchen. | chair /tʃ/, kitchen /tʃ/ | offen |
 | `ellie-has-a-fish-and-a-green-apple.mp3` | klaenge/lautschrift | Ellie has a fish and a green apple. | fish /ʃ/, green /iː/ | offen |
 | `ellie-has-a-red-chair-again.mp3` | klaenge/lautschrift | Ellie has a red chair again. | chair /tʃ/ | offen |
@@ -143,7 +136,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `amir-puts-the-bag-on-the-table.mp3` | klaenge/stimmhafte-auslaute | Amir puts the bag on the table. | stimmhaftes oder stimmloses Wortende | offen |
 | `ellie-has-a-bad-cold-this-morning.mp3` | klaenge/stimmhafte-auslaute | Ellie has a bad cold this morning. | stimmhaftes oder stimmloses Wortende | offen |
 | `i-like-this-bed-very-much-today.mp3` | klaenge/stimmhafte-auslaute | I like this bed very much today. | bed: d summt | offen |
-| `i-made-this-bet-yesterday.mp3` | klaenge/stimmhafte-auslaute | I made this bet yesterday. | bet: t summt nicht | offen |
+| `i-made-a-bet-yesterday.mp3` | klaenge/stimmhafte-auslaute | I made a bet yesterday. | bet: t summt nicht | offen |
 | `mr-hill-writes-a-long-word-on-the-board-today.mp3` | klaenge/stimmhafte-auslaute | Mr Hill writes a long word on the board today. | stimmhaftes oder stimmloses Wortende | offen |
 | `peter-has-a-big-cat-and-a-small-dog-today.mp3` | klaenge/stimmhafte-auslaute | Peter has a big cat and a small dog today. | stimmhaftes oder stimmloses Wortende | offen |
 | `sophie-puts-the-red-bag-on-the-bed-today.mp3` | klaenge/stimmhafte-auslaute | Sophie puts the red bag on the bed today. | stimmhaftes oder stimmloses Wortende | offen |
@@ -201,3 +194,9 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Hinweise im Diktat verraten nicht, dass ein Apostroph fehlt („Das erste Wort ist eine Kurzform“).
 - Die Seite sagt nur, was die App prüft: „Du verstehst/schreibst …“, nicht „Du sprichst richtig“, weil nichts die Aussprache beurteilt.
 - Der Dev-Server (`npm run dev`) wird als Hintergrundaufgabe des Werkzeugs gestartet, sonst endet er mit der Shell.
+- Aus dem Gesamtcheck: Die KI-Stimme `bf_emma` steigt bei Ja-Nein-Fragen am Satzende nicht (Tonhöhe gemessen): Seiten zur Satzmelodie haben keine Aufnahmen zum Nachsprechen, die Pfeile und die Tabelle tragen die Regel (Schreib- und Sprechaufgabe als `open-task`). Ein Hörsatz mit einem Namen am Ende (Anrede) taugt nicht für eine steigende Frage.
+- Eine Szene, die ein Rätsel stellt (aim, Sank you, walk-ed, k-nee), wird auf derselben Seite aufgelöst (in `explanation`: /aɪm/ gegen /eɪm/).
+- Ein Begriff, den eine spätere Seite erklärt (summt, stimmhaft), steht nicht vorher auf einer Seite; vorher sagt man „weich“, „hauchig“.
+- Jeder Apostroph und jeder Doppelbuchstabe lässt sich nicht hören: Diktate dazu sind Schreibaufgaben, und der Hinweis sagt das („Den Apostroph hörst du nicht“).
+- Am Seitenende steht ein Schritt, den die nächste Seite aufnimmt: gleiche Figuren, gleicher Ort (p1 → p2: Peter und das Foto).
+- Zeichen, die ein Bild zeigt, sind vorher im Text oder in der Tabelle eingeführt (ɛ in bɛd steht im Text der Seite zu den Wortenden).

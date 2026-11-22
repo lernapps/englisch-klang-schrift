@@ -15,18 +15,18 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir plante die Party. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird."
+        text: "Amir hat gestern die Party geplant. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird."
       - type: single-choice
         id: rechtschreibung-start
-        text: Wie schreibt Peter „Amir plante die Party“?
+        text: "Welche Form passt? Amir ___ the party yesterday."
         options:
-          - text: Amir planned the party.
+          - text: planned
             correct: true
             info: Aus plan wird planned, mit doppeltem n.
-          - text: Amir planed the party.
+          - text: planed
             correct: false
             info: Planed gibt es, aber es heißt „hobelte“.
-          - text: Amir planning the party.
+          - text: planning
             correct: false
             info: Planning hat die Endung -ing. Hier passt -ed.
         explanation: Bei plan wird das n doppelt.

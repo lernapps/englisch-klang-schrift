@@ -26,7 +26,7 @@ blocks:
           - text: Das war meine Tasche.
             correct: false
             info: "Ellie sagt, was jetzt ist. Für „war“ gäbe es das Wort was."
-          - text: Das gehört meiner Tasche.
+          - text: Das ist Peters Tasche.
             correct: false
             info: "Das 's kann Besitz zeigen (Peters Tasche), aber hier steht es für is."
         explanation: Aus that is wird that's. Das 's steht für is.
@@ -166,7 +166,7 @@ blocks:
             mistakes:
               - answer: Hows Mrs Parker today?
                 message: Der Apostroph fehlt. How's heißt how is.
-        hint: Höre den Satz so oft, wie du willst.
+        hint: Den Apostroph hörst du nicht. Du musst ihn schreiben.
   - type: section
     id: anwenden
     title: Sprich nach

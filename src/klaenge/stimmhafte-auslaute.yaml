@@ -40,7 +40,7 @@ blocks:
     title: Summt es oder summt es nicht?
     blocks:
       - type: text
-        text: "Leg die Hand an den Hals und sprich das Ende des Wortes. Summt es, ist der Laut **stimmhaft**. Summt es nicht, ist er **stimmlos**. Im Englischen bleibt das Ende von bed weich, und das von bet bleibt hart."
+        text: "Leg die Hand an den Hals und sprich das Ende des Wortes. Summt es, ist der Laut **stimmhaft**. Summt es nicht, ist er **stimmlos**. Im Englischen bleibt das Ende von bed weich, und das von bet bleibt hart. Das Zeichen ɛ klingt wie das e in „Bett“."
       - type: figure
         image: images/partitur-auslaute.svg
         alt: "Die Klangpartitur mit den beiden Wörtern bed und bet. Unter bed steht die blaue Karte bɛd, unter bet die blaue Karte bɛt. Nur die letzten Zeichen d und t unterscheiden sich."
@@ -105,18 +105,18 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
       - type: single-choice
         id: auslaute-lesen
-        text: Welches Wort steht in Lautschrift? /bæɡ/
+        text: Welches Wort steht in Lautschrift? /bæd/
         options:
-          - text: bag
+          - text: bad
             correct: true
-            info: Das letzte Zeichen /ɡ/ summt. Das Wort bag heißt „Tasche“.
+            info: Das letzte Zeichen /d/ summt. Das Wort bad heißt „schlimm“.
           - text: back
             correct: false
             info: Back endet mit /k/, das nicht summt. Es heißt „zurück“.
-          - text: bad
+          - text: bag
             correct: false
-            info: Bad endet mit /d/. Das letzte Zeichen ist hier /ɡ/.
-        explanation: Das letzte Zeichen entscheidet. Das /ɡ/ summt und steht in bag.
+            info: Bag endet mit /ɡ/. Das letzte Zeichen ist hier /d/.
+        explanation: Das letzte Zeichen entscheidet. Das /d/ summt und steht in bad.
         links:
           - title: Lernlandkarte Englisch · Stimmhafte Auslaute
             url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
@@ -131,11 +131,11 @@ blocks:
             mistakes:
               - answer: mat
                 message: Mat endet mit /t/, das nicht summt. Hier steht /d/.
-          - cue: "/hæt/"
-            target: hat
+          - cue: "/sæd/"
+            target: sad
             mistakes:
-              - answer: had
-                message: Had endet mit /d/, das summt. Hier steht /t/.
+              - answer: sat
+                message: Sat endet mit /t/, das nicht summt. Hier steht /d/.
           - cue: "/mæp/"
             target: map
             mistakes:

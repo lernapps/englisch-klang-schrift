@@ -68,21 +68,7 @@ blocks:
             text: |
               - **Steigt meist:** Fragen, die man mit Ja oder Nein beantwortet.
               - **Fällt meist:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
-              - Das ist die Grundregel. Im Alltag gibt es Ausnahmen.
-      - type: speaking-task
-        id: intonation-karten
-        language: en
-        task: "Höre vier Sätze und sprich sie nach. Die Satzart steht in der Tabelle: Aussage, Aufforderung, Frage mit Fragewort und Frage mit Ja oder Nein."
-        items:
-          - audio: the-bag-is-red-and-the-door-is-open.mp3
-            text: The bag is red and the door is open.
-          - audio: close-the-window-please.mp3
-            text: Close the window, please.
-          - audio: where-is-the-teacher-this-morning.mp3
-            text: Where is the teacher this morning?
-          - audio: is-the-teacher-at-home-today.mp3
-            text: Is the teacher at home today?
-        hint: Die Aufnahme ist eine KI-Stimme und spricht die Melodie manchmal schwach. Die Tabelle gilt, wenn du dir unsicher bist.
+              - Das ist die Grundregel. Im Alltag gibt es Ausnahmen. Eine KI-Stimme zeigt die Melodie nicht zuverlässig, darum gibt es hier keine Aufnahmen zum Nachsprechen.
   - type: section
     id: uebung
     title: Übung
@@ -169,23 +155,26 @@ blocks:
         hint: Die Wörter zeigen die Satzart.
   - type: section
     id: anwenden
-    title: Sprich nach
+    title: Schreibe und sprich
     blocks:
-      - type: speaking-task
-        id: intonation-nachsprechen
-        language: en
-        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
-        items:
-          - audio: do-you-like-cheese-amir.mp3
-            text: Do you like cheese, Amir?
-          - audio: what-do-you-want-for-lunch-amir.mp3
-            text: What do you want for lunch, Amir?
-          - audio: please-sit-down-sophie.mp3
-            text: Please sit down, Sophie.
-        hint: Beim ersten Satz steigt deine Stimme, bei den anderen fällt sie.
+      - type: open-task
+        id: intonation-anwenden
+        task: "Schreibe drei Sätze für Peter und Amir: eine Frage mit Ja oder Nein, eine Frage mit what oder where und eine Aufforderung. Sprich sie laut und führe deine Stimme mit dem Pfeil."
+        points:
+          - text: Die Frage mit Ja oder Nein beginnt mit do, does, is oder are und hat ein Fragezeichen. Sie wird mit steigender Stimme gesprochen.
+            source: /gespraech/intonation-fragen/#neu
+          - text: Die Frage mit what oder where hat ein Fragewort und ein Fragezeichen. Sie wird mit fallender Stimme gesprochen.
+            source: /gespraech/intonation-fragen/#neu
+          - text: Die Aufforderung hat einen Punkt und wird mit fallender Stimme gesprochen.
+            source: /gespraech/intonation-fragen/#neu
+          - text: Es sind ganze Sätze.
+            kind: form
+        solution: |
+          Is Amir at home? What do you like, Peter? Open the window, please.
+        hint: Die App hört nicht zu. Eine KI-Stimme zeigt die Melodie nicht zuverlässig, darum gibt es hier keine Aufnahme zum Nachsprechen.
   - type: section
     id: weiter
     title: Rückblick
     blocks:
       - type: text
-        text: "In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesprochen. Die Klangpartitur hat jetzt zwei gefüllte Zeilen: unten die Laute, oben die Melodie. Die mittlere Zeile bleibt noch leer. Mr Hill sagt: „Dort zeigen wir später, welche Wörter betont werden.“"
+        text: "In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesprochen. Die Klangpartitur hat jetzt zwei gefüllte Zeilen: unten die Laute, oben die Melodie. Die mittlere Zeile bleibt in dieser App leer."
