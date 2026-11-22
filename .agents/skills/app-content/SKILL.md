@@ -77,7 +77,7 @@ Wörter außerhalb von A1/A2 (auf der Seite erklärt): `klaenge/lautschrift`: ke
 
 ## Hörliste (vor dem Veröffentlichen von einem Menschen anzuhören)
 
-Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr). Die Ersteller:in hat die Hörprobe (`.vibe/hoerprobe/`: sheep, ship, bed, bet, thank, sank in der Satzmitte) angehört: die kritischen Paare sind gut zu unterscheiden. Alle anderen Dateien bleiben offen. Die Hüllkurve aller Dateien wurde mit `scripts/enden_pruefen.py` auf einen Fehllaut am Ende geprüft (kurzer letzter Abschnitt nach einer Senke): vier Dateien sind markiert („Ende prüfen“), alle anderen haben einen letzten Abschnitt von mindestens 90 ms. Alle Sätze enden auf ein zwei- oder mehrsilbiges Wort. Jede Datei aus `src/audio/` muss ein Mensch mit Englisch hören, besonders die Minimalpaare. Tabelle: Datei, Satz, erwartetes Minimalwort, Prüfstand (offen / gehört, in Ordnung / ändern). Hörprobe: `.vibe/hoerprobe/` (sheep, ship, bed, bet, thank, sank in der Satzmitte, noch nicht angehört).
+Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr). Die Ersteller:in hat die Hörprobe (`.vibe/hoerprobe/`: sheep, ship, bed, bet, thank, sank in der Satzmitte) angehört: die kritischen Paare sind gut zu unterscheiden. Alle anderen Dateien bleiben offen. Alle Dateien wurden mit der Regel `valley_cut` (aus `regen_audio.py`, Fehllaut nach der letzten Senke, siehe README-schnitt der Orchestrator-Session) erzeugt; fünf Sätze wurden dabei am Ende gekürzt (Spalte Prüfstand). Als Gegenprobe zeigt `scripts/enden_pruefen.py` vier Dateien mit sehr kurzem letzten Abschnitt („Ende prüfen“): die Ersteller:in hört sie gezielt an, vor allem Wörter mit zweiter Silbe am Satzende (upstairs, village). Alle Sätze enden auf ein zwei- oder mehrsilbiges Wort. Jede Datei aus `src/audio/` muss ein Mensch mit Englisch hören, besonders die Minimalpaare. Tabelle: Datei, Satz, erwartetes Minimalwort, Prüfstand (offen / gehört, in Ordnung / ändern). Hörprobe: `.vibe/hoerprobe/` (sheep, ship, bed, bet, thank, sank in der Satzmitte, noch nicht angehört).
 
 | Datei (src/audio/) | Seite | Satz | erwartetes Wort/Laut | Prüfstand |
 |---|---|---|---|---|
@@ -91,7 +91,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `sophie-waited-for-the-bus-yesterday.mp3` | endungen/endungen-s-ed | Sophie waited for the bus yesterday. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
 | `sophie-wanted-a-new-bag-yesterday.mp3` | endungen/endungen-s-ed | Sophie wanted a new bag yesterday. | wanted /ɪd/ | offen |
 | `the-children-walked-to-school-together.mp3` | endungen/endungen-s-ed | The children walked to school together. | walked /t/ | offen |
-| `amir-carries-two-bags-upstairs.mp3` | endungen/rechtschreibung-endungen | Amir carries two bags upstairs. | Wort mit Endung -ing, -s oder -ed | offen · Ende prüfen (kurzer letzter Abschnitt) |
+| `amir-carries-two-bags-upstairs.mp3` | endungen/rechtschreibung-endungen | Amir carries two bags upstairs. | Wort mit Endung -ing, -s oder -ed | offen · Fehllaut-Schnitt (−85 ms) |
 | `amir-studies-english-in-the-evening.mp3` | endungen/rechtschreibung-endungen | Amir studies English in the evening. | Wort mit Endung -ing, -s oder -ed | offen |
 | `ellie-is-running-to-the-station.mp3` | endungen/rechtschreibung-endungen | Ellie is running to the station. | Wort mit Endung -ing, -s oder -ed | offen |
 | `peter-is-getting-a-new-bag-today.mp3` | endungen/rechtschreibung-endungen | Peter is getting a new bag today. | Wort mit Endung -ing, -s oder -ed | offen |
@@ -106,12 +106,12 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `whats-in-your-bag-today.mp3` | gespraech/kurzformen | What's in your bag today? | what's | offen |
 | `wheres-peter-this-morning.mp3` | gespraech/kurzformen | Where's Peter this morning? | where's | offen |
 | `youre-early-and-im-late-again.mp3` | gespraech/kurzformen | You're early, and I'm late again. | you're, I'm | offen |
-| `amir-lives-in-the-west-of-the-village.mp3` | klaenge/konsonanten-th-w | Amir lives in the west of the village. | west /w/, village /v/ | offen · Ende prüfen (kurzer letzter Abschnitt) |
+| `amir-lives-in-the-west-of-the-village.mp3` | klaenge/konsonanten-th-w | Amir lives in the west of the village. | west /w/, village /v/ | offen · Ende prüfen (Wächter schnitt nicht) |
 | `amir-waits-for-the-bus-every-morning.mp3` | klaenge/konsonanten-th-w | Amir waits for the bus every morning. | th, w, v oder r | offen |
 | `ellie-drives-the-van-very-carefully.mp3` | klaenge/konsonanten-th-w | Ellie drives the van very carefully. | th, w, v oder r | offen |
 | `ellie-has-a-very-good-idea-today.mp3` | klaenge/konsonanten-th-w | Ellie has a very good idea today. | th, w, v oder r | offen |
 | `mother-thinks-the-weather-is-lovely-today.mp3` | klaenge/konsonanten-th-w | Mother thinks the weather is lovely today. | th, w, v oder r | offen |
-| `peter-has-a-red-ball-upstairs.mp3` | klaenge/konsonanten-th-w | Peter has a red ball upstairs. | red /r/ | offen |
+| `peter-has-a-red-ball-upstairs.mp3` | klaenge/konsonanten-th-w | Peter has a red ball upstairs. | red /r/ | offen · Fehllaut-Schnitt (−85 ms) · Ende prüfen (nach dem Schnitt) |
 | `sophie-looks-at-the-blue-sky-again.mp3` | klaenge/konsonanten-th-w | Sophie looks at the blue sky again. | the /ð/ | offen |
 | `sophie-thinks-about-the-party-tomorrow.mp3` | klaenge/konsonanten-th-w | Sophie thinks about the party tomorrow. | th, w, v oder r | offen |
 | `they-thank-the-teacher-today.mp3` | klaenge/konsonanten-th-w | They thank the teacher today. | thank /θ/ | offen |
@@ -120,11 +120,11 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `ellie-has-a-fish-and-a-green-apple.mp3` | klaenge/lautschrift | Ellie has a fish and a green apple. | fish /ʃ/, green /iː/ | offen |
 | `ellie-has-a-red-chair-again.mp3` | klaenge/lautschrift | Ellie has a red chair again. | chair /tʃ/ | offen |
 | `ellie-sings-with-amir-in-the-kitchen.mp3` | klaenge/lautschrift | Ellie sings with Amir in the kitchen. | sings /ŋ/, kitchen /tʃ/ | offen |
-| `peter-has-a-black-cat-upstairs.mp3` | klaenge/lautschrift | Peter has a black cat upstairs. | cat /æ/ | offen |
+| `peter-has-a-black-cat-upstairs.mp3` | klaenge/lautschrift | Peter has a black cat upstairs. | cat /æ/ | offen · Fehllaut-Schnitt (−95 ms) · Ende prüfen (nach dem Schnitt) |
 | `peter-likes-to-sing-together.mp3` | klaenge/lautschrift | Peter likes to sing together. | sing /ŋ/ | offen |
 | `peter-reads-a-book-on-the-chair-today.mp3` | klaenge/lautschrift | Peter reads a book on the chair today. | book /ʊ/, chair /tʃ/ | offen |
 | `sophie-and-peter-eat-cheese-together.mp3` | klaenge/lautschrift | Sophie and Peter eat cheese together. | cheese /tʃ/, /iː/ | offen |
-| `sophie-finds-a-big-green-shoe-upstairs.mp3` | klaenge/lautschrift | Sophie finds a big green shoe upstairs. | big /ɪ/, green /iː/, shoe /ʃ/ | offen · Ende prüfen (kurzer letzter Abschnitt) |
+| `sophie-finds-a-big-green-shoe-upstairs.mp3` | klaenge/lautschrift | Sophie finds a big green shoe upstairs. | big /ɪ/, green /iː/, shoe /ʃ/ | offen · Fehllaut-Schnitt (−65 ms) |
 | `sophie-has-a-new-shoe-today.mp3` | klaenge/lautschrift | Sophie has a new shoe today. | shoe /ʃ/ | offen |
 | `amir-listens-to-mrs-parker.mp3` | klaenge/silent-letters | Amir listens to Mrs Parker. | listens: t stumm | offen |
 | `amir-wrote-a-letter-yesterday.mp3` | klaenge/silent-letters | Amir wrote a letter yesterday. | wrote: w stumm | offen |
@@ -149,7 +149,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `peter-cut-the-apple-in-the-kitchen.mp3` | klaenge/vokale | Peter cut the apple in the kitchen. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 | `please-cut-the-bread-today.mp3` | klaenge/vokale | Please cut the bread today. | cut /ʌ/ | offen |
 | `please-leave-the-bag-in-the-kitchen.mp3` | klaenge/vokale | Please leave the bag in the kitchen. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
-| `sophie-and-ellie-live-in-a-small-village.mp3` | klaenge/vokale | Sophie and Ellie live in a small village. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen · Ende prüfen (kurzer letzter Abschnitt) |
+| `sophie-and-ellie-live-in-a-small-village.mp3` | klaenge/vokale | Sophie and Ellie live in a small village. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen · Fehllaut-Schnitt (−55 ms) · Ende prüfen (nach dem Schnitt) |
 | `sophie-sees-a-sheep-and-a-ship-today.mp3` | klaenge/vokale | Sophie sees a sheep and a ship today. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 | `the-bus-is-full-of-children-today.mp3` | klaenge/vokale | The bus is full of children today. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 
