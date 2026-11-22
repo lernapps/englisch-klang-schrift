@@ -12,7 +12,7 @@ blocks:
         text: "Mr Hill gibt der Klasse eine Aufgabe: Jede und jeder schreibt eine **Postkarte** vom Meer. Sophie (13) schreibt ihre am Handy und fragt Ellie (13) um Rat. Du kennst die Laute aus Kapitel 1: Du weißt, wie ein langes i klingt."
       - type: single-choice
         id: laut-buchstabe-start
-        text: Welches Zeichen steht für das lange i, wie in sheep?
+        text: Welches Zeichen steht für den langen Laut in sheep?
         options:
           - text: "/iː/"
             correct: true
@@ -33,53 +33,53 @@ blocks:
     id: lesestueck
     title: Der Chat
     blocks:
-      - type: text
-        text: |
-          **Sophie:** Ellie, I need help with Mr Hill's postcard!
-
-          **Ellie:** What's the problem?
-
-          **Sophie:** I wrote: "I can see the see from my window." But my spell checker says everything is fine.
-
-          **Ellie:** Read it again. Slowly.
-      - type: text
-        text: |
-          **Sophie:** I can see the ... oh no! SEA, not see!
-
-          **Ellie:** Yes! The spell checker doesn't find it, because "see" is a real word, too. It only checks if a word exists. It doesn't check if the word fits.
-
-          **Sophie:** Then I want to write: "Let's meet at night." Is it meet or meat?
-
-          **Ellie:** Meet, with two e's. Meat is what you eat.
-      - type: text
-        text: |
-          **Sophie:** So ee and ea sound the same?
-
-          **Ellie:** Often, yes. One sound, two spellings. Look at the night: the light is bright tonight. The same sound three times, and the gh is silent.
-
-          **Sophie:** OK. Then I need to check my postcard word by word, not only with the spell checker.
-
-          **Ellie:** Exactly. Easy, isn't it?
       - type: table
         caption: Am Rand · Wörter aus dem Chat
         header: [Wort, Bedeutung]
         rows:
           - [postcard, Postkarte]
-          - [seaside, "Meer, Küste"]
           - [spell checker, Rechtschreibprüfung]
-          - [real, echt]
-          - [exactly, genau]
+          - [due, fällig]
+          - [exists, es gibt es]
+          - [fits, passt]
+      - type: text
+        text: |
+          **Sophie:** omg Ellie, help! Mr Hill's postcard is due tomorrow
+
+          **Ellie:** what's wrong?
+
+          **Sophie:** I wrote "I can see the see from my window". My spell checker says it's fine.
+
+          **Ellie:** read it again. slowly
+      - type: text
+        text: |
+          **Sophie:** I can see the ... wait. SEA! not see
+
+          **Ellie:** yep. see is a real word too, so the spell checker is happy. it only checks if a word exists, not if it fits
+
+          **Sophie:** ok next line: "We eat meat on the beach". meet or meat?
+
+          **Ellie:** meat with ea, it's food. meet is when you see someone
+      - type: text
+        text: |
+          **Sophie:** so ee and ea can sound the same?
+
+          **Ellie:** often, yes. one sound, two spellings. and look: night, light, bright, tonight. four words, one sound, and the gh is silent
+
+          **Sophie:** ok, I check my postcard word by word. not only with the spell checker
+
+          **Ellie:** exactly. easy
       - type: single-choice
         id: laut-buchstabe-verstehen
         text: Warum findet die Rechtschreibprüfung den Fehler in Sophies Satz nicht?
         options:
-          - text: Das Wort see gibt es wirklich, nur an der falschen Stelle.
+          - text: Sie prüft nur, ob ein Wort existiert.
             correct: true
-            info: Die Prüfung sieht nur, ob ein Wort existiert. Sie versteht den Satz nicht.
-          - text: Die Prüfung kennt das Wort sea nicht.
+            info: Die Prüfung sieht nur das einzelne Wort. Sie versteht den Satz nicht.
+          - text: Sie kennt das Wort sea nicht.
             correct: false
             info: Das Wort sea ist ein ganz normales Wort. Die Prüfung kennt es.
-          - text: Die Prüfung prüft nur Wörter mit ee.
+          - text: Sie prüft nur Wörter mit ee.
             correct: false
             info: Die Prüfung prüft jedes Wort, aber immer einzeln.
         explanation: Eine Rechtschreibprüfung prüft, ob ein Wort existiert, nicht ob es in den Satz passt.
@@ -90,16 +90,16 @@ blocks:
         id: laut-buchstabe-belegen
         text: Welche Zeile im Chat zeigt, dass zwei verschiedene Schreibungen gleich klingen können?
         options:
-          - text: "Sophie: So ee and ea sound the same?"
+          - text: "Ellie: often, yes. one sound, two spellings."
             correct: true
-            info: "Sophie fragt genau nach diesem Fall. Ellie antwortet: One sound, two spellings."
-          - text: "Ellie: Read it again. Slowly."
+            info: Ellie sagt es selbst. Ein Laut, zwei Schreibungen.
+          - text: "Ellie: read it again. slowly"
             correct: false
-            info: Das ist nur ein Tipp.
-          - text: "Sophie: Ellie, I need help with Mr Hill's postcard!"
+            info: Das ist ein Rat. Von Lauten steht in dieser Zeile nichts.
+          - text: "Sophie: ok, I check my postcard word by word."
             correct: false
-            info: Hier beginnt nur der Chat.
-        explanation: "Sophies Frage und Ellies Antwort zeigen es: ee und ea klingen oft gleich."
+            info: Das ist Sophies Plan. Von Lauten steht hier nichts.
+        explanation: In dieser Zeile sagt Ellie, dass ein Laut zwei Schreibungen haben kann.
         links:
           - title: Lernlandkarte Englisch · Laut und Buchstabe
             url: https://lernapps.net/apps/map/englisch/c/laut-buchstabe/
@@ -120,9 +120,9 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Der Laut bleibt, die Schreibung wechselt:** /iː/ schreibt man ee, ea oder e-e, /aɪ/ schreibt man igh, i-e oder y.
-              - **Gleich klingende Wörter** wie see und sea unterscheidet nur die Schrift. Der Satz sagt dir, welches gemeint ist.
-              - Eine Rechtschreibprüfung findet sie nicht. Lies deinen Text selbst noch einmal.
+              - **Oft, nicht immer:** Es gibt noch andere Schreibungen, zum Beispiel ie in field.
+              - **e-e und i-e:** Zwischen den beiden Buchstaben steht ein Konsonant, und das letzte e bleibt stumm.
+              - **Gleich klingende Wörter** unterscheidet nur die Schrift. Der Satz sagt dir, welches gemeint ist.
   - type: section
     id: uebung
     title: Übung
@@ -188,8 +188,8 @@ blocks:
         task: Höre zu und schreibe jeden Satz ganz auf.
         form: { case: ok, punctuation: ok }
         items:
-          - audio: please-write-the-right-answer-amir.mp3
-            target: Please write the right answer, Amir.
+          - audio: please-write-the-right-word-today.mp3
+            target: Please write the right word today.
             mistakes:
               - answer: Please right the write answer, Amir.
                 message: Write heißt „schreiben“, right heißt „richtig“. Der Satz sagt, welches Wort wohin gehört.
@@ -198,14 +198,14 @@ blocks:
             mistakes:
               - answer: We can here the band outside.
                 message: Here heißt „hier“. Hören heißt hear, mit ea.
-        hint: Der Satz sagt dir, welches Wort gemeint ist.
+        hint: Höre den Satz so oft, wie du willst.
   - type: section
     id: anwenden
     title: Deine Postkarte
     blocks:
       - type: open-task
         id: laut-buchstabe-postkarte
-        task: "Schreibe die Postkarte von Mr Hills Aufgabe in drei bis vier englischen Sätzen. Verwende mindestens zwei Wörter aus der Übung, die gleich klingen wie ein anderes Wort. Bist du sicher, dass du die richtige Schreibung gewählt hast?"
+        task: "Schreibe die Postkarte von Mr Hills Aufgabe in drei bis vier englischen Sätzen. Verwende mindestens zwei Wörter aus der Übung, die gleich klingen wie ein anderes Wort. Prüfe jedes Wort."
         points:
           - text: In den Sätzen stehen zwei Wörter, die man leicht verwechselt, in der richtigen Schreibung.
             source: /richtig-schreiben/laut-buchstabe/#neu
