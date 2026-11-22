@@ -179,7 +179,7 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
 - [x] Wiederholungsseite (#481) und Seite : Lesestück (Sophies Blogeintrag), Kommas als hörbare Pausen, nach einleitendem Adverbial, vor und nach nicht notwendigem Relativsatz. Alleine.
 - [x] Kapitel 5 anlegen, Funktion für die mittlere Zeile (Betonungspunkte) in , Seite (nach dem Hörurteil zur Hörprobe 2): Lesestück (Chat über ein Geschenk), present/record, große und kleine Punkte. Alleine.
 - [x] Seite (nach dem Hörurteil): Lesestück (Peter nimmt Sophie auf), Konsonant-Vokal-Bindung und linking r (far away). Alleine.
-- [ ] Seite (nach dem Hörurteil): Lesestück (Backen mit Mrs Parker), and, to, of, for als Schwa-Formen, am Satzende stark. Alleine.
+- [x] Seite (nach dem Hörurteil): Lesestück (Backen mit Mrs Parker), and, to, of, for als Schwa-Formen, am Satzende stark. Alleine.
 - [ ] Seite (nach dem Hörurteil): Lesestück (Sophies Nachricht), Inhaltswörter und Rhythmus. Alleine.
 - [ ] Wiederholungsseite (#473) und Seite : Lesestück (Chat Sophie und Ellie), Pfeil steigt oder fällt, keine Aufnahme der Melodie. Kapitel 4 und 5 mit Rückblick, der neuen Kapitel (kommt in Commit). Alleine.
 <!-- tasks: slices (7 added): one per competency, as written in Plan -->

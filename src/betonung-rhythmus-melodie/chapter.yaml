@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Betonung, Rhythmus und Melodie
 summary: Sophie und ihre Klasse hören, wie ein englischer Satz klingt. Du lernst, welche Silbe im Wort betont wird, wie Wörter ineinander übergehen, warum kleine Wörter schwach klingen und wie der Satzrhythmus entsteht.
-pages: [wortbetonung, bindungen]
+pages: [wortbetonung, bindungen, schwache-formen]

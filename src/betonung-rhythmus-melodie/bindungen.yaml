@@ -16,14 +16,14 @@ blocks:
         options:
           - text: "Die Wörter rutschen zusammen, wie bei „Haste mal ’nen Euro?“"
             correct: true
-            info: Auch im Deutschen verschmelzen Wörter, wenn man flüssig spricht.
+            info: Wörter verschmelzen beim flüssigen Sprechen.
           - text: Man macht nach jedem Wort eine Pause.
             correct: false
-            info: Das klingt wie ein Roboter. So spricht niemand im Alltag.
+            info: Das klingt wie ein Roboter.
           - text: Man spricht jedes Wort lauter als das vorige.
             correct: false
-            info: "Das Gegenteil passiert: kleine Wörter werden leiser."
-        explanation: Wörter verschmelzen beim flüssigen Sprechen. Im Englischen ist das besonders oft so.
+            info: "Kleine Wörter werden leiser."
+        explanation: Im Englischen verschmelzen Wörter besonders oft.
         links:
           - title: Lernlandkarte Englisch · Bindungen
             url: https://lernapps.net/apps/map/englisch/c/bindungen/
@@ -70,11 +70,11 @@ blocks:
             info: Sie sagt es selbst, dass sie jedes Wort allein spricht.
           - text: Sie liest viel zu schnell.
             correct: false
-            info: Peter beschwert sich über die Pausen, nicht über das Tempo.
+            info: Peter stört sich an den Pausen.
           - text: Sie hat die Geschichte nicht gelesen.
             correct: false
-            info: Sie liest die Geschichte, nur klingt es abgehackt.
-        explanation: Sophie trennt die Wörter. Echtes Englisch lässt sie zusammenrutschen.
+            info: Sie liest sie, nur abgehackt.
+        explanation: Sophie trennt die Wörter.
         links:
           - title: Lernlandkarte Englisch · Bindungen
             url: https://lernapps.net/apps/map/englisch/c/bindungen/
@@ -84,14 +84,14 @@ blocks:
         options:
           - text: "Peter: yes. the n of turn goes to the next word. And an apple sounds like a-napple."
             correct: true
-            info: Peter beschreibt, wie der Endlaut zum nächsten Wort rutscht.
+            info: Peter beschreibt die Bindung.
           - text: "Sophie: I say every word alone, like in my German class."
             correct: false
             info: Das ist der Fehler, nicht die Lösung.
           - text: "Peter: better! now you sound like a real person."
             correct: false
             info: Das ist ein Lob. Eine Erklärung steht dort nicht.
-        explanation: In Peters Zeile steht, dass der n-Laut zum nächsten Wort geht.
+        explanation: Hier rutscht der n-Laut weiter.
         links:
           - title: Lernlandkarte Englisch · Bindungen
             url: https://lernapps.net/apps/map/englisch/c/bindungen/
@@ -140,11 +140,11 @@ blocks:
             info: Das m am Ende rutscht zum Vokal von in.
           - text: big dog
             correct: false
-            info: Das nächste Wort beginnt mit einem Konsonanten. Es gibt keine Bindung.
+            info: Das nächste Wort beginnt mit einem Konsonanten.
           - text: go home
             correct: false
-            info: Das nächste Wort beginnt mit dem Konsonanten h. Es gibt keine Bindung.
-        explanation: Eine Bindung gibt es nur, wenn ein Konsonant am Wortende auf einen Vokal am Wortanfang trifft.
+            info: Das nächste Wort beginnt mit dem Konsonanten h.
+        explanation: Gebunden wird nur Konsonant plus Vokal.
         links:
           - title: Lernlandkarte Englisch · Bindungen
             url: https://lernapps.net/apps/map/englisch/c/bindungen/
@@ -157,10 +157,10 @@ blocks:
             info: Das t am Ende rutscht zum Vokal von up.
           - text: Zwischen get und up machst du eine Pause.
             correct: false
-            info: Die Pause trennt die Wörter und klingt abgehackt.
+            info: Die Pause trennt die Wörter.
           - text: Du lässt das t ganz weg.
             correct: false
-            info: Das t verschwindet nicht, es rutscht zum nächsten Wort.
+            info: Das t rutscht zum nächsten Wort.
         explanation: Bei get up rutscht das t zu up.
         links:
           - title: Lernlandkarte Englisch · Bindungen
@@ -178,7 +178,7 @@ blocks:
           - text: Her name is Ellie.
             correct: false
             info: Nach her kommt ein Konsonant. Das r bleibt stumm.
-        explanation: Das linking r hört man nur vor einem Vokal im nächsten Wort.
+        explanation: Das linking r hört man nur vor einem Vokal.
         links:
           - title: Lernlandkarte Englisch · Bindungen
             url: https://lernapps.net/apps/map/englisch/c/bindungen/
@@ -189,8 +189,8 @@ blocks:
         tolerance: 0
         mistakes:
           - answer: 3
-            message: "to eat zählt nicht: Das Wort to endet auf einen Vokal. Gebunden wird nur ein Konsonant am Wortende."
-        hint: Suche Stellen, an denen ein Konsonant am Wortende vor einem Vokal steht.
+            message: "Das Wort to endet auf einen Vokal. Das zählt nicht."
+        hint: Suche Konsonant plus Vokal.
         explanation: Die Bindungen sind eat an und an egg.
         links:
           - title: Lernlandkarte Englisch · Bindungen
@@ -206,7 +206,7 @@ blocks:
         items:
           - audio: my-father-is-far-away-today.mp3
             text: My father is far away today.
-        hint: Verbinde far und away wie ein Wort.
+        hint: Sprich far away zusammen.
       - type: open-task
         id: bindungen-eigene
         task: "Schreibe drei englische Wortpaare, bei denen ein Laut zum nächsten Wort rutscht. Nimm je eines mit Konsonant plus Vokal und eines mit einem r am Wortende. Schreibe danach auf Deutsch in einem Satz, woran du die Bindung erkennst."
@@ -219,7 +219,7 @@ blocks:
             kind: form
         solution: |
           Pairs: pick up, an orange, more apples. Ich erkenne es daran, dass das erste Wort mit einem Konsonanten oder r endet und das nächste mit einem Vokal beginnt.
-        hint: Prüfe, ob das nächste Wort mit einem Vokal beginnt.
+        hint: Prüfe den Anfang des nächsten Wortes.
   - type: section
     id: weiter
     title: Wie es weitergeht
