@@ -51,7 +51,7 @@ Sophie liest das Wort **walked** („ging zu Fuß“) laut vor, genau wie es ges
 
 - Aufgabe `endungen-start` (unten)
 
-**Das kannst du danach:** Du weißt, wie -s und -ed klingen, und sprichst sie richtig.
+**Das kannst du danach:** Du weißt, wie -s und -ed klingen, und kannst sie üben.
 
 ### Der letzte Laut entscheidet
 
@@ -71,7 +71,7 @@ Klassenzimmer-Poster · Endungen:
 - **Stimmlos** (summt nicht): -s klingt /s/, -ed klingt /t/.
 - **Stimmhaft** (summt): -s klingt /z/, -ed klingt /d/.
 - **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
-- **Auch Vokale summen:** plays klingt /z/, stayed klingt /d/.
+- **Auch m, n, l und Vokale summen:** pens klingt /z/, plays klingt /z/, stayed klingt /d/.
 
 - Aufgabe `endungen-karten` (unten)
 
@@ -113,7 +113,7 @@ Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert
 1. Audio → Ellie has two cats and a dog today.
 2. Audio → The children walked to school together.
 3. Audio → Amir played football with Peter yesterday.
-4. Audio → Sophie wanted a new bag yesterday.
+4. Audio → Peter needed some help yesterday.
 - Tipp der App: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
 - Link: [../?via=tutor#endungen-karten](../?via=tutor#endungen-karten)
 
@@ -156,12 +156,12 @@ Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter walked to the station yesterday.
-     - Peter walk to the station yesterday.: Das ist gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
+1. Audio → Peter cleaned his room yesterday.
+     - Peter clean his room yesterday.: Das ist gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
 2. Audio → Mrs Parker opens the window every morning.
      - Mrs Parker open the window every morning.: Mrs Parker ist eine einzelne Person (she), also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
-3. Audio → Amir wanted a new bike yesterday.
-     - Amir wantd a new bike yesterday.: Nach t hört man eine eigene Silbe. Man schreibt -ed.
+3. Audio → Amir painted a picture yesterday.
+     - Amir paint a picture yesterday.: Das ist gestern passiert, also braucht das Wort die Endung -ed.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Der Satz sagt dir, wann etwas passiert.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

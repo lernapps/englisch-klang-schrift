@@ -72,7 +72,7 @@ Klassenzimmer-Poster · Kurzformen:
 
 - **Der Apostroph steht dort, wo Buchstaben fehlen:** do not wird don't, denn das o fehlt.
 - **Man spricht eine Kurzform als ein Wort,** ohne Pause dazwischen.
-- **it's heißt meist it is.** Ohne Apostroph schreibt man its („sein“, „ihr“): The bird is in its nest.
+- **Auch is nach einem Fragewort wird zu 's.** it's heißt meist it is. Ohne Apostroph schreibt man its („sein“, „ihr“): The bird is in its nest.
 
 ### Übung
 

@@ -47,14 +47,9 @@ Das Verb be, Fragen mit do und does und die Fragewörter noch einmal kurz, bevor
 
 Kannst du das schon? **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. **Ich kann im simple present mit do und does Fragen stellen und mit don't und doesn't verneinen.** Das ist der Baustein „Simple present: Fragen und Verneinung“. **Ich kann Fragen mit who, what, where, when, why, how und whose stellen.** Das ist der Baustein „Fragewörter“. Alle drei brauchst du in den Beispielen der nächsten Seiten. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst.
 
-Klassenzimmer-Poster · Das Verb be:
-- Person | Form
-- I | am
-- he / she / it | is
-- you / we / they | are
-
-Klassenzimmer-Poster · Fragen und Fragewörter:
-- Art | Beispiel
+Klassenzimmer-Poster · Das Verb be, Fragen und Fragewörter:
+- Thema | Beispiel
+- Verb be | I am · he, she, it is · you, we, they are
 - Frage mit be | Is she happy?
 - Frage mit do | Do you like tea?
 - Frage mit does | Does Amir like tea?

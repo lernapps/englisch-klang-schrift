@@ -61,7 +61,7 @@ Bild: Drei Reihen mit Karten. In jeder Reihe steht links ein grünes Wort, in de
 
 **Merke: Merke**
 
-- **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt.
+- **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt, nicht bei w, x und y (show – showed).
 - **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays). Vor -ing bleibt es auch (try – trying).
 - **e fällt weg:** Ein e am Ende fällt vor -ing meist weg. Vor -ed kommt nur ein d dazu (dance – danced).
 
@@ -113,7 +113,7 @@ In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor 
 
 - Aufgabe: Welcher Handgriff gehört zu welchem Wort?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: run – running – Konsonant doppeln; try – tries – y wird ie; dance – dancing – e fällt weg; play – plays – y bleibt
+- Lösung: hit – hitting – Konsonant doppeln; tidy – tidies – y wird ie; like – liking – e fällt weg; stay – stays – y bleibt
 - Erklärung: Nach einem Vokal bleibt das y.
 - Link: [../?via=tutor#rechtschreibung-zuordnen](../?via=tutor#rechtschreibung-zuordnen)
 
@@ -145,9 +145,9 @@ In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor 
      - flyes: Das y wird zu ie, ohne weiteres e.
 2. enjoy · he (simple present) → enjoys
      - enjoies: Nach einem Vokal bleibt das y.
-3. try · yesterday (simple past) → tried
-     - tryed: Das y wird zu ied.
-     - tries: Das ist die Form für jetzt. Für gestern braucht man -ed.
+3. study · yesterday (simple past) → studied
+     - studyed: Das y wird zu ied.
+     - studies: Das ist die Form für jetzt. Für gestern braucht man -ed.
 4. drop · yesterday (simple past) → dropped
      - droped: Das p wird doppelt.
      - dropping: Das ist die Form mit -ing. Für gestern braucht man -ed.

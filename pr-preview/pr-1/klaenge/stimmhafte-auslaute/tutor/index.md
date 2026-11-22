@@ -47,11 +47,11 @@ Amir hält die Hand an den Hals und spricht zwei Wörter. Du lernst, dass Wörte
 
 Bild: Im Klassenzimmer hält Amir die Hand an den Hals und sagt in einer Sprechblase „bed . . . bet“. Peter steht neben ihm, Mr Hill rechts. Bildunterschrift: Von links: Amir (Brille) spricht zwei Wörter, Peter (gelbe Jacke) und Mr Hill (graue Haare) hören zu.
 
-Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich.
+Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich. Leg die Hand an den Hals: Bei manchen Lauten summt es.
 
 - Aufgabe `auslaute-start` (unten)
 
-**Das kannst du danach:** Du sprichst Wörter wie bed und bet am Ende stimmhaft oder stimmlos.
+**Das kannst du danach:** Du hörst und übst, ob ein Wortende summt oder nicht.
 
 ### Summt es oder summt es nicht?
 
@@ -113,7 +113,7 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 - Sätze:
 1. Audio → I like this bed very much today.
 2. Audio → I made a bet yesterday.
-3. Audio → The dog is under the table again.
+3. Audio → The dog is very big and friendly.
 4. Audio → The boat is at the dock today.
 - Tipp der App: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
 - Link: [../?via=tutor#auslaute-karten](../?via=tutor#auslaute-karten)
@@ -133,14 +133,14 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 
 ### Aufgabe auslaute-lesen
 
-- Aufgabe: Welches Wort steht in Lautschrift? /bæd/
+- Aufgabe: Welches Wort steht in Lautschrift? /hæt/
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ bad – Das letzte Zeichen /d/ summt. Das Wort bad heißt „schlimm“.
-  - ✗ back – Back endet mit /k/, das nicht summt. Es heißt „zurück“.
-  - ✗ bag – Bag endet mit /ɡ/. Das letzte Zeichen ist hier /d/.
-- Lösung: bad
-- Erklärung: Das letzte Zeichen entscheidet. Das /d/ summt und steht in bad.
+  - ✓ hat – Das letzte Zeichen /t/ summt nicht. Das Wort hat heißt „Hut“.
+  - ✗ hot – Hot hat einen anderen Vokal und heißt „heiß“. Hier steht /æ/.
+  - ✗ hate – Hate hat einen anderen Vokal und heißt „hassen“. Hier steht /æ/.
+- Lösung: hat
+- Erklärung: Das letzte Zeichen entscheidet. Das /t/ summt nicht.
 - Link: [../?via=tutor#auslaute-lesen](../?via=tutor#auslaute-lesen)
 
 ### Aufgabe auslaute-schreiben
@@ -154,7 +154,6 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 2. /sæd/ → sad
      - sat: Sat endet mit /t/, das nicht summt. Hier steht /d/.
 3. /mæp/ → map
-     - mab: Das letzte Zeichen ist /p/, geschrieben p.
 - Tipp der App: Prüfe das letzte Zeichen. Summt es?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#auslaute-schreiben](../?via=tutor#auslaute-schreiben)
@@ -181,7 +180,7 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 - Aufgabe: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Sophie puts the red bag on the bed today.
+1. Audio → Mr Hill carries a heavy bag every morning.
 2. Audio → Peter has a big cat and a small dog today.
 3. Audio → Mr Hill writes a long word on the board today.
 - Tipp der App: Das Ende des Wortes bleibt weich, wenn es summt. Spüre es mit der Hand am Hals.

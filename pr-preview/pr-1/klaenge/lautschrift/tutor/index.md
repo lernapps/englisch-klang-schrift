@@ -103,10 +103,10 @@ Peter zeigt Mr Hill ein Foto. Mr Hill fragt etwas, und ein einziger Laut entsche
 - Aufgabe: Was zeigt die Szene über die Lesehilfe mit deutschen Buchstaben?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Sie zeigt den Klang nur ungefähr, nicht ganz genau. – Die Lesehilfe geht vom Deutschen aus. Für Ellie klingt sie nach einem anderen Wort.
-  - ✗ Sie zeigt den Klang meist genau, nur Ellie hört falsch. – Ellie hört richtig. Aim ist im Englischen ein anderes Wort.
-  - ✗ Sie zeigt den Klang genau, aber Ellie spricht falsch. – Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau.
-- Lösung: Sie zeigt den Klang nur ungefähr, nicht ganz genau.
+  - ✓ Sie nutzt deutsche Buchstaben und ist darum ungenau. – Die Lesehilfe geht vom Deutschen aus. „Aim“ ist für Ellie ein anderes Wort.
+  - ✗ Sie nutzt deutsche Buchstaben, und Ellie hört falsch. – Ellie hört richtig. Aim ist im Englischen ein anderes Wort.
+  - ✗ Sie nutzt englische Buchstaben, und Ellie spricht falsch. – Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm.
+- Lösung: Sie nutzt deutsche Buchstaben und ist darum ungenau.
 - Erklärung: Im Englischen gibt es das Wort aim (Ziel). In Lautschrift steht I'm als /aɪm/ und aim als /eɪm/. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr.
 - Link: [../?via=tutor#lautschrift-start](../?via=tutor#lautschrift-start)
 
@@ -177,12 +177,10 @@ Peter zeigt Mr Hill ein Foto. Mr Hill fragt etwas, und ein einziger Laut entsche
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter reads a book on the chair today.
-     - Peter reads a book on the cher today.: Hier schreibt man /tʃ/ mit ch, wie in chair.
-2. Audio → Sophie finds a big green shoe upstairs.
-     - Sophie finds a big green shu upstairs.: Man schreibt shoe, mit den Buchstaben oe am Ende.
-3. Audio → Ellie sings with Amir in the kitchen.
-     - Ellie sings with Amir in the kitchin.: Man schreibt kitchen, mit tch in der Mitte.
+1. Audio → Amir buys a new watch today.
+2. Audio → Sophie washes the dishes this evening.
+     - Sophie washs the dishes this evening.: Nach sh steht in der Mehrzahl und bei he, she, it die Endung -es.
+3. Audio → Peter takes a long walk this morning.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

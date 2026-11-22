@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „th, w, v und r“
 
-Sophie sagt Sank you, und Ellie wundert sich. Du lernst die Laute th, w, v und r richtig zu sprechen.
+Sophie sagt Sank you, und Ellie wundert sich. Du lernst die Laute th, w, v und r kennen und übst sie.
 
 ### Sophie sagt Sank you
 
@@ -51,7 +51,7 @@ Sophie bedankt sich bei Ellie: „Sank you!“ In Hello, Millbrook! hat sie „f
 
 - Aufgabe `konsonanten-start` (unten)
 
-**Das kannst du danach:** Du sprichst th, w, v und r und unterscheidest sie von ähnlichen Lauten.
+**Das kannst du danach:** Du kannst th, w, v und r üben und von ähnlichen Lauten unterscheiden.
 
 ### Wo die Zunge und die Lippen liegen
 
@@ -129,14 +129,14 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr 
 
 ### Aufgabe konsonanten-lesen
 
-- Aufgabe: Welches Wort steht in Lautschrift? /θriː/
+- Aufgabe: Welches Wort steht in Lautschrift? /θɪn/
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ three – Das Zeichen /θ/ ist das th. Das Wort three heißt „drei“.
-  - ✗ free – Bei free beginnt das Wort mit f. Das ist ein anderer Laut als th.
-  - ✗ tree – Bei tree beginnt das Wort mit t. Das ist ein anderer Laut als th.
-- Lösung: three
-- Erklärung: Das Zeichen θ steht für th. Das Wort heißt three.
+  - ✓ thin – Das Zeichen /θ/ ist das th, und /n/ steht am Ende. Das Wort thin heißt „dünn“.
+  - ✗ this – This beginnt mit dem weichen /ð/ und endet auf /s/. Hier steht /θ/ und am Ende /n/.
+  - ✗ thing – Thing endet auf /ŋ/. Hier steht am Ende /n/.
+- Lösung: thin
+- Erklärung: Das Zeichen θ steht für th. Das Wort heißt thin.
 - Link: [../?via=tutor#konsonanten-lesen](../?via=tutor#konsonanten-lesen)
 
 ### Aufgabe konsonanten-w-v
@@ -176,9 +176,8 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr 
 1. Audio → Sophie thinks about the party tomorrow.
      - Sophie sinks about the party tomorrow.: Sinks heißt „sinkt“. Denken heißt think, mit th am Anfang.
 2. Audio → Amir waits for the bus every morning.
-     - Amir vaits for the bus every morning.: Der erste Laut ist /w/, geschrieben w.
-3. Audio → Ellie has a very good idea today.
-     - Ellie has a wery good idea today.: Der erste Laut in very ist /v/, geschrieben v.
+3. Audio → Amir visits his uncle every Sunday.
+     - Amir visit his uncle every Sunday.: Amir ist eine einzelne Person (he), also braucht das Wort -s.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -191,6 +190,6 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr 
 - Sätze:
 1. Audio → Mother thinks the weather is lovely today.
 2. Audio → Three brothers wait at the window.
-3. Audio → Ellie drives the van very carefully.
+3. Audio → Ellie drives the van slowly.
 - Tipp der App: Achte darauf, wo deine Zunge und deine Lippen liegen.
 - Link: [../?via=tutor#konsonanten-nachsprechen](../?via=tutor#konsonanten-nachsprechen)

@@ -71,7 +71,7 @@ Klassenzimmer-Poster · Stumme Buchstaben:
 **Merke: Merke**
 
 - **Stumme Buchstaben schreibt man, aber man spricht sie nicht.**
-- Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, zum Beispiel milk.
+- Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, schlage im Zweifel nach.
 - Beim Schreiben musst du sie trotzdem schreiben.
 
 ### Übung
@@ -79,6 +79,8 @@ Klassenzimmer-Poster · Stumme Buchstaben:
 - Aufgabe `silent-letters-erkennen` (unten)
 
 - Aufgabe `silent-letters-schreiben` (unten)
+
+- Aufgabe `silent-letters-zuordnen` (unten)
 
 - Aufgabe `silent-letters-hoeren` (unten)
 
@@ -132,6 +134,14 @@ Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buch
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#silent-letters-schreiben](../?via=tutor#silent-letters-schreiben)
 
+### Aufgabe silent-letters-zuordnen
+
+- Aufgabe: Welcher Buchstabe ist stumm?
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: knee – k; right – gh; walked – l; castle – t
+- Erklärung: Die Muster der Tabelle helfen, aber man muss die Wörter üben.
+- Link: [../?via=tutor#silent-letters-zuordnen](../?via=tutor#silent-letters-zuordnen)
+
 ### Aufgabe silent-letters-hoeren
 
 - Aufgabe: Höre zu und schreibe jeden Satz ganz auf.
@@ -139,11 +149,8 @@ Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buch
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter talks to Mrs Parker every morning.
-     - Peter tocks to Mrs Parker every morning.: Zwischen a und k steht ein stummes l.
 2. Audio → Amir wrote a letter yesterday.
-     - Amir rote a letter yesterday.: Vor dem r steht ein stummes w.
 3. Audio → Ellie fastens her bag in the kitchen.
-     - Ellie fasens her bag in the kitchen.: In fasten steht ein stummes t.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

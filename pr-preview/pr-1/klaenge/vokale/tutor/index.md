@@ -122,7 +122,7 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
 
 - Aufgabe: Welches Zeichen steckt in welchem Wort?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: /iː/ – leave; /ɪ/ – live; /uː/ – food; /ʌ/ – bus; /æ/ – man
+- Lösung: /iː/ – meet; /ɪ/ – fish; /uː/ – food; /ʌ/ – cup; /æ/ – man
 - Erklärung: Das Zeichen ː steht bei den langen Vokalen in leave und food.
 - Link: [../?via=tutor#vokale-zuordnen](../?via=tutor#vokale-zuordnen)
 
@@ -144,12 +144,11 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. /liːv/ → leave
-     - live: Live klingt mit kurzem /ɪ/. Hier steht der lange Vokal /iː/.
-2. /pʊl/ → pull
-     - pool: Pool hat den langen Vokal /uː/. Hier steht das kurze /ʊ/.
-3. /bʌs/ → bus
-     - bas: Das Zeichen /ʌ/ schreibt man hier mit dem Buchstaben u.
+1. /bʊk/ → book
+     - buck: Buck hat den Vokal /ʌ/. Hier steht /ʊ/, geschrieben oo.
+2. /bʌs/ → bus
+3. /miːt/ → meet
+     - mit: Der Vokal hat ein ː, er ist lang. Das schreibt man hier ee.
 - Tipp der App: Achte darauf, ob der Vokal ein ː hat.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#vokale-schreiben](../?via=tutor#vokale-schreiben)
@@ -164,8 +163,8 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
      - Sophie and Ellie leave in a small village.: Leave heißt „verlassen“. Wohnen heißt live, mit kurzem i.
 2. Audio → Please leave the bag in the kitchen.
      - Please live the bag in the kitchen.: Live heißt „wohnen“. Lassen heißt leave, mit langem iː.
-3. Audio → The bus is full of children today.
-     - The bus is fool of children today.: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
+3. Audio → The bag is full of books today.
+     - The bag is fool of books today.: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

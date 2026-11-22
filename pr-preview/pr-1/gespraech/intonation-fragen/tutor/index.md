@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Wohin geht die Stimme?“
 
-Peter fragt, Amir antwortet. Du lernst, wann die Stimme am Satzende steigt und wann sie fällt, und sprichst Aussagen, Fragen und Aufforderungen mit der passenden Melodie.
+Peter fragt, Amir antwortet. Du lernst, wann die Stimme am Satzende steigt und wann sie fällt, und übst Aussagen, Fragen und Aufforderungen mit der passenden Melodie.
 
 ### Peter fragt, Amir antwortet
 
@@ -51,7 +51,7 @@ Peter und Amir sprechen über ein Foto. Peter fragt: „Is it big?“ Amir antwo
 
 - Aufgabe `intonation-start` (unten)
 
-**Das kannst du danach:** Du sprichst Aussagen, Fragen und Aufforderungen mit der passenden Melodie.
+**Das kannst du danach:** Du kannst Aussagen, Fragen und Aufforderungen mit der passenden Melodie üben.
 
 ### Der Pfeil in der oberen Zeile
 
@@ -140,10 +140,10 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 
 ### Aufgabe intonation-jede-frage
 
-- Aufgabe: Bei „Where do you live?“ steigt die Stimme am Ende.
+- Aufgabe: Bei „What is your name?“ steigt die Stimme am Ende.
 - Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
 - Lösung: Die Aussage stimmt nicht.
-- Erklärung: Das gilt meist nur für Ja-Nein-Fragen. Bei where fällt die Stimme.
+- Erklärung: Das gilt meist nur für Ja-Nein-Fragen. Bei what fällt die Stimme.
 - Link: [../?via=tutor#intonation-jede-frage](../?via=tutor#intonation-jede-frage)
 
 ### Aufgabe intonation-hoeren
@@ -152,10 +152,10 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Audio → Is Ellie at home this afternoon?
-     - Is Ellie at home this afternoon.: Das ist eine Frage. Am Ende steht ein Fragezeichen.
-2. Audio → Open the window for Mrs Parker.
-     - Open the window for Mrs Parker?: Das ist eine Aufforderung. Am Ende steht ein Punkt.
+1. Audio → Is Peter at home this afternoon?
+     - Is Peter at home this afternoon.: Das ist eine Frage. Am Ende steht ein Fragezeichen.
+2. Audio → Close the door for Amir. (auch richtig: Close the door for Amir!)
+     - Close the door for Amir?: Das ist eine Aufforderung. Am Ende steht ein Punkt.
 3. Audio → Where does Mrs Parker work today?
      - Where does Mrs Parker work today.: Das ist eine Frage. Am Ende steht ein Fragezeichen.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
