@@ -9,7 +9,7 @@ blocks:
     title: Sophie klingt wie ein Roboter
     blocks:
       - type: text
-        text: "Mr Hill will von jeder und jedem eine Vorleseaufnahme. Peter (9) nimmt Sophie (13) mit dem Handy auf. Du kennst die Klangpartitur: Laute unten, Betonung in der Mitte. Jetzt geht es um die Stellen **zwischen** den Wörtern."
+        text: "Mr Hill will von jeder und jedem eine Vorleseaufnahme. Ellies kleiner Bruder Peter (9) nimmt Sophie (13) mit dem Handy auf. Du kennst die Klangpartitur: Laute unten, Betonung in der Mitte. Jetzt geht es um die Stellen **zwischen** den Wörtern."
       - type: single-choice
         id: bindungen-start
         text: Was passiert in deiner Sprache oft zwischen zwei Wörtern, wenn man schnell spricht?

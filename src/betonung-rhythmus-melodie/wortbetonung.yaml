@@ -9,7 +9,7 @@ blocks:
     title: Zwei Mal present
     blocks:
       - type: text
-        text: "Sophie (13) schreibt abends mit Amir (13). Dabei fällt ihr etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: ba-na-na hat drei."
+        text: "Sophie (13) schreibt abends mit Amir (13). Dabei fällt ihr etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: Mill-brook hat zwei."
       - type: single-choice
         id: wortbetonung-start
         text: Wie viele Silben hat das englische Wort banana?
@@ -102,7 +102,7 @@ blocks:
     title: Großer Punkt, kleiner Punkt
     blocks:
       - type: text
-        text: "In der mittleren Zeile der Klangpartitur steht über jeder Silbe ein Punkt. Der **große rote Punkt** zeigt die betonte Silbe: Sie klingt lauter, länger und deutlicher. Der **kleine Punkt** zeigt eine unbetonte Silbe. Die Wörter present als Nomen und als Verb haben dieselben Buchstaben, aber ihre Punkte stehen an verschiedenen Stellen."
+        text: "In der mittleren Zeile der Klangpartitur steht über jeder Silbe ein Punkt. Der **große rote Punkt** zeigt die betonte Silbe: Sie klingt lauter, länger und deutlicher. Der **kleine Punkt** zeigt eine unbetonte Silbe. Das Zeichen /ə/ ist das **Schwa**, ein kurzer, dumpfer Laut. Mehr dazu auf der Seite über kleine Wörter. Die Wörter present als Nomen und als Verb haben dieselben Buchstaben, aber ihre Punkte stehen an verschiedenen Stellen."
       - type: figure
         image: images/partitur-wortbetonung-nomen.svg
         alt: "Klangpartitur: present als Nomen, das Geschenk. Zwei Karten, ˈprez und ənt, über der ersten ein großer roter Punkt, über der zweiten ein kleiner."

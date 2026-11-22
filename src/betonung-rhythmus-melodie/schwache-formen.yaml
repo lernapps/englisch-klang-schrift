@@ -9,7 +9,7 @@ blocks:
     title: Sophie liest ein Rezept
     blocks:
       - type: text
-        text: "Sophie (13) hilft Mrs Parker beim Backen und liest das Rezept vor. Ellie (13) lacht, ohne zu sagen, warum. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz."
+        text: "Sophie (13) hilft Mrs Parker beim Backen und liest das Rezept vor. Ellie (13), Peter (9) und Mrs Parker sind auch in der Küche. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz."
       - type: single-choice
         id: schwache-formen-start
         text: Was hörst du am Ende des deutschen Wortes „Hase“?
@@ -104,7 +104,7 @@ blocks:
     title: Stark und schwach
     blocks:
       - type: text
-        text: "Kleine Wörter wie and, to, of, for und the sind im Satz meist unbetont. Sie klingen dann mit dem kurzen Laut **Schwa** /ə/ oder ganz kurz. Das ist ihre **schwache Form**. Steht das Wort allein, am Satzende oder wird es betont, sagt man die **starke Form**. Geschrieben wird immer gleich."
+        text: "Kleine Wörter wie and, to, of, for und the sind im Satz meist unbetont. Sie klingen dann mit dem kurzen Laut **Schwa** /ə/ oder ganz kurz. Das ist ihre **schwache Form**. Steht das Wort allein, am Satzende oder wird es betont, sagt man die **starke Form**. Geschrieben wird immer gleich. Auch andere kleine Wörter wie from, at, was und them haben schwache Formen: Bei allen wird der Vokal zum Schwa."
       - type: figure
         image: images/partitur-schwache-formen.svg
         alt: "Klangpartitur: das Wort and mit zwei Karten. Links ænd mit großem roten Punkt für die starke Form, rechts ən mit kleinem Punkt für die schwache Form."

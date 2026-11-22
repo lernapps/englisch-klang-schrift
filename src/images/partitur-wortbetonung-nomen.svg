@@ -5,7 +5,6 @@
   <text x="6" y="42" font-family="sans-serif" font-size="22" fill="#8a8577">Melodie</text>
   <text x="6" y="104" font-family="sans-serif" font-size="22" fill="#8a8577">Betonung</text>
   <text x="6" y="164" font-family="sans-serif" font-size="22" fill="#222">Laute</text>
-  <rect x="130" y="14" width="342" height="44" rx="8" fill="none" stroke="#8a8577" stroke-dasharray="6 4"/><text x="301" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#8a8577">kommt später</text>
   <rect x="228" y="132" width="82" height="48" rx="8" fill="#2c6fd8"/><text x="269" y="164" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#fff">ˈprez</text>
   <text x="269" y="208" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">pre</text>
   <rect x="316" y="132" width="58" height="48" rx="8" fill="#2c6fd8"/><text x="345" y="164" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#fff">ənt</text>

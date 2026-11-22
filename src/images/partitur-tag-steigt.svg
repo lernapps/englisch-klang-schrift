@@ -13,5 +13,9 @@
   <text x="349" y="208" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">isn&#x27;t</text>
   <rect x="396" y="132" width="50" height="48" rx="8" fill="#2c6fd8"/><text x="421" y="164" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#fff">ɪt</text>
   <text x="421" y="208" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">it?</text>
+  <circle cx="185" cy="95" r="6" fill="#222"/>
+  <circle cx="261" cy="95" r="14" fill="#c0392b"/>
+  <circle cx="349" cy="95" r="14" fill="#c0392b"/>
+  <circle cx="421" cy="95" r="6" fill="#222"/>
   <path d="M391 50 L447 22" stroke="#c0392b" stroke-width="5" fill="none" stroke-linecap="round"/><polygon points="455,18 437,20 445,34" fill="#c0392b"/>
 </svg>

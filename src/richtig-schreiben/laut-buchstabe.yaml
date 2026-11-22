@@ -117,7 +117,7 @@ blocks:
       - type: figure
         image: images/partitur-laut-buchstabe.svg
         alt: "Zwei blaue Karten für Laute, iː und aɪ. Unter iː hängen drei grüne Karten: ee mit see, ea mit sea und e-e mit these. Unter aɪ hängen drei grüne Karten: igh mit night, i-e mit time und y mit my."
-        caption: "Ein Laut, drei Schreibungen. Unten steht je ein Beispielwort."
+        caption: "Zwei Laute, je drei Schreibungen. Unten steht je ein Beispielwort."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -226,4 +226,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie schickt Mr Hill ihre Postkarte. Er schreibt zurück: Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Wann im Englischen ein Komma steht und was es mit der Aussprache zu tun hat, lernst du auf der nächsten Seite."
+        text: "Sophie schickt Mr Hill ihre Postkarte. Er schreibt zurück: Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Er bittet Sophie, über ihr erstes Trimester einen Blog zu schreiben, und achtet dabei auf die Kommas. Auf den nächsten Seiten lernst du, wann im Englischen ein Komma steht."

@@ -5,7 +5,6 @@
   <text x="6" y="42" font-family="sans-serif" font-size="22" fill="#8a8577">Melodie</text>
   <text x="6" y="104" font-family="sans-serif" font-size="22" fill="#8a8577">Betonung</text>
   <text x="6" y="164" font-family="sans-serif" font-size="22" fill="#222">Laute</text>
-  <rect x="130" y="14" width="342" height="44" rx="8" fill="none" stroke="#8a8577" stroke-dasharray="6 4"/><text x="301" y="42" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#8a8577">kommt später</text>
   <rect x="172" y="132" width="70" height="48" rx="8" fill="#2c6fd8"/><text x="207" y="164" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#fff">ˈɡəʊ</text>
   <text x="207" y="208" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">go</text>
   <rect x="248" y="132" width="50" height="48" rx="8" fill="#2c6fd8"/><text x="273" y="164" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#fff">tə</text>

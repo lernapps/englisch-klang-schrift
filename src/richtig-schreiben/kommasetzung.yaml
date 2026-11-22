@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wann steht ein Komma?
-description: "Sophie schreibt einen Blog über ihr erstes Quartal in Millbrook. Du lernst, wann im Englischen ein Komma steht: nach einer Einleitung, bei nicht notwendigen Relativsätzen und in Aufzählungen."
+description: "Sophie schreibt einen Blog über ihr erstes Trimester in Millbrook. Du lernst, wann im Englischen ein Komma steht: nach einer Einleitung, bei nicht notwendigen Relativsätzen und in Aufzählungen."
 competencies: [kommasetzung]
 scope: "Die Seite zeigt Kommas nach englischen Regeln. Ein Komma steht nach einer einleitenden Zeit-, Orts- oder Wortgruppe am Satzanfang (Last summer, we went to Wales), vor und nach einem nicht notwendigen Relativsatz (My brother, who lives in London, is a pilot), zwischen den Gliedern einer Aufzählung, aber im britischen Englisch meist nicht vor and. Ein notwendiger Relativsatz hat keine Kommas, und vor einem that-Satz steht kein Komma. Ein Komma zeigt eine Pause, die man auch hört. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der Relativsätze selbst, andere Satzzeichen, Betonung."
 blocks:
@@ -81,18 +81,18 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/kommasetzung/
       - type: single-choice
         id: komma-belegen
-        text: Welche Zeile zeigt einen Relativsatz, den man weglassen könnte, ohne dass sich ändert, wer gemeint ist?
+        text: Welche Zeile zeigt ein Komma nach einer Einleitung am Satzanfang?
         options:
-          - text: "Her son Peter, who is nine, shows me the way to school every morning."
+          - text: "Last Friday, we had a school party with music, games and lots of cake."
             correct: true
-            info: Der Relativsatz sagt nur, wie alt Peter ist.
+            info: Nach Last Friday steht ein Komma.
+          - text: "Her son Peter, who is nine, shows me the way to school every morning."
+            correct: false
+            info: Die Kommas stehen um den Relativsatz.
           - text: "The teacher who teaches us English is Mr Hill."
             correct: false
-            info: Er sagt, welcher Lehrer gemeint ist.
-          - text: "Last Friday, we had a school party with music, games and lots of cake."
-            correct: false
-            info: Hier gibt es keinen Relativsatz.
-        explanation: Nur bei Peter ist der Relativsatz eine Zusatzinformation.
+            info: Hier steht gar kein Komma.
+        explanation: Nur der Satz mit Last Friday beginnt mit einer Einleitung und einem Komma.
         links:
           - title: Lernlandkarte Englisch · Kommasetzung
             url: https://lernapps.net/apps/map/englisch/c/kommasetzung/
@@ -201,4 +201,4 @@ blocks:
     title: Rückblick und nächster Schritt
     blocks:
       - type: text
-        text: "Mr Hill gibt Sophies Blog zurück: Die Kommas stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um das Sprechen: Wörter bekommen eine Betonung, und Sätze haben einen Rhythmus."
+        text: "Mr Hill gibt Sophies Blog zurück: Die Kommas stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um Betonung, Rhythmus und Melodie."

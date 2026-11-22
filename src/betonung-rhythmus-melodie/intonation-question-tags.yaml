@@ -73,9 +73,9 @@ blocks:
           - text: Bei der Bemerkung über die Kälte
             correct: false
             info: Dass es kalt ist, weiß sie schon.
-          - text: Bei der Frage, ob Ellie online ist
+          - text: Bei dem Satz „you feel it too“
             correct: false
-            info: Sie sieht, dass Ellie schreibt.
+            info: Das ist keine Frage.
         explanation: Beim Testtag fragt Sophie wirklich.
         links:
           - title: Lernlandkarte Englisch · Satzmelodie bei question tags
@@ -125,7 +125,7 @@ blocks:
               - **Steigt** die Stimme am question tag, fragst du wirklich.
               - **Fällt** die Stimme am question tag, erwartest du Zustimmung.
               - Die Wörter bleiben gleich. Nur die Melodie ändert die Bedeutung.
-              - Im Text zeigt das Komma die Pause vor dem Tag.
+              - Im Text steht vor dem Tag ein Komma. Wie in Kapitel 4 zeigt es eine kleine Pause.
   - type: section
     id: uebung
     title: Übung
@@ -139,7 +139,7 @@ blocks:
             info: Amir fragt wirklich.
           - text: Sie fällt.
             correct: false
-            info: Er will etwas wissen.
+            info: Fallen würde heißen, dass er es schon weiß.
           - text: Sie bleibt gleich.
             correct: false
             info: Die Stimme bewegt sich am Ende.
@@ -189,7 +189,7 @@ blocks:
         form: { case: ok, punctuation: ok }
         items:
           - cue: Es ist heiß, oder? (Du erwartest Zustimmung.)
-            target: It's hot, isn't it?
+            target: (It's|It is) hot, isn't it?
             mistakes:
               - answer: It's hot, is it?
                 message: Nach einer bejahten Aussage steht ein verneintes Tag.

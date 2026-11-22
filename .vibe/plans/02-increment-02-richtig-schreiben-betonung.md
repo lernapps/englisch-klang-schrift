@@ -233,3 +233,13 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+
+## Funde der Prüfungen (Code, Inkrement 02)
+
+Sprachprüfung (Unter-Agent) und Lernenden-Check Kapitel 4 und 5 (Unter-Agent, 360 px und 1280 px) fanden und behoben:
+- Komma nach sehr kurzen Einleitungen ist im britischen Englisch freiwillig: Aufgaben mit längeren Einleitungen, Regel „meist“, neues Diktat (After the long lesson, …), Musterlösungen angepasst.
+- Altersangaben: Kapitel 4 und 5 nennen die Figuren 13 Jahre alt; die App-Einleitung sagt das jetzt. Peter und die Parkers werden auf den Seiten mit Rolle genannt.
+- Begriffe: „stark“ (Form) und „betont“ (Wort) getrennt; /ə/ auf wortbetonung vorab erklärt; Anhängsel „am question tag“ statt „am Tag“.
+- Aufgaben: Belegen-Frage auf kommasetzung gegen die Einstiegsfrage getauscht; Tag-Schreibaufgabe nimmt It's und It is an; „Wann will Sophie wirklich eine Antwort?“ ohne strittige Option.
+- Bilder: obere Zeile in Kapitel 5 leer statt „kommt später“, Betonungspunkte auch bei den Tag-Bildern.
+- Nicht behoben (Vorlagenpunkte): Meldung „Achte auf die Satzzeichen“ bei fehlenden Kommas, Meldung bei Text in einer Zahlaufgabe.

@@ -271,31 +271,31 @@ SZENEN["szene-intonation-fragen"] = (
 # Kapitel 5: Betonung (mittlere Zeile): großer roter Punkt = betont, kleiner dunkler Punkt = unbetont
 PARTITUREN["partitur-wortbetonung-nomen"] = (
     "Klangpartitur: das Hauptwort present mit zwei Karten, ˈprez und ənt; über der ersten Karte ein großer roter Punkt, über der zweiten ein kleiner",
-    [("ˈprez", "pre", None), ("ənt", "sent", None)], "legende", ["big", "small"], {"compact": True})
+    [("ˈprez", "pre", None), ("ənt", "sent", None)], [None] * 7, ["big", "small"], {"compact": True})
 PARTITUREN["partitur-wortbetonung-verb"] = (
     "Klangpartitur: das Verb present mit zwei Karten, prɪ und ˈzent; über der ersten Karte ein kleiner Punkt, über der zweiten ein großer roter",
-    [("prɪ", "pre", None), ("ˈzent", "sent", None)], "legende", ["small", "big"], {"compact": True})
+    [("prɪ", "pre", None), ("ˈzent", "sent", None)], [None] * 7, ["small", "big"], {"compact": True})
 PARTITUREN["partitur-bindung-konsonant"] = (
     "Klangpartitur: an apple mit vier Karten ə, n, ˈæ und pl; ein roter Bogen verbindet das n mit dem folgenden Vokal",
-    [("ə", "a", None), ("n", "n", None), ("ˈæ", "ap", None), ("pl", "ple", None)], "legende", ["small", None, "big", "small"], {"compact": True, "bogen": [(1, 2)]})
+    [("ə", "a", None), ("n", "n", None), ("ˈæ", "ap", None), ("pl", "ple", None)], [None] * 7, ["small", None, "big", "small"], {"compact": True, "bogen": [(1, 2)]})
 PARTITUREN["partitur-bindung-r"] = (
     "Klangpartitur: far away mit vier Karten fɑː, r, ə und weɪ; ein roter Bogen verbindet das r mit dem folgenden Laut",
-    [("fɑː", "far", None), ("r", "(r)", None), ("ə", "a", None), ("ˈweɪ", "way", None)], "legende", ["small", None, "small", "big"], {"compact": True, "bogen": [(1, 2)]})
+    [("fɑː", "far", None), ("r", "(r)", None), ("ə", "a", None), ("ˈweɪ", "way", None)], [None] * 7, ["small", None, "small", "big"], {"compact": True, "bogen": [(1, 2)]})
 PARTITUREN["partitur-schwache-formen"] = (
     "Klangpartitur: and mit zwei Karten, einmal stark, ænd, einmal schwach, ən; beim schwachen Wort ein kleiner Punkt",
-    [("ænd", "and", None), ("ən", "and", None)], "legende", ["big", "small"], {"compact": True})
+    [("ænd", "and", None), ("ən", "and", None)], [None] * 7, ["big", "small"], {"compact": True})
 PARTITUREN["partitur-satzbetonung"] = (
     "Klangpartitur: der Satz Go to the shop mit vier Karten; großer roter Punkt bei go und shop, kleiner Punkt bei to und the",
     [("ˈɡəʊ", "go", None), ("tə", "to", None), ("ðə", "the", None), ("ˈʃɒp", "shop", None)],
-    "legende", ["big", "small", "small", "big"], {"compact": True})
+    [None] * 7, ["big", "small", "small", "big"], {"compact": True})
 
 
 PARTITUREN["partitur-tag-steigt"] = (
     "Klangpartitur: der Satz Its cold, isnt it mit vier Karten; über dem Tag am Ende zeigt ein roter Pfeil nach oben",
-    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "up"], [None, None, None, None], {"compact": True})
+    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "up"], ["small", "big", "big", "small"], {"compact": True})
 PARTITUREN["partitur-tag-faellt"] = (
     "Klangpartitur: der Satz Its cold, isnt it mit vier Karten; über dem Tag am Ende zeigt ein grüner Pfeil nach unten",
-    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "down"], [None, None, None, None], {"compact": True})
+    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "down"], ["small", "big", "big", "small"], {"compact": True})
 
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)

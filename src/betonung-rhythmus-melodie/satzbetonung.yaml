@@ -63,7 +63,7 @@ blocks:
         id: satzbetonung-verstehen
         text: Was macht Sophie, um den Rhythmus zu üben?
         options:
-          - text: Sie klopft bei den starken Wörtern mit dem Finger.
+          - text: Sie klopft bei den betonten Wörtern mit dem Finger.
             correct: true
             info: Das steht in ihrer Nachricht.
           - text: Sie singt die Sätze.
@@ -72,7 +72,7 @@ blocks:
           - text: Sie schreibt alle Wörter auf Karten.
             correct: false
             info: Sie klopft nur.
-        explanation: Sophie klopft bei den starken Wörtern.
+        explanation: Sophie klopft bei den betonten Wörtern.
         links:
           - title: Lernlandkarte Englisch · Satzbetonung
             url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
@@ -95,47 +95,47 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
   - type: section
     id: neu
-    title: Starke und leise Wörter
+    title: Betonte und leise Wörter
     blocks:
       - type: text
-        text: "Im englischen Satz tragen die Wörter mit Inhalt die Betonung: Nomen, Verben, Adjektive, Adverbien (wie today) und Fragewörter. Kleine Wörter wie a, the, to, and und of sind schwach. In der Klangpartitur zeigen große rote Punkte die starken Wörter."
+        text: "Im englischen Satz tragen die Wörter mit Inhalt die Betonung: Nomen, Verben, Adjektive, Adverbien (wie today) und Fragewörter. Kleine Wörter wie a, the, to, and und of sind schwach. In der Klangpartitur zeigen große rote Punkte die betonten Wörter."
       - type: figure
         image: images/partitur-satzbetonung.svg
         alt: "Klangpartitur: der Satz Go to the shop mit vier Karten. Große rote Punkte über go und shop, kleine Punkte über to und the."
-        caption: "Go to the shop: Zwei starke Wörter, zwei schwache."
+        caption: "Go to the shop: Zwei betonte Wörter, zwei schwache."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Dadurch entsteht ein **Rhythmus**: Die starken Wörter kommen ungefähr im gleichen Abstand. Stehen zwischen ihnen mehr kleine Wörter, sprichst du diese schneller. So wird ein langer Satz nicht langsamer."
+        text: "Dadurch entsteht ein **Rhythmus**: Die betonten Wörter kommen ungefähr im gleichen Abstand. Stehen zwischen ihnen mehr kleine Wörter, sprichst du diese schneller. So wird ein langer Satz nicht langsamer."
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              - **Stark** sind Nomen, Verben, Adjektive, Adverbien und Fragewörter. Sie tragen die Bedeutung.
-              - **Schwach** sind kleine Wörter wie a, the, to, and, of.
-              - **Rhythmus:** Die starken Wörter kommen ungefähr im gleichen Abstand. Kleine Wörter dazwischen sprichst du schneller.
-              - Wer jedes Wort gleich stark spricht, klingt wie ein Roboter.
+              - **Betont** sind Nomen, Verben, Adjektive, Adverbien und Fragewörter. Sie tragen die Bedeutung.
+              - **Unbetont** sind kleine Wörter wie a, the, to, and, of.
+              - **Rhythmus:** Die betonten Wörter kommen ungefähr im gleichen Abstand. Kleine Wörter dazwischen sprichst du schneller.
+              - Wer jedes Wort gleich betont, klingt wie ein Roboter.
   - type: section
     id: uebung
     title: Übung
     blocks:
       - type: multiple-choice
         id: satzbetonung-markieren
-        text: "Welche Wörter sind im Satz „The boy eats a big apple.“ stark?"
+        text: "Welche Wörter sind im Satz „The boy eats a big apple.“ betont?"
         options:
           - text: boy
             correct: true
-            info: Nomen sind stark.
+            info: Nomen sind betont.
           - text: eats
             correct: true
-            info: Verben sind stark.
+            info: Verben sind betont.
           - text: big
             correct: true
-            info: Adjektive sind stark.
+            info: Adjektive sind betont.
           - text: apple
             correct: true
-            info: Nomen sind stark.
+            info: Nomen sind betont.
           - text: the
             correct: false
             info: The ist ein kleines Wort und schwach.
@@ -148,20 +148,20 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
       - type: number
         id: satzbetonung-zaehlen
-        text: "Wie viele starke Wörter hat der Satz „Amir drinks the hot tea.“? Schreibe die Zahl mit Ziffern."
+        text: "Wie viele betonte Wörter hat der Satz „Amir drinks the hot tea.“? Schreibe die Zahl mit Ziffern."
         answer: 4
         tolerance: 0
         mistakes:
           - answer: 5
             message: Das Wort the ist ein kleines Wort. Es ist schwach.
         hint: Suche Nomen, Verben und Adjektive.
-        explanation: Amir, drinks, hot und tea sind stark.
+        explanation: Amir, drinks, hot und tea sind betont.
         links:
           - title: Lernlandkarte Englisch · Satzbetonung
             url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
       - type: single-choice
         id: satzbetonung-rhythmus
-        text: "Der Satz „Dogs eat bones.“ hat drei starke Wörter. Der Satz „The dogs are eating the bones.“ hat auch drei. Wie lange dauern beide ungefähr?"
+        text: "Der Satz „Dogs eat bones.“ hat drei betonte Wörter. Der Satz „The dogs are eating the bones.“ hat auch drei. Wie lange dauern beide ungefähr?"
         options:
           - text: Ungefähr gleich lang
             correct: true
@@ -171,25 +171,25 @@ blocks:
             info: Er hat mehr Wörter, aber die kleinen sind schnell.
           - text: Der erste Satz dauert länger.
             correct: false
-            info: Er ist kürzer.
-        explanation: Es zählen die starken Wörter, nicht alle Wörter.
+            info: Beide haben gleich viele betonte Wörter.
+        explanation: Es zählen die betonten Wörter, nicht alle Wörter.
         links:
           - title: Lernlandkarte Englisch · Satzbetonung
             url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
       - type: single-choice
         id: satzbetonung-frage
-        text: "Peter fragt: „Where is my bag?“ Welche Wörter sind stark?"
+        text: "Peter fragt: „Where is my bag?“ Welche Wörter sind betont?"
         options:
           - text: where, bag
             correct: true
-            info: Fragewort und Nomen sind stark.
+            info: Fragewort und Nomen sind betont.
           - text: is, my
             correct: false
             info: Das sind kleine Wörter. Sie sind schwach.
           - text: where, is, my, bag
             correct: false
             info: Dann klingt der Satz wie ein Roboter.
-        explanation: Fragewort und Nomen sind stark.
+        explanation: Fragewort und Nomen sind betont.
         links:
           - title: Lernlandkarte Englisch · Satzbetonung
             url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
@@ -200,16 +200,16 @@ blocks:
       - type: speaking-task
         id: satzbetonung-nachsprechen
         language: en
-        task: "Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu. Klopfe bei den starken Wörtern mit."
+        task: "Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu. Klopfe bei den betonten Wörtern mit."
         items:
           - audio: sophie-wants-to-go-to-the-shop-today.mp3
             text: Sophie wants to go to the shop today.
         hint: Klopfe bei Sophie, wants, go, shop und today.
       - type: open-task
         id: satzbetonung-nachricht
-        task: "Schreibe eine kurze Sprachnachricht von drei englischen Sätzen über deinen Tag. Unterstreiche in jedem Satz die starken Wörter. Sprich die Nachricht laut und klopfe mit. Schreibe auf Deutsch einen Satz dazu: Welche Wörter hast du schnell gesprochen?"
+        task: "Schreibe eine kurze Sprachnachricht von drei englischen Sätzen über deinen Tag. Unterstreiche in jedem Satz die betonten Wörter. Sprich die Nachricht laut und klopfe mit. Schreibe auf Deutsch einen Satz dazu: Welche Wörter hast du schnell gesprochen?"
         points:
-          - text: Du hast in jedem Satz die starken Wörter unterstrichen.
+          - text: Du hast in jedem Satz die betonten Wörter unterstrichen.
             source: /betonung-rhythmus-melodie/satzbetonung/#neu
           - text: Du hast kleine Wörter wie a, the oder to nicht unterstrichen.
             source: /betonung-rhythmus-melodie/satzbetonung/#neu
@@ -217,10 +217,10 @@ blocks:
             kind: form
         solution: |
           I get up at seven. I eat cereal and drink milk. I walk to school with my friend. Schnell gesprochen: at, and, to, with, my.
-        hint: Nomen und Verben sind stark.
+        hint: Nomen und Verben sind betont.
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophies Nachricht ist abgeschickt. Auf der letzten Seite des Kapitels geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?"
+        text: "Sophies Nachricht ist abgeschickt. Auf den nächsten Seiten geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?"
