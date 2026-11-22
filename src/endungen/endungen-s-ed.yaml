@@ -1,0 +1,181 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wie -s und -ed klingen
+description: "Sophie liest walked in zwei Teilen, und Ellie schüttelt den Kopf. Du lernst, wie -s und -ed klingen, und woran du es erkennst."
+competencies: [endungen-s-ed]
+scope: "Die Seite zeigt, wie die Endungen -s und -ed klingen. Der letzte Laut des Wortes entscheidet. -s klingt /s/ nach stimmlosen Lauten (cats), /z/ nach stimmhaften Lauten (bags, pens) und /ɪz/ nach Zischlauten (boxes). -ed klingt /t/ nach stimmlosen Lauten (walked), /d/ nach stimmhaften Lauten (played) und /ɪd/ nach t und d (wanted). Man schreibt gleich, man spricht verschieden. Voraussetzung ist die Seite zu den Wortenden (stimmhaft und stimmlos). Nicht hier, weil sie auf anderen Seiten stehen: die Bildung der Formen, die Schreibung vor der Endung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie liest in zwei Teilen
+    blocks:
+      - type: figure
+        image: images/szene-endungen-s-ed.svg
+        alt: "Im Klassenzimmer sagt Sophie in einer Sprechblase „walk-ed?“. Ellie antwortet in einer Sprechblase „Nope!“. Mr Hill steht rechts."
+        caption: "Von links: Sophie (Zöpfe) liest ein Wort in zwei Teilen, Ellie (roter Pferdeschwanz) schüttelt den Kopf, rechts steht Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie liest das Wort **walked** („ging zu Fuß“) laut vor, genau wie es geschrieben steht: „walk-ed“. Ellie schüttelt den Kopf."
+      - type: single-choice
+        id: endungen-start
+        text: Wie spricht man -ed in walked?
+        options:
+          - text: Wie ein t, ohne eigene Silbe.
+            correct: true
+            info: Das Wort hat nur eine Silbe, und man hört am Ende ein t.
+          - text: Wie eine eigene Silbe „ed“.
+            correct: false
+            info: So liest Sophie das Wort. Dann hätte walked zwei Silben, aber man spricht nur eine.
+          - text: Wie ein d, ohne eigene Silbe.
+            correct: false
+            info: Nach dem k klingt die Endung wie t. Ein d summt, und nach k summt es nicht.
+        explanation: Man schreibt -ed, aber man spricht nach k ein t. Der letzte Laut des Wortes entscheidet.
+        links:
+          - title: Lernlandkarte Englisch · Aussprache von -s und -ed
+            url: https://lernapps.net/apps/map/englisch/c/endungen-s-ed/
+      - type: text
+        text: "**Das kannst du danach:** Du weißt, wie -s und -ed klingen, und kannst sie üben."
+  - type: section
+    id: neu
+    title: Der letzte Laut entscheidet
+    blocks:
+      - type: text
+        text: "Man schreibt immer -s oder -ed, aber man spricht es verschieden. Es kommt auf den **letzten Laut** des Wortes an, nicht auf den letzten Buchstaben. Summt der Laut, summt auch die Endung."
+      - type: figure
+        image: images/partitur-endungen.svg
+        alt: "Die Klangpartitur mit den Wörtern cats und bags. Unter cats steht die blaue Karte kæts mit einem s am Ende, unter bags die blaue Karte bæɡz mit einem z am Ende."
+        caption: "Gleiche Endung, anderer Laut: In cats klingt -s wie /s/, in bags wie /z/."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Klassenzimmer-Poster · Endungen"
+        header: [Letzter Laut, Endung, Beispiel]
+        rows:
+          - [stimmlos, "-s wie /s/, -ed wie /t/", "cats, walked"]
+          - [stimmhaft, "-s wie /z/, -ed wie /d/", "bags, played"]
+          - ["Zischlaut (s, z, sh, ch, j, x)", "-s wie /ɪz/", buses]
+          - ["t oder d", "-ed wie /ɪd/", wanted]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Stimmlos** (summt nicht): -s klingt /s/, -ed klingt /t/.
+              - **Stimmhaft** (summt): -s klingt /z/, -ed klingt /d/.
+              - **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, j, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
+              - **Auch m, n, l und Vokale summen:** pens klingt /z/, plays klingt /z/, stayed klingt /d/.
+      - type: speaking-task
+        id: endungen-karten
+        language: en
+        task: "Höre vier Sätze und sprich sie nach. In jedem steckt ein Wort aus der Tabelle: cats, walked, played, wanted."
+        items:
+          - audio: ellie-has-two-cats-and-a-dog-today.mp3
+            text: Ellie has two cats and a dog today.
+          - audio: the-children-walked-to-school-together.mp3
+            text: The children walked to school together.
+          - audio: amir-played-football-with-peter-yesterday.mp3
+            text: Amir played football with Peter yesterday.
+          - audio: peter-needed-some-help-yesterday.mp3
+            text: Peter needed some help yesterday.
+        hint: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: endungen-s-waehlen
+        text: Wie klingt -s in pens? Der letzte Laut von pen ist n.
+        options:
+          - text: Wie /z/.
+            correct: true
+            info: Das n summt. Darum summt auch die Endung, und man spricht /z/.
+          - text: Wie /s/.
+            correct: false
+            info: /s/ klingt nach stimmlosen Lauten wie p, t oder k. Das n summt aber.
+          - text: Wie /ɪz/.
+            correct: false
+            info: /ɪz/ kommt nur nach Zischlauten. Nach n kommt keine eigene Silbe.
+        explanation: Das n summt, darum klingt -s wie /z/.
+        links:
+          - title: Lernlandkarte Englisch · Aussprache von -s und -ed
+            url: https://lernapps.net/apps/map/englisch/c/endungen-s-ed/
+      - type: multiple-choice
+        id: endungen-ed-eigene-silbe
+        text: Bei welchen Wörtern kommt mit -ed eine eigene Silbe dazu?
+        options:
+          - text: waited
+            correct: true
+            info: Nach t kommt eine eigene Silbe, man spricht /ɪd/.
+          - text: needed
+            correct: true
+            info: Nach d kommt eine eigene Silbe, man spricht /ɪd/.
+          - text: jumped
+            correct: false
+            info: Nach p klingt -ed wie /t/. Es gibt keine eigene Silbe.
+          - text: opened
+            correct: false
+            info: Nach n klingt -ed wie /d/. Es gibt keine eigene Silbe.
+        explanation: Nur nach t und d wird -ed als eigene Silbe /ɪd/ gesprochen.
+        links:
+          - title: Lernlandkarte Englisch · Aussprache von -s und -ed
+            url: https://lernapps.net/apps/map/englisch/c/endungen-s-ed/
+      - type: matching
+        id: endungen-zuordnen
+        text: Welche Endung klingt in welchem Wort?
+        pairs:
+          - left: looks
+            right: "/s/"
+          - left: beds
+            right: "/z/"
+          - left: boxes
+            right: "/ɪz/"
+          - left: visited
+            right: "/ɪd/"
+        explanation: Looks endet auf k, das nicht summt. Beds endet auf d, das summt. Box endet auf einen Zischlaut, und visit endet auf t.
+        links:
+          - title: Lernlandkarte Englisch · Aussprache von -s und -ed
+            url: https://lernapps.net/apps/map/englisch/c/endungen-s-ed/
+      - type: language-task
+        id: endungen-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: peter-cleaned-his-room-yesterday.mp3
+            target: Peter cleaned his room yesterday.
+            mistakes:
+              - answer: Peter clean his room yesterday.
+                message: Das ist gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
+          - audio: mrs-parker-opens-the-window-every-morning.mp3
+            target: Mrs Parker opens the window every morning.
+            mistakes:
+              - answer: Mrs Parker open the window every morning.
+                message: Mrs Parker ist eine einzelne Person (she), also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
+          - audio: amir-painted-a-picture-yesterday.mp3
+            target: Amir painted a picture yesterday.
+            mistakes:
+              - answer: Amir paint a picture yesterday.
+                message: Das ist gestern passiert, also braucht das Wort die Endung -ed.
+        hint: Der Satz sagt dir, wann etwas passiert.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: endungen-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: sophie-waited-for-the-bus-yesterday.mp3
+            text: Sophie waited for the bus yesterday.
+          - audio: peter-plays-with-two-dogs-in-the-garden.mp3
+            text: Peter plays with two dogs in the garden.
+          - audio: amir-jumped-over-the-boxes-yesterday.mp3
+            text: Amir jumped over the boxes yesterday.
+        hint: Achte auf die Endung.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert sich dabei das Wort. Mr Hill sagt: „Das schauen wir uns in der Werkstatt an.“"

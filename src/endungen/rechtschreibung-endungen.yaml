@@ -1,0 +1,195 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Was vor der Endung passiert
+description: "Peter hängt eine Endung an ein Wort und ist nicht sicher. Du lernst drei Handgriffe der Werkstatt und schreibst Wörter vor -s, -ed und -ing richtig."
+competencies: [rechtschreibung-endungen]
+scope: "Die Seite zeigt, wie sich die Schreibung eines Wortes vor einer Endung (-s, -ed, -ing) ändern kann. Drei Handgriffe: Der Konsonant wird verdoppelt, wenn ein kurzer Vokal und ein Konsonant am Ende stehen (stop – stopped, run – running). Nach einem Konsonanten wird y zu ie vor -s und -ed (cry – cries, try – tried), nach einem Vokal bleibt das y (play – plays). Ein e am Ende fällt vor -ing weg (make – making). Nicht hier, weil sie auf anderen Seiten stehen: wie die Endungen klingen, die Bildung der Formen selbst, unregelmäßige Verben."
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter ist unsicher
+    blocks:
+      - type: figure
+        image: images/szene-rechtschreibung-endungen.svg
+        alt: "Im Klassenzimmer überlegt Peter in einer Sprechblase: „plan + ed = ?“. Neben ihm stehen Ellie und Mr Hill."
+        caption: "Von links: Peter (gelbe Jacke) überlegt, Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare) schauen zu."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Amir hat gestern die Party geplant. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird."
+      - type: single-choice
+        id: rechtschreibung-start
+        text: "Welche Form passt? Amir ___ the party yesterday."
+        options:
+          - text: planned
+            correct: true
+            info: Aus plan wird planned, mit doppeltem n.
+          - text: planed
+            correct: false
+            info: Planed gibt es, aber es heißt „hobelte“.
+          - text: planning
+            correct: false
+            info: Planning hat die Endung -ing. Hier passt -ed.
+        explanation: Bei plan wird das n doppelt.
+        links:
+          - title: Lernlandkarte Englisch · Schreibung vor Endungen
+            url: https://lernapps.net/apps/map/englisch/c/rechtschreibung-endungen/
+      - type: text
+        text: "**Das kannst du danach:** Du weißt, was vor -s, -ed und -ing mit dem Wort passiert, und schreibst es richtig."
+  - type: section
+    id: neu
+    title: Drei Handgriffe
+    blocks:
+      - type: text
+        text: "Mr Hills **Werkstatt** zeigt, was beim Anhängen einer Endung mit dem Wort passiert. Links steht das Wort, in der Mitte der Handgriff, rechts die Endung."
+      - type: figure
+        image: images/werkstatt-endungen.svg
+        alt: "Drei Reihen mit Karten. In jeder Reihe steht links ein grünes Wort, in der Mitte ein gelber Handgriff, rechts eine blaue Endung und dahinter das Ergebnis: stop, Konsonant doppeln, ed, stopped. cry, y wird ie, s, cries. make, e fällt weg, ing, making."
+        caption: "Drei Handgriffe: doppeln, y zu ie, e weglassen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt, nicht bei w, x und y (show – showed).
+              - **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays). Vor -ing bleibt es auch (try – trying).
+              - **e fällt weg:** Ein e am Ende fällt vor -ing meist weg. Vor -ed kommt nur ein d dazu (dance – danced).
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: rechtschreibung-waehlen
+        text: "Peter springt auf einem Bein. Das englische Wort hop heißt „hüpfen“. Welche Form passt: Peter is ___ on one leg."
+        options:
+          - text: hopping
+            correct: true
+            info: Vor -ing wird das p doppelt.
+          - text: hoping
+            correct: false
+            info: Hoping kommt von hope („hoffen“).
+          - text: hopped
+            correct: false
+            info: Hopped hat die Endung -ed. Nach is passt -ing.
+        explanation: Hopping hat ein doppeltes p.
+        links:
+          - title: Lernlandkarte Englisch · Schreibung vor Endungen
+            url: https://lernapps.net/apps/map/englisch/c/rechtschreibung-endungen/
+      - type: matching
+        id: rechtschreibung-zuordnen
+        text: Welcher Handgriff gehört zu welchem Wort?
+        pairs:
+          - left: hit – hitting
+            right: Konsonant doppeln
+          - left: tidy – tidies
+            right: y wird ie
+          - left: like – liking
+            right: e fällt weg
+          - left: stay – stays
+            right: y bleibt
+        explanation: Nach einem Vokal bleibt das y.
+        links:
+          - title: Lernlandkarte Englisch · Schreibung vor Endungen
+            url: https://lernapps.net/apps/map/englisch/c/rechtschreibung-endungen/
+      - type: language-task
+        id: rechtschreibung-ing
+        languages: { source: de, target: en }
+        task: Hänge -ing an das Wort. Schreibe die ganze Form.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: swim · -ing
+            target: swimming
+            mistakes:
+              - answer: swiming
+                message: Das m wird doppelt.
+          - cue: write · -ing
+            target: writing
+            mistakes:
+              - answer: writeing
+                message: Das e fällt weg.
+              - answer: writting
+                message: Das e fällt weg. Das t bleibt einfach.
+          - cue: sit · -ing
+            target: sitting
+            mistakes:
+              - answer: siting
+                message: Das t wird doppelt.
+        hint: Schau auf das Ende des Wortes.
+      - type: language-task
+        id: rechtschreibung-s-ed
+        languages: { source: de, target: en }
+        task: Schreibe die richtige Form. Die Angabe in Klammern sagt, welche Form gemeint ist.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: fly · she (simple present)
+            target: flies
+            mistakes:
+              - answer: flys
+                message: Das y wird zu ie.
+              - answer: flyes
+                message: Das y wird zu ie, ohne weiteres e.
+          - cue: enjoy · he (simple present)
+            target: enjoys
+            mistakes:
+              - answer: enjoies
+                message: Nach einem Vokal bleibt das y.
+          - cue: study · yesterday (simple past)
+            target: studied
+            mistakes:
+              - answer: studyed
+                message: Das y wird zu ied.
+              - answer: studies
+                message: Das ist die Form für jetzt. Für gestern braucht man -ed.
+          - cue: drop · yesterday (simple past)
+            target: dropped
+            mistakes:
+              - answer: droped
+                message: Das p wird doppelt.
+              - answer: dropping
+                message: Das ist die Form mit -ing. Für gestern braucht man -ed.
+        hint: Welcher Handgriff passt?
+      - type: language-task
+        id: rechtschreibung-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: sophie-is-shopping-with-mrs-parker.mp3
+            target: Sophie is shopping with Mrs Parker.
+            mistakes:
+              - answer: Sophie is shoping with Mrs Parker.
+                message: Hier wird das p doppelt.
+          - audio: amir-carries-two-bags-upstairs.mp3
+            target: Amir carries two bags upstairs.
+            mistakes:
+              - answer: Amir carrys two bags upstairs.
+                message: Hier wird das y zu ie.
+          - audio: peter-is-getting-a-new-bag-today.mp3
+            target: Peter is getting a new bag today.
+            mistakes:
+              - answer: Peter is geting a new bag today.
+                message: Hier wird das t doppelt.
+        hint: Achte auf das Wort mit der Endung. Dort ändert sich etwas.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: rechtschreibung-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: ellie-is-running-to-the-station.mp3
+            text: Ellie is running to the station.
+          - audio: amir-studies-english-in-the-evening.mp3
+            text: Amir studies English in the evening.
+          - audio: peter-stayed-at-home-yesterday.mp3
+            text: Peter stayed at home yesterday.
+        hint: Achte darauf, wie die Endung klingt.
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Schritt
+    blocks:
+      - type: text
+        text: "In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor einer Endung mit dem Wort passiert. Peter schreibt seine Wörter jetzt richtig an die Werkstatttafel. Mr Hill sagt: „Jetzt sprechen wir wie im Gespräch.“ Dort kürzen wir Wörter ab, und die Stimme geht rauf und runter."

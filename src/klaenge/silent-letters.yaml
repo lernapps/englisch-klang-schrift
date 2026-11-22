@@ -1,0 +1,166 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Buchstaben, die man nicht hört
+description: "Sophie liest ein Wort mit einem k vor, das man nicht spricht. Du lernst stumme Buchstaben kennen und schreibst Wörter damit richtig."
+competencies: [silent-letters]
+scope: "Die Seite zeigt stumme Buchstaben: Buchstaben, die man schreibt, aber nicht spricht. In der Klangpartitur hat so ein Buchstabe keine blaue Karte, sondern eine graue gestrichelte. Gelernt werden sechs Muster: k vor n (knife), w vor r (write), b nach m (climb), t nach s (listen), l vor k (walk), gh vor t (night). Zum Üben dienen andere Wörter mit denselben Mustern (wrong, knock, light, know, high, eight, talk, wrote, fasten). Nicht hier, weil sie auf späteren Seiten stehen: Laute der Wörter in Lautschrift, Betonung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Warum lacht Amir?
+    blocks:
+      - type: figure
+        image: images/szene-silent-letters.svg
+        alt: "Im Klassenzimmer steht eine Tafel mit drei Zeilen. Sophie sagt in einer Sprechblase „k-nee?“, Amir lacht und sagt „Ha ha!“. Mr Hill steht rechts unter der Tafel."
+        caption: "Von links: Sophie (Zöpfe) liest ein Wort vor, Amir (Brille) lacht, rechts steht Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie liest das englische Wort **knee** („Knie“) vor, genau so, wie es geschrieben steht: „k-nee“. Amir lacht."
+      - type: single-choice
+        id: silent-letters-start
+        text: Warum lacht Amir?
+        options:
+          - text: Das k in knee ist stumm, man spricht es nicht.
+            correct: true
+            info: Im Wort knee hört man nur „nii“. Das k schreibt man, aber man spricht es nicht. Ein solcher Buchstabe heißt stumm.
+          - text: Das k in knee ist nur am Wortende stumm.
+            correct: false
+            info: Im Wort knee steht das k am Anfang, und man spricht es nicht. Stumme Buchstaben gibt es an vielen Stellen im Wort.
+          - text: Das k in knee ist nicht stumm, Sophie liest es richtig.
+            correct: false
+            info: Man spricht das k in knee nicht. Darum lacht Amir.
+        explanation: Im Englischen gibt es Buchstaben, die man schreibt, aber nicht spricht. Man nennt sie stumme Buchstaben.
+        links:
+          - title: Lernlandkarte Englisch · Stumme Buchstaben
+            url: https://lernapps.net/apps/map/englisch/c/silent-letters/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst stumme Buchstaben und schreibst die Wörter richtig."
+  - type: section
+    id: neu
+    title: Schreiben, aber nicht sprechen
+    blocks:
+      - type: text
+        text: "Ein **stummer Buchstabe** steht im Wort, aber man spricht ihn nicht. In der Klangpartitur hat er keine blaue Karte, sondern eine graue gestrichelte. Der Buchstabe darunter ist grau."
+      - type: figure
+        image: images/partitur-silent-letters.svg
+        alt: "Die Klangpartitur mit dem Wort knee. In der unteren Zeile steht eine graue gestrichelte Karte mit einem Strich unter dem grauen k, dann eine blaue Karte n unter n und eine blaue Karte iː unter ee."
+        caption: "Das k hat keine blaue Karte. Man hört nur n und iː."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Klassenzimmer-Poster · Stumme Buchstaben"
+        header: [Muster, Beispiel, Stumm]
+        rows:
+          - [k vor n am Wortanfang, knife, k]
+          - [w vor r am Wortanfang, write, w]
+          - [b nach m am Wortende, climb, b]
+          - [t in -sten und -stle, listen, t]
+          - [l in -alk, walk, l]
+          - [gh vor t oder am Wortende, night, gh]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Stumme Buchstaben schreibt man, aber man spricht sie nicht.**
+              - Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, schlage im Zweifel nach.
+              - Beim Schreiben musst du sie trotzdem schreiben.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: silent-letters-erkennen
+        text: In welchen Wörtern gibt es einen stummen Buchstaben?
+        options:
+          - text: wrong
+            correct: true
+            info: Das w vor r ist stumm. Man spricht wrong wie „rong“.
+          - text: knock
+            correct: true
+            info: Das k vor n ist stumm. Man spricht knock wie „nock“.
+          - text: light
+            correct: true
+            info: Das gh vor t ist stumm. Man spricht light ohne gh.
+          - text: desk
+            correct: false
+            info: In desk spricht man jeden Buchstaben.
+        explanation: Wrong, knock und light folgen den Mustern der Tabelle. In desk spricht man alles.
+        links:
+          - title: Lernlandkarte Englisch · Stumme Buchstaben
+            url: https://lernapps.net/apps/map/englisch/c/silent-letters/
+      - type: language-task
+        id: silent-letters-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das englische Wort.
+        form: { case: ok, punctuation: ok }
+        items:
+          - source: wissen
+            target: know
+            mistakes:
+              - answer: no
+                message: No heißt „nein“. Wissen schreibt man mit stummem k.
+              - answer: now
+                message: Now heißt „jetzt“. Wissen schreibt man mit k am Anfang.
+          - source: hoch
+            target: high
+            mistakes:
+              - answer: hi
+                message: Hi heißt „hallo“. Hoch schreibt man mit stummem gh.
+          - source: acht
+            target: eight
+            mistakes:
+              - answer: ate
+                message: Ate ist die Vergangenheit von eat. Die Zahl schreibt man mit stummem gh.
+        hint: Denk an die Muster aus der Tabelle.
+      - type: matching
+        id: silent-letters-zuordnen
+        text: Welcher Buchstabe ist stumm?
+        pairs:
+          - left: knee
+            right: k
+          - left: right
+            right: gh
+          - left: walked
+            right: l
+          - left: castle
+            right: t
+        explanation: Die Muster der Tabelle helfen, aber man muss die Wörter üben.
+        links:
+          - title: Lernlandkarte Englisch · Stumme Buchstaben
+            url: https://lernapps.net/apps/map/englisch/c/silent-letters/
+      - type: language-task
+        id: silent-letters-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: peter-talks-to-mrs-parker-every-morning.mp3
+            target: Peter talks to Mrs Parker every morning.
+          - audio: amir-wrote-a-letter-yesterday.mp3
+            target: Amir wrote a letter yesterday.
+          - audio: ellie-fastens-her-bag-in-the-kitchen.mp3
+            target: Ellie fastens her bag in the kitchen.
+        hint: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: silent-letters-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: amir-listens-to-mrs-parker.mp3
+            text: Amir listens to Mrs Parker.
+          - audio: sophie-climbs-the-big-tree-with-ellie.mp3
+            text: Sophie climbs the big tree with Ellie.
+          - audio: mr-hill-writes-a-long-text-today.mp3
+            text: Mr Hill writes a long text today.
+        hint: Sprich die stummen Buchstaben nicht mit.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buchstaben, die man nicht hört.“ Auf den nächsten Seiten hängen die Kinder Endungen an Wörter an, und es zeigt sich, was dabei mit der Schreibung und mit dem Klang passiert."

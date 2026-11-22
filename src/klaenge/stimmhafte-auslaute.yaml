@@ -1,0 +1,185 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wo es am Ende summt
+description: "Amir hält die Hand an den Hals und spricht zwei Wörter. Du lernst, dass Wörter wie bed und bet am Ende verschieden klingen."
+competencies: [stimmhafte-auslaute]
+scope: "Die Seite zeigt stimmhafte und stimmlose Laute am Wortende: /b/, /d/ und /ɡ/ summen (bed, dog, bag), /p/, /t/ und /k/ summen nicht (bet, dock, back). Im Deutschen werden Wörter wie Rad und Rat am Ende gleich gesprochen, im Englischen nicht. Mit der Hand am Hals spürt man das Summen. Zum Üben dienen andere Wörter (dad, job, cap, back, mad, map, hat). Nicht hier, weil sie auf anderen Seiten stehen: th, w, v, r, Vokale, Endungen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Amir hält die Hand an den Hals
+    blocks:
+      - type: figure
+        image: images/szene-stimmhafte-auslaute.svg
+        alt: "Im Klassenzimmer hält Amir die Hand an den Hals und sagt in einer Sprechblase „bed . . . bet“. Peter steht neben ihm, Mr Hill rechts."
+        caption: "Von links: Amir (Brille) spricht zwei Wörter, Peter (gelbe Jacke) und Mr Hill (graue Haare) hören zu."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich. Leg die Hand an den Hals: Bei manchen Lauten summt es."
+      - type: single-choice
+        id: auslaute-start
+        text: Wie ist das im Englischen bei bed und bet?
+        options:
+          - text: Das Ende von bed summt, das Ende von bet nicht.
+            correct: true
+            info: Bei bed summt das d, und die Hand am Hals spürt es. Bei bet ist das t hart und summt nicht.
+          - text: Beide Wörter enden gleich, so wie im Deutschen.
+            correct: false
+            info: Im Englischen sind sie am Ende verschieden. Im Deutschen ist das anders, aber das gilt hier nicht.
+          - text: Das Ende von bet summt, das Ende von bed nicht.
+            correct: false
+            info: Es ist umgekehrt. Das d in bed summt, das t in bet nicht.
+        explanation: Das d summt, das t nicht. Ob ein Laut summt, entscheidet über die Bedeutung.
+        links:
+          - title: Lernlandkarte Englisch · Stimmhafte Auslaute
+            url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
+      - type: text
+        text: "**Das kannst du danach:** Du hörst und übst, ob ein Wortende summt oder nicht."
+  - type: section
+    id: neu
+    title: Summt es oder summt es nicht?
+    blocks:
+      - type: text
+        text: "Leg die Hand an den Hals und sprich das Ende des Wortes. Summt es, ist der Laut **stimmhaft**. Summt es nicht, ist er **stimmlos**. Im Englischen bleibt das Ende von bed weich, und das von bet bleibt hart. Das Zeichen ɛ klingt wie das e in „Bett“."
+      - type: figure
+        image: images/partitur-auslaute.svg
+        alt: "Die Klangpartitur mit den beiden Wörtern bed und bet. Unter bed steht die blaue Karte bɛd, unter bet die blaue Karte bɛt. Nur die letzten Zeichen d und t unterscheiden sich."
+        caption: "Die Karten unterscheiden sich nur im letzten Zeichen: d summt, t summt nicht."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Klassenzimmer-Poster · Wortenden"
+        header: [Wortende, Beispiel, Am Hals]
+        rows:
+          - ["/d/", bed, summt]
+          - ["/t/", bet, summt nicht]
+          - ["/ɡ/", dog, summt]
+          - ["/k/", dock, summt nicht]
+          - ["/b/", cab, summt]
+          - ["/p/", cap, summt nicht]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Stimmhaft:** /b/, /d/ und /ɡ/ summen am Wortende, oft nur schwach. Der Vokal davor ist etwas länger.
+              - **Stimmlos:** /p/, /t/ und /k/ summen nicht.
+              - **Im Englischen bleibt das Ende, wie es ist.** Es wird nicht hart wie im Deutschen.
+      - type: speaking-task
+        id: auslaute-karten
+        language: en
+        task: "Höre vier Sätze und sprich sie nach. In jedem steckt ein Wort aus der Tabelle: bed, bet, dog, dock."
+        items:
+          - audio: i-like-this-bed-very-much-today.mp3
+            text: I like this bed very much today.
+          - audio: i-made-a-bet-yesterday.mp3
+            text: I made a bet yesterday.
+          - audio: the-dog-is-very-big-and-friendly.mp3
+            text: The dog is very big and friendly.
+          - audio: the-boat-is-at-the-dock-today.mp3
+            text: The boat is at the dock today.
+        hint: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: auslaute-erkennen
+        text: Bei welchen Wörtern summt der letzte Laut?
+        options:
+          - text: dad
+            correct: true
+            info: Das d am Ende summt.
+          - text: job
+            correct: true
+            info: Das b am Ende summt.
+          - text: cup
+            correct: false
+            info: Das p am Ende summt nicht.
+          - text: hit
+            correct: false
+            info: Das t am Ende summt nicht.
+        explanation: Die Laute /d/ und /b/ summen, die Laute /p/ und /t/ nicht.
+        links:
+          - title: Lernlandkarte Englisch · Stimmhafte Auslaute
+            url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
+      - type: single-choice
+        id: auslaute-lesen
+        text: Welches Wort steht in Lautschrift? /hæt/
+        options:
+          - text: hat
+            correct: true
+            info: Das letzte Zeichen /t/ summt nicht. Das Wort hat heißt „Hut“.
+          - text: hot
+            correct: false
+            info: Hot hat einen anderen Vokal und heißt „heiß“. Hier steht /æ/.
+          - text: hate
+            correct: false
+            info: Hate hat einen anderen Vokal und heißt „hassen“. Hier steht /æ/.
+        explanation: Das letzte Zeichen entscheidet. Das /t/ summt nicht.
+        links:
+          - title: Lernlandkarte Englisch · Stimmhafte Auslaute
+            url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
+      - type: language-task
+        id: auslaute-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Wort, das in Lautschrift steht.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: "/mæd/"
+            target: mad
+            mistakes:
+              - answer: mat
+                message: Mat endet mit /t/, das nicht summt. Hier steht /d/.
+          - cue: "/sæd/"
+            target: sad
+            mistakes:
+              - answer: sat
+                message: Sat endet mit /t/, das nicht summt. Hier steht /d/.
+          - cue: "/mæp/"
+            target: map
+        hint: Prüfe das letzte Zeichen. Summt es?
+      - type: language-task
+        id: auslaute-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: the-kid-hides-under-the-table-today.mp3
+            target: The kid hides under the table today.
+            mistakes:
+              - answer: The kit hides under the table today.
+                message: Kit endet mit /t/, das nicht summt. Ein Kind ist ein kid, mit summendem d am Ende.
+          - audio: ellie-has-a-bad-cold-this-morning.mp3
+            target: Ellie has a bad cold this morning.
+            mistakes:
+              - answer: Ellie has a bat cold this morning.
+                message: Bat endet mit /t/. Für „schlimm“ braucht man bad, mit summendem d.
+          - audio: amir-puts-the-bag-on-the-table.mp3
+            target: Amir puts the bag on the table.
+            mistakes:
+              - answer: Amir puts the back on the table.
+                message: Back heißt „zurück“. Hier ist die Tasche gemeint, bag.
+        hint: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: auslaute-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: mr-hill-carries-a-heavy-bag-every-morning.mp3
+            text: Mr Hill carries a heavy bag every morning.
+          - audio: peter-has-a-big-cat-and-a-small-dog-today.mp3
+            text: Peter has a big cat and a small dog today.
+          - audio: mr-hill-writes-a-long-word-on-the-board-today.mp3
+            text: Mr Hill writes a long word on the board today.
+        hint: Das Ende des Wortes bleibt weich, wenn es summt. Spüre es mit der Hand am Hals.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr gar nicht.“ Welche Buchstaben das sind, lernst du auf der nächsten Seite."

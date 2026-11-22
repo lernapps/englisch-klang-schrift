@@ -1,0 +1,191 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zwei Wörter, ein Klang
+description: "Ellie ruft That's my bag! Du lernst, wie zwei Wörter zu einer Kurzform verschmelzen, wie du sie sprichst und wie du sie mit Apostroph schreibst."
+competencies: [kurzformen]
+scope: "Die Seite zeigt Kurzformen mit be und not: I'm, you're, it's, they're, don't, isn't. Zwei Wörter verschmelzen, ein Apostroph steht für die fehlenden Buchstaben, und man spricht die Kurzform als ein Wort. Dazu der Unterschied zwischen it's (it is) und its (gehört zu es) und Kurzformen mit 's für is (that's, where's, what's, how's, who's). Die Kurzformen mit have und will und 's als Besitz (Peter's bag) stehen nicht hier. Nicht hier, weil sie auf anderen Seiten stehen: Betonung und die Melodie der Frage."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellie ruft etwas
+    blocks:
+      - type: figure
+        image: images/szene-kurzformen.svg
+        alt: "Im Klassenzimmer ruft Ellie in einer Sprechblase: „That's my bag!“ Neben ihr stehen Amir und Mr Hill."
+        caption: "Von links: Amir (Brille), Ellie (roter Pferdeschwanz) ruft etwas, rechts steht Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ellie hat ihre Tasche gefunden und ruft: „That's my bag!“ Sie spricht **that's** wie ein einziges Wort. Aus Hello, Millbrook! kennst du schon I'm."
+      - type: single-choice
+        id: kurzformen-start
+        text: Was bedeutet Ellies Satz „That's my bag!“?
+        options:
+          - text: Das ist meine Tasche.
+            correct: true
+            info: "Das 's in that's steht für is. That's my bag heißt „Das ist meine Tasche“."
+          - text: Das war meine Tasche.
+            correct: false
+            info: "Ellie sagt, was jetzt ist. Für „war“ gäbe es das Wort was."
+          - text: Das ist Peters Tasche.
+            correct: false
+            info: "Das 's kann Besitz zeigen (Peters Tasche), aber hier steht es für is."
+        explanation: Aus that is wird that's. Das 's steht für is.
+        links:
+          - title: Lernlandkarte Englisch · Kurzformen
+            url: https://lernapps.net/apps/map/englisch/c/kurzformen/
+      - type: text
+        text: "**Das kannst du danach:** Du verstehst Kurzformen und schreibst sie mit Apostroph."
+  - type: section
+    id: neu
+    title: Aus zwei Wörtern wird eins
+    blocks:
+      - type: text
+        text: "Die blauen Karten der Klangpartitur kennst du aus [Lautschrift lesen](/klaenge/lautschrift/): Jede Karte zeigt ein Wort in Lautschrift. Eine **Kurzform** verschmilzt zwei Wörter, also zwei Karten, zu einer, und dabei fällt ein Laut weg. Ein **Apostroph** (') steht dort, wo Buchstaben fehlen. In der Tabelle siehst du, welcher Buchstabe fehlt."
+      - type: figure
+        image: images/partitur-kurzformen.svg
+        alt: "Die Klangpartitur mit der unteren Zeile. Eine Karte ʃiː unter she und eine Karte ɪz unter is werden mit Plus und Gleich zu einer Karte ʃiːz unter she's."
+        caption: "Zwei Karten werden zu einer: she plus is ergibt she's. Das ɪ fällt weg."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Klassenzimmer-Poster · Kurzformen"
+        header: [Lang, Kurz, Das fehlt]
+        rows:
+          - [I am, "I'm", a]
+          - [you are, "you're", a]
+          - [it is, "it's", i]
+          - [they are, "they're", a]
+          - [do not, "don't", o]
+          - [is not, "isn't", o]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Der Apostroph steht dort, wo Buchstaben fehlen:** do not wird don't, denn das o fehlt.
+              - **Man spricht eine Kurzform als ein Wort,** ohne Pause dazwischen.
+              - **Auch is nach einem Fragewort wird zu 's.** it's heißt meist it is. Ohne Apostroph schreibt man its („sein“, „ihr“): The bird is in its nest.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: kurzformen-zuordnen
+        text: Welche Kurzform gehört zu welchen zwei Wörtern?
+        pairs:
+          - left: we are
+            right: "we're"
+          - left: does not
+            right: "doesn't"
+          - left: he is
+            right: "he's"
+          - left: are not
+            right: "aren't"
+        explanation: Der Apostroph steht jeweils dort, wo ein Buchstabe fehlt.
+        links:
+          - title: Lernlandkarte Englisch · Kurzformen
+            url: https://lernapps.net/apps/map/englisch/c/kurzformen/
+      - type: single-choice
+        id: kurzformen-satz
+        text: "Welches Wort passt? The dog loves ___ ball."
+        options:
+          - text: its
+            correct: true
+            info: "Its ohne Apostroph gehört zu einem Ding oder Tier: sein Ball."
+          - text: it's
+            correct: false
+            info: "It's heißt it is. „The dog loves it is ball“ ergibt keinen Sinn."
+          - text: it is
+            correct: false
+            info: "Hier gehört der Ball zum Hund. Dafür braucht der Satz its."
+        explanation: Its zeigt, wem etwas gehört. It's heißt it is.
+        links:
+          - title: Lernlandkarte Englisch · Kurzformen
+            url: https://lernapps.net/apps/map/englisch/c/kurzformen/
+      - type: language-task
+        id: kurzformen-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Kurzform. Wenn es zwei richtige gibt, genügt eine.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: who is
+            target: who's
+            mistakes:
+              - answer: whose
+                message: Whose heißt „wessen“. Who is schreibt man who's.
+              - answer: whos
+                message: Der Apostroph fehlt. Er steht dort, wo das i fehlt.
+          - cue: I am not
+            target: I'm not
+            mistakes:
+              - answer: I amn't
+                message: Von I am not gibt es nur I'm not.
+              - answer: Im not
+                message: Der Apostroph fehlt.
+          - cue: he is not
+            target: (he isn't|he's not)
+            mistakes:
+              - answer: he isnt
+                message: Der Apostroph fehlt. Er steht dort, wo das o fehlt.
+        hint: Welche Buchstaben fallen weg? An dieser Stelle steht der Apostroph.
+      - type: language-task
+        id: kurzformen-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz ist die Kurzform falsch geschrieben. Schreibe den Satz richtig.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: Peter cant swim.
+            target: Peter can't swim.
+            mistakes:
+              - answer: Peter cant swim.
+                message: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
+          - cue: Amir hasnt got a bike.
+            target: Amir hasn't got a bike.
+            mistakes:
+              - answer: Amir hasnt got a bike.
+                message: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
+        hint: Prüfe die Kurzform.
+      - type: language-task
+        id: kurzformen-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: wheres-peter-this-morning.mp3
+            target: Where's Peter this morning?
+            mistakes:
+              - answer: Wheres Peter this morning?
+                message: Der Apostroph fehlt. Where's heißt where is.
+          - audio: whats-in-your-bag-today.mp3
+            target: What's in your bag today?
+            mistakes:
+              - answer: Whats in your bag today?
+                message: Der Apostroph fehlt. What's heißt what is.
+          - audio: hows-mrs-parker-today.mp3
+            target: How's Mrs Parker today?
+            mistakes:
+              - answer: Hows Mrs Parker today?
+                message: Der Apostroph fehlt. How's heißt how is.
+        hint: Den Apostroph hörst du nicht. Du musst ihn schreiben.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: kurzformen-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: youre-early-and-im-late-again.mp3
+            text: You're early, and I'm late again.
+          - audio: we-arent-hungry-this-morning.mp3
+            text: We aren't hungry this morning.
+          - audio: ellie-doesnt-like-coffee-today.mp3
+            text: Ellie doesn't like coffee today.
+        hint: Sprich jede Kurzform wie ein Wort, ohne Pause in der Mitte.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch die Stimme. Sie geht rauf oder runter.“ Wie die Stimme bei einer Frage klingt und wie bei einer Aussage, hörst du auf der nächsten Seite."
