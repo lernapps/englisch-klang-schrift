@@ -38,7 +38,7 @@ Alle neun sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach
 - Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Szene der Figuren, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Klangpartitur, Lautkarten, Merke), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`speaking-task` oder `open-task`), `weiter` (nächster Schritt an der Wand; am Kapitelende ein Rückblick). Die Wiederholungsseite hat nur Text und Tabellen.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken, höchstens eine kurze Tabelle je Seite. Jede Seite bringt einen neuen Schritt.
 - Geschichte: Mr Hill hängt neben den Zeitstrahl und die Satzleiste der Klasse die **Klangpartitur** auf und füllt eine Wand mit **Lautkarten**. Sophie, Ellie, Peter und Amir sprechen nach, hören einander und sammeln Karten. Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Kein neuer Ort. Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“ und die Lautkarten „Lautkarten · …“.
-- Anrede „du“. Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Anrede „du“. Hörsätze bleiben natürlich: kein Name nur wegen des Klangs am Satzende; endet ein Satz auf ein einsilbiges Wort, kommt er in die Hörliste.
 
 ## Terminology
 
@@ -127,7 +127,7 @@ Aus #470, #472, #473 und `konventionen.md` Abschnitt 7 übernommen:
 - Diktat und Nachsprechen bringen neue Sätze: kein Hörsatz steht wörtlich oder fast wörtlich in Einstieg, Poster, Merke, Bildtext oder in einer anderen Übung derselben Seite (Skriptprüfung).
 - Distraktoren nur echte Lernerfehler, jeder mit eigener Meldung; ein Einstiegs-`single-choice` hat mindestens drei Optionen.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; Kurzformen zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
-- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), Namen am Satzende zweisilbig, keine Einzelwörter, Minimalwort nie am Satzende.
+- Audio: das Ausklingen der Stimme am Satzende abschneiden (`regen_audio.py`), kein Name nur wegen des Klangs am Satzende (das Ausklingen schneidet `regen_audio.py` ab; Sätze mit einsilbigem Ende in die Hörliste), keine Einzelwörter, Minimalwort nie am Satzende.
 - Bilder: Beschriftungen innerhalb des `viewBox`; die Bildunterschrift nennt, wer wer ist; das `alt` verrät nie die Lösung.
 - Hinweise und Meldungen nennen weder „Spalte“ noch „Poster“ noch „oben“.
 - Ein Begriff steht auf der Seite, bevor eine Übung ihn braucht; höchstens drei neue Begriffe je Absatz; ein Merke-Kasten hat zwei bis drei Aussagen.
