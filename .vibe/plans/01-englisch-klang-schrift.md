@@ -264,22 +264,23 @@ Spätere Inkremente: Kapitel 4 und 5 (Stufe 7-8) füllen die mittlere Zeile; die
 - [x] Muster: app.yaml (Strang englisch/aussprache, Kapitel klaenge, endungen, gespraech), chapter.yaml von klaenge, Seite klaenge/lautschrift mit Szene, Bild partitur-lautschrift (Skript make_partitur.py), Lautkarten-Tabelle, mindestens vier Übungen, Diktat und Nachsprechen; Audio-Pipeline mit regen_audio.py und audio-texte.json; Hörliste in den Notes. Zeigt: Klangpartitur, Lesehilfe gegen Lautschrift.
 - [x] Muster bauen (versehentlich zu früh abgehakt, hier nachgeholt): app.yaml (Strang englisch/aussprache, Kapitel klaenge, endungen, gespraech; scope), chapter.yaml von klaenge, Seite klaenge/lautschrift mit Szene szene-lautschrift.svg, Bild partitur-lautschrift (make_partitur.py), Lautkarten-Tabelle, mindestens vier Übungen, Diktat und Nachsprechen, Audio mit regen_audio.py, Hörprobe (4-6 Sätze ship/sheep, bed/bet, thank/sank) und Hörliste in den Notes; Commit.
 <!-- tasks: pattern (2 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] Seite klaenge/vokale: Minimalpaare lang und kurz, Bild partitur-vokale, Übungen mit Kontext-Diktat; Hörliste ergänzen.
-- [ ] Seite klaenge/konsonanten-th-w: th, w, v, r mit Zungenbild und Übungen.
-- [ ] Seite klaenge/stimmhafte-auslaute: bed – bet, dog – dock, Selbstversuch Hals, Übungen; Kapitel klaenge mit Rückblick und selfAssessment.
-- [ ] Seite klaenge/silent-letters: stumme Buchstaben grau im Bild, Übungen mit Korrektur.
-- [ ] Kapitel endungen: chapter.yaml, Wiederholungsseite das-brauchst-du (plural, simple-past, present-progressive) und Seite endungen-s-ed mit Sortieren nach letztem Laut.
-- [ ] Seite endungen/rechtschreibung-endungen: Werkstatt-Bild, drei Handgriffe, Übungen mit mistakes (stoped, cryes, makeing); Rückblick und selfAssessment des Kapitels.
-- [ ] Kapitel gespraech: chapter.yaml, Wiederholungsseite das-brauchst-du (to-be, simple-present-fragen, fragewoerter) und Seite kurzformen mit Bild partitur-kurzformen.
-- [ ] Seite gespraech/intonation-fragen: obere Zeile der Partitur, Pfeile, Übungen; Rückblick und selfAssessment des Kapitels; Start-/Einstiegsseiten und Medienübersicht prüfen.
-- [ ] Skriptprüfung aller Seiten: keine Hörsätze als Dubletten in Poster, Merke, Einstieg, Bild oder Übungen derselben Seite; Wörter gegen Grundwortschatz; Hörliste (Datei, Satz, Minimalwort) in Notes und Inhaltsführer vollständig.
+      Creator: Musterseite lautschrift ist freigegeben (Orchestrator-Session, Rolle der Ersteller:in), andere Seiten dürfen folgen; Hörprobe von der Ersteller:in beurteilt: die kritischen Terme sind gut zu unterscheiden.
+- [x] Seite klaenge/vokale: Minimalpaare lang und kurz, Bild partitur-vokale, Übungen mit Kontext-Diktat; Hörliste ergänzen.
+- [x] Seite klaenge/konsonanten-th-w: th, w, v, r mit Zungenbild und Übungen.
+- [x] Seite klaenge/stimmhafte-auslaute: bed – bet, dog – dock, Selbstversuch Hals, Übungen; Kapitel klaenge mit Rückblick und selfAssessment.
+- [x] Seite klaenge/silent-letters: stumme Buchstaben grau im Bild, Übungen mit Korrektur.
+- [x] Kapitel endungen: chapter.yaml, Wiederholungsseite das-brauchst-du (plural, simple-past, present-progressive) und Seite endungen-s-ed mit Sortieren nach letztem Laut.
+- [x] Seite endungen/rechtschreibung-endungen: Werkstatt-Bild, drei Handgriffe, Übungen mit mistakes (stoped, cryes, makeing); Rückblick und selfAssessment des Kapitels.
+- [x] Kapitel gespraech: chapter.yaml, Wiederholungsseite das-brauchst-du (to-be, simple-present-fragen, fragewoerter) und Seite kurzformen mit Bild partitur-kurzformen.
+- [x] Seite gespraech/intonation-fragen: obere Zeile der Partitur, Pfeile, Übungen; Rückblick und selfAssessment des Kapitels; Start-/Einstiegsseiten und Medienübersicht prüfen.
+- [x] Skriptprüfung aller Seiten: keine Hörsätze als Dubletten in Poster, Merke, Einstieg, Bild oder Übungen derselben Seite; Wörter gegen Grundwortschatz; Hörliste (Datei, Satz, Minimalwort) in Notes und Inhaltsführer vollständig.
 <!-- tasks: pages (9 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
