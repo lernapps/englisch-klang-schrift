@@ -116,7 +116,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Partitur-Bild: neue Zeile in `make_partitur.py`; die mittlere Zeile füllt Kapitel 5 (große und kleine Punkte).
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 2 ihrer Übungen (ohne Audio) in `selfAssessment` des Kapitels.
-5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz), erzeugt mit `regen_audio.py` (aus hello-millbrook, schneidet das Ausklingen ab); Sätze nicht zwischen Seiten wiederholen, Minimalwörter nie am Satzende, Namen am Satzende zweisilbig; Eintrag in die Hörliste.
+5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz), erzeugt mit `regen_audio.py` (aus hello-millbrook, schneidet das Ausklingen ab); Sätze nicht zwischen Seiten wiederholen, Minimalwörter nie am Satzende, Sätze natürlich lassen (kein Name nur wegen des Klangs), einsilbige Enden in die Hörliste; Eintrag in die Hörliste.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
