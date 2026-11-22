@@ -164,8 +164,8 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → A dog sleeps under the table today.
-     - A dock sleeps under the table today.: Ein dock ist ein Anleger für Schiffe. Hier schläft ein Hund: dog, mit summendem g am Ende.
+1. Audio → The kid hides under the table today.
+     - The kit hides under the table today.: Kit endet mit /t/, das nicht summt. Ein Kind ist ein kid, mit summendem d am Ende.
 2. Audio → Ellie has a bad cold this morning.
      - Ellie has a bat cold this morning.: Bat endet mit /t/. Für „schlimm“ braucht man bad, mit summendem d.
 3. Audio → Amir puts the bag on the table.

@@ -63,14 +63,14 @@ Klassenzimmer-Poster · Endungen:
 - Letzter Laut | Endung | Beispiel
 - stimmlos | -s wie /s/, -ed wie /t/ | cats, walked
 - stimmhaft | -s wie /z/, -ed wie /d/ | bags, played
-- Zischlaut (s, z, sh, ch, x) | -s wie /ɪz/ | buses
+- Zischlaut (s, z, sh, ch, j, x) | -s wie /ɪz/ | buses
 - t oder d | -ed wie /ɪd/ | wanted
 
 **Merke: Merke**
 
 - **Stimmlos** (summt nicht): -s klingt /s/, -ed klingt /t/.
 - **Stimmhaft** (summt): -s klingt /z/, -ed klingt /d/.
-- **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
+- **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, j, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
 - **Auch m, n, l und Vokale summen:** pens klingt /z/, plays klingt /z/, stayed klingt /d/.
 
 - Aufgabe `endungen-karten` (unten)

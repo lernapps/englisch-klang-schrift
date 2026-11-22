@@ -154,8 +154,8 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 - Einträge (Vorgabe → Lösung):
 1. Audio → Is Peter at home this afternoon?
      - Is Peter at home this afternoon.: Das ist eine Frage. Am Ende steht ein Fragezeichen.
-2. Audio → Close the door for Amir. (auch richtig: Close the door for Amir!)
-     - Close the door for Amir?: Das ist eine Aufforderung. Am Ende steht ein Punkt.
+2. Audio → Please carry the bag for Amir. (auch richtig: Please carry the bag for Amir!)
+     - Please carry the bag for Amir?: Das ist eine Aufforderung. Am Ende steht ein Punkt.
 3. Audio → Where does Mrs Parker work today?
      - Where does Mrs Parker work today.: Das ist eine Frage. Am Ende steht ein Fragezeichen.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

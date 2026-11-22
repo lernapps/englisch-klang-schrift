@@ -150,10 +150,10 @@ Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Were late for school. → We're late for school.
-     - Were late for school.: Were heißt „waren“. Für we are braucht man we're.
-2. Doesnt Peter like tea? → Doesn't Peter like tea?
-     - Doesnt Peter like tea?: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
+1. Peter cant swim. → Peter can't swim.
+     - Peter cant swim.: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
+2. Amir hasnt got a bike. → Amir hasn't got a bike.
+     - Amir hasnt got a bike.: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
 - Tipp der App: Prüfe die Kurzform.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kurzformen-korrektur](../?via=tutor#kurzformen-korrektur)

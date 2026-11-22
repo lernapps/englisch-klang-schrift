@@ -159,10 +159,8 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr 
 - Einträge (Vorgabe → Lösung):
 1. /θɪŋk/ → think
      - sink: Sink hat am Anfang ein s. Hier steht /θ/, geschrieben th.
-2. /ðɪs/ → this
-     - dis: Das Zeichen /ð/ schreibt man th, nicht d.
+2. /ðæt/ → that
 3. /wɪʃ/ → wish
-     - vish: Das erste Zeichen ist /w/ mit runden Lippen, geschrieben w.
 - Tipp der App: Welches Wort kennst du? Beachte das erste Zeichen.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#konsonanten-schreiben](../?via=tutor#konsonanten-schreiben)

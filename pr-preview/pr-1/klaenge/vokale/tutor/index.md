@@ -122,8 +122,8 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
 
 - Aufgabe: Welches Zeichen steckt in welchem Wort?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: /iː/ – meet; /ɪ/ – fish; /uː/ – food; /ʌ/ – cup; /æ/ – man
-- Erklärung: Das Zeichen ː steht bei den langen Vokalen in leave und food.
+- Lösung: /iː/ – tea; /ɪ/ – fish; /uː/ – food; /ʌ/ – cup; /æ/ – man
+- Erklärung: Das Zeichen ː steht bei den langen Vokalen in tea und food.
 - Link: [../?via=tutor#vokale-zuordnen](../?via=tutor#vokale-zuordnen)
 
 ### Aufgabe vokale-lesen
@@ -163,8 +163,8 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
      - Sophie and Ellie leave in a small village.: Leave heißt „verlassen“. Wohnen heißt live, mit kurzem i.
 2. Audio → Please leave the bag in the kitchen.
      - Please live the bag in the kitchen.: Live heißt „wohnen“. Lassen heißt leave, mit langem iː.
-3. Audio → The bag is full of books today.
-     - The bag is fool of books today.: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
+3. Audio → The bag is full of apples today.
+     - The bag is fool of apples today.: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - Tipp der App: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
