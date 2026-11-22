@@ -44,26 +44,26 @@ blocks:
       - type: figure
         image: images/partitur-silent-letters.svg
         alt: "Die Klangpartitur mit dem Wort knee. In der unteren Zeile steht eine graue gestrichelte Karte mit einem Strich unter dem grauen k, dann eine blaue Karte n unter n und eine blaue Karte iː unter ee."
-        caption: "Das k hat keine Lautkarte. Man hört nur n und iː."
+        caption: "Das k hat keine blaue Karte. Man hört nur n und iː."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
         caption: "Klassenzimmer-Poster · Stumme Buchstaben"
         header: [Muster, Beispiel, Stumm]
         rows:
-          - [k vor n, knife, k]
-          - [w vor r, write, w]
-          - [b nach m, climb, b]
-          - [t nach s, listen, t]
-          - [l vor k, walk, l]
-          - [gh vor t, night, gh]
+          - [k vor n am Wortanfang, knife, k]
+          - [w vor r am Wortanfang, write, w]
+          - [b nach m am Wortende, climb, b]
+          - [t in -sten und -stle, listen, t]
+          - [l in -alk, walk, l]
+          - [gh vor t oder am Wortende, night, gh]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
               - **Stumme Buchstaben schreibt man, aber man spricht sie nicht.**
-              - Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt.
+              - Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, zum Beispiel milk.
               - Beim Schreiben musst du sie trotzdem schreiben.
   - type: section
     id: uebung
@@ -111,7 +111,7 @@ blocks:
             target: eight
             mistakes:
               - answer: ate
-                message: Ate ist eine Form von eat. Die Zahl schreibt man mit stummem gh.
+                message: Ate ist die Vergangenheit von eat. Die Zahl schreibt man mit stummem gh.
         hint: Denk an die Muster aus der Tabelle.
       - type: language-task
         id: silent-letters-hoeren
@@ -156,4 +156,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buchstaben, die man nicht hört.“ Auf den nächsten Seiten hängen die Kinder an Wörter Endungen an, und es zeigt sich, was dabei mit der Schreibung und mit dem Klang passiert."
+        text: "Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buchstaben, die man nicht hört.“ Auf den nächsten Seiten hängen die Kinder Endungen an Wörter an, und es zeigt sich, was dabei mit der Schreibung und mit dem Klang passiert."

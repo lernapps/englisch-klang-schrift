@@ -20,7 +20,7 @@ blocks:
           - [Present progressive mit -ing, "She is reading."]
           - [Simple present mit -s, "She reads."]
       - type: text
-        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) und [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/)."
+        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/), [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/)."
   - type: section
     id: weiter
     title: Was jetzt kommt

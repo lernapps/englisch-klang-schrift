@@ -18,11 +18,11 @@ blocks:
         text: "Peter und Amir sprechen über ein Foto. Peter fragt: „Is it big?“ Amir antwortet: „It is big.“ Beide Sätze haben fast dieselben Wörter."
       - type: single-choice
         id: intonation-start
-        text: Was macht Peters Stimme am Ende der Frage, so wie im Deutschen bei „Ist es groß?“?
+        text: Was macht Peters Stimme am Ende der Frage?
         options:
           - text: Sie steigt.
             correct: true
-            info: Bei einer Frage mit Ja oder Nein geht die Stimme am Ende nach oben. Im Deutschen ist das genauso.
+            info: Bei einer Frage mit Ja oder Nein geht die Stimme am Ende meist nach oben. Im Deutschen ist das genauso.
           - text: Sie fällt.
             correct: false
             info: So spricht man eine Aussage. Eine Ja-Nein-Frage steigt am Ende.
@@ -66,9 +66,9 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Steigt:** Fragen, die man mit Ja oder Nein beantwortet.
-              - **Fällt:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
-              - **Nicht jede Frage steigt.** Eine Frage mit what oder where fällt am Ende, anders als im Deutschen oft.
+              - **Steigt meist:** Fragen, die man mit Ja oder Nein beantwortet.
+              - **Fällt meist:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
+              - Das ist die Grundregel. Im Alltag gibt es Ausnahmen.
       - type: speaking-task
         id: intonation-karten
         language: en
@@ -76,8 +76,8 @@ blocks:
         items:
           - audio: the-bag-is-red-and-the-door-is-open.mp3
             text: The bag is red and the door is open.
-          - audio: close-the-window-please-sophie.mp3
-            text: Close the window, please, Sophie.
+          - audio: close-the-window-please.mp3
+            text: Close the window, please.
           - audio: where-is-the-teacher-this-morning.mp3
             text: Where is the teacher this morning?
           - audio: is-the-teacher-at-home-today.mp3
@@ -133,15 +133,15 @@ blocks:
           - text: Sie bleibt gleich.
             correct: false
             info: Die Stimme bewegt sich. Hier fällt sie.
-        explanation: Bei what, where und who fällt die Stimme.
+        explanation: Bei what, where und who fällt die Stimme meist.
         links:
           - title: Lernlandkarte Englisch · Satzmelodie
             url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
       - type: true-false
         id: intonation-jede-frage
-        text: Die Stimme steigt am Ende jeder Frage.
+        text: Bei „Where do you live?“ steigt die Stimme am Ende.
         answer: false
-        explanation: Das stimmt nur für Ja-Nein-Fragen.
+        explanation: Das gilt meist nur für Ja-Nein-Fragen. Bei where fällt die Stimme.
         links:
           - title: Lernlandkarte Englisch · Satzmelodie
             url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/

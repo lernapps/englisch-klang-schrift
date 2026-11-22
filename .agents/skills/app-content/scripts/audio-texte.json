@@ -45,10 +45,8 @@
   "src/audio/amir-waits-for-the-bus-every-morning.mp3": "Amir waits for the bus every morning.",
   "src/audio/ellie-has-a-very-good-idea-today.mp3": "Ellie has a very good idea today.",
   "src/audio/mother-thinks-the-weather-is-lovely-today.mp3": "Mother thinks the weather is lovely today.",
-  "src/audio/three-brothers-wait-in-the-window.mp3": "Three brothers wait in the window.",
   "src/audio/ellie-drives-the-van-very-carefully.mp3": "Ellie drives the van very carefully.",
   "src/audio/i-like-this-bed-very-much-today.mp3": "I like this bed very much today.",
-  "src/audio/i-made-this-bet-yesterday.mp3": "I made this bet yesterday.",
   "src/audio/the-dog-is-under-the-table-again.mp3": "The dog is under the table again.",
   "src/audio/the-boat-is-at-the-dock-today.mp3": "The boat is at the dock today.",
   "src/audio/a-dog-sleeps-under-the-table-today.mp3": "A dog sleeps under the table today.",
@@ -68,7 +66,6 @@
   "src/audio/peter-plays-with-two-dogs-in-the-garden.mp3": "Peter plays with two dogs in the garden.",
   "src/audio/amir-jumped-over-the-boxes-yesterday.mp3": "Amir jumped over the boxes yesterday.",
   "src/audio/the-bag-is-red-and-the-door-is-open.mp3": "The bag is red and the door is open.",
-  "src/audio/close-the-window-please-sophie.mp3": "Close the window, please, Sophie.",
   "src/audio/where-is-the-teacher-this-morning.mp3": "Where is the teacher this morning?",
   "src/audio/is-the-teacher-at-home-today.mp3": "Is the teacher at home today?",
   "src/audio/is-ellie-at-home-this-afternoon.mp3": "Is Ellie at home this afternoon?",
@@ -76,5 +73,8 @@
   "src/audio/where-does-mrs-parker-work-today.mp3": "Where does Mrs Parker work today?",
   "src/audio/do-you-like-cheese-amir.mp3": "Do you like cheese, Amir?",
   "src/audio/please-sit-down-sophie.mp3": "Please sit down, Sophie.",
-  "src/audio/what-do-you-want-for-lunch-amir.mp3": "What do you want for lunch, Amir?"
+  "src/audio/what-do-you-want-for-lunch-amir.mp3": "What do you want for lunch, Amir?",
+  "src/audio/three-brothers-wait-at-the-window.mp3": "Three brothers wait at the window.",
+  "src/audio/i-made-a-bet-yesterday.mp3": "I made a bet yesterday.",
+  "src/audio/close-the-window-please.mp3": "Close the window, please."
 }

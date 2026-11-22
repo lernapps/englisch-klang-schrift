@@ -2,7 +2,7 @@
 title: Zwei Wörter, ein Klang
 description: "Ellie ruft That's my bag! Du lernst, wie zwei Wörter zu einer Kurzform verschmelzen, wie du sie sprichst und wie du sie mit Apostroph schreibst."
 competencies: [kurzformen]
-scope: "Die Seite zeigt Kurzformen mit be und not: I'm, you're, it's, they're, don't, isn't. Zwei Wörter verschmelzen, ein Apostroph steht für die fehlenden Buchstaben, und man spricht die Kurzform wie ein Wort mit einer Silbe. Dazu der Unterschied zwischen it's (it is) und its (gehört zu es) und Kurzformen mit 's für is (that's, where's, what's, how's, who's). Die Kurzformen mit have und will und 's als Besitz (Peter's bag) stehen nicht hier. Nicht hier, weil sie auf anderen Seiten stehen: Betonung und die Melodie der Frage."
+scope: "Die Seite zeigt Kurzformen mit be und not: I'm, you're, it's, they're, don't, isn't. Zwei Wörter verschmelzen, ein Apostroph steht für die fehlenden Buchstaben, und man spricht die Kurzform als ein Wort. Dazu der Unterschied zwischen it's (it is) und its (gehört zu es) und Kurzformen mit 's für is (that's, where's, what's, how's, who's). Die Kurzformen mit have und will und 's als Besitz (Peter's bag) stehen nicht hier. Nicht hier, weil sie auf anderen Seiten stehen: Betonung und die Melodie der Frage."
 blocks:
   - type: section
     id: einstieg
@@ -26,9 +26,9 @@ blocks:
           - text: Das war meine Tasche.
             correct: false
             info: "Ellie sagt, was jetzt ist. Für „war“ gäbe es das Wort was."
-          - text: Das hat meine Tasche.
+          - text: Das gehört meiner Tasche.
             correct: false
-            info: "Das 's steht hier für is, nicht für has. „Das hat meine Tasche“ ergibt keinen Sinn."
+            info: "Das 's kann Besitz zeigen (Peters Tasche), aber hier steht es für is."
         explanation: Aus that is wird that's. Das 's steht für is.
         links:
           - title: Lernlandkarte Englisch · Kurzformen
@@ -49,7 +49,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: "Klassenzimmer-Poster · Kurzformen"
-        header: [Lang, Kurz, Es fehlt]
+        header: [Lang, Kurz, Das fehlt]
         rows:
           - [I am, "I'm", a]
           - [you are, "you're", a]
@@ -64,7 +64,7 @@ blocks:
             text: |
               - **Der Apostroph steht dort, wo Buchstaben fehlen:** do not wird don't, denn das o fehlt.
               - **Man spricht eine Kurzform als ein Wort,** ohne Pause dazwischen.
-              - **it's heißt it is.** Ohne Apostroph schreibt man its („sein“, „ihr“): The cat has its bowl.
+              - **it's heißt meist it is.** Ohne Apostroph schreibt man its („sein“, „ihr“): The bird is in its nest.
   - type: section
     id: uebung
     title: Übung
@@ -131,7 +131,7 @@ blocks:
       - type: language-task
         id: kurzformen-korrektur
         languages: { source: de, target: en }
-        task: In jedem Satz ist die Kurzform falsch. Schreibe den Satz richtig.
+        task: In jedem Satz ist die Kurzform falsch geschrieben. Schreibe den Satz richtig.
         form: { case: ok, punctuation: ok }
         items:
           - cue: Were late for school.
@@ -144,7 +144,7 @@ blocks:
             mistakes:
               - answer: Doesnt Peter like tea?
                 message: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
-        hint: Prüfe, ob in der Kurzform der Apostroph fehlt.
+        hint: Prüfe die Kurzform.
       - type: language-task
         id: kurzformen-hoeren
         languages: { source: de, target: en }

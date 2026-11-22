@@ -48,7 +48,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
-        caption: "Lautkarten · Endungen"
+        caption: "Klassenzimmer-Poster · Endungen"
         header: [Letzter Laut, Endung, Beispiel]
         rows:
           - [stimmlos, "-s wie /s/, -ed wie /t/", "cats, walked"]
@@ -62,7 +62,8 @@ blocks:
             text: |
               - **Stimmlos** (summt nicht): -s klingt /s/, -ed klingt /t/.
               - **Stimmhaft** (summt): -s klingt /z/, -ed klingt /d/.
-              - **Nach Zischlaut, t oder d** kommt eine eigene Silbe dazu: /ɪz/ oder /ɪd/.
+              - **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
+              - **Auch Vokale summen:** plays klingt /z/, stayed klingt /d/.
       - type: speaking-task
         id: endungen-karten
         language: en
@@ -130,7 +131,7 @@ blocks:
             right: "/ɪz/"
           - left: visited
             right: "/ɪd/"
-        explanation: Looks endet auf k, das nicht summt. Beds endet auf d, das summt. Boxes endet auf einen Zischlaut, und visited endet auf t.
+        explanation: Looks endet auf k, das nicht summt. Beds endet auf d, das summt. Box endet auf einen Zischlaut, und visit endet auf t.
         links:
           - title: Lernlandkarte Englisch · Aussprache von -s und -ed
             url: https://lernapps.net/apps/map/englisch/c/endungen-s-ed/
@@ -144,18 +145,18 @@ blocks:
             target: Peter walked to the station yesterday.
             mistakes:
               - answer: Peter walk to the station yesterday.
-                message: Gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
+                message: Das ist gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
           - audio: mrs-parker-opens-the-window-every-morning.mp3
             target: Mrs Parker opens the window every morning.
             mistakes:
               - answer: Mrs Parker open the window every morning.
-                message: Mrs Parker ist eine Person, also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
+                message: Mrs Parker ist eine einzelne Person (she), also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
           - audio: amir-wanted-a-new-bike-yesterday.mp3
             target: Amir wanted a new bike yesterday.
             mistakes:
               - answer: Amir wantd a new bike yesterday.
                 message: Nach t hört man eine eigene Silbe. Man schreibt -ed.
-        hint: Der Satz sagt dir, wann etwas passiert. Höre den Satz so oft, wie du willst.
+        hint: Der Satz sagt dir, wann etwas passiert.
   - type: section
     id: anwenden
     title: Sprich nach
@@ -171,7 +172,7 @@ blocks:
             text: Peter plays with two dogs in the garden.
           - audio: amir-jumped-over-the-boxes-yesterday.mp3
             text: Amir jumped over the boxes yesterday.
-        hint: Achte darauf, ob die Endung summt oder nicht und ob eine eigene Silbe dazukommt.
+        hint: Achte auf die Endung.
   - type: section
     id: weiter
     title: Wie es weitergeht

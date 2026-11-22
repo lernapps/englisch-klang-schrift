@@ -18,7 +18,7 @@ blocks:
         text: "Peter zeigt ein Foto vom Bauernhof und sagt: „A sheep!“ Mr Hill fragt: „Sheep or ship?“ **Sheep** heißt „Schaf“, **ship** heißt „Schiff“. Beide Wörter klingen fast gleich."
       - type: single-choice
         id: vokale-start
-        text: Was unterscheidet sheep und ship?
+        text: Was unterscheidet sheep und ship vor allem?
         options:
           - text: Der Vokal in der Mitte ist lang oder kurz.
             correct: true
@@ -63,8 +63,8 @@ blocks:
           - type: text
             text: |
               - **Kurz oder lang:** /ɪ/ und /ʊ/ sind kurz, /iː/ und /uː/ sind lang.
-              - **Offen oder dunkel:** In cat ist der Mund weit offen, in cut ist der Laut kürzer und dunkler.
-              - **Der Unterschied zählt:** Aus kurz und lang wird ein anderes Wort.
+              - **Offen oder dunkel:** In cat ist der Mund weit offen, in cut ist er weniger offen, und der Laut klingt dunkler.
+              - **Der Unterschied zählt:** Ein anderer Vokal macht ein anderes Wort.
       - type: speaking-task
         id: vokale-karten
         language: en
@@ -113,7 +113,7 @@ blocks:
             info: Sit hat das kurze /ɪ/ und klingt /sɪt/. Es heißt „sitzen“.
           - text: set
             correct: false
-            info: Set klingt mit einem anderen Vokal und heißt „setzen“.
+            info: Set hat ein kurzes e und heißt „setzen“.
         explanation: Das Zeichen iː zeigt den langen Vokal. Das Wort heißt seat.
         links:
           - title: Lernlandkarte Englisch · Vokale

@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie bedankt sich bei Ellie: „Sank you!“ In Hello, Millbrook! hat sie „fenk ju“ gelernt. Das war eine Hilfe für den Anfang, aber nicht genau. Ellie wundert sich."
+        text: "Sophie bedankt sich bei Ellie: „Sank you!“ In Hello, Millbrook! hat sie „fenk ju“ gelernt. Das war eine Hilfe für den Anfang, aber nicht genau. Heute spricht Sophie das th wie ein s, und Ellie wundert sich."
       - type: single-choice
         id: konsonanten-start
         text: Wo liegt die Zunge bei dem th in thank?
@@ -26,7 +26,7 @@ blocks:
           - text: Hinter den oberen Zähnen, wie bei s.
             correct: false
             info: So klingt sank. Das ist ein s und kein th.
-          - text: Tief im Mund, die Unterlippe berührt die Zähne.
+          - text: Die Unterlippe berührt die oberen Zähne.
             correct: false
             info: So klingt fank. Das ist ein f und kein th.
         explanation: Beim th liegt die Zunge zwischen den Zähnen. Es klingt weder wie s noch wie f.
@@ -129,8 +129,8 @@ blocks:
             info: Das w sprichst du mit runden Lippen. Das ist der Laut in west.
           - text: "/f/"
             correct: false
-            info: Das deutsche v klingt wie f. Im Englischen ist v ein eigener, summender Laut.
-        explanation: Das englische v ist stimmhaft und ein eigener Laut.
+            info: Das v in Vater klingt wie f. Im Englischen ist v ein eigener, summender Laut.
+        explanation: Das englische v summt und ist ein eigener Laut.
         links:
           - title: Lernlandkarte Englisch · Konsonanten th, w, v, r
             url: https://lernapps.net/apps/map/englisch/c/konsonanten-th-w/
@@ -189,8 +189,8 @@ blocks:
         items:
           - audio: mother-thinks-the-weather-is-lovely-today.mp3
             text: Mother thinks the weather is lovely today.
-          - audio: three-brothers-wait-in-the-window.mp3
-            text: Three brothers wait in the window.
+          - audio: three-brothers-wait-at-the-window.mp3
+            text: Three brothers wait at the window.
           - audio: ellie-drives-the-van-very-carefully.mp3
             text: Ellie drives the van very carefully.
         hint: Achte darauf, wo deine Zunge und deine Lippen liegen.

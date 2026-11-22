@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („wetten“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich."
+        text: "Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich."
       - type: single-choice
         id: auslaute-start
         text: Wie ist das im Englischen bei bed und bet?
@@ -48,8 +48,8 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
-        caption: "Lautkarten · Wortenden"
-        header: [Wortende, Beispiel, Hals]
+        caption: "Klassenzimmer-Poster · Wortenden"
+        header: [Wortende, Beispiel, Am Hals]
         rows:
           - ["/d/", bed, summt]
           - ["/t/", bet, summt nicht]
@@ -62,7 +62,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Stimmhaft:** /b/, /d/ und /ɡ/ summen am Wortende.
+              - **Stimmhaft:** /b/, /d/ und /ɡ/ summen am Wortende, oft nur schwach. Der Vokal davor ist etwas länger.
               - **Stimmlos:** /p/, /t/ und /k/ summen nicht.
               - **Im Englischen bleibt das Ende, wie es ist.** Es wird nicht hart wie im Deutschen.
       - type: speaking-task
@@ -72,8 +72,8 @@ blocks:
         items:
           - audio: i-like-this-bed-very-much-today.mp3
             text: I like this bed very much today.
-          - audio: i-made-this-bet-yesterday.mp3
-            text: I made this bet yesterday.
+          - audio: i-made-a-bet-yesterday.mp3
+            text: I made a bet yesterday.
           - audio: the-dog-is-under-the-table-again.mp3
             text: The dog is under the table again.
           - audio: the-boat-is-at-the-dock-today.mp3
@@ -152,12 +152,12 @@ blocks:
             target: A dog sleeps under the table today.
             mistakes:
               - answer: A dock sleeps under the table today.
-                message: Dock heißt „Dock“. Ein Tier, das schläft, ist ein dog, mit summendem g am Ende.
+                message: "Ein dock ist ein Anleger für Schiffe. Hier schläft ein Hund: dog, mit summendem g am Ende."
           - audio: ellie-has-a-bad-cold-this-morning.mp3
             target: Ellie has a bad cold this morning.
             mistakes:
               - answer: Ellie has a bat cold this morning.
-                message: Bat endet mit /t/. Für „schlecht“ braucht man bad, mit summendem d.
+                message: Bat endet mit /t/. Für „schlimm“ braucht man bad, mit summendem d.
           - audio: amir-puts-the-bag-on-the-table.mp3
             target: Amir puts the bag on the table.
             mistakes:

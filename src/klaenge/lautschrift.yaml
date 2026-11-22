@@ -29,7 +29,7 @@ blocks:
           - text: Sie zeigt den Klang genau, aber Ellie spricht falsch.
             correct: false
             info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau."
-        explanation: "Im Englischen gibt es das Wort aim (Ziel). Es klingt wie „eim“ und nicht wie I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr."
+        explanation: "Im Englischen gibt es das Wort aim (Ziel). Es klingt anders als I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr."
         links:
           - title: Lernlandkarte Englisch · Lautschrift
             url: https://lernapps.net/apps/map/englisch/c/lautschrift/
@@ -64,7 +64,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Ein Zeichen, ein Laut.** Ein Laut kann verschieden geschrieben werden, das Zeichen bleibt gleich: c klingt in cat wie /k/ und in city wie /s/.
+              - **Ein Zeichen, ein Laut.** Ein Buchstabe kann verschieden klingen (c in cat und in city), aber ein Zeichen steht immer für denselben Laut.
               - Das Zeichen **ː** sieht aus wie ein Doppelpunkt und macht einen Laut lang.
               - Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /f/, /h/, /k/, /l/, /m/, /n/, /p/, /s/, /t/. Auch /ɡ/ klingt wie das g in Garten.
       - type: speaking-task
@@ -115,7 +115,7 @@ blocks:
             info: "Das ist der Laut in shoe. Bei chicken kommt ein t davor: /tʃ/."
           - text: "/k/"
             correct: false
-            info: "Die Buchstaben ch ergeben zusammen /tʃ/, nicht /k/."
+            info: "In chicken ergeben ch zusammen /tʃ/."
         explanation: Zwei Buchstaben können einen einzigen Laut ergeben.
         links:
           - title: Lernlandkarte Englisch · Lautschrift
@@ -152,12 +152,12 @@ blocks:
             target: hat
             mistakes:
               - answer: hut
-                message: /æ/ steht für den Buchstaben a.
+                message: Hier steht /æ/ für den Buchstaben a.
           - cue: "/mɪlk/"
             target: milk
             mistakes:
               - answer: milch
-                message: Englisch schreibt man milk, mit k am Ende.
+                message: Auf Englisch schreibt man milk, mit k am Ende.
         hint: Sprich die Zeichen nacheinander.
       - type: language-task
         id: lautschrift-hoeren
@@ -169,7 +169,7 @@ blocks:
             target: Peter reads a book on the chair today.
             mistakes:
               - answer: Peter reads a book on the cher today.
-                message: "Der Laut /tʃ/ schreibt man ch, wie in chair."
+                message: "Hier schreibt man /tʃ/ mit ch, wie in chair."
           - audio: sophie-finds-a-big-green-shoe-upstairs.mp3
             target: Sophie finds a big green shoe upstairs.
             mistakes:

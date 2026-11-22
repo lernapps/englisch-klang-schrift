@@ -15,10 +15,10 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir hat eine Party geplant. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird."
+        text: "Amir plante die Party. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird."
       - type: single-choice
         id: rechtschreibung-start
-        text: Wie schreibt Peter „Amir hat die Party geplant“?
+        text: Wie schreibt Peter „Amir plante die Party“?
         options:
           - text: Amir planned the party.
             correct: true
@@ -52,9 +52,9 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Doppeln:** Bei kurzen Wörtern mit kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant doppelt.
-              - **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays).
-              - **e fällt weg:** Ein e am Ende fällt vor -ing meist weg.
+              - **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt.
+              - **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays). Vor -ing bleibt es auch (try – trying).
+              - **e fällt weg:** Ein e am Ende fällt vor -ing meist weg. Vor -ed kommt nur ein d dazu (dance – danced).
   - type: section
     id: uebung
     title: Übung
@@ -109,7 +109,7 @@ blocks:
               - answer: writeing
                 message: Das e fällt weg.
               - answer: writting
-                message: Das e fällt weg, das t wird nicht doppelt.
+                message: Das e fällt weg. Das t bleibt einfach.
           - cue: sit · -ing
             target: sitting
             mistakes:
