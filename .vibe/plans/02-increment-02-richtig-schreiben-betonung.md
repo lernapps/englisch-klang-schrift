@@ -226,13 +226,24 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
+Commit erreicht. Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite `laut-buchstabe`, Hörurteil zur Hörprobe 2, Muster für Kapitel 5 (Antworten der Orchestrator-Session in der Rolle der Ersteller:in). Gepusht und Vorschau-PR geöffnet nach ausdrücklicher Erlaubnis der Ersteller:in; der Checkpoint „Veröffentlichen“ ist gemeldet, noch nicht beantwortet. Nicht gemergt, kein Katalogeintrag.
+
 ### Creator turns after the plan
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
+Ein Mensch schrieb nach der Bestätigung zweimal: „Versuch es noch einmal“ (nach einem Ausfall eines Unter-Agenten) und „gehört: passt“ (Hörurteil zur Hörprobe 2). Dazu leitete die Orchestrator-Session (in der Rolle der Ersteller:in) Antworten und Aufträge der Ersteller:in weiter: Muster für Kapitel 5 bestätigt, Vokabelblock statt Wörter-Tabellen, Erlaubnis zum Push („Ja, alle pushen“). Das sind keine eigenen Nachrichten eines Menschen an diese Sitzung.
+
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+
+- Plan: Der Musterseiten-Checkpoint stand nach den Kapitel-5-Seiten noch einmal offen (Aufgaben wurden früher abgehakt); `plan skip` ist bei Checkpoints nicht erlaubt, ich habe die Orchestrator-Session gefragt.
+- Lesestück-Glossar: Plan sagte `definition`-Blöcke; später kam der Vokabelblock (Templates 0.14.0); alle Randglossare wurden umgestellt.
+- Satzrhythmus („betonte Wörter im gleichen Abstand“): nicht in den geöffneten Quellen, vereinfachte Aussage nach üblicher Lehrbuchlage (im Inhaltsführer vermerkt).
+- Komma nach kurzer Einleitung: erst als Pflicht geschrieben, von der Sprachprüfung als freiwillig erkannt; Regel „meist“, längere Einleitungen in den Übungen.
+- Tag-Melodie: keine Aufnahme, weil die Stimme sie nicht zeigt; Seite sagt das offen (guess: Text statt Aufnahme).
+- Neue Audiodateien aus Kapitel 4 und das Komma-Diktat sind nicht angehört (Prüfstand „offen“); die sieben Sätze der Hörprobe 2 wurden von der Ersteller:in gehört.
 
 ## Funde der Prüfungen (Code, Inkrement 02)
 
