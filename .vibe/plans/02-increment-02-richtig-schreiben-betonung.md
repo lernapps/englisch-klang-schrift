@@ -175,7 +175,7 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Kapitel 4 anlegen (chapter.yaml, app.yaml) und Seite : Lesestück (Sophies Chat mit der Rechtschreibprüfung), Klangpartitur umgekehrt (Laut → Schreibungen), Homophone see – sea; neue Seitenform (Lesestück, Randglossar, drei Aufgabenstufen) im Inhaltsführer beschreiben. Alleine, kein Sub-Agent.
+- [x] Kapitel 4 anlegen (chapter.yaml, app.yaml) und Seite : Lesestück (Sophies Chat mit der Rechtschreibprüfung), Klangpartitur umgekehrt (Laut → Schreibungen), Homophone see – sea; neue Seitenform (Lesestück, Randglossar, drei Aufgabenstufen) im Inhaltsführer beschreiben. Alleine, kein Sub-Agent.
 - [ ] Wiederholungsseite (#481) und Seite : Lesestück (Sophies Blogeintrag), Kommas als hörbare Pausen, nach einleitendem Adverbial, vor und nach nicht notwendigem Relativsatz. Alleine.
 - [ ] Kapitel 5 anlegen, Funktion für die mittlere Zeile (Betonungspunkte) in , Seite (nach dem Hörurteil zur Hörprobe 2): Lesestück (Chat über ein Geschenk), present/record, große und kleine Punkte. Alleine.
 - [ ] Seite (nach dem Hörurteil): Lesestück (Peter nimmt Sophie auf), Konsonant-Vokal-Bindung und linking r (far away). Alleine.
