@@ -183,9 +183,10 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
 - [x] Seite (nach dem Hörurteil): Lesestück (Sophies Nachricht), Inhaltswörter und Rhythmus. Alleine.
 - [x] Wiederholungsseite (#473) und Seite : Lesestück (Chat Sophie und Ellie), Pfeil steigt oder fällt, keine Aufnahme der Melodie. Kapitel 4 und 5 mit Rückblick, der neuen Kapitel (kommt in Commit). Alleine.
 <!-- tasks: slices (7 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
+      Creator: Ja, mach nach dem Muster weiter mit Gesamtprüfung (Lernenden-Check Kapitel 4 und 5, Sprachprüfung), Inhaltsführer, Selbsteinschätzung und dem Veröffentlichungs-Checkpoint. Push erst nach Erlaubnis der Ersteller:in. (Orchestrator-Session in der Rolle der Ersteller:in)
 - [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
