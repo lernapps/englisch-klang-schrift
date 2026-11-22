@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: th, w, v und r
-description: "Sophie sagt Sank you, und Ellie wundert sich. Du lernst die Laute th, w, v und r richtig zu sprechen."
+description: "Sophie sagt Sank you, und Ellie wundert sich. Du lernst die Laute th, w, v und r kennen und übst sie."
 competencies: [konsonanten-th-w]
 scope: "Die Seite zeigt vier Laute, die Kindern aus Deutschland oft schwerfallen: th (/θ/ in thank, /ð/ in the), w (/w/) gegen v (/v/) und das englische r (/r/). th: Die Zunge liegt zwischen den Zähnen. w: runde Lippen, kein Zahnkontakt. v: obere Zähne auf der Unterlippe. r: Zungenspitze nach hinten, nicht rollen. Zum Üben dienen andere Wörter (three, mother, window, village, wish, think, this). Nicht hier, weil sie auf anderen Seiten stehen: Vokale, Wortenden, stumme Buchstaben."
 blocks:
@@ -34,7 +34,7 @@ blocks:
           - title: Lernlandkarte Englisch · Konsonanten th, w, v, r
             url: https://lernapps.net/apps/map/englisch/c/konsonanten-th-w/
       - type: text
-        text: "**Das kannst du danach:** Du sprichst th, w, v und r und unterscheidest sie von ähnlichen Lauten."
+        text: "**Das kannst du danach:** Du kannst th, w, v und r üben und von ähnlichen Lauten unterscheiden."
   - type: section
     id: neu
     title: Wo die Zunge und die Lippen liegen
@@ -102,18 +102,18 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/konsonanten-th-w/
       - type: single-choice
         id: konsonanten-lesen
-        text: Welches Wort steht in Lautschrift? /θriː/
+        text: Welches Wort steht in Lautschrift? /θɪn/
         options:
-          - text: three
+          - text: thin
             correct: true
-            info: Das Zeichen /θ/ ist das th. Das Wort three heißt „drei“.
-          - text: free
+            info: Das Zeichen /θ/ ist das th, und /n/ steht am Ende. Das Wort thin heißt „dünn“.
+          - text: this
             correct: false
-            info: Bei free beginnt das Wort mit f. Das ist ein anderer Laut als th.
-          - text: tree
+            info: This beginnt mit dem weichen /ð/ und endet auf /s/. Hier steht /θ/ und am Ende /n/.
+          - text: thing
             correct: false
-            info: Bei tree beginnt das Wort mit t. Das ist ein anderer Laut als th.
-        explanation: Das Zeichen θ steht für th. Das Wort heißt three.
+            info: Thing endet auf /ŋ/. Hier steht am Ende /n/.
+        explanation: Das Zeichen θ steht für th. Das Wort heißt thin.
         links:
           - title: Lernlandkarte Englisch · Konsonanten th, w, v, r
             url: https://lernapps.net/apps/map/englisch/c/konsonanten-th-w/
@@ -169,14 +169,11 @@ blocks:
                 message: Sinks heißt „sinkt“. Denken heißt think, mit th am Anfang.
           - audio: amir-waits-for-the-bus-every-morning.mp3
             target: Amir waits for the bus every morning.
+          - audio: amir-visits-his-uncle-every-sunday.mp3
+            target: Amir visits his uncle every Sunday.
             mistakes:
-              - answer: Amir vaits for the bus every morning.
-                message: Der erste Laut ist /w/, geschrieben w.
-          - audio: ellie-has-a-very-good-idea-today.mp3
-            target: Ellie has a very good idea today.
-            mistakes:
-              - answer: Ellie has a wery good idea today.
-                message: Der erste Laut in very ist /v/, geschrieben v.
+              - answer: Amir visit his uncle every Sunday.
+                message: Amir ist eine einzelne Person (he), also braucht das Wort -s.
         hint: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
   - type: section
     id: anwenden
@@ -191,8 +188,8 @@ blocks:
             text: Mother thinks the weather is lovely today.
           - audio: three-brothers-wait-at-the-window.mp3
             text: Three brothers wait at the window.
-          - audio: ellie-drives-the-van-very-carefully.mp3
-            text: Ellie drives the van very carefully.
+          - audio: ellie-drives-the-van-slowly.mp3
+            text: Ellie drives the van slowly.
         hint: Achte darauf, wo deine Zunge und deine Lippen liegen.
   - type: section
     id: weiter

@@ -34,7 +34,7 @@ blocks:
           - title: Lernlandkarte Englisch · Aussprache von -s und -ed
             url: https://lernapps.net/apps/map/englisch/c/endungen-s-ed/
       - type: text
-        text: "**Das kannst du danach:** Du weißt, wie -s und -ed klingen, und sprichst sie richtig."
+        text: "**Das kannst du danach:** Du weißt, wie -s und -ed klingen, und kannst sie üben."
   - type: section
     id: neu
     title: Der letzte Laut entscheidet
@@ -63,7 +63,7 @@ blocks:
               - **Stimmlos** (summt nicht): -s klingt /s/, -ed klingt /t/.
               - **Stimmhaft** (summt): -s klingt /z/, -ed klingt /d/.
               - **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
-              - **Auch Vokale summen:** plays klingt /z/, stayed klingt /d/.
+              - **Auch m, n, l und Vokale summen:** pens klingt /z/, plays klingt /z/, stayed klingt /d/.
       - type: speaking-task
         id: endungen-karten
         language: en
@@ -75,8 +75,8 @@ blocks:
             text: The children walked to school together.
           - audio: amir-played-football-with-peter-yesterday.mp3
             text: Amir played football with Peter yesterday.
-          - audio: sophie-wanted-a-new-bag-yesterday.mp3
-            text: Sophie wanted a new bag yesterday.
+          - audio: peter-needed-some-help-yesterday.mp3
+            text: Peter needed some help yesterday.
         hint: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
   - type: section
     id: uebung
@@ -141,21 +141,21 @@ blocks:
         task: Höre zu und schreibe jeden Satz ganz auf.
         form: { case: ok, punctuation: ok }
         items:
-          - audio: peter-walked-to-the-station-yesterday.mp3
-            target: Peter walked to the station yesterday.
+          - audio: peter-cleaned-his-room-yesterday.mp3
+            target: Peter cleaned his room yesterday.
             mistakes:
-              - answer: Peter walk to the station yesterday.
+              - answer: Peter clean his room yesterday.
                 message: Das ist gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
           - audio: mrs-parker-opens-the-window-every-morning.mp3
             target: Mrs Parker opens the window every morning.
             mistakes:
               - answer: Mrs Parker open the window every morning.
                 message: Mrs Parker ist eine einzelne Person (she), also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
-          - audio: amir-wanted-a-new-bike-yesterday.mp3
-            target: Amir wanted a new bike yesterday.
+          - audio: amir-painted-a-picture-yesterday.mp3
+            target: Amir painted a picture yesterday.
             mistakes:
-              - answer: Amir wantd a new bike yesterday.
-                message: Nach t hört man eine eigene Silbe. Man schreibt -ed.
+              - answer: Amir paint a picture yesterday.
+                message: Das ist gestern passiert, also braucht das Wort die Endung -ed.
         hint: Der Satz sagt dir, wann etwas passiert.
   - type: section
     id: anwenden

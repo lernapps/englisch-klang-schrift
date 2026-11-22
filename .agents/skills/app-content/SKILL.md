@@ -13,7 +13,7 @@ Englisch als erste Fremdsprache, Klasse 5-6 (erstes und zweites Lernjahr, Stufe 
 
 ## Competencies
 
-Alle neun sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach `requires`. Von außen braucht die Karte `plural`, `simple-past`, `present-progressive`, `to-be`, `simple-present-fragen`, `fragewoerter`: sie stehen als Sammel-Wiederholung (`recap`) am Anfang der Kapitel 2 und 3. Die „Ich kann“-Sätze stehen in der Seite wie in der Karte (nicht umformulieren). `competencies:` einer Seite sind Karten-Ids; Wiederholungsseiten haben keine.
+Alle neun sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach `requires`. Von außen braucht die Karte `plural`, `simple-past`, `present-progressive` (dazu wiederholt Kapitel 2 `simple-present` wegen -s), `to-be`, `simple-present-fragen`, `fragewoerter`: sie stehen als Sammel-Wiederholung (`recap`) am Anfang der Kapitel 2 und 3. Die „Ich kann“-Sätze der Karte stehen auf den Wiederholungsseiten wörtlich; die Fachseiten nennen ihr Ziel unter „Das kannst du danach“ (aus dem „Ich kann“-Satz abgeleitet, nur was die App prüft). `competencies:` einer Seite sind Karten-Ids; Wiederholungsseiten haben keine.
 
 1. Kapitel `klaenge` („Englische Laute und Lautschrift“)
    - `lautschrift` → `klaenge/lautschrift` (Musterseite)
@@ -22,7 +22,7 @@ Alle neun sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach
    - `stimmhafte-auslaute` → `klaenge/stimmhafte-auslaute`
    - `silent-letters` → `klaenge/silent-letters` (zuletzt: Buchstabe und Laut sind dann geklärt)
 2. Kapitel `endungen` („Endungen hören und schreiben“)
-   - Wiederholung `recap: [englisch/plural, englisch/simple-past, englisch/present-progressive]` → `endungen/das-brauchst-du`
+   - Wiederholung `recap: [englisch/plural, englisch/simple-past, englisch/present-progressive, englisch/simple-present]` → `endungen/das-brauchst-du`
    - `endungen-s-ed` → `endungen/endungen-s-ed`
    - `rechtschreibung-endungen` → `endungen/rechtschreibung-endungen`
 3. Kapitel `gespraech` („Sprechen wie im Gespräch“)
@@ -82,14 +82,14 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | Datei (src/audio/) | Seite | Satz | erwartetes Wort/Laut | Prüfstand |
 |---|---|---|---|---|
 | `amir-jumped-over-the-boxes-yesterday.mp3` | endungen/endungen-s-ed | Amir jumped over the boxes yesterday. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
+| `amir-painted-a-picture-yesterday.mp3` | endungen/endungen-s-ed | Amir painted a picture yesterday. | painted /ɪd/ | offen |
 | `amir-played-football-with-peter-yesterday.mp3` | endungen/endungen-s-ed | Amir played football with Peter yesterday. | played /d/ | offen |
-| `amir-wanted-a-new-bike-yesterday.mp3` | endungen/endungen-s-ed | Amir wanted a new bike yesterday. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
 | `ellie-has-two-cats-and-a-dog-today.mp3` | endungen/endungen-s-ed | Ellie has two cats and a dog today. | cats /s/ | offen |
 | `mrs-parker-opens-the-window-every-morning.mp3` | endungen/endungen-s-ed | Mrs Parker opens the window every morning. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
+| `peter-cleaned-his-room-yesterday.mp3` | endungen/endungen-s-ed | Peter cleaned his room yesterday. | cleaned /d/ | offen |
+| `peter-needed-some-help-yesterday.mp3` | endungen/endungen-s-ed | Peter needed some help yesterday. | needed /ɪd/ | offen |
 | `peter-plays-with-two-dogs-in-the-garden.mp3` | endungen/endungen-s-ed | Peter plays with two dogs in the garden. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
-| `peter-walked-to-the-station-yesterday.mp3` | endungen/endungen-s-ed | Peter walked to the station yesterday. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
 | `sophie-waited-for-the-bus-yesterday.mp3` | endungen/endungen-s-ed | Sophie waited for the bus yesterday. | Endung -s oder -ed (/s/, /z/, /ɪz/, /t/, /d/, /ɪd/) | offen |
-| `sophie-wanted-a-new-bag-yesterday.mp3` | endungen/endungen-s-ed | Sophie wanted a new bag yesterday. | wanted /ɪd/ | offen |
 | `the-children-walked-to-school-together.mp3` | endungen/endungen-s-ed | The children walked to school together. | walked /t/ | offen |
 | `amir-carries-two-bags-upstairs.mp3` | endungen/rechtschreibung-endungen | Amir carries two bags upstairs. | Wort mit Endung -ing, -s oder -ed | offen · Fehllaut-Schnitt (−85 ms) |
 | `amir-studies-english-in-the-evening.mp3` | endungen/rechtschreibung-endungen | Amir studies English in the evening. | Wort mit Endung -ing, -s oder -ed | offen |
@@ -97,9 +97,9 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `peter-is-getting-a-new-bag-today.mp3` | endungen/rechtschreibung-endungen | Peter is getting a new bag today. | Wort mit Endung -ing, -s oder -ed | offen |
 | `peter-stayed-at-home-yesterday.mp3` | endungen/rechtschreibung-endungen | Peter stayed at home yesterday. | Wort mit Endung -ing, -s oder -ed | offen |
 | `sophie-is-shopping-with-mrs-parker.mp3` | endungen/rechtschreibung-endungen | Sophie is shopping with Mrs Parker. | Wort mit Endung -ing, -s oder -ed | offen |
-| `is-ellie-at-home-this-afternoon.mp3` | gespraech/intonation-fragen | Is Ellie at home this afternoon? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `open-the-window-for-mrs-parker.mp3` | gespraech/intonation-fragen | Open the window for Mrs Parker. | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
-| `where-does-mrs-parker-work-today.mp3` | gespraech/intonation-fragen | Where does Mrs Parker work today? | Satzmelodie (steigt bei Ja-Nein-Frage, sonst fällt sie); die Stimme ist darin schwach, die Tabelle gilt | offen |
+| `close-the-door-for-amir.mp3` | gespraech/intonation-fragen | Close the door for Amir. | Aufforderung | offen |
+| `is-peter-at-home-this-afternoon.mp3` | gespraech/intonation-fragen | Is Peter at home this afternoon? | Frage (Dateien der Fragen steigen nicht) | offen |
+| `where-does-mrs-parker-work-today.mp3` | gespraech/intonation-fragen | Where does Mrs Parker work today? | Frage mit Fragewort | offen |
 | `ellie-doesnt-like-coffee-today.mp3` | gespraech/kurzformen | Ellie doesn't like coffee today. | doesn't | offen |
 | `hows-mrs-parker-today.mp3` | gespraech/kurzformen | How's Mrs Parker today? | how's | offen |
 | `we-arent-hungry-this-morning.mp3` | gespraech/kurzformen | We aren't hungry this morning. | aren't | offen |
@@ -107,25 +107,25 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `wheres-peter-this-morning.mp3` | gespraech/kurzformen | Where's Peter this morning? | where's | offen |
 | `youre-early-and-im-late-again.mp3` | gespraech/kurzformen | You're early, and I'm late again. | you're, I'm | offen |
 | `amir-lives-in-the-west-of-the-village.mp3` | klaenge/konsonanten-th-w | Amir lives in the west of the village. | west /w/, village /v/ | offen · Ende prüfen (Wächter schnitt nicht) |
+| `amir-visits-his-uncle-every-sunday.mp3` | klaenge/konsonanten-th-w | Amir visits his uncle every Sunday. | visits /v/ | offen |
 | `amir-waits-for-the-bus-every-morning.mp3` | klaenge/konsonanten-th-w | Amir waits for the bus every morning. | th, w, v oder r | offen |
-| `ellie-drives-the-van-very-carefully.mp3` | klaenge/konsonanten-th-w | Ellie drives the van very carefully. | th, w, v oder r | offen |
-| `ellie-has-a-very-good-idea-today.mp3` | klaenge/konsonanten-th-w | Ellie has a very good idea today. | th, w, v oder r | offen |
+| `ellie-drives-the-van-slowly.mp3` | klaenge/konsonanten-th-w | Ellie drives the van slowly. | van /v/ | offen |
 | `mother-thinks-the-weather-is-lovely-today.mp3` | klaenge/konsonanten-th-w | Mother thinks the weather is lovely today. | th, w, v oder r | offen |
 | `peter-has-a-red-ball-upstairs.mp3` | klaenge/konsonanten-th-w | Peter has a red ball upstairs. | red /r/ | offen · Fehllaut-Schnitt (−85 ms) · Ende prüfen (nach dem Schnitt) |
 | `sophie-looks-at-the-blue-sky-again.mp3` | klaenge/konsonanten-th-w | Sophie looks at the blue sky again. | the /ð/ | offen |
 | `sophie-thinks-about-the-party-tomorrow.mp3` | klaenge/konsonanten-th-w | Sophie thinks about the party tomorrow. | th, w, v oder r | offen |
 | `they-thank-the-teacher-today.mp3` | klaenge/konsonanten-th-w | They thank the teacher today. | thank /θ/ | offen |
 | `three-brothers-wait-at-the-window.mp3` | klaenge/konsonanten-th-w | Three brothers wait at the window. | three /θ/, window /w/ | offen |
+| `amir-buys-a-new-watch-today.mp3` | klaenge/lautschrift | Amir buys a new watch today. | watch /tʃ/ | offen |
 | `amir-has-a-chair-in-the-kitchen.mp3` | klaenge/lautschrift | Amir has a chair in the kitchen. | chair /tʃ/, kitchen /tʃ/ | offen |
 | `ellie-has-a-fish-and-a-green-apple.mp3` | klaenge/lautschrift | Ellie has a fish and a green apple. | fish /ʃ/, green /iː/ | offen |
 | `ellie-has-a-red-chair-again.mp3` | klaenge/lautschrift | Ellie has a red chair again. | chair /tʃ/ | offen |
-| `ellie-sings-with-amir-in-the-kitchen.mp3` | klaenge/lautschrift | Ellie sings with Amir in the kitchen. | sings /ŋ/, kitchen /tʃ/ | offen |
 | `peter-has-a-black-cat-upstairs.mp3` | klaenge/lautschrift | Peter has a black cat upstairs. | cat /æ/ | offen · Fehllaut-Schnitt (−95 ms) · Ende prüfen (nach dem Schnitt) |
 | `peter-likes-to-sing-together.mp3` | klaenge/lautschrift | Peter likes to sing together. | sing /ŋ/ | offen |
-| `peter-reads-a-book-on-the-chair-today.mp3` | klaenge/lautschrift | Peter reads a book on the chair today. | book /ʊ/, chair /tʃ/ | offen |
+| `peter-takes-a-long-walk-this-morning.mp3` | klaenge/lautschrift | Peter takes a long walk this morning. | long /ŋ/ | offen |
 | `sophie-and-peter-eat-cheese-together.mp3` | klaenge/lautschrift | Sophie and Peter eat cheese together. | cheese /tʃ/, /iː/ | offen |
-| `sophie-finds-a-big-green-shoe-upstairs.mp3` | klaenge/lautschrift | Sophie finds a big green shoe upstairs. | big /ɪ/, green /iː/, shoe /ʃ/ | offen · Fehllaut-Schnitt (−65 ms) |
 | `sophie-has-a-new-shoe-today.mp3` | klaenge/lautschrift | Sophie has a new shoe today. | shoe /ʃ/ | offen |
+| `sophie-washes-the-dishes-this-evening.mp3` | klaenge/lautschrift | Sophie washes the dishes this evening. | washes /ʃ/, -es | offen |
 | `amir-listens-to-mrs-parker.mp3` | klaenge/silent-letters | Amir listens to Mrs Parker. | listens: t stumm | offen |
 | `amir-wrote-a-letter-yesterday.mp3` | klaenge/silent-letters | Amir wrote a letter yesterday. | wrote: w stumm | offen |
 | `ellie-fastens-her-bag-in-the-kitchen.mp3` | klaenge/silent-letters | Ellie fastens her bag in the kitchen. | fastens: t stumm | offen |
@@ -137,11 +137,11 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `ellie-has-a-bad-cold-this-morning.mp3` | klaenge/stimmhafte-auslaute | Ellie has a bad cold this morning. | stimmhaftes oder stimmloses Wortende | offen |
 | `i-like-this-bed-very-much-today.mp3` | klaenge/stimmhafte-auslaute | I like this bed very much today. | bed: d summt | offen |
 | `i-made-a-bet-yesterday.mp3` | klaenge/stimmhafte-auslaute | I made a bet yesterday. | bet: t summt nicht | offen |
+| `mr-hill-carries-a-heavy-bag-every-morning.mp3` | klaenge/stimmhafte-auslaute | Mr Hill carries a heavy bag every morning. | bag: g summt | offen |
 | `mr-hill-writes-a-long-word-on-the-board-today.mp3` | klaenge/stimmhafte-auslaute | Mr Hill writes a long word on the board today. | stimmhaftes oder stimmloses Wortende | offen |
 | `peter-has-a-big-cat-and-a-small-dog-today.mp3` | klaenge/stimmhafte-auslaute | Peter has a big cat and a small dog today. | stimmhaftes oder stimmloses Wortende | offen |
-| `sophie-puts-the-red-bag-on-the-bed-today.mp3` | klaenge/stimmhafte-auslaute | Sophie puts the red bag on the bed today. | stimmhaftes oder stimmloses Wortende | offen |
 | `the-boat-is-at-the-dock-today.mp3` | klaenge/stimmhafte-auslaute | The boat is at the dock today. | dock: k summt nicht | offen |
-| `the-dog-is-under-the-table-again.mp3` | klaenge/stimmhafte-auslaute | The dog is under the table again. | dog: g summt | offen |
+| `the-dog-is-very-big-and-friendly.mp3` | klaenge/stimmhafte-auslaute | The dog is very big and friendly. | dog: g summt | offen |
 | `ellie-wants-to-sit-on-the-seat-again.mp3` | klaenge/vokale | Ellie wants to sit on the seat again. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 | `look-a-sheep-again.mp3` | klaenge/vokale | Look, a sheep again. | sheep /ʃiːp/ (lang) | offen |
 | `look-a-ship-again.mp3` | klaenge/vokale | Look, a ship again. | ship /ʃɪp/ (kurz) | offen |
@@ -151,7 +151,7 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `please-leave-the-bag-in-the-kitchen.mp3` | klaenge/vokale | Please leave the bag in the kitchen. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
 | `sophie-and-ellie-live-in-a-small-village.mp3` | klaenge/vokale | Sophie and Ellie live in a small village. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen · Fehllaut-Schnitt (−55 ms) · Ende prüfen (nach dem Schnitt) |
 | `sophie-sees-a-sheep-and-a-ship-today.mp3` | klaenge/vokale | Sophie sees a sheep and a ship today. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
-| `the-bus-is-full-of-children-today.mp3` | klaenge/vokale | The bus is full of children today. | kurzer oder langer Vokal, /æ/ oder /ʌ/ (Minimalwort in der Satzmitte) | offen |
+| `the-bag-is-full-of-books-today.mp3` | klaenge/vokale | The bag is full of books today. | full /ʊ/ | offen |
 
 ## Adding a chapter or round
 
@@ -194,6 +194,7 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Hinweise im Diktat verraten nicht, dass ein Apostroph fehlt („Das erste Wort ist eine Kurzform“).
 - Die Seite sagt nur, was die App prüft: „Du verstehst/schreibst …“, nicht „Du sprichst richtig“, weil nichts die Aussprache beurteilt.
 - Der Dev-Server (`npm run dev`) wird als Hintergrundaufgabe des Werkzeugs gestartet, sonst endet er mit der Shell.
+- Entscheidung: `gespraech/intonation-fragen` hat keine Aufnahmen zum Nachsprechen, nur Diktate (Satzzeichen, keine Melodie): die Stimme steigt bei Ja-Nein-Fragen am Satzende nicht; lieber keine Aufnahme als eine, die falsch belehrt.
 - Aus dem Gesamtcheck: Die KI-Stimme `bf_emma` steigt bei Ja-Nein-Fragen am Satzende nicht (Tonhöhe gemessen): Seiten zur Satzmelodie haben keine Aufnahmen zum Nachsprechen, die Pfeile und die Tabelle tragen die Regel (Schreib- und Sprechaufgabe als `open-task`). Ein Hörsatz mit einem Namen am Ende (Anrede) taugt nicht für eine steigende Frage.
 - Eine Szene, die ein Rätsel stellt (aim, Sank you, walk-ed, k-nee), wird auf derselben Seite aufgelöst (in `explanation`: /aɪm/ gegen /eɪm/).
 - Ein Begriff, den eine spätere Seite erklärt (summt, stimmhaft), steht nicht vorher auf einer Seite; vorher sagt man „weich“, „hauchig“.

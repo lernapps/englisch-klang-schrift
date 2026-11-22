@@ -219,7 +219,7 @@ Seiten (Reihenfolge = Kapitelreihenfolge):
 3. `klaenge/konsonanten-th-w` (`konsonanten-th-w`): th /θ ð/, w /w/ gegen v /v/, englisches r /r/ (ohne Zäpfchen). Zungenbild als eigene Zeichnung; Paare thank – sank, west – vest (nur A1/A2-Wörter oder erklärt). Fehler: th als s oder f, w als v, deutsches r. Bild: `partitur-konsonanten` mit Zungenskizze.
 4. `klaenge/stimmhafte-auslaute` (`stimmhafte-auslaute`, braucht `konsonanten-th-w`): bed – bet, dog – dock, bad – bat; Deutsch macht am Ende immer hart (Rad = Rat), Englisch nicht. Hand an den Hals: summt es? (Selbstversuch). Fehler: hart am Ende. Bild: `partitur-auslaute` (Wortende hervorgehoben, Minimalwort nicht am Satzende).
 5. `klaenge/silent-letters` (`silent-letters`): knife, write, listen, climb, Wednesday (nur A1/A2 oder erklärt). Stumme Buchstaben grau im Bild (Partitur unten, kein Laut über dem Buchstaben). Übungen: durchstreichen (`multiple-choice` mit Buchstaben), nach Lautschrift schreiben, Diktat, Korrektur (nife → knife). Fehler: k in knife mitsprechen, Schreibung ohne k.
-6. `endungen/das-brauchst-du` (Recap [plural, simple-past, present-progressive]): zwei kurze Tabellen („Klassenzimmer-Poster · Plural“, „… · simple past mit -ed“), keine Übung. Die Seite nimmt die Aussprache nicht vorweg.
+6. `endungen/das-brauchst-du` (Recap [plural, simple-past, present-progressive, simple-present]): eine kurze Tabelle („Klassenzimmer-Poster · Plural“, „… · simple past mit -ed“), keine Übung. Die Seite nimmt die Aussprache nicht vorweg.
 7. `endungen/endungen-s-ed` (`endungen-s-ed`): Gruppen nach dem letzten Laut des Wortes (cats /s/, dogs /z/, buses /ɪz/; walked /t/, played /d/, wanted /ɪd/). Die Kinder sortieren Karten zuerst nach dem letzten Laut und leiten die Regel ab, bevor sie sie lesen. Fehler: alle -ed wie „ed“, alle -s wie /s/. Bild: `partitur-endungen`.
 8. `endungen/rechtschreibung-endungen` (`rechtschreibung-endungen`): Werkstatt (Bild): Wort links, Endung rechts, in der Mitte ändert sich etwas: Doppeln (stop – stopped), y → ie (cry – cries), e fällt (make – making). Kinder leiten die drei Handgriffe an Wortpaaren ab. Fehler: stoped, cryes, makeing, playes. Bild: `werkstatt-endungen`.
 9. `gespraech/das-brauchst-du` (Recap [to-be, simple-present-fragen, fragewoerter]): Tabellen mit am/is/are, do/does-Frage, Fragewörter; keine Übung; Begriffe aus #472 und #473 (Helfer, Satzleiste).
@@ -329,10 +329,24 @@ Spätere Inkremente: Kapitel 4 und 5 (Stufe 7-8) füllen die mittlere Zeile; die
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
+Commit erreicht: Explore, Plan und Code abgeschlossen; Checkpoints Recherche, Plan und Inhaltsmethode, Musterseite bestanden (Antworten der Orchestrator-Session in der Rolle der Ersteller:in); Vorschau-Pull-Request #1 offen, Checkpoint „Veröffentlichen“ gemeldet und noch nicht bestätigt. Nicht veröffentlicht, nicht im Katalog (Anweisung der Orchestrator-Session). Kapitel 4 und 5 (Stufe 7-8) nicht gebaut.
+
 ### Creator turns after the plan
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
+Ersteller:in (Mensch), 3 Nachrichten nach dem Plan: (1) Pull-Request zum Anhören der Aufnahmen, (2) Urteil zur Hörprobe („die kritischen Terme sind alle gut zu unterscheiden“), (3) Frage zu den Karten der Klangpartitur auf der Seite zu den Kurzformen (die Karten kamen in den Wiederholungsseiten nicht vor; behoben). Dazu eine Aufforderung, einen abgebrochenen Prüfauftrag erneut zu versuchen. Die Orchestrator-Session (in der Rolle der Ersteller:in) beantwortete die Checkpoints und gab Auflagen zur Musterseite, zu den Seiten, zum Gesamtcheck und zum Fehllaut-Schnitt der Aufnahmen.
+
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+
+- Lautschrift britisch (/əʊ/), nur die Zeichen der Stufe 5-6; „Antippen und Hören“ ohne Komponente über den Player einer `speaking-task` (Orchestrator bestätigte beides).
+- Die Klangpartitur hängt im Klassenzimmer neben dem Klassenzimmer-Poster; kein neuer Ort.
+- Minimalwörter stehen nie am Satzende; Hörsätze natürlich, kein Name nur für den Klang (Regel später geändert).
+- Das Plan-Werkzeug hakt nur die nächste offene Aufgabe ab: die Musterseite wurde einmal zu früh abgehakt (eine Ersatzaufgabe wurde ergänzt), die Seiten wurden in anderer Reihenfolge gebaut als die Aufgaben stehen (Freigabe der Minimalpaar-Seiten kam nach der Hörprobe) und erst danach abgehakt.
+- Die Stimme steigt bei Ja-Nein-Fragen am Satzende nicht (Tonhöhe gemessen): `intonation-fragen` hat keine Aufnahmen zum Nachsprechen, die Pfeile tragen die Regel.
+- Kapitel 2 wiederholt zusätzlich `simple-present` (-s bei he, she, it), obwohl es nicht im `requires` steht, weil die Übungen es brauchen.
+- Die Karten der Klangpartitur (blaue Karte = Wort in Lautschrift) wurden erst nach einer Rückfrage der Ersteller:in in die Wiederholungsseiten aufgenommen.
+- Wörter außerhalb von A1/A2 (pig, chips, hop) wurden vermieden oder erklärt; `scripts/pruefen.py` prüft Hörsätze gegen die Liste.
+- Die Pages-Einstellung konnte ich nicht prüfen; der Branch `gh-pages` und die Vorschau waren schon vorhanden.

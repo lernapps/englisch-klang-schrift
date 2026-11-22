@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich."
+        text: "Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich. Leg die Hand an den Hals: Bei manchen Lauten summt es."
       - type: single-choice
         id: auslaute-start
         text: Wie ist das im Englischen bei bed und bet?
@@ -34,7 +34,7 @@ blocks:
           - title: Lernlandkarte Englisch · Stimmhafte Auslaute
             url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
       - type: text
-        text: "**Das kannst du danach:** Du sprichst Wörter wie bed und bet am Ende stimmhaft oder stimmlos."
+        text: "**Das kannst du danach:** Du hörst und übst, ob ein Wortende summt oder nicht."
   - type: section
     id: neu
     title: Summt es oder summt es nicht?
@@ -74,8 +74,8 @@ blocks:
             text: I like this bed very much today.
           - audio: i-made-a-bet-yesterday.mp3
             text: I made a bet yesterday.
-          - audio: the-dog-is-under-the-table-again.mp3
-            text: The dog is under the table again.
+          - audio: the-dog-is-very-big-and-friendly.mp3
+            text: The dog is very big and friendly.
           - audio: the-boat-is-at-the-dock-today.mp3
             text: The boat is at the dock today.
         hint: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
@@ -105,18 +105,18 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
       - type: single-choice
         id: auslaute-lesen
-        text: Welches Wort steht in Lautschrift? /bæd/
+        text: Welches Wort steht in Lautschrift? /hæt/
         options:
-          - text: bad
+          - text: hat
             correct: true
-            info: Das letzte Zeichen /d/ summt. Das Wort bad heißt „schlimm“.
-          - text: back
+            info: Das letzte Zeichen /t/ summt nicht. Das Wort hat heißt „Hut“.
+          - text: hot
             correct: false
-            info: Back endet mit /k/, das nicht summt. Es heißt „zurück“.
-          - text: bag
+            info: Hot hat einen anderen Vokal und heißt „heiß“. Hier steht /æ/.
+          - text: hate
             correct: false
-            info: Bag endet mit /ɡ/. Das letzte Zeichen ist hier /d/.
-        explanation: Das letzte Zeichen entscheidet. Das /d/ summt und steht in bad.
+            info: Hate hat einen anderen Vokal und heißt „hassen“. Hier steht /æ/.
+        explanation: Das letzte Zeichen entscheidet. Das /t/ summt nicht.
         links:
           - title: Lernlandkarte Englisch · Stimmhafte Auslaute
             url: https://lernapps.net/apps/map/englisch/c/stimmhafte-auslaute/
@@ -138,9 +138,6 @@ blocks:
                 message: Sat endet mit /t/, das nicht summt. Hier steht /d/.
           - cue: "/mæp/"
             target: map
-            mistakes:
-              - answer: mab
-                message: Das letzte Zeichen ist /p/, geschrieben p.
         hint: Prüfe das letzte Zeichen. Summt es?
       - type: language-task
         id: auslaute-hoeren
@@ -173,8 +170,8 @@ blocks:
         language: en
         task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
         items:
-          - audio: sophie-puts-the-red-bag-on-the-bed-today.mp3
-            text: Sophie puts the red bag on the bed today.
+          - audio: mr-hill-carries-a-heavy-bag-every-morning.mp3
+            text: Mr Hill carries a heavy bag every morning.
           - audio: peter-has-a-big-cat-and-a-small-dog-today.mp3
             text: Peter has a big cat and a small dog today.
           - audio: mr-hill-writes-a-long-word-on-the-board-today.mp3

@@ -88,13 +88,13 @@ blocks:
         text: Welches Zeichen steckt in welchem Wort?
         pairs:
           - left: "/iː/"
-            right: leave
+            right: meet
           - left: "/ɪ/"
-            right: live
+            right: fish
           - left: "/uː/"
             right: food
           - left: "/ʌ/"
-            right: bus
+            right: cup
           - left: "/æ/"
             right: man
         explanation: Das Zeichen ː steht bei den langen Vokalen in leave und food.
@@ -124,21 +124,18 @@ blocks:
         task: Schreibe das Wort, das in Lautschrift steht.
         form: { case: ok, punctuation: ok }
         items:
-          - cue: "/liːv/"
-            target: leave
+          - cue: "/bʊk/"
+            target: book
             mistakes:
-              - answer: live
-                message: Live klingt mit kurzem /ɪ/. Hier steht der lange Vokal /iː/.
-          - cue: "/pʊl/"
-            target: pull
-            mistakes:
-              - answer: pool
-                message: Pool hat den langen Vokal /uː/. Hier steht das kurze /ʊ/.
+              - answer: buck
+                message: Buck hat den Vokal /ʌ/. Hier steht /ʊ/, geschrieben oo.
           - cue: "/bʌs/"
             target: bus
+          - cue: "/miːt/"
+            target: meet
             mistakes:
-              - answer: bas
-                message: Das Zeichen /ʌ/ schreibt man hier mit dem Buchstaben u.
+              - answer: mit
+                message: Der Vokal hat ein ː, er ist lang. Das schreibt man hier ee.
         hint: Achte darauf, ob der Vokal ein ː hat.
       - type: language-task
         id: vokale-hoeren
@@ -156,10 +153,10 @@ blocks:
             mistakes:
               - answer: Please live the bag in the kitchen.
                 message: Live heißt „wohnen“. Lassen heißt leave, mit langem iː.
-          - audio: the-bus-is-full-of-children-today.mp3
-            target: The bus is full of children today.
+          - audio: the-bag-is-full-of-books-today.mp3
+            target: The bag is full of books today.
             mistakes:
-              - answer: The bus is fool of children today.
+              - answer: The bag is fool of books today.
                 message: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
         hint: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
   - type: section

@@ -20,15 +20,15 @@ blocks:
         id: lautschrift-start
         text: Was zeigt die Szene über die Lesehilfe mit deutschen Buchstaben?
         options:
-          - text: Sie zeigt den Klang nur ungefähr, nicht ganz genau.
+          - text: Sie nutzt deutsche Buchstaben und ist darum ungenau.
             correct: true
-            info: "Die Lesehilfe geht vom Deutschen aus. Für Ellie klingt sie nach einem anderen Wort."
-          - text: Sie zeigt den Klang meist genau, nur Ellie hört falsch.
+            info: "Die Lesehilfe geht vom Deutschen aus. „Aim“ ist für Ellie ein anderes Wort."
+          - text: Sie nutzt deutsche Buchstaben, und Ellie hört falsch.
             correct: false
             info: Ellie hört richtig. Aim ist im Englischen ein anderes Wort.
-          - text: Sie zeigt den Klang genau, aber Ellie spricht falsch.
+          - text: Sie nutzt englische Buchstaben, und Ellie spricht falsch.
             correct: false
-            info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau."
+            info: "Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm."
         explanation: "Im Englischen gibt es das Wort aim (Ziel). In Lautschrift steht I'm als /aɪm/ und aim als /eɪm/. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr."
         links:
           - title: Lernlandkarte Englisch · Lautschrift
@@ -165,21 +165,15 @@ blocks:
         task: Höre zu und schreibe jeden Satz ganz auf.
         form: { case: ok, punctuation: ok }
         items:
-          - audio: peter-reads-a-book-on-the-chair-today.mp3
-            target: Peter reads a book on the chair today.
+          - audio: amir-buys-a-new-watch-today.mp3
+            target: Amir buys a new watch today.
+          - audio: sophie-washes-the-dishes-this-evening.mp3
+            target: Sophie washes the dishes this evening.
             mistakes:
-              - answer: Peter reads a book on the cher today.
-                message: "Hier schreibt man /tʃ/ mit ch, wie in chair."
-          - audio: sophie-finds-a-big-green-shoe-upstairs.mp3
-            target: Sophie finds a big green shoe upstairs.
-            mistakes:
-              - answer: Sophie finds a big green shu upstairs.
-                message: Man schreibt shoe, mit den Buchstaben oe am Ende.
-          - audio: ellie-sings-with-amir-in-the-kitchen.mp3
-            target: Ellie sings with Amir in the kitchen.
-            mistakes:
-              - answer: Ellie sings with Amir in the kitchin.
-                message: Man schreibt kitchen, mit tch in der Mitte.
+              - answer: Sophie washs the dishes this evening.
+                message: Nach sh steht in der Mehrzahl und bei he, she, it die Endung -es.
+          - audio: peter-takes-a-long-walk-this-morning.mp3
+            target: Peter takes a long walk this morning.
         hint: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
   - type: section
     id: anwenden

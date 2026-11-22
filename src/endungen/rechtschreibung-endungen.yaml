@@ -52,7 +52,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt.
+              - **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt, nicht bei w, x und y (show – showed).
               - **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays). Vor -ing bleibt es auch (try – trying).
               - **e fällt weg:** Ein e am Ende fällt vor -ing meist weg. Vor -ed kommt nur ein d dazu (dance – danced).
   - type: section
@@ -80,13 +80,13 @@ blocks:
         id: rechtschreibung-zuordnen
         text: Welcher Handgriff gehört zu welchem Wort?
         pairs:
-          - left: run – running
+          - left: hit – hitting
             right: Konsonant doppeln
-          - left: try – tries
+          - left: tidy – tidies
             right: y wird ie
-          - left: dance – dancing
+          - left: like – liking
             right: e fällt weg
-          - left: play – plays
+          - left: stay – stays
             right: y bleibt
         explanation: Nach einem Vokal bleibt das y.
         links:
@@ -134,12 +134,12 @@ blocks:
             mistakes:
               - answer: enjoies
                 message: Nach einem Vokal bleibt das y.
-          - cue: try · yesterday (simple past)
-            target: tried
+          - cue: study · yesterday (simple past)
+            target: studied
             mistakes:
-              - answer: tryed
+              - answer: studyed
                 message: Das y wird zu ied.
-              - answer: tries
+              - answer: studies
                 message: Das ist die Form für jetzt. Für gestern braucht man -ed.
           - cue: drop · yesterday (simple past)
             target: dropped

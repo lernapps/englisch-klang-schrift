@@ -63,7 +63,7 @@ blocks:
           - type: text
             text: |
               - **Stumme Buchstaben schreibt man, aber man spricht sie nicht.**
-              - Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, zum Beispiel milk.
+              - Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, schlage im Zweifel nach.
               - Beim Schreiben musst du sie trotzdem schreiben.
   - type: section
     id: uebung
@@ -113,6 +113,22 @@ blocks:
               - answer: ate
                 message: Ate ist die Vergangenheit von eat. Die Zahl schreibt man mit stummem gh.
         hint: Denk an die Muster aus der Tabelle.
+      - type: matching
+        id: silent-letters-zuordnen
+        text: Welcher Buchstabe ist stumm?
+        pairs:
+          - left: knee
+            right: k
+          - left: right
+            right: gh
+          - left: walked
+            right: l
+          - left: castle
+            right: t
+        explanation: Die Muster der Tabelle helfen, aber man muss die Wörter üben.
+        links:
+          - title: Lernlandkarte Englisch · Stumme Buchstaben
+            url: https://lernapps.net/apps/map/englisch/c/silent-letters/
       - type: language-task
         id: silent-letters-hoeren
         languages: { source: de, target: en }
@@ -121,19 +137,10 @@ blocks:
         items:
           - audio: peter-talks-to-mrs-parker-every-morning.mp3
             target: Peter talks to Mrs Parker every morning.
-            mistakes:
-              - answer: Peter tocks to Mrs Parker every morning.
-                message: Zwischen a und k steht ein stummes l.
           - audio: amir-wrote-a-letter-yesterday.mp3
             target: Amir wrote a letter yesterday.
-            mistakes:
-              - answer: Amir rote a letter yesterday.
-                message: Vor dem r steht ein stummes w.
           - audio: ellie-fastens-her-bag-in-the-kitchen.mp3
             target: Ellie fastens her bag in the kitchen.
-            mistakes:
-              - answer: Ellie fasens her bag in the kitchen.
-                message: In fasten steht ein stummes t.
         hint: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
   - type: section
     id: anwenden

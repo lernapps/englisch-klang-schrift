@@ -11,16 +11,10 @@ blocks:
       - type: text
         text: "Kannst du das schon? **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. **Ich kann im simple present mit do und does Fragen stellen und mit don't und doesn't verneinen.** Das ist der Baustein „Simple present: Fragen und Verneinung“. **Ich kann Fragen mit who, what, where, when, why, how und whose stellen.** Das ist der Baustein „Fragewörter“. Alle drei brauchst du in den Beispielen der nächsten Seiten. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
       - type: table
-        caption: Klassenzimmer-Poster · Das Verb be
-        header: [Person, Form]
+        caption: Klassenzimmer-Poster · Das Verb be, Fragen und Fragewörter
+        header: [Thema, Beispiel]
         rows:
-          - [I, am]
-          - [he / she / it, is]
-          - [you / we / they, are]
-      - type: table
-        caption: Klassenzimmer-Poster · Fragen und Fragewörter
-        header: [Art, Beispiel]
-        rows:
+          - [Verb be, "I am · he, she, it is · you, we, they are"]
           - [Frage mit be, "Is she happy?"]
           - [Frage mit do, "Do you like tea?"]
           - [Frage mit does, "Does Amir like tea?"]

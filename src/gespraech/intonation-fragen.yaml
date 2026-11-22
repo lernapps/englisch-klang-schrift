@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wohin geht die Stimme?
-description: "Peter fragt, Amir antwortet. Du lernst, wann die Stimme am Satzende steigt und wann sie fällt, und sprichst Aussagen, Fragen und Aufforderungen mit der passenden Melodie."
+description: "Peter fragt, Amir antwortet. Du lernst, wann die Stimme am Satzende steigt und wann sie fällt, und übst Aussagen, Fragen und Aufforderungen mit der passenden Melodie."
 competencies: [intonation-fragen]
 scope: "Die Seite zeigt die Satzmelodie am Satzende als Pfeil in der oberen Zeile der Klangpartitur. Grundregel: Bei Fragen, die man mit Ja oder Nein beantwortet (Do you like tea?), steigt die Stimme. Bei Aussagen, Aufforderungen und Fragen mit einem Fragewort (What is your name?) fällt sie. Auch die Satzzeichen zeigen die Satzart: Fragezeichen oder Punkt. Nicht hier, weil sie auf späteren Seiten stehen (Stufe 7-8 und 9-10): question tags, Zweifel, Überraschung und andere Haltungen, Betonung im Satz."
 blocks:
@@ -34,7 +34,7 @@ blocks:
           - title: Lernlandkarte Englisch · Satzmelodie
             url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
       - type: text
-        text: "**Das kannst du danach:** Du sprichst Aussagen, Fragen und Aufforderungen mit der passenden Melodie."
+        text: "**Das kannst du danach:** Du kannst Aussagen, Fragen und Aufforderungen mit der passenden Melodie üben."
   - type: section
     id: neu
     title: Der Pfeil in der oberen Zeile
@@ -125,9 +125,9 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
       - type: true-false
         id: intonation-jede-frage
-        text: Bei „Where do you live?“ steigt die Stimme am Ende.
+        text: Bei „What is your name?“ steigt die Stimme am Ende.
         answer: false
-        explanation: Das gilt meist nur für Ja-Nein-Fragen. Bei where fällt die Stimme.
+        explanation: Das gilt meist nur für Ja-Nein-Fragen. Bei what fällt die Stimme.
         links:
           - title: Lernlandkarte Englisch · Satzmelodie
             url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
@@ -137,15 +137,15 @@ blocks:
         task: Höre zu und schreibe jeden Satz ganz auf. Achte auf Punkt oder Fragezeichen.
         form: { case: ok, punctuation: wrong }
         items:
-          - audio: is-ellie-at-home-this-afternoon.mp3
-            target: Is Ellie at home this afternoon?
+          - audio: is-peter-at-home-this-afternoon.mp3
+            target: Is Peter at home this afternoon?
             mistakes:
-              - answer: Is Ellie at home this afternoon.
+              - answer: Is Peter at home this afternoon.
                 message: Das ist eine Frage. Am Ende steht ein Fragezeichen.
-          - audio: open-the-window-for-mrs-parker.mp3
-            target: Open the window for Mrs Parker.
+          - audio: close-the-door-for-amir.mp3
+            target: (Close the door for Amir.|Close the door for Amir!)
             mistakes:
-              - answer: Open the window for Mrs Parker?
+              - answer: Close the door for Amir?
                 message: Das ist eine Aufforderung. Am Ende steht ein Punkt.
           - audio: where-does-mrs-parker-work-today.mp3
             target: Where does Mrs Parker work today?
