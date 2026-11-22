@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -89,8 +89,9 @@ Quellen (am 2026-11-22 geöffnet, nur Fakten): en.wikipedia.org „Initial-stres
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja: kürzere Lesestücke (120 bis 200 Wörter) für Aussprache-Seiten ok. Zuerst K4 (laut-buchstabe, kommasetzung); wortbetonung, bindungen, schwache-formen, satzbetonung erst nach dem Hörurteil zur Hörprobe 2. Nichts weiter pushen, bis die Ersteller:in es erlaubt.
 
 ### Answers
 
@@ -112,10 +113,10 @@ Quellen (am 2026-11-22 geöffnet, nur Fakten): en.wikipedia.org „Initial-stres
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
 - [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
@@ -130,6 +131,27 @@ cannot. Something new goes into the guide in the slice that adds it. -->
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+Die Muster der ersten Version gelten (Inhaltsführer `.agents/skills/app-content/SKILL.md`): Abschnitte `einstieg`, `neu`, `uebung`, `anwenden`, `weiter`; Übungen `matching`, `single-choice`, `multiple-choice`, `language-task` (gap, write mit `mistakes`), `speaking-task`, `open-task`; Bildfamilie mit `make_partitur.py`; Hörliste; `pruefen.py` und `enden_pruefen.py`. **Neu in diesem Inkrement** (kommt in der Scheibe, die es einführt, in den Inhaltsführer):
+- **Seitenform mit Lesestück** (Abschnitt `lesestueck` zwischen `einstieg` und `neu`): Vorwissen-Frage im `einstieg`, Lesestück 120 bis 200 Wörter als Chat, Blog oder Dialog der Figuren (Sophie 13 bis 14, Ellie, Peter, Amir, Mr Hill; Mrs Parker nur im Text), geschrieben als `text`-Blöcke (eine Zeile je Nachricht, Absender fett), Randglossar als `definition`-Blöcke für schwere Wörter, dann Aufgaben in drei Stufen: (1) Verstehen: `single-choice` zum Inhalt, (2) Belegen: `single-choice` oder `language-task`, welche Zeile etwas zeigt (Lesestück steht dann im Text der Aufgabe als `material`), (3) Meinung oder Anwendung: `open-task`. Das Lesestück trägt das Thema der Seite, die Erklärung folgt (`neu`); die Aufgaben fragen aber nicht dieselben Sätze ab wie das Lesestück.
+- **Klangpartitur mit mittlerer Zeile** (`partitur-<seite>.svg`): große Punkte (betont) und kleine Punkte (unbetont) über den Silben; Lerninhalt: Punkte zeigen, welche Silbe oder welches Wort lauter, länger und klarer gesprochen wird. Die Legende nennt die Punkte; in Aufgaben zeigt die Partitur nur die Legende. Karten tragen jetzt Silben (zwei Karten für ein Wort, wenn die Silben eigene Laute haben).
+- **Umgekehrte Partitur** (Kapitel 4, `laut-buchstabe`): ein Laut (Karte) mit mehreren Schreibungen (Buchstabenkarten darunter).
+- Keine Komponente (`prefer-built-in-block`).
+
+Seiten und Figuren (Lernzweck in zwei bis vier Sätzen):
+- `richtig-schreiben/laut-buchstabe`: Einstieg: Sophie schreibt „sea“, die Rechtschreibprüfung meldet nichts. Lesestück: Chat Sophie – Ellie über eine Postkarte (see/sea, meet/meat, night). Figur `partitur-laut-buchstabe`: Laute-Karte /iː/ mit den Schreibungen ee, ea, e-e darunter, /aɪ/ mit igh, i-e: zeigt, dass der Laut gleich bleibt und die Schrift wechselt (Richtung Laut → Schrift). Voraussetzungen aus der App: vokale, silent-letters (Link im Text). Übungen: Verstehen, Belegen, Zuordnung Laut ↔ Schreibung, Homophone wählen (single-choice mit Satzzusammenhang), Schreiben aus Lautschrift (`language-task`), Diktat (Hörtext, Kontext entscheidet), Anwenden: `open-task` (eigene Postkarte mit drei Homophon-Paaren).
+- `richtig-schreiben/das-brauchst-du` (Recap `englisch/relativsaetze-nicht-notwendig`): Tabelle „Klassenzimmer-Poster · Nicht notwendige Relativsätze“.
+- `richtig-schreiben/kommasetzung`: Lesestück: Sophies Blogeintrag „My first term in Millbrook“. Figur: Partitur-Zeile mit einer Pause (Komma) in der Satzmitte; Lernzweck: Ein Komma markiert eine Pause, die man auch hört. Regeln: nach einleitender Zeit-/Ortsangabe, vor und nach nicht notwendigem Relativsatz, in Aufzählungen; kein Komma vor that-Sätzen. Übungen: Kommas setzen (`language-task` write), notwendig oder nicht (single-choice), Satzbau nach Hören (Diktat).
+- `betonung-rhythmus-melodie/wortbetonung`: Lesestück: Chat über ein Geschenk (present). Figur: Partitur mit Punkten über Silben (present Nomen: ● ·, Verb: · ●). Übungen: Betonung setzen (single-choice zum Wort), Paare zuordnen (matching Wortart ↔ Betonung), Betonung nach der Lautschrift mit ˈ (Lautkarte: ˈ vor der betonten Silbe) lesen; Hören: nur nach Hörurteil.
+- `…/bindungen`: Lesestück: Peter nimmt Sophie auf; Figur: Partitur mit Bogen zwischen zwei Wörtern (turn off → turn‿off), linking r (far‿away). Übungen: Bindestellen finden (multiple-choice), Bogen zuordnen, Sprechen mit eigener Aufnahme.
+- `…/schwache-formen`: Lesestück: Backen mit Mrs Parker (Rezept); Figur: Karten mit starker und schwacher Form (and /ænd/ – /ən/); Tabelle „Starke und schwache Formen“; Übungen: wann stark, wann schwach (single-choice), Schwa erkennen, Diktat nur mit Wörtern, die der Kontext festlegt.
+- `…/satzbetonung`: Lesestück: Sophies Nachricht; Figur: Partitur mit Punkten über Wörtern, Rhythmus als gleiche Abstände; Übungen: betonte Wörter markieren (multiple-choice), Rhythmus zählen (number), Sprechen.
+- `…/das-brauchst-du` (Recap `englisch/question-tags`) und `…/intonation-question-tags`: Lesestück: Chat Sophie – Ellie („Cold today, isn’t it?“); Figur: Partitur oben: Pfeil steigt (echte Frage) oder fällt (Zustimmung erwartet); keine Aufnahme (die Stimme zeigt es nicht), Diktat mit Satzzeichen; Übungen: Situation ↔ Pfeil zuordnen, wählen, Anwenden `open-task`.
+
+Hörtexte: ganze Sätze mit `bf_emma`, mit dem neuen `regen_audio.py` (Fehllaut-Schnitt); Betonungspaare, Bindungen und schwache Formen nur mit Hörurteil der Ersteller:in (Hörprobe 2); Lesestücke nur in kurzen Abschnitten und nur, wenn nichts an Betonung oder Melodie hängt. Kein Hörsatz steht fast wörtlich in Lesestück, Tabelle, Merke oder anderer Übung derselben Seite (`pruefen.py`). Hörliste im Inhaltsführer.
+
+Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Commit-Phase).
+
 
 ## Code
 
@@ -152,7 +174,14 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Kapitel 4 anlegen (chapter.yaml, app.yaml) und Seite : Lesestück (Sophies Chat mit der Rechtschreibprüfung), Klangpartitur umgekehrt (Laut → Schreibungen), Homophone see – sea; neue Seitenform (Lesestück, Randglossar, drei Aufgabenstufen) im Inhaltsführer beschreiben. Alleine, kein Sub-Agent.
+- [ ] Wiederholungsseite (#481) und Seite : Lesestück (Sophies Blogeintrag), Kommas als hörbare Pausen, nach einleitendem Adverbial, vor und nach nicht notwendigem Relativsatz. Alleine.
+- [ ] Kapitel 5 anlegen, Funktion für die mittlere Zeile (Betonungspunkte) in , Seite (nach dem Hörurteil zur Hörprobe 2): Lesestück (Chat über ein Geschenk), present/record, große und kleine Punkte. Alleine.
+- [ ] Seite (nach dem Hörurteil): Lesestück (Peter nimmt Sophie auf), Konsonant-Vokal-Bindung und linking r (far away). Alleine.
+- [ ] Seite (nach dem Hörurteil): Lesestück (Backen mit Mrs Parker), and, to, of, for als Schwa-Formen, am Satzende stark. Alleine.
+- [ ] Seite (nach dem Hörurteil): Lesestück (Sophies Nachricht), Inhaltswörter und Rhythmus. Alleine.
+- [ ] Wiederholungsseite (#473) und Seite : Lesestück (Chat Sophie und Ellie), Pfeil steigt oder fällt, keine Aufnahme der Melodie. Kapitel 4 und 5 mit Rückblick, der neuen Kapitel (kommt in Commit). Alleine.
+<!-- tasks: slices (7 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
