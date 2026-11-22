@@ -148,6 +148,35 @@ UMGEKEHRT = {
 }
 
 
+def satzband(title, rows):
+    """Sätze als Karten: ein Satzteil je grüne Karte; ein rotes Komma in der Lücke ist eine hörbare Pause.
+    rows: Liste von (Titel, [Teile]); ein Teil ist Text oder "," für eine Pause (Komma)."""
+    h = 40 + len(rows) * 96
+    body = []
+    for ri, (label, parts) in enumerate(rows):
+        y = 12 + ri * 96
+        body.append(f'<text x="8" y="{y + 18}" {F} font-size="18" fill="{GREY}">{e(label)}</text>')
+        x = 8
+        for part in parts:
+            if part == ",":
+                body.append(f'<text x="{x + 2}" y="{y + 66}" {F} font-size="40" font-weight="bold" fill="{RED}">,</text>')
+                x += 22
+            else:
+                w = max(40, 8.5 * len(part) + 18)
+                body.append(f'<rect x="{x}" y="{y + 30}" width="{w}" height="46" rx="8" fill="{GREEN}"/>'
+                            f'<text x="{x + w / 2:.0f}" y="{y + 60}" text-anchor="middle" {F} font-size="18" fill="#fff">{e(part)}</text>')
+                x += w + 6
+    return svg(480, h, title, "\n".join("  " + l for l in body) + "\n")
+
+
+SATZBAND = {
+    "satzband-komma": ("Drei Sätze als Karten. Erste Reihe: Last summer, rotes Komma, we went to Wales. Zweite Reihe: My brother, rotes Komma, who lives in London, rotes Komma, is a pilot. Dritte Reihe ohne Komma: The boy who lives next door is my friend",
+                       [("Einleitung, dann Komma", ["Last summer", ",", "we went to Wales"]),
+                        ("Nicht notwendiger Relativsatz: zwei Kommas", ["My brother", ",", "who lives in London", ",", "is a pilot"]),
+                        ("Notwendiger Relativsatz: kein Komma", ["The boy who lives next door", "is my friend"])]),
+}
+
+
 def werkstatt(title, rows):
     h = 48 + 56 * len(rows)
     body = [f'<text x="240" y="30" text-anchor="middle" {F} font-size="22" fill="{INK}">Werkstatt: Was passiert vor der Endung?</text>']
@@ -236,6 +265,8 @@ if __name__ == "__main__":
     open(os.path.join(OUT, "zunge-th.svg"), "w").write(zunge("Zwei Zeichnungen der Zunge: links liegt die Zungenspitze zwischen den oberen und unteren Zähnen (th), rechts hinter den oberen Zähnen (s)"))
     for name, (title, a, b, c) in VERSCHMELZEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(verschmelzen(title, a, b, c))
+    for name, (title, rows) in SATZBAND.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(satzband(title, rows))
     for name, (title, groups) in UMGEKEHRT.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(umgekehrt(title, groups))
     for name, (title, rows) in WERKSTAETTEN.items():
