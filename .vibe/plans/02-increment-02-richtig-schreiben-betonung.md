@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 2 }
+failedChecks: { checks-pass: 3 }
 ---
 
 # Increment: increment-02-richtig-schreiben-betonung
@@ -177,7 +177,7 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Kapitel 4 anlegen (chapter.yaml, app.yaml) und Seite : Lesestück (Sophies Chat mit der Rechtschreibprüfung), Klangpartitur umgekehrt (Laut → Schreibungen), Homophone see – sea; neue Seitenform (Lesestück, Randglossar, drei Aufgabenstufen) im Inhaltsführer beschreiben. Alleine, kein Sub-Agent.
 - [x] Wiederholungsseite (#481) und Seite : Lesestück (Sophies Blogeintrag), Kommas als hörbare Pausen, nach einleitendem Adverbial, vor und nach nicht notwendigem Relativsatz. Alleine.
-- [ ] Kapitel 5 anlegen, Funktion für die mittlere Zeile (Betonungspunkte) in , Seite (nach dem Hörurteil zur Hörprobe 2): Lesestück (Chat über ein Geschenk), present/record, große und kleine Punkte. Alleine.
+- [x] Kapitel 5 anlegen, Funktion für die mittlere Zeile (Betonungspunkte) in , Seite (nach dem Hörurteil zur Hörprobe 2): Lesestück (Chat über ein Geschenk), present/record, große und kleine Punkte. Alleine.
 - [ ] Seite (nach dem Hörurteil): Lesestück (Peter nimmt Sophie auf), Konsonant-Vokal-Bindung und linking r (far away). Alleine.
 - [ ] Seite (nach dem Hörurteil): Lesestück (Backen mit Mrs Parker), and, to, of, for als Schwa-Formen, am Satzende stark. Alleine.
 - [ ] Seite (nach dem Hörurteil): Lesestück (Sophies Nachricht), Inhaltswörter und Rhythmus. Alleine.
