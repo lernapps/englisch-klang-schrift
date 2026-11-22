@@ -22,6 +22,12 @@ blocks:
       - type: text
         text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/), [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/)."
   - type: section
+    id: kapitel-eins
+    title: Das kennst du aus Kapitel 1
+    blocks:
+      - type: text
+        text: "In der Klangpartitur zeigt jede blaue **Karte** ein Wort in Lautschrift (siehe [Lautschrift lesen](/klaenge/lautschrift/)). Und du hast die Hand an den Hals gelegt: Bei einem **stimmhaften** Laut summt es, bei einem **stimmlosen** nicht (siehe [Wo es am Ende summt](/klaenge/stimmhafte-auslaute/)). Das brauchst du gleich für die Endungen."
+  - type: section
     id: weiter
     title: Was jetzt kommt
     blocks:

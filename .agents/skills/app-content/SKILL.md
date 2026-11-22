@@ -199,4 +199,5 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Ein Begriff, den eine spätere Seite erklärt (summt, stimmhaft), steht nicht vorher auf einer Seite; vorher sagt man „weich“, „hauchig“.
 - Jeder Apostroph und jeder Doppelbuchstabe lässt sich nicht hören: Diktate dazu sind Schreibaufgaben, und der Hinweis sagt das („Den Apostroph hörst du nicht“).
 - Am Seitenende steht ein Schritt, den die nächste Seite aufnimmt: gleiche Figuren, gleicher Ort (p1 → p2: Peter und das Foto).
+- Wiederholungsseiten erinnern auch an Begriffe aus früheren Kapiteln dieser App (Klangpartitur, Karte, stimmhaft/stimmlos) mit Link auf die Seite, die sie einführt; eine Seite nennt nie eine „Karte“, die nicht auf Seite 1 oder in der Wiederholung steht.
 - Zeichen, die ein Bild zeigt, sind vorher im Text oder in der Tabelle eingeführt (ɛ in bɛd steht im Text der Seite zu den Wortenden).
