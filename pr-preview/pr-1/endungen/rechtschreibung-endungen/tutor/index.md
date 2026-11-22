@@ -47,7 +47,7 @@ Peter hängt eine Endung an ein Wort und ist nicht sicher. Du lernst drei Handgr
 
 Bild: Im Klassenzimmer überlegt Peter in einer Sprechblase: „plan + ed = ?“. Neben ihm stehen Ellie und Mr Hill. Bildunterschrift: Von links: Peter (gelbe Jacke) überlegt, Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare) schauen zu.
 
-Amir plante die Party. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird.
+Amir hat gestern die Party geplant. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird.
 
 - Aufgabe `rechtschreibung-start` (unten)
 
@@ -87,13 +87,13 @@ In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor 
 
 ### Aufgabe rechtschreibung-start
 
-- Aufgabe: Wie schreibt Peter „Amir plante die Party“?
+- Aufgabe: Welche Form passt? Amir ___ the party yesterday.
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Amir planned the party. – Aus plan wird planned, mit doppeltem n.
-  - ✗ Amir planed the party. – Planed gibt es, aber es heißt „hobelte“.
-  - ✗ Amir planning the party. – Planning hat die Endung -ing. Hier passt -ed.
-- Lösung: Amir planned the party.
+  - ✓ planned – Aus plan wird planned, mit doppeltem n.
+  - ✗ planed – Planed gibt es, aber es heißt „hobelte“.
+  - ✗ planning – Planning hat die Endung -ing. Hier passt -ed.
+- Lösung: planned
 - Erklärung: Bei plan wird das n doppelt.
 - Link: [../?via=tutor#rechtschreibung-start](../?via=tutor#rechtschreibung-start)
 

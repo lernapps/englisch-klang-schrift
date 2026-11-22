@@ -55,14 +55,14 @@ Sophie bedankt sich bei Ellie: „Sank you!“ In Hello, Millbrook! hat sie „f
 
 ### Wo die Zunge und die Lippen liegen
 
-Der Laut **th** hat zwei Formen: /θ/ in thank klingt hauchig, /ð/ in the summt. Beide sprichst du mit der Zunge zwischen den Zähnen.
+Der Laut **th** hat zwei Formen: /θ/ in thank klingt hauchig, /ð/ in the klingt weicher. Beide sprichst du mit der Zunge zwischen den Zähnen.
 
 Bild: Zwei Zeichnungen der Zunge im Mund von der Seite. Links liegt die Zungenspitze zwischen den oberen und unteren Zähnen, beschriftet mit th. Rechts liegt die Zungenspitze hinter den oberen Zähnen, beschriftet mit s. Bildunterschrift: Links th: Die Zungenspitze liegt zwischen den Zähnen. Rechts s: Sie liegt dahinter.
 
 Lautkarten · th, w, v und r:
 - Zeichen | Beispielwort | So sprichst du es
 - /θ/ | thank | Zunge zwischen den Zähnen, hauchig
-- /ð/ | the | Zunge zwischen den Zähnen, summend
+- /ð/ | the | Zunge zwischen den Zähnen, weich
 - /w/ | west | Lippen rund, kein Zahnkontakt
 - /v/ | van | obere Zähne auf der Unterlippe
 - /r/ | red | Zungenspitze nach hinten, nicht rollen
@@ -93,7 +93,7 @@ Lautkarten · th, w, v und r:
 
 ### Wie es weitergeht
 
-Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Amir hält die Hand an den Hals und spricht zwei Wörter. Mr Hill sagt: „Hört genau, wo es summt.“ Das hörst du auf der nächsten Seite.
+Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr Hill sagt: „Jetzt hört genau auf das Ende der Wörter.“ Das hörst du auf der nächsten Seite.
 
 ### Aufgabe konsonanten-start
 
@@ -124,7 +124,7 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Ami
 - Aufgabe: Welches Zeichen steckt in welchem Wort?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: /θ/ – three; /ð/ – mother; /w/ – window; /v/ – very; /r/ – rain
-- Erklärung: Das th in three klingt hauchig, das th in mother summt.
+- Erklärung: Das th in three klingt hauchig, das th in mother weicher.
 - Link: [../?via=tutor#konsonanten-zuordnen](../?via=tutor#konsonanten-zuordnen)
 
 ### Aufgabe konsonanten-lesen
@@ -146,9 +146,9 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Ami
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ /v/ – Das v in village sprichst du mit den Zähnen auf der Unterlippe.
   - ✗ /w/ – Das w sprichst du mit runden Lippen. Das ist der Laut in west.
-  - ✗ /f/ – Das v in Vater klingt wie f. Im Englischen ist v ein eigener, summender Laut.
+  - ✗ /f/ – Das v in Vater klingt wie f. Im Englischen ist v ein eigener, weicher Laut.
 - Lösung: /v/
-- Erklärung: Das englische v summt und ist ein eigener Laut.
+- Erklärung: Das englische v ist weich und ein eigener Laut.
 - Link: [../?via=tutor#konsonanten-w-v](../?via=tutor#konsonanten-w-v)
 
 ### Aufgabe konsonanten-schreiben

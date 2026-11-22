@@ -63,7 +63,7 @@ Klassenzimmer-Poster · Endungen:
 - Letzter Laut | Endung | Beispiel
 - stimmlos | -s wie /s/, -ed wie /t/ | cats, walked
 - stimmhaft | -s wie /z/, -ed wie /d/ | bags, played
-- Zischlaut | -s wie /ɪz/ | buses
+- Zischlaut (s, z, sh, ch, x) | -s wie /ɪz/ | buses
 - t oder d | -ed wie /ɪd/ | wanted
 
 **Merke: Merke**

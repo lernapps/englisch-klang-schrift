@@ -72,9 +72,7 @@ Klassenzimmer-Poster · Satzmelodie:
 
 - **Steigt meist:** Fragen, die man mit Ja oder Nein beantwortet.
 - **Fällt meist:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
-- Das ist die Grundregel. Im Alltag gibt es Ausnahmen.
-
-- Aufgabe `intonation-karten` (unten)
+- Das ist die Grundregel. Im Alltag gibt es Ausnahmen. Eine KI-Stimme zeigt die Melodie nicht zuverlässig, darum gibt es hier keine Aufnahmen zum Nachsprechen.
 
 ### Übung
 
@@ -88,13 +86,13 @@ Klassenzimmer-Poster · Satzmelodie:
 
 - Aufgabe `intonation-hoeren` (unten)
 
-### Sprich nach
+### Schreibe und sprich
 
-- Aufgabe `intonation-nachsprechen` (unten)
+- Aufgabe `intonation-anwenden` (unten)
 
 ### Rückblick
 
-In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesprochen. Die Klangpartitur hat jetzt zwei gefüllte Zeilen: unten die Laute, oben die Melodie. Die mittlere Zeile bleibt noch leer. Mr Hill sagt: „Dort zeigen wir später, welche Wörter betont werden.“
+In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesprochen. Die Klangpartitur hat jetzt zwei gefüllte Zeilen: unten die Laute, oben die Melodie. Die mittlere Zeile bleibt in dieser App leer.
 
 ### Aufgabe intonation-start
 
@@ -107,18 +105,6 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 - Lösung: Sie steigt.
 - Erklärung: Wer mit Ja oder Nein antworten soll, spricht die Frage mit steigender Stimme.
 - Link: [../?via=tutor#intonation-start](../?via=tutor#intonation-start)
-
-### Aufgabe intonation-karten
-
-- Aufgabe: Höre vier Sätze und sprich sie nach. Die Satzart steht in der Tabelle: Aussage, Aufforderung, Frage mit Fragewort und Frage mit Ja oder Nein.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → The bag is red and the door is open.
-2. Audio → Close the window, please.
-3. Audio → Where is the teacher this morning?
-4. Audio → Is the teacher at home today?
-- Tipp der App: Die Aufnahme ist eine KI-Stimme und spricht die Melodie manchmal schwach. Die Tabelle gilt, wenn du dir unsicher bist.
-- Link: [../?via=tutor#intonation-karten](../?via=tutor#intonation-karten)
 
 ### Aufgabe intonation-satzart
 
@@ -177,13 +163,16 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#intonation-hoeren](../?via=tutor#intonation-hoeren)
 
-### Aufgabe intonation-nachsprechen
+### Aufgabe intonation-anwenden
 
-- Aufgabe: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → Do you like cheese, Amir?
-2. Audio → What do you want for lunch, Amir?
-3. Audio → Please sit down, Sophie.
-- Tipp der App: Beim ersten Satz steigt deine Stimme, bei den anderen fällt sie.
-- Link: [../?via=tutor#intonation-nachsprechen](../?via=tutor#intonation-nachsprechen)
+- Aufgabe: Schreibe drei Sätze für Peter und Amir: eine Frage mit Ja oder Nein, eine Frage mit what oder where und eine Aufforderung. Sprich sie laut und führe deine Stimme mit dem Pfeil.
+- Antwortformat: in eigenen Worten eintippen oder auf Papier schreiben und das Blatt fotografieren
+- Eine gute Antwort enthält (P1, P2 … wie die App sie nennt):
+  - P1 (Inhalt) Die Frage mit Ja oder Nein beginnt mit do, does, is oder are und hat ein Fragezeichen. Sie wird mit steigender Stimme gesprochen. Quelle: [/gespraech/intonation-fragen/#neu](../../../gespraech/intonation-fragen/#neu)
+  - P2 (Inhalt) Die Frage mit what oder where hat ein Fragewort und ein Fragezeichen. Sie wird mit fallender Stimme gesprochen. Quelle: [/gespraech/intonation-fragen/#neu](../../../gespraech/intonation-fragen/#neu)
+  - P3 (Inhalt) Die Aufforderung hat einen Punkt und wird mit fallender Stimme gesprochen. Quelle: [/gespraech/intonation-fragen/#neu](../../../gespraech/intonation-fragen/#neu)
+  - P4 (Form) Es sind ganze Sätze.
+- Musterantwort: Is Amir at home? What do you like, Peter? Open the window, please.
+- Tipp der App: Die App hört nicht zu. Eine KI-Stimme zeigt die Melodie nicht zuverlässig, darum gibt es hier keine Aufnahme zum Nachsprechen.
+- So hilfst du: Die App zeigt die Punkte erst nach der Antwort; das Kind hakt selbst ab, welche seine Antwort enthält, und „es fehlen P2, P4“ nennt die anderen. Fehlt dir die Antwort, bitte das Kind, sie einzufügen oder das Foto seines Blatts anzuhängen. Prüf Punkt für Punkt, auch die abgehakten, und sag zuerst, was gelungen ist. Zu einem fehlenden Punkt stell eine Frage, die dorthin führt, und nenn seine Quelle. Verrate die Musterantwort nicht, bevor das Kind es noch einmal versucht hat. Zu einem Punkt der Form zeig an einem Satz des Kindes, wie es besser geht.
+- Link: [../?via=tutor#intonation-anwenden](../?via=tutor#intonation-anwenden)

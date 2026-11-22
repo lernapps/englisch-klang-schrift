@@ -55,7 +55,7 @@ Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) u
 
 ### Summt es oder summt es nicht?
 
-Leg die Hand an den Hals und sprich das Ende des Wortes. Summt es, ist der Laut **stimmhaft**. Summt es nicht, ist er **stimmlos**. Im Englischen bleibt das Ende von bed weich, und das von bet bleibt hart.
+Leg die Hand an den Hals und sprich das Ende des Wortes. Summt es, ist der Laut **stimmhaft**. Summt es nicht, ist er **stimmlos**. Im Englischen bleibt das Ende von bed weich, und das von bet bleibt hart. Das Zeichen ɛ klingt wie das e in „Bett“.
 
 Bild: Die Klangpartitur mit den beiden Wörtern bed und bet. Unter bed steht die blaue Karte bɛd, unter bet die blaue Karte bɛt. Nur die letzten Zeichen d und t unterscheiden sich. Bildunterschrift: Die Karten unterscheiden sich nur im letzten Zeichen: d summt, t summt nicht.
 
@@ -133,14 +133,14 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 
 ### Aufgabe auslaute-lesen
 
-- Aufgabe: Welches Wort steht in Lautschrift? /bæɡ/
+- Aufgabe: Welches Wort steht in Lautschrift? /bæd/
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ bag – Das letzte Zeichen /ɡ/ summt. Das Wort bag heißt „Tasche“.
+  - ✓ bad – Das letzte Zeichen /d/ summt. Das Wort bad heißt „schlimm“.
   - ✗ back – Back endet mit /k/, das nicht summt. Es heißt „zurück“.
-  - ✗ bad – Bad endet mit /d/. Das letzte Zeichen ist hier /ɡ/.
-- Lösung: bag
-- Erklärung: Das letzte Zeichen entscheidet. Das /ɡ/ summt und steht in bag.
+  - ✗ bag – Bag endet mit /ɡ/. Das letzte Zeichen ist hier /d/.
+- Lösung: bad
+- Erklärung: Das letzte Zeichen entscheidet. Das /d/ summt und steht in bad.
 - Link: [../?via=tutor#auslaute-lesen](../?via=tutor#auslaute-lesen)
 
 ### Aufgabe auslaute-schreiben
@@ -151,8 +151,8 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 - Einträge (Vorgabe → Lösung):
 1. /mæd/ → mad
      - mat: Mat endet mit /t/, das nicht summt. Hier steht /d/.
-2. /hæt/ → hat
-     - had: Had endet mit /d/, das summt. Hier steht /t/.
+2. /sæd/ → sad
+     - sat: Sat endet mit /t/, das nicht summt. Hier steht /d/.
 3. /mæp/ → map
      - mab: Das letzte Zeichen ist /p/, geschrieben p.
 - Tipp der App: Prüfe das letzte Zeichen. Summt es?

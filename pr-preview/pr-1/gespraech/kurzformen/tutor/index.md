@@ -101,7 +101,7 @@ Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Das ist meine Tasche. – Das 's in that's steht für is. That's my bag heißt „Das ist meine Tasche“.
   - ✗ Das war meine Tasche. – Ellie sagt, was jetzt ist. Für „war“ gäbe es das Wort was.
-  - ✗ Das gehört meiner Tasche. – Das 's kann Besitz zeigen (Peters Tasche), aber hier steht es für is.
+  - ✗ Das ist Peters Tasche. – Das 's kann Besitz zeigen (Peters Tasche), aber hier steht es für is.
 - Lösung: Das ist meine Tasche.
 - Erklärung: Aus that is wird that's. Das 's steht für is.
 - Link: [../?via=tutor#kurzformen-start](../?via=tutor#kurzformen-start)
@@ -171,7 +171,7 @@ Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch
 3. Audio → How's Mrs Parker today?
      - Hows Mrs Parker today?: Der Apostroph fehlt. How's heißt how is.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
-- Tipp der App: Höre den Satz so oft, wie du willst.
+- Tipp der App: Den Apostroph hörst du nicht. Du musst ihn schreiben.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kurzformen-hoeren](../?via=tutor#kurzformen-hoeren)
 

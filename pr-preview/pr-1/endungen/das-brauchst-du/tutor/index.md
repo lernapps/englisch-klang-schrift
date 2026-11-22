@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon können sollte, und hat keine Aufgabe. Erklär mit dem Inhalt der Seite und frag nach, ob das Kind ihn verstanden hat. Üben kann es das in anderen Apps; welche das sind, steht hier: https://lernapps.net/apps/map/englisch/c/plural/, https://lernapps.net/apps/map/englisch/c/simple-past/, https://lernapps.net/apps/map/englisch/c/present-progressive/, https://lernapps.net/apps/map/englisch/c/simple-present/
 
-Plural, simple past mit -ed und present progressive noch einmal kurz, bevor Mr Hill die Werkstatt für Endungen aufhängt.
+Plural, simple past mit -ed, present progressive und simple present noch einmal kurz, bevor Mr Hill die Werkstatt für Endungen hinstellt.
 
 ### Das solltest du schon können
 

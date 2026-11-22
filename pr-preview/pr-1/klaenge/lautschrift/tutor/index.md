@@ -96,7 +96,7 @@ Lautkarten · Die ersten Zeichen:
 
 ### Wie es weitergeht
 
-Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill sagt: „Ein kleiner Laut macht aus einem Wort ein anderes.“ Welche Laute das sind und wie du sie unterscheidest, lernst du auf der nächsten Seite.
+Peter zeigt Mr Hill ein Foto. Mr Hill fragt etwas, und ein einziger Laut entscheidet. Mr Hill sagt: „Ein kleiner Laut macht aus einem Wort ein anderes.“ Welche Laute das sind und wie du sie unterscheidest, lernst du auf der nächsten Seite.
 
 ### Aufgabe lautschrift-start
 
@@ -107,7 +107,7 @@ Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill s
   - ✗ Sie zeigt den Klang meist genau, nur Ellie hört falsch. – Ellie hört richtig. Aim ist im Englischen ein anderes Wort.
   - ✗ Sie zeigt den Klang genau, aber Ellie spricht falsch. – Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau.
 - Lösung: Sie zeigt den Klang nur ungefähr, nicht ganz genau.
-- Erklärung: Im Englischen gibt es das Wort aim (Ziel). Es klingt anders als I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr.
+- Erklärung: Im Englischen gibt es das Wort aim (Ziel). In Lautschrift steht I'm als /aɪm/ und aim als /eɪm/. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr.
 - Link: [../?via=tutor#lautschrift-start](../?via=tutor#lautschrift-start)
 
 ### Aufgabe lautschrift-karten
