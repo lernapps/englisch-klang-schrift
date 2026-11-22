@@ -1,0 +1,191 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wohin geht die Stimme?
+description: "Peter fragt, Amir antwortet. Du lernst, wann die Stimme am Satzende steigt und wann sie fällt, und sprichst Aussagen, Fragen und Aufforderungen mit der passenden Melodie."
+competencies: [intonation-fragen]
+scope: "Die Seite zeigt die Satzmelodie am Satzende als Pfeil in der oberen Zeile der Klangpartitur. Grundregel: Bei Fragen, die man mit Ja oder Nein beantwortet (Do you like tea?), steigt die Stimme. Bei Aussagen, Aufforderungen und Fragen mit einem Fragewort (What is your name?) fällt sie. Auch die Satzzeichen zeigen die Satzart: Fragezeichen oder Punkt. Nicht hier, weil sie auf späteren Seiten stehen (Stufe 7-8 und 9-10): question tags, Zweifel, Überraschung und andere Haltungen, Betonung im Satz."
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter fragt, Amir antwortet
+    blocks:
+      - type: figure
+        image: images/szene-intonation-fragen.svg
+        alt: "Im Klassenzimmer fragt Peter in einer Sprechblase „Is it big?“. Amir antwortet in einer Sprechblase „It is big.“. Mr Hill steht rechts."
+        caption: "Von links: Peter (gelbe Jacke) fragt, Amir (Brille) antwortet, rechts steht Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Peter und Amir sprechen über ein Foto. Peter fragt: „Is it big?“ Amir antwortet: „It is big.“ Beide Sätze haben fast dieselben Wörter."
+      - type: single-choice
+        id: intonation-start
+        text: Was macht Peters Stimme am Ende der Frage, so wie im Deutschen bei „Ist es groß?“?
+        options:
+          - text: Sie steigt.
+            correct: true
+            info: Bei einer Frage mit Ja oder Nein geht die Stimme am Ende nach oben. Im Deutschen ist das genauso.
+          - text: Sie fällt.
+            correct: false
+            info: So spricht man eine Aussage. Eine Ja-Nein-Frage steigt am Ende.
+          - text: Sie bleibt gleich.
+            correct: false
+            info: Bei einer Frage verändert sich die Stimme am Ende. Sie bleibt nicht gleich.
+        explanation: Wer mit Ja oder Nein antworten soll, spricht die Frage mit steigender Stimme.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie
+            url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
+      - type: text
+        text: "**Das kannst du danach:** Du sprichst Aussagen, Fragen und Aufforderungen mit der passenden Melodie."
+  - type: section
+    id: neu
+    title: Der Pfeil in der oberen Zeile
+    blocks:
+      - type: text
+        text: "Die obere Zeile der Klangpartitur zeigt die **Melodie** als Pfeil. Ein Pfeil nach oben heißt: Die Stimme **steigt** am Ende. Ein Pfeil nach unten heißt: Sie **fällt**."
+      - type: figure
+        image: images/partitur-melodie-frage.svg
+        alt: "Die Klangpartitur mit dem Satz Is it big. Über dem Satz zeigt in der oberen Zeile ein roter Pfeil am Ende nach oben. Unten stehen drei blaue Karten ɪz, ɪt und bɪɡ."
+        caption: "Eine Frage mit Ja oder Nein: Der Pfeil steigt am Ende."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/partitur-melodie-aussage.svg
+        alt: "Die Klangpartitur mit dem Satz It is big. Über dem Satz zeigt in der oberen Zeile ein grüner Pfeil am Ende nach unten. Unten stehen drei blaue Karten ɪt, ɪz und bɪɡ."
+        caption: "Eine Aussage: Der Pfeil fällt am Ende."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Klassenzimmer-Poster · Satzmelodie"
+        header: [Satzart, Stimme, Beispiel]
+        rows:
+          - [Aussage, fällt, "It is red."]
+          - [Aufforderung, fällt, "Close the door."]
+          - [Frage mit Fragewort, fällt, "Where is Peter?"]
+          - [Frage mit Ja oder Nein, steigt, "Is it red?"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Steigt:** Fragen, die man mit Ja oder Nein beantwortet.
+              - **Fällt:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
+              - **Nicht jede Frage steigt.** Eine Frage mit what oder where fällt am Ende, anders als im Deutschen oft.
+      - type: speaking-task
+        id: intonation-karten
+        language: en
+        task: "Höre vier Sätze und sprich sie nach. Die Satzart steht in der Tabelle: Aussage, Aufforderung, Frage mit Fragewort und Frage mit Ja oder Nein."
+        items:
+          - audio: the-bag-is-red-and-the-door-is-open.mp3
+            text: The bag is red and the door is open.
+          - audio: close-the-window-please-sophie.mp3
+            text: Close the window, please, Sophie.
+          - audio: where-is-the-teacher-this-morning.mp3
+            text: Where is the teacher this morning?
+          - audio: is-the-teacher-at-home-today.mp3
+            text: Is the teacher at home today?
+        hint: Die Aufnahme ist eine KI-Stimme und spricht die Melodie manchmal schwach. Die Tabelle gilt, wenn du dir unsicher bist.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: intonation-satzart
+        text: Welche Satzart ist das?
+        pairs:
+          - left: Open the window, Peter.
+            right: Aufforderung
+          - left: Amir is happy.
+            right: Aussage
+          - left: What do you like?
+            right: Frage mit Fragewort
+          - left: Does Ellie like tea?
+            right: Frage mit Ja oder Nein
+        explanation: Die Satzart entscheidet über die Melodie.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie
+            url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
+      - type: single-choice
+        id: intonation-waehlen
+        text: Was macht die Stimme am Ende von „Do you live in Millbrook?“
+        options:
+          - text: Sie steigt.
+            correct: true
+            info: Man antwortet mit Ja oder Nein. Darum steigt die Stimme.
+          - text: Sie fällt.
+            correct: false
+            info: Das gilt für eine Aussage.
+          - text: Sie bleibt gleich.
+            correct: false
+            info: Die Stimme bewegt sich. Hier steigt sie.
+        explanation: Ja-Nein-Fragen steigen am Ende.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie
+            url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
+      - type: single-choice
+        id: intonation-fragewort
+        text: Was macht die Stimme am Ende von „Where do you live?“
+        options:
+          - text: Sie fällt.
+            correct: true
+            info: Die Frage hat ein Fragewort. Die Stimme fällt.
+          - text: Sie steigt.
+            correct: false
+            info: Das gilt für Ja-Nein-Fragen, nicht für where.
+          - text: Sie bleibt gleich.
+            correct: false
+            info: Die Stimme bewegt sich. Hier fällt sie.
+        explanation: Bei what, where und who fällt die Stimme.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie
+            url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
+      - type: true-false
+        id: intonation-jede-frage
+        text: Die Stimme steigt am Ende jeder Frage.
+        answer: false
+        explanation: Das stimmt nur für Ja-Nein-Fragen.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie
+            url: https://lernapps.net/apps/map/englisch/c/intonation-fragen/
+      - type: language-task
+        id: intonation-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf. Achte auf Punkt oder Fragezeichen.
+        form: { case: ok, punctuation: wrong }
+        items:
+          - audio: is-ellie-at-home-this-afternoon.mp3
+            target: Is Ellie at home this afternoon?
+            mistakes:
+              - answer: Is Ellie at home this afternoon.
+                message: Das ist eine Frage. Am Ende steht ein Fragezeichen.
+          - audio: open-the-window-for-mrs-parker.mp3
+            target: Open the window for Mrs Parker.
+            mistakes:
+              - answer: Open the window for Mrs Parker?
+                message: Das ist eine Aufforderung. Am Ende steht ein Punkt.
+          - audio: where-does-mrs-parker-work-today.mp3
+            target: Where does Mrs Parker work today?
+            mistakes:
+              - answer: Where does Mrs Parker work today.
+                message: Das ist eine Frage. Am Ende steht ein Fragezeichen.
+        hint: Die Wörter zeigen die Satzart.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: intonation-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: do-you-like-cheese-amir.mp3
+            text: Do you like cheese, Amir?
+          - audio: what-do-you-want-for-lunch-amir.mp3
+            text: What do you want for lunch, Amir?
+          - audio: please-sit-down-sophie.mp3
+            text: Please sit down, Sophie.
+        hint: Beim ersten Satz steigt deine Stimme, bei den anderen fällt sie.
+  - type: section
+    id: weiter
+    title: Rückblick
+    blocks:
+      - type: text
+        text: "In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesprochen. Die Klangpartitur hat jetzt zwei gefüllte Zeilen: unten die Laute, oben die Melodie. Die mittlere Zeile bleibt noch leer. Mr Hill sagt: „Dort zeigen wir später, welche Wörter betont werden.“"

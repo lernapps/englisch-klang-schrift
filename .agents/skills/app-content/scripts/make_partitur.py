@@ -61,6 +61,37 @@ PARTITUREN["partitur-silent-letters"] = (
     [(None, "k", [0]), ("n", "n", None), ("iː", "ee", None)], "legende", "legende")
 
 
+PARTITUREN["partitur-vokale"] = (
+    "Klangpartitur mit einer Zeile Laute: zwei blaue Karten, ʃɪp unter dem Wort ship und ʃiːp unter dem Wort sheep",
+    [("ʃɪp", "ship", None), ("ʃiːp", "sheep", None)], "legende", "legende")
+PARTITUREN["partitur-auslaute"] = (
+    "Klangpartitur mit einer Zeile Laute: zwei blaue Karten, bɛd unter dem Wort bed und bɛt unter dem Wort bet",
+    [("bɛd", "bed", None), ("bɛt", "bet", None)], "legende", "legende")
+PARTITUREN["partitur-endungen"] = (
+    "Klangpartitur mit einer Zeile Laute: zwei blaue Karten, kæts unter dem Wort cats und bæɡz unter dem Wort bags",
+    [("kæts", "cats", None), ("bæɡz", "bags", None)], "legende", "legende")
+PARTITUREN["partitur-melodie-frage"] = (
+    "Klangpartitur mit Melodie und Lauten: über dem Satz Is it big steigt ein roter Pfeil am Ende nach oben; unten drei blaue Karten",
+    [("ɪz", "Is", None), ("ɪt", "it", None), ("bɪɡ", "big?", None)], [None, None, "up"], "legende")
+PARTITUREN["partitur-melodie-aussage"] = (
+    "Klangpartitur mit Melodie und Lauten: über dem Satz It is big fällt ein grüner Pfeil am Ende nach unten; unten drei blaue Karten",
+    [("ɪt", "It", None), ("ɪz", "is", None), ("bɪɡ", "big.", None)], [None, None, "down"], "legende")
+
+
+def zunge(title):
+    def panel(x0, label, sub, tip):
+        p = []
+        p.append(f'<path d="M{x0+10} 230 C{x0+30} 170 {x0+80} 170 {x0+tip} 135 L{x0+tip} 145 C{x0+80} 195 {x0+50} 215 {x0+10} 240 Z" fill="#e58a8a" stroke="#333" stroke-width="2"/>')
+        p.append(f'<rect x="{x0+120}" y="50" width="50" height="70" rx="10" fill="#fff" stroke="#333" stroke-width="2"/>')
+        p.append(f'<rect x="{x0+120}" y="150" width="50" height="70" rx="10" fill="#fff" stroke="#333" stroke-width="2"/>')
+        p.append(f'<text x="{x0+155}" y="262" text-anchor="middle" {F} font-size="22" fill="{INK}">{e(label)}</text>')
+        p.append(f'<text x="{x0+155}" y="290" text-anchor="middle" {F} font-size="20" fill="{GREY}">{e(sub)}</text>')
+        return "\n".join("  " + l for l in p)
+    body = panel(0, "th /θ/", "Zunge zwischen den Zähnen", 165) + "\n" + panel(320, "s /s/", "Zunge hinter den Zähnen", 110) + "\n"
+    return svg(640, 310, title, body)
+
+
+
 def verschmelzen(title, a, b, c):
     """Zwei Karten (Lautschrift, Schreibung) werden zu einer: a + b = c."""
     body = []
@@ -147,11 +178,33 @@ SZENEN["szene-kurzformen"] = (
     {"amir": (60, 125, 0.85), "ellie": (190, 125, 0.85), "hill": (400, 125, 0.85)},
     bubble(150, 8, 300, "That's my bag!", 214))
 
+SZENEN["szene-vokale"] = (
+    "Peter zeigt ein Foto, Mr Hill fragt nach dem Tier; Ellie schaut zu",
+    {"peter": (60, 135, 0.8), "ellie": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    bubble(10, 8, 190, "A sheep!", 70) + bubble(380, 8, 250, "Sheep or ship?", 430))
+SZENEN["szene-konsonanten-th-w"] = (
+    "Sophie sagt Sank you, Ellie wundert sich; Mr Hill zeigt auf die Klangpartitur",
+    {"sophie": (60, 135, 0.8), "ellie": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    bubble(10, 8, 220, "Sank you!", 70) + bubble(260, 8, 140, "Eh?", 300))
+SZENEN["szene-stimmhafte-auslaute"] = (
+    "Amir hält die Hand an den Hals und spricht; Peter und Mr Hill hören zu",
+    {"amir": (60, 125, 0.85), "peter": (190, 135, 0.8), "hill": (400, 125, 0.85)},
+    bubble(10, 8, 270, "bed . . . bet", 70))
+SZENEN["szene-endungen-s-ed"] = (
+    "Sophie liest ein Wort mit Endung langsam in zwei Teilen, Ellie schüttelt den Kopf; Mr Hill hört zu",
+    {"sophie": (60, 135, 0.8), "ellie": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    bubble(10, 8, 250, "walk-ed?", 70) + bubble(280, 8, 170, "Nope!", 320))
+SZENEN["szene-intonation-fragen"] = (
+    "Peter fragt Amir etwas; Amir antwortet; Ellie und Mr Hill hören zu",
+    {"peter": (60, 135, 0.8), "amir": (190, 125, 0.85), "hill": (400, 125, 0.85)},
+    bubble(10, 8, 230, "Is it big?", 70) + bubble(270, 8, 230, "It is big.", 330))
+
 
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for name, (title, cols, top, mid) in PARTITUREN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(partitur(title, cols, top, mid))
+    open(os.path.join(OUT, "zunge-th.svg"), "w").write(zunge("Zwei Zeichnungen der Zunge: links liegt die Zungenspitze zwischen den oberen und unteren Zähnen (th), rechts hinter den oberen Zähnen (s)"))
     for name, (title, a, b, c) in VERSCHMELZEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(verschmelzen(title, a, b, c))
     for name, (title, rows) in WERKSTAETTEN.items():

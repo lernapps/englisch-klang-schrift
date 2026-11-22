@@ -13,7 +13,7 @@ import yaml
 
 ROOT = os.getcwd()
 MAPURL = "https://lernapps.net/apps/map/englisch.json"
-IRREG = {"wrote", "is", "are", "am", "has", "does", "did", "was", "were", "aren't", "isn't", "doesn't", "don't", "didn't", "can't", "i'm", "you're", "it's", "they're", "we're", "he's", "she's", "that's", "what's", "where's", "who's"}
+IRREG = {"children", "made", "wrote", "is", "are", "am", "has", "does", "did", "was", "were", "aren't", "isn't", "doesn't", "don't", "didn't", "can't", "i'm", "you're", "it's", "they're", "we're", "he's", "she's", "that's", "what's", "where's", "who's"}
 NAMES = {"sophie", "ellie", "peter", "amir", "hill", "parker", "mr", "mrs", "millbrook"}
 
 

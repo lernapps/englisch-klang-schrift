@@ -1,0 +1,186 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Kurz oder lang?
+description: "Peter zeigt ein Foto, und ein einziger Laut macht aus einem Wort ein anderes. Du lernst ähnliche Vokale zu unterscheiden, zum Beispiel ship und sheep oder cat und cut."
+competencies: [vokale]
+scope: "Die Seite zeigt ähnliche englische Vokale in Minimalpaaren. Kurz und lang: /ɪ/ in ship gegen /iː/ in sheep, /ʊ/ in pull gegen /uː/ in pool. Offen oder dunkel: /æ/ in cat gegen /ʌ/ in cut. Das Zeichen ː macht einen Laut lang. Zum Üben dienen andere Paare (live – leave, good – food, man – bus). Die Zeichen sind britisch. Nicht hier, weil sie auf anderen Seiten stehen: th, w, v, r, Wortenden, stumme Buchstaben, Betonung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Schaf oder Schiff?
+    blocks:
+      - type: figure
+        image: images/szene-vokale.svg
+        alt: "Im Klassenzimmer zeigt Peter in einer Sprechblase „A sheep!“. Neben ihm steht Ellie. Mr Hill steht rechts und fragt in einer Sprechblase „Sheep or ship?“."
+        caption: "Von links: Peter (gelbe Jacke) zeigt ein Foto, Ellie (roter Pferdeschwanz) schaut zu, rechts steht Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Peter zeigt ein Foto vom Bauernhof und sagt: „A sheep!“ Mr Hill fragt: „Sheep or ship?“ **Sheep** heißt „Schaf“, **ship** heißt „Schiff“. Beide Wörter klingen fast gleich."
+      - type: single-choice
+        id: vokale-start
+        text: Was unterscheidet sheep und ship?
+        options:
+          - text: Der Vokal in der Mitte ist lang oder kurz.
+            correct: true
+            info: "In sheep steht ee, in ship steht i. Der Vokal in sheep ist lang, der in ship kurz."
+          - text: Der erste Laut ist verschieden.
+            correct: false
+            info: Beide Wörter beginnen mit sh. Der erste Laut ist gleich.
+          - text: Das Ende des Wortes ist verschieden.
+            correct: false
+            info: Beide Wörter enden auf p. Das Ende ist gleich.
+        explanation: Nur der Vokal in der Mitte ist anders. Der kleine Unterschied ändert die Bedeutung.
+        links:
+          - title: Lernlandkarte Englisch · Vokale
+            url: https://lernapps.net/apps/map/englisch/c/vokale/
+      - type: text
+        text: "**Das kannst du danach:** Du unterscheidest kurze und lange Vokale und die Vokale in cat und cut."
+  - type: section
+    id: neu
+    title: Ein Laut macht den Unterschied
+    blocks:
+      - type: text
+        text: "Zwei Wörter, die sich nur in einem Laut unterscheiden, heißen **Minimalpaar**. Die Klangpartitur zeigt ship und sheep. Der Doppelpunkt **ː** macht einen Vokal lang."
+      - type: figure
+        image: images/partitur-vokale.svg
+        alt: "Die Klangpartitur mit den beiden Wörtern ship und sheep. Unter ship steht die blaue Karte ʃɪp, unter sheep die blaue Karte ʃiːp mit einem Doppelpunkt hinter dem i."
+        caption: "Der Unterschied steckt im Vokal: ɪ ist kurz, iː ist lang."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: "Lautkarten · Vokale im Paar"
+        header: [Zeichen, Beispielwort, So klingt es ungefähr]
+        rows:
+          - ["/ɪ/", ship, kurzes „i“]
+          - ["/iː/", sheep, langes „i“]
+          - ["/ʊ/", pull, kurzes „u“]
+          - ["/uː/", pool, langes „u“]
+          - ["/æ/", cat, offenes „ä“]
+          - ["/ʌ/", cut, "kurzes, dunkles „a“"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Kurz oder lang:** /ɪ/ und /ʊ/ sind kurz, /iː/ und /uː/ sind lang.
+              - **Offen oder dunkel:** In cat ist der Mund weit offen, in cut ist der Laut kürzer und dunkler.
+              - **Der Unterschied zählt:** Aus kurz und lang wird ein anderes Wort.
+      - type: speaking-task
+        id: vokale-karten
+        language: en
+        task: "Höre vier Sätze und sprich sie nach. In jedem steckt ein Wort aus der Tabelle: sheep, ship, cat, cut."
+        items:
+          - audio: look-a-sheep-again.mp3
+            text: Look, a sheep again.
+          - audio: look-a-ship-again.mp3
+            text: Look, a ship again.
+          - audio: my-cat-is-sleeping-again.mp3
+            text: My cat is sleeping again.
+          - audio: please-cut-the-bread-today.mp3
+            text: Please cut the bread today.
+        hint: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: vokale-zuordnen
+        text: Welches Zeichen steckt in welchem Wort?
+        pairs:
+          - left: "/iː/"
+            right: leave
+          - left: "/ɪ/"
+            right: live
+          - left: "/uː/"
+            right: food
+          - left: "/ʌ/"
+            right: bus
+          - left: "/æ/"
+            right: man
+        explanation: Das Zeichen ː steht bei den langen Vokalen in leave und food.
+        links:
+          - title: Lernlandkarte Englisch · Vokale
+            url: https://lernapps.net/apps/map/englisch/c/vokale/
+      - type: single-choice
+        id: vokale-lesen
+        text: Welches Wort steht in Lautschrift? /siːt/
+        options:
+          - text: seat
+            correct: true
+            info: Der Vokal /iː/ ist lang. Das Wort seat heißt „Sitz“.
+          - text: sit
+            correct: false
+            info: Sit hat das kurze /ɪ/ und klingt /sɪt/. Es heißt „sitzen“.
+          - text: set
+            correct: false
+            info: Set klingt mit einem anderen Vokal und heißt „setzen“.
+        explanation: Das Zeichen iː zeigt den langen Vokal. Das Wort heißt seat.
+        links:
+          - title: Lernlandkarte Englisch · Vokale
+            url: https://lernapps.net/apps/map/englisch/c/vokale/
+      - type: language-task
+        id: vokale-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Wort, das in Lautschrift steht.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: "/liːv/"
+            target: leave
+            mistakes:
+              - answer: live
+                message: Live klingt mit kurzem /ɪ/. Hier steht der lange Vokal /iː/.
+          - cue: "/pʊl/"
+            target: pull
+            mistakes:
+              - answer: pool
+                message: Pool hat den langen Vokal /uː/. Hier steht das kurze /ʊ/.
+          - cue: "/bʌs/"
+            target: bus
+            mistakes:
+              - answer: bas
+                message: Das Zeichen /ʌ/ schreibt man hier mit dem Buchstaben u.
+        hint: Achte darauf, ob der Vokal ein ː hat.
+      - type: language-task
+        id: vokale-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: sophie-and-ellie-live-in-a-small-village.mp3
+            target: Sophie and Ellie live in a small village.
+            mistakes:
+              - answer: Sophie and Ellie leave in a small village.
+                message: Leave heißt „verlassen“. Wohnen heißt live, mit kurzem i.
+          - audio: please-leave-the-bag-in-the-kitchen.mp3
+            target: Please leave the bag in the kitchen.
+            mistakes:
+              - answer: Please live the bag in the kitchen.
+                message: Live heißt „wohnen“. Lassen heißt leave, mit langem iː.
+          - audio: the-bus-is-full-of-children-today.mp3
+            target: The bus is full of children today.
+            mistakes:
+              - answer: The bus is fool of children today.
+                message: Fool heißt „Narr“. Voll heißt full, mit kurzem u.
+        hint: Der Satz sagt dir, welches Wort gemeint ist. Höre den Satz so oft, wie du willst.
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: vokale-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu.
+        items:
+          - audio: ellie-wants-to-sit-on-the-seat-again.mp3
+            text: Ellie wants to sit on the seat again.
+          - audio: peter-cut-the-apple-in-the-kitchen.mp3
+            text: Peter cut the apple in the kitchen.
+          - audio: sophie-sees-a-sheep-and-a-ship-today.mp3
+            text: Sophie sees a sheep and a ship today.
+        hint: Achte auf den Unterschied zwischen kurzen und langen Vokalen.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sagt, klingt es noch deutsch. Welche anderen Laute Kinder aus Deutschland oft anders sprechen, hörst du auf der nächsten Seite."

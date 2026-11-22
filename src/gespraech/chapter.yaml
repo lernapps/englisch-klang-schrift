@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Sprechen wie im Gespräch
 summary: Im Gespräch kürzen wir Wörter ab, und die Stimme geht rauf und runter. Du sprichst und schreibst Kurzformen und sprichst Fragen, Aussagen und Aufforderungen mit der passenden Melodie.
-pages: [das-brauchst-du, kurzformen]
+pages: [das-brauchst-du, kurzformen, intonation-fragen]
