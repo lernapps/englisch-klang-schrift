@@ -119,6 +119,35 @@ VERSCHMELZEN = {
 }
 
 
+def umgekehrt(title, groups):
+    """Vom Laut zur Schrift: je Gruppe eine blaue Laut-Karte oben und darunter grüne Karten mit den Schreibungen und je einem Beispielwort."""
+    n = len(groups)
+    h = 70 + 3 * 54 + 30
+    body = []
+    body.append(f'<text x="6" y="42" {F} font-size="22" fill="{INK}">Laute</text>')
+    body.append(f'<text x="6" y="130" {F} font-size="22" fill="{INK}">Schrift</text>')
+    colw = (480 - 100) / n
+    lines, cards = [], []
+    for gi, (ipa, spell) in enumerate(groups):
+        cx = 100 + colw * gi + colw / 2
+        cards.append(f'<rect x="{cx - 50:.0f}" y="14" width="100" height="48" rx="8" fill="{BLUE}"/>'
+                     f'<text x="{cx:.0f}" y="46" text-anchor="middle" {F} font-size="26" fill="#fff">{e(ipa)}</text>')
+        lines.append(f'<path d="M{cx:.0f} 62 L{cx:.0f} {82 + (len(spell) - 1) * 54 + 22}" stroke="{GREY}" stroke-width="2" fill="none"/>')
+        for k, (letters, word) in enumerate(spell):
+            y = 82 + k * 54
+            cards.append(f'<rect x="{cx - 80:.0f}" y="{y}" width="160" height="44" rx="8" fill="{GREEN}"/>'
+                         f'<text x="{cx:.0f}" y="{y + 29}" text-anchor="middle" {F} font-size="22" fill="#fff">{e(letters)} · {e(word)}</text>')
+    body.extend(lines)
+    body.extend(cards)
+    return svg(480, h, title, "\n".join("  " + l for l in body) + "\n")
+
+
+UMGEKEHRT = {
+    "partitur-laut-buchstabe": ("Ein Laut, mehrere Schreibungen: Die blaue Karte iː hat drei grüne Karten ee (see), ea (sea) und e-e (these). Die blaue Karte aɪ hat drei grüne Karten igh (night), i-e (time) und y (my)",
+                                [("iː", [("ee", "see"), ("ea", "sea"), ("e-e", "these")]), ("aɪ", [("igh", "night"), ("i-e", "time"), ("y", "my")])]),
+}
+
+
 def werkstatt(title, rows):
     h = 48 + 56 * len(rows)
     body = [f'<text x="240" y="30" text-anchor="middle" {F} font-size="22" fill="{INK}">Werkstatt: Was passiert vor der Endung?</text>']
@@ -207,6 +236,8 @@ if __name__ == "__main__":
     open(os.path.join(OUT, "zunge-th.svg"), "w").write(zunge("Zwei Zeichnungen der Zunge: links liegt die Zungenspitze zwischen den oberen und unteren Zähnen (th), rechts hinter den oberen Zähnen (s)"))
     for name, (title, a, b, c) in VERSCHMELZEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(verschmelzen(title, a, b, c))
+    for name, (title, groups) in UMGEKEHRT.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(umgekehrt(title, groups))
     for name, (title, rows) in WERKSTAETTEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(werkstatt(title, rows))
     for name, (title, figs, extra) in SZENEN.items():
