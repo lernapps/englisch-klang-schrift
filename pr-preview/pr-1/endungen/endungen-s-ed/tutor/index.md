@@ -59,7 +59,7 @@ Man schreibt immer -s oder -ed, aber man spricht es verschieden. Es kommt auf de
 
 Bild: Die Klangpartitur mit den Wörtern cats und bags. Unter cats steht die blaue Karte kæts mit einem s am Ende, unter bags die blaue Karte bæɡz mit einem z am Ende. Bildunterschrift: Gleiche Endung, anderer Laut: In cats klingt -s wie /s/, in bags wie /z/.
 
-Lautkarten · Endungen:
+Klassenzimmer-Poster · Endungen:
 - Letzter Laut | Endung | Beispiel
 - stimmlos | -s wie /s/, -ed wie /t/ | cats, walked
 - stimmhaft | -s wie /z/, -ed wie /d/ | bags, played
@@ -70,7 +70,8 @@ Lautkarten · Endungen:
 
 - **Stimmlos** (summt nicht): -s klingt /s/, -ed klingt /t/.
 - **Stimmhaft** (summt): -s klingt /z/, -ed klingt /d/.
-- **Nach Zischlaut, t oder d** kommt eine eigene Silbe dazu: /ɪz/ oder /ɪd/.
+- **Eigene Silbe:** Bei -s nach einem Zischlaut (s, z, sh, ch, x) klingt es /ɪz/. Bei -ed nach t oder d klingt es /ɪd/.
+- **Auch Vokale summen:** plays klingt /z/, stayed klingt /d/.
 
 - Aufgabe `endungen-karten` (unten)
 
@@ -146,7 +147,7 @@ Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert
 - Aufgabe: Welche Endung klingt in welchem Wort?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: looks – /s/; beds – /z/; boxes – /ɪz/; visited – /ɪd/
-- Erklärung: Looks endet auf k, das nicht summt. Beds endet auf d, das summt. Boxes endet auf einen Zischlaut, und visited endet auf t.
+- Erklärung: Looks endet auf k, das nicht summt. Beds endet auf d, das summt. Box endet auf einen Zischlaut, und visit endet auf t.
 - Link: [../?via=tutor#endungen-zuordnen](../?via=tutor#endungen-zuordnen)
 
 ### Aufgabe endungen-hoeren
@@ -156,13 +157,13 @@ Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter walked to the station yesterday.
-     - Peter walk to the station yesterday.: Gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
+     - Peter walk to the station yesterday.: Das ist gestern passiert, also braucht das Wort die Endung -ed. Man hört nur ein t, aber man schreibt -ed.
 2. Audio → Mrs Parker opens the window every morning.
-     - Mrs Parker open the window every morning.: Mrs Parker ist eine Person, also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
+     - Mrs Parker open the window every morning.: Mrs Parker ist eine einzelne Person (she), also braucht das Wort -s. Man hört ein z, aber man schreibt -s.
 3. Audio → Amir wanted a new bike yesterday.
      - Amir wantd a new bike yesterday.: Nach t hört man eine eigene Silbe. Man schreibt -ed.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
-- Tipp der App: Der Satz sagt dir, wann etwas passiert. Höre den Satz so oft, wie du willst.
+- Tipp der App: Der Satz sagt dir, wann etwas passiert.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#endungen-hoeren](../?via=tutor#endungen-hoeren)
 
@@ -174,5 +175,5 @@ Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert
 1. Audio → Sophie waited for the bus yesterday.
 2. Audio → Peter plays with two dogs in the garden.
 3. Audio → Amir jumped over the boxes yesterday.
-- Tipp der App: Achte darauf, ob die Endung summt oder nicht und ob eine eigene Silbe dazukommt.
+- Tipp der App: Achte auf die Endung.
 - Link: [../?via=tutor#endungen-nachsprechen](../?via=tutor#endungen-nachsprechen)

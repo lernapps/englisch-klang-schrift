@@ -57,21 +57,21 @@ Sophie liest das englische Wort **knee** („Knie“) vor, genau so, wie es gesc
 
 Ein **stummer Buchstabe** steht im Wort, aber man spricht ihn nicht. In der Klangpartitur hat er keine blaue Karte, sondern eine graue gestrichelte. Der Buchstabe darunter ist grau.
 
-Bild: Die Klangpartitur mit dem Wort knee. In der unteren Zeile steht eine graue gestrichelte Karte mit einem Strich unter dem grauen k, dann eine blaue Karte n unter n und eine blaue Karte iː unter ee. Bildunterschrift: Das k hat keine Lautkarte. Man hört nur n und iː.
+Bild: Die Klangpartitur mit dem Wort knee. In der unteren Zeile steht eine graue gestrichelte Karte mit einem Strich unter dem grauen k, dann eine blaue Karte n unter n und eine blaue Karte iː unter ee. Bildunterschrift: Das k hat keine blaue Karte. Man hört nur n und iː.
 
 Klassenzimmer-Poster · Stumme Buchstaben:
 - Muster | Beispiel | Stumm
-- k vor n | knife | k
-- w vor r | write | w
-- b nach m | climb | b
-- t nach s | listen | t
-- l vor k | walk | l
-- gh vor t | night | gh
+- k vor n am Wortanfang | knife | k
+- w vor r am Wortanfang | write | w
+- b nach m am Wortende | climb | b
+- t in -sten und -stle | listen | t
+- l in -alk | walk | l
+- gh vor t oder am Wortende | night | gh
 
 **Merke: Merke**
 
 - **Stumme Buchstaben schreibt man, aber man spricht sie nicht.**
-- Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt.
+- Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt. Es gibt Ausnahmen, zum Beispiel milk.
 - Beim Schreiben musst du sie trotzdem schreiben.
 
 ### Übung
@@ -88,7 +88,7 @@ Klassenzimmer-Poster · Stumme Buchstaben:
 
 ### Wie es weitergeht
 
-Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buchstaben, die man nicht hört.“ Auf den nächsten Seiten hängen die Kinder an Wörter Endungen an, und es zeigt sich, was dabei mit der Schreibung und mit dem Klang passiert.
+Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buchstaben, die man nicht hört.“ Auf den nächsten Seiten hängen die Kinder Endungen an Wörter an, und es zeigt sich, was dabei mit der Schreibung und mit dem Klang passiert.
 
 ### Aufgabe silent-letters-start
 
@@ -127,7 +127,7 @@ Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buch
 2. hoch → high
      - hi: Hi heißt „hallo“. Hoch schreibt man mit stummem gh.
 3. acht → eight
-     - ate: Ate ist eine Form von eat. Die Zahl schreibt man mit stummem gh.
+     - ate: Ate ist die Vergangenheit von eat. Die Zahl schreibt man mit stummem gh.
 - Tipp der App: Denk an die Muster aus der Tabelle.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#silent-letters-schreiben](../?via=tutor#silent-letters-schreiben)

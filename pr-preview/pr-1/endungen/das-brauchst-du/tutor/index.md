@@ -55,7 +55,7 @@ Klassenzimmer-Poster · Die Endungen:
 - Present progressive mit -ing | She is reading.
 - Simple present mit -s | She reads.
 
-Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) und [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/).
+Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/), [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/).
 
 ### Was jetzt kommt
 

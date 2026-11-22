@@ -47,7 +47,7 @@ Peter hängt eine Endung an ein Wort und ist nicht sicher. Du lernst drei Handgr
 
 Bild: Im Klassenzimmer überlegt Peter in einer Sprechblase: „plan + ed = ?“. Neben ihm stehen Ellie und Mr Hill. Bildunterschrift: Von links: Peter (gelbe Jacke) überlegt, Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare) schauen zu.
 
-Amir hat eine Party geplant. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird.
+Amir plante die Party. Peter will das aufschreiben und hängt die Endung -ed an das Wort **plan** („planen“). Er ist nicht sicher, wie es geschrieben wird.
 
 - Aufgabe `rechtschreibung-start` (unten)
 
@@ -61,9 +61,9 @@ Bild: Drei Reihen mit Karten. In jeder Reihe steht links ein grünes Wort, in de
 
 **Merke: Merke**
 
-- **Doppeln:** Bei kurzen Wörtern mit kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant doppelt.
-- **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays).
-- **e fällt weg:** Ein e am Ende fällt vor -ing meist weg.
+- **Doppeln:** Bei Wörtern mit einer Silbe, kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant vor -ed und -ing doppelt.
+- **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays). Vor -ing bleibt es auch (try – trying).
+- **e fällt weg:** Ein e am Ende fällt vor -ing meist weg. Vor -ed kommt nur ein d dazu (dance – danced).
 
 ### Übung
 
@@ -87,7 +87,7 @@ In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor 
 
 ### Aufgabe rechtschreibung-start
 
-- Aufgabe: Wie schreibt Peter „Amir hat die Party geplant“?
+- Aufgabe: Wie schreibt Peter „Amir plante die Party“?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Amir planned the party. – Aus plan wird planned, mit doppeltem n.
@@ -127,7 +127,7 @@ In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor 
      - swiming: Das m wird doppelt.
 2. write · -ing → writing
      - writeing: Das e fällt weg.
-     - writting: Das e fällt weg, das t wird nicht doppelt.
+     - writting: Das e fällt weg. Das t bleibt einfach.
 3. sit · -ing → sitting
      - siting: Das t wird doppelt.
 - Tipp der App: Schau auf das Ende des Wortes.

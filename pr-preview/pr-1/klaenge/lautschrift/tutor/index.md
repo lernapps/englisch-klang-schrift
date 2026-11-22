@@ -72,7 +72,7 @@ Lautkarten · Die ersten Zeichen:
 
 **Merke: Merke**
 
-- **Ein Zeichen, ein Laut.** Ein Laut kann verschieden geschrieben werden, das Zeichen bleibt gleich: c klingt in cat wie /k/ und in city wie /s/.
+- **Ein Zeichen, ein Laut.** Ein Buchstabe kann verschieden klingen (c in cat und in city), aber ein Zeichen steht immer für denselben Laut.
 - Das Zeichen **ː** sieht aus wie ein Doppelpunkt und macht einen Laut lang.
 - Viele Zeichen sehen aus wie Buchstaben und klingen wie im Deutschen: /b/, /d/, /f/, /h/, /k/, /l/, /m/, /n/, /p/, /s/, /t/. Auch /ɡ/ klingt wie das g in Garten.
 
@@ -107,7 +107,7 @@ Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill s
   - ✗ Sie zeigt den Klang meist genau, nur Ellie hört falsch. – Ellie hört richtig. Aim ist im Englischen ein anderes Wort.
   - ✗ Sie zeigt den Klang genau, aber Ellie spricht falsch. – Ellie ist Engländerin. Für sie klingt „aim“ nicht nach I'm, die Lesehilfe ist nicht genau.
 - Lösung: Sie zeigt den Klang nur ungefähr, nicht ganz genau.
-- Erklärung: Im Englischen gibt es das Wort aim (Ziel). Es klingt wie „eim“ und nicht wie I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr.
+- Erklärung: Im Englischen gibt es das Wort aim (Ziel). Es klingt anders als I'm. Eine Lesehilfe mit deutschen Buchstaben zeigt den Klang nur ungefähr.
 - Link: [../?via=tutor#lautschrift-start](../?via=tutor#lautschrift-start)
 
 ### Aufgabe lautschrift-karten
@@ -137,7 +137,7 @@ Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill s
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ /tʃ/ – Das ch in chicken ist ein einziger Laut: /tʃ/, wie „tsch“ in Matsch.
   - ✗ /ʃ/ – Das ist der Laut in shoe. Bei chicken kommt ein t davor: /tʃ/.
-  - ✗ /k/ – Die Buchstaben ch ergeben zusammen /tʃ/, nicht /k/.
+  - ✗ /k/ – In chicken ergeben ch zusammen /tʃ/.
 - Lösung: /tʃ/
 - Erklärung: Zwei Buchstaben können einen einzigen Laut ergeben.
 - Link: [../?via=tutor#lautschrift-erster-laut](../?via=tutor#lautschrift-erster-laut)
@@ -164,9 +164,9 @@ Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill s
      - back: Das letzte Zeichen ist /ɡ/, nicht /k/.
      - /bæɡ/: Schreibe das Wort, nicht die Zeichen.
 2. /hæt/ → hat
-     - hut: /æ/ steht für den Buchstaben a.
+     - hut: Hier steht /æ/ für den Buchstaben a.
 3. /mɪlk/ → milk
-     - milch: Englisch schreibt man milk, mit k am Ende.
+     - milch: Auf Englisch schreibt man milk, mit k am Ende.
 - Tipp der App: Sprich die Zeichen nacheinander.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#lautschrift-schreiben](../?via=tutor#lautschrift-schreiben)
@@ -178,7 +178,7 @@ Ellie zeigt auf ein Foto mit Tieren. Peter sagt etwas, und Amir lacht. Mr Hill s
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Peter reads a book on the chair today.
-     - Peter reads a book on the cher today.: Der Laut /tʃ/ schreibt man ch, wie in chair.
+     - Peter reads a book on the cher today.: Hier schreibt man /tʃ/ mit ch, wie in chair.
 2. Audio → Sophie finds a big green shoe upstairs.
      - Sophie finds a big green shu upstairs.: Man schreibt shoe, mit den Buchstaben oe am Ende.
 3. Audio → Ellie sings with Amir in the kitchen.

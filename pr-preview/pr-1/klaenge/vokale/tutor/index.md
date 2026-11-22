@@ -71,8 +71,8 @@ Lautkarten · Vokale im Paar:
 **Merke: Merke**
 
 - **Kurz oder lang:** /ɪ/ und /ʊ/ sind kurz, /iː/ und /uː/ sind lang.
-- **Offen oder dunkel:** In cat ist der Mund weit offen, in cut ist der Laut kürzer und dunkler.
-- **Der Unterschied zählt:** Aus kurz und lang wird ein anderes Wort.
+- **Offen oder dunkel:** In cat ist der Mund weit offen, in cut ist er weniger offen, und der Laut klingt dunkler.
+- **Der Unterschied zählt:** Ein anderer Vokal macht ein anderes Wort.
 
 - Aufgabe `vokale-karten` (unten)
 
@@ -96,7 +96,7 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
 
 ### Aufgabe vokale-start
 
-- Aufgabe: Was unterscheidet sheep und ship?
+- Aufgabe: Was unterscheidet sheep und ship vor allem?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Der Vokal in der Mitte ist lang oder kurz. – In sheep steht ee, in ship steht i. Der Vokal in sheep ist lang, der in ship kurz.
@@ -133,7 +133,7 @@ Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sa
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ seat – Der Vokal /iː/ ist lang. Das Wort seat heißt „Sitz“.
   - ✗ sit – Sit hat das kurze /ɪ/ und klingt /sɪt/. Es heißt „sitzen“.
-  - ✗ set – Set klingt mit einem anderen Vokal und heißt „setzen“.
+  - ✗ set – Set hat ein kurzes e und heißt „setzen“.
 - Lösung: seat
 - Erklärung: Das Zeichen iː zeigt den langen Vokal. Das Wort heißt seat.
 - Link: [../?via=tutor#vokale-lesen](../?via=tutor#vokale-lesen)

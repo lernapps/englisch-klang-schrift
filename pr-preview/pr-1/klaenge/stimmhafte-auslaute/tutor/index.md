@@ -47,7 +47,7 @@ Amir hält die Hand an den Hals und spricht zwei Wörter. Du lernst, dass Wörte
 
 Bild: Im Klassenzimmer hält Amir die Hand an den Hals und sagt in einer Sprechblase „bed . . . bet“. Peter steht neben ihm, Mr Hill rechts. Bildunterschrift: Von links: Amir (Brille) spricht zwei Wörter, Peter (gelbe Jacke) und Mr Hill (graue Haare) hören zu.
 
-Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („wetten“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich.
+Amir hält die Hand an den Hals und spricht zwei Wörter: **bed** („Bett“) und **bet** („Wette“). Im Deutschen klingen Wörter wie „Rad“ und „Rat“ am Ende gleich.
 
 - Aufgabe `auslaute-start` (unten)
 
@@ -59,8 +59,8 @@ Leg die Hand an den Hals und sprich das Ende des Wortes. Summt es, ist der Laut 
 
 Bild: Die Klangpartitur mit den beiden Wörtern bed und bet. Unter bed steht die blaue Karte bɛd, unter bet die blaue Karte bɛt. Nur die letzten Zeichen d und t unterscheiden sich. Bildunterschrift: Die Karten unterscheiden sich nur im letzten Zeichen: d summt, t summt nicht.
 
-Lautkarten · Wortenden:
-- Wortende | Beispiel | Hals
+Klassenzimmer-Poster · Wortenden:
+- Wortende | Beispiel | Am Hals
 - /d/ | bed | summt
 - /t/ | bet | summt nicht
 - /ɡ/ | dog | summt
@@ -70,7 +70,7 @@ Lautkarten · Wortenden:
 
 **Merke: Merke**
 
-- **Stimmhaft:** /b/, /d/ und /ɡ/ summen am Wortende.
+- **Stimmhaft:** /b/, /d/ und /ɡ/ summen am Wortende, oft nur schwach. Der Vokal davor ist etwas länger.
 - **Stimmlos:** /p/, /t/ und /k/ summen nicht.
 - **Im Englischen bleibt das Ende, wie es ist.** Es wird nicht hart wie im Deutschen.
 
@@ -112,7 +112,7 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → I like this bed very much today.
-2. Audio → I made this bet yesterday.
+2. Audio → I made a bet yesterday.
 3. Audio → The dog is under the table again.
 4. Audio → The boat is at the dock today.
 - Tipp der App: Die Aufnahme ist eine KI-Stimme und spricht manchmal unscharf. Frag im Zweifel deine Lehrkraft.
@@ -166,9 +166,9 @@ Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr g
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → A dog sleeps under the table today.
-     - A dock sleeps under the table today.: Dock heißt „Dock“. Ein Tier, das schläft, ist ein dog, mit summendem g am Ende.
+     - A dock sleeps under the table today.: Ein dock ist ein Anleger für Schiffe. Hier schläft ein Hund: dog, mit summendem g am Ende.
 2. Audio → Ellie has a bad cold this morning.
-     - Ellie has a bat cold this morning.: Bat endet mit /t/. Für „schlecht“ braucht man bad, mit summendem d.
+     - Ellie has a bat cold this morning.: Bat endet mit /t/. Für „schlimm“ braucht man bad, mit summendem d.
 3. Audio → Amir puts the bag on the table.
      - Amir puts the back on the table.: Back heißt „zurück“. Hier ist die Tasche gemeint, bag.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

@@ -60,7 +60,7 @@ Eine **Kurzform** verschmilzt zwei Wörter. In der Klangpartitur werden aus zwei
 Bild: Die Klangpartitur mit der unteren Zeile. Eine Karte ʃiː unter she und eine Karte ɪz unter is werden mit Plus und Gleich zu einer Karte ʃiːz unter she's. Bildunterschrift: Zwei Karten werden zu einer: she plus is ergibt she's. Das ɪ fällt weg.
 
 Klassenzimmer-Poster · Kurzformen:
-- Lang | Kurz | Es fehlt
+- Lang | Kurz | Das fehlt
 - I am | I'm | a
 - you are | you're | a
 - it is | it's | i
@@ -72,7 +72,7 @@ Klassenzimmer-Poster · Kurzformen:
 
 - **Der Apostroph steht dort, wo Buchstaben fehlen:** do not wird don't, denn das o fehlt.
 - **Man spricht eine Kurzform als ein Wort,** ohne Pause dazwischen.
-- **it's heißt it is.** Ohne Apostroph schreibt man its („sein“, „ihr“): The cat has its bowl.
+- **it's heißt meist it is.** Ohne Apostroph schreibt man its („sein“, „ihr“): The bird is in its nest.
 
 ### Übung
 
@@ -101,7 +101,7 @@ Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Das ist meine Tasche. – Das 's in that's steht für is. That's my bag heißt „Das ist meine Tasche“.
   - ✗ Das war meine Tasche. – Ellie sagt, was jetzt ist. Für „war“ gäbe es das Wort was.
-  - ✗ Das hat meine Tasche. – Das 's steht hier für is, nicht für has. „Das hat meine Tasche“ ergibt keinen Sinn.
+  - ✗ Das gehört meiner Tasche. – Das 's kann Besitz zeigen (Peters Tasche), aber hier steht es für is.
 - Lösung: Das ist meine Tasche.
 - Erklärung: Aus that is wird that's. Das 's steht für is.
 - Link: [../?via=tutor#kurzformen-start](../?via=tutor#kurzformen-start)
@@ -146,7 +146,7 @@ Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch
 
 ### Aufgabe kurzformen-korrektur
 
-- Aufgabe: In jedem Satz ist die Kurzform falsch. Schreibe den Satz richtig.
+- Aufgabe: In jedem Satz ist die Kurzform falsch geschrieben. Schreibe den Satz richtig.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung egal, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
@@ -154,7 +154,7 @@ Mr Hill sagt: „Wenn ihr sprecht, ändert sich nicht nur das Wort, sondern auch
      - Were late for school.: Were heißt „waren“. Für we are braucht man we're.
 2. Doesnt Peter like tea? → Doesn't Peter like tea?
      - Doesnt Peter like tea?: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
-- Tipp der App: Prüfe, ob in der Kurzform der Apostroph fehlt.
+- Tipp der App: Prüfe die Kurzform.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kurzformen-korrektur](../?via=tutor#kurzformen-korrektur)
 

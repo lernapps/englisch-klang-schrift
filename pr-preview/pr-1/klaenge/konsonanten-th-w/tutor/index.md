@@ -47,7 +47,7 @@ Sophie sagt Sank you, und Ellie wundert sich. Du lernst die Laute th, w, v und r
 
 Bild: Im Klassenzimmer sagt Sophie in einer Sprechblase „Sank you!“. Ellie schaut mit der Sprechblase „Eh?“ zu ihr. Mr Hill steht rechts. Bildunterschrift: Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz) und rechts Mr Hill (graue Haare).
 
-Sophie bedankt sich bei Ellie: „Sank you!“ In Hello, Millbrook! hat sie „fenk ju“ gelernt. Das war eine Hilfe für den Anfang, aber nicht genau. Ellie wundert sich.
+Sophie bedankt sich bei Ellie: „Sank you!“ In Hello, Millbrook! hat sie „fenk ju“ gelernt. Das war eine Hilfe für den Anfang, aber nicht genau. Heute spricht Sophie das th wie ein s, und Ellie wundert sich.
 
 - Aufgabe `konsonanten-start` (unten)
 
@@ -102,7 +102,7 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Ami
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Zwischen den Zähnen. – Die Zungenspitze liegt leicht zwischen den oberen und unteren Zähnen. Die Luft strömt vorbei.
   - ✗ Hinter den oberen Zähnen, wie bei s. – So klingt sank. Das ist ein s und kein th.
-  - ✗ Tief im Mund, die Unterlippe berührt die Zähne. – So klingt fank. Das ist ein f und kein th.
+  - ✗ Die Unterlippe berührt die oberen Zähne. – So klingt fank. Das ist ein f und kein th.
 - Lösung: Zwischen den Zähnen.
 - Erklärung: Beim th liegt die Zunge zwischen den Zähnen. Es klingt weder wie s noch wie f.
 - Link: [../?via=tutor#konsonanten-start](../?via=tutor#konsonanten-start)
@@ -146,9 +146,9 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Ami
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ /v/ – Das v in village sprichst du mit den Zähnen auf der Unterlippe.
   - ✗ /w/ – Das w sprichst du mit runden Lippen. Das ist der Laut in west.
-  - ✗ /f/ – Das deutsche v klingt wie f. Im Englischen ist v ein eigener, summender Laut.
+  - ✗ /f/ – Das v in Vater klingt wie f. Im Englischen ist v ein eigener, summender Laut.
 - Lösung: /v/
-- Erklärung: Das englische v ist stimmhaft und ein eigener Laut.
+- Erklärung: Das englische v summt und ist ein eigener Laut.
 - Link: [../?via=tutor#konsonanten-w-v](../?via=tutor#konsonanten-w-v)
 
 ### Aufgabe konsonanten-schreiben
@@ -190,7 +190,7 @@ Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Ami
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Mother thinks the weather is lovely today.
-2. Audio → Three brothers wait in the window.
+2. Audio → Three brothers wait at the window.
 3. Audio → Ellie drives the van very carefully.
 - Tipp der App: Achte darauf, wo deine Zunge und deine Lippen liegen.
 - Link: [../?via=tutor#konsonanten-nachsprechen](../?via=tutor#konsonanten-nachsprechen)

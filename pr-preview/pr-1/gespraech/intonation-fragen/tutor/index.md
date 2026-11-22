@@ -70,9 +70,9 @@ Klassenzimmer-Poster · Satzmelodie:
 
 **Merke: Merke**
 
-- **Steigt:** Fragen, die man mit Ja oder Nein beantwortet.
-- **Fällt:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
-- **Nicht jede Frage steigt.** Eine Frage mit what oder where fällt am Ende, anders als im Deutschen oft.
+- **Steigt meist:** Fragen, die man mit Ja oder Nein beantwortet.
+- **Fällt meist:** Aussagen, Aufforderungen und Fragen mit einem Fragewort.
+- Das ist die Grundregel. Im Alltag gibt es Ausnahmen.
 
 - Aufgabe `intonation-karten` (unten)
 
@@ -98,10 +98,10 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 
 ### Aufgabe intonation-start
 
-- Aufgabe: Was macht Peters Stimme am Ende der Frage, so wie im Deutschen bei „Ist es groß?“?
+- Aufgabe: Was macht Peters Stimme am Ende der Frage?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Sie steigt. – Bei einer Frage mit Ja oder Nein geht die Stimme am Ende nach oben. Im Deutschen ist das genauso.
+  - ✓ Sie steigt. – Bei einer Frage mit Ja oder Nein geht die Stimme am Ende meist nach oben. Im Deutschen ist das genauso.
   - ✗ Sie fällt. – So spricht man eine Aussage. Eine Ja-Nein-Frage steigt am Ende.
   - ✗ Sie bleibt gleich. – Bei einer Frage verändert sich die Stimme am Ende. Sie bleibt nicht gleich.
 - Lösung: Sie steigt.
@@ -114,7 +114,7 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → The bag is red and the door is open.
-2. Audio → Close the window, please, Sophie.
+2. Audio → Close the window, please.
 3. Audio → Where is the teacher this morning?
 4. Audio → Is the teacher at home today?
 - Tipp der App: Die Aufnahme ist eine KI-Stimme und spricht die Melodie manchmal schwach. Die Tabelle gilt, wenn du dir unsicher bist.
@@ -149,15 +149,15 @@ In diesem Kapitel hast du Wörter verkürzt und die Melodie von Sätzen gesproch
   - ✗ Sie steigt. – Das gilt für Ja-Nein-Fragen, nicht für where.
   - ✗ Sie bleibt gleich. – Die Stimme bewegt sich. Hier fällt sie.
 - Lösung: Sie fällt.
-- Erklärung: Bei what, where und who fällt die Stimme.
+- Erklärung: Bei what, where und who fällt die Stimme meist.
 - Link: [../?via=tutor#intonation-fragewort](../?via=tutor#intonation-fragewort)
 
 ### Aufgabe intonation-jede-frage
 
-- Aufgabe: Die Stimme steigt am Ende jeder Frage.
+- Aufgabe: Bei „Where do you live?“ steigt die Stimme am Ende.
 - Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
 - Lösung: Die Aussage stimmt nicht.
-- Erklärung: Das stimmt nur für Ja-Nein-Fragen.
+- Erklärung: Das gilt meist nur für Ja-Nein-Fragen. Bei where fällt die Stimme.
 - Link: [../?via=tutor#intonation-jede-frage](../?via=tutor#intonation-jede-frage)
 
 ### Aufgabe intonation-hoeren
