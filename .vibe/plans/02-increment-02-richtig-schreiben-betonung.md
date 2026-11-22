@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -189,7 +189,7 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
       Creator: Ja, mach nach dem Muster weiter mit Gesamtprüfung (Lernenden-Check Kapitel 4 und 5, Sprachprüfung), Inhaltsführer, Selbsteinschätzung und dem Veröffentlichungs-Checkpoint. Push erst nach Erlaubnis der Ersteller:in. (Orchestrator-Session in der Rolle der Ersteller:in)
 - [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
 - [x] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 

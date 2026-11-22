@@ -237,3 +237,4 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Hörsätze der Betonung sind nur die von der Ersteller:in abgehörten Sätze (Hörprobe 2); neue Betonungspaare brauchen wieder eine Hörprobe und ein Hörurteil.
 - Übungen zu Betonung und Schwachformen nehmen andere Wörter als Lesestück und Merke (increase, insult, from, at, was, them statt present, record, and, to).
 - Ein Wort einer Tabelle oder Merke steht nie als Lösung direkt über der Übung dazu; Aufgaben mit Zahlen (`number`) haben für den typischen Fehler eine eigene Meldung.
+- Selbsteinschätzung: jedes Kapitel hat eine in `chapter.yaml`; neue Seiten: 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt. Ohne Ton und ohne Bezug zur Seite („oben“); Hörübungen, Sprechaufgaben und offene Aufgaben stehen nie darin. Kapitel 4: 5 Übungen in 2 Schritten, Kapitel 5: 10 Übungen in 3 Schritten (die Wiederholungsseiten sind nie dabei).
