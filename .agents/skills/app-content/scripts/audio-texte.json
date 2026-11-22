@@ -9,9 +9,6 @@
   "src/audio/sophie-finds-a-big-green-shoe-upstairs.mp3": "Sophie finds a big green shoe upstairs.",
   "src/audio/ellie-sings-with-amir-in-the-kitchen.mp3": "Ellie sings with Amir in the kitchen.",
   "src/audio/sophie-and-peter-eat-cheese-together.mp3": "Sophie and Peter eat cheese together.",
-  "src/audio/ellie-talks-to-mr-hill-every-morning.mp3": "Ellie talks to Mr Hill every morning.",
-  "src/audio/peter-finds-the-answer-in-the-castle.mp3": "Peter finds the answer in the castle.",
-  "src/audio/sophie-asks-two-questions-today.mp3": "Sophie asks two questions today.",
   "src/audio/amir-listens-to-mrs-parker.mp3": "Amir listens to Mrs Parker.",
   "src/audio/sophie-climbs-the-big-tree-with-ellie.mp3": "Sophie climbs the big tree with Ellie.",
   "src/audio/mr-hill-writes-a-long-text-today.mp3": "Mr Hill writes a long text today.",
@@ -26,5 +23,8 @@
   "src/audio/whos-that-girl-with-ellie.mp3": "Who's that girl with Ellie?",
   "src/audio/youre-early-and-im-late-again.mp3": "You're early, and I'm late again.",
   "src/audio/we-arent-hungry-at-the-moment.mp3": "We aren't hungry at the moment.",
-  "src/audio/ellie-doesnt-like-coffee-today.mp3": "Ellie doesn't like coffee today."
+  "src/audio/ellie-doesnt-like-coffee-today.mp3": "Ellie doesn't like coffee today.",
+  "src/audio/peter-talks-to-mrs-parker-every-morning.mp3": "Peter talks to Mrs Parker every morning.",
+  "src/audio/amir-wrote-a-letter-yesterday.mp3": "Amir wrote a letter yesterday.",
+  "src/audio/ellie-fastens-her-bag-in-the-kitchen.mp3": "Ellie fastens her bag in the kitchen."
 }

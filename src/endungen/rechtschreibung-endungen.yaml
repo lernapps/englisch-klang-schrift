@@ -25,7 +25,7 @@ blocks:
             info: Aus plan wird planned, mit doppeltem n.
           - text: Amir planed the party.
             correct: false
-            info: Planed gibt es, aber es bedeutet etwas anderes.
+            info: Planed gibt es, aber es heißt „hobelte“.
           - text: Amir planning the party.
             correct: false
             info: Planning hat die Endung -ing. Hier passt -ed.
@@ -52,9 +52,9 @@ blocks:
         blocks:
           - type: text
             text: |
-              - **Doppeln:** Steht am Ende ein kurzer Vokal und ein Konsonant, wird der Konsonant doppelt.
+              - **Doppeln:** Bei kurzen Wörtern mit kurzem Vokal und einem Konsonanten am Ende (stop, run) wird der Konsonant doppelt.
               - **y wird ie:** Steht vor dem y ein Konsonant, wird es vor -s zu ies und vor -ed zu ied. Nach einem Vokal bleibt das y (play – plays).
-              - **e fällt weg:** Ein e am Ende fällt vor -ing weg.
+              - **e fällt weg:** Ein e am Ende fällt vor -ing meist weg.
   - type: section
     id: uebung
     title: Übung
@@ -87,7 +87,7 @@ blocks:
           - left: dance – dancing
             right: e fällt weg
           - left: play – plays
-            right: bleibt gleich
+            right: y bleibt
         explanation: Nach einem Vokal bleibt das y.
         links:
           - title: Lernlandkarte Englisch · Schreibung vor Endungen
@@ -108,6 +108,8 @@ blocks:
             mistakes:
               - answer: writeing
                 message: Das e fällt weg.
+              - answer: writting
+                message: Das e fällt weg, das t wird nicht doppelt.
           - cue: sit · -ing
             target: sitting
             mistakes:
@@ -125,6 +127,8 @@ blocks:
             mistakes:
               - answer: flys
                 message: Das y wird zu ie.
+              - answer: flyes
+                message: Das y wird zu ie, ohne weiteres e.
           - cue: enjoy · he (simple present)
             target: enjoys
             mistakes:
@@ -135,11 +139,15 @@ blocks:
             mistakes:
               - answer: tryed
                 message: Das y wird zu ied.
+              - answer: tries
+                message: Das ist die Form für jetzt. Für gestern braucht man -ed.
           - cue: drop · yesterday (simple past)
             target: dropped
             mistakes:
               - answer: droped
                 message: Das p wird doppelt.
+              - answer: dropping
+                message: Das ist die Form mit -ing. Für gestern braucht man -ed.
         hint: Welcher Handgriff passt?
       - type: language-task
         id: rechtschreibung-hoeren
@@ -162,7 +170,7 @@ blocks:
             mistakes:
               - answer: Peter is geting a new bag today.
                 message: Hier wird das t doppelt.
-        hint: Achte auf das Wort mit der Endung.
+        hint: Achte auf das Wort mit der Endung. Dort ändert sich etwas.
   - type: section
     id: anwenden
     title: Sprich nach

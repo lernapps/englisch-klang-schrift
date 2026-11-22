@@ -2,7 +2,7 @@
 title: Buchstaben, die man nicht hört
 description: "Sophie liest ein Wort mit einem k vor, das man nicht spricht. Du lernst stumme Buchstaben kennen und schreibst Wörter damit richtig."
 competencies: [silent-letters]
-scope: "Die Seite zeigt stumme Buchstaben: Buchstaben, die man schreibt, aber nicht spricht. In der Klangpartitur hat so ein Buchstabe keine blaue Karte, sondern eine graue gestrichelte. Gelernt werden die häufigsten Muster: k vor n (knife), w vor r (write), b nach m (climb), t in listen. Beispiele zum Üben sind andere Wörter (wrong, hour, walk, know, talk, answer, castle, two). Nicht hier, weil sie auf späteren Seiten stehen: Laute der Wörter in Lautschrift, Betonung."
+scope: "Die Seite zeigt stumme Buchstaben: Buchstaben, die man schreibt, aber nicht spricht. In der Klangpartitur hat so ein Buchstabe keine blaue Karte, sondern eine graue gestrichelte. Gelernt werden sechs Muster: k vor n (knife), w vor r (write), b nach m (climb), t nach s (listen), l vor k (walk), gh vor t (night). Zum Üben dienen andere Wörter mit denselben Mustern (wrong, knock, light, know, high, eight, talk, wrote, fasten). Nicht hier, weil sie auf späteren Seiten stehen: Laute der Wörter in Lautschrift, Betonung."
 blocks:
   - type: section
     id: einstieg
@@ -20,21 +20,21 @@ blocks:
         id: silent-letters-start
         text: Warum lacht Amir?
         options:
-          - text: Das k in knee spricht man nicht, es bleibt stumm.
+          - text: Das k in knee ist stumm, man spricht es nicht.
             correct: true
-            info: Im Wort knee hört man nur „nii“. Das k schreibt man, aber man spricht es nicht.
-          - text: Das k in knee spricht man nur am Wortende nicht.
+            info: Im Wort knee hört man nur „nii“. Das k schreibt man, aber man spricht es nicht. Ein solcher Buchstabe heißt stumm.
+          - text: Das k in knee ist nur am Wortende stumm.
             correct: false
             info: Im Wort knee steht das k am Anfang, und man spricht es nicht. Stumme Buchstaben gibt es an vielen Stellen im Wort.
-          - text: Das Wort knee schreibt man im Englischen ohne k.
+          - text: Das k in knee ist nicht stumm, Sophie liest es richtig.
             correct: false
-            info: Man schreibt knee mit k. Man spricht es nur nicht.
+            info: Man spricht das k in knee nicht. Darum lacht Amir.
         explanation: Im Englischen gibt es Buchstaben, die man schreibt, aber nicht spricht. Man nennt sie stumme Buchstaben.
         links:
           - title: Lernlandkarte Englisch · Stumme Buchstaben
             url: https://lernapps.net/apps/map/englisch/c/silent-letters/
       - type: text
-        text: "**Das kannst du danach:** Du erkennst stumme Buchstaben, sprichst die Wörter richtig und schreibst sie richtig."
+        text: "**Das kannst du danach:** Du erkennst stumme Buchstaben und schreibst die Wörter richtig."
   - type: section
     id: neu
     title: Schreiben, aber nicht sprechen
@@ -54,15 +54,17 @@ blocks:
           - [k vor n, knife, k]
           - [w vor r, write, w]
           - [b nach m, climb, b]
-          - [t in -sten, listen, t]
+          - [t nach s, listen, t]
+          - [l vor k, walk, l]
+          - [gh vor t, night, gh]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
               - **Stumme Buchstaben schreibt man, aber man spricht sie nicht.**
-              - Sie stehen oft in festen Mustern: kn-, wr-, -mb, -sten.
-              - Man muss sie beim Schreiben lernen, denn das Wort klingt ohne sie.
+              - Sie stehen oft in festen Mustern, wie sie die Tabelle zeigt.
+              - Beim Schreiben musst du sie trotzdem schreiben.
   - type: section
     id: uebung
     title: Übung
@@ -73,17 +75,17 @@ blocks:
         options:
           - text: wrong
             correct: true
-            info: "Das w vor r ist stumm: wrong klingt wie „rong“."
-          - text: hour
+            info: Das w vor r ist stumm. Man spricht wrong wie „rong“.
+          - text: knock
             correct: true
-            info: "Das h am Anfang ist stumm: hour klingt wie „auer“."
-          - text: walk
+            info: Das k vor n ist stumm. Man spricht knock wie „nock“.
+          - text: light
             correct: true
-            info: Das l ist stumm. Man spricht walk ohne l.
+            info: Das gh vor t ist stumm. Man spricht light ohne gh.
           - text: desk
             correct: false
             info: In desk spricht man jeden Buchstaben.
-        explanation: Das w in wrong, das h in hour und das l in walk sind stumm. In desk spricht man jeden Buchstaben.
+        explanation: Wrong, knock und light folgen den Mustern der Tabelle. In desk spricht man alles.
         links:
           - title: Lernlandkarte Englisch · Stumme Buchstaben
             url: https://lernapps.net/apps/map/englisch/c/silent-letters/
@@ -93,11 +95,6 @@ blocks:
         task: Schreibe das englische Wort.
         form: { case: ok, punctuation: ok }
         items:
-          - source: falsch
-            target: wrong
-            mistakes:
-              - answer: rong
-                message: Vor dem r steht ein stummes w.
           - source: wissen
             target: know
             mistakes:
@@ -105,38 +102,38 @@ blocks:
                 message: No heißt „nein“. Wissen schreibt man mit stummem k.
               - answer: now
                 message: Now heißt „jetzt“. Wissen schreibt man mit k am Anfang.
-          - source: Stunde
-            target: hour
+          - source: hoch
+            target: high
             mistakes:
-              - answer: our
-                message: Our heißt „unser“. Stunde schreibt man mit stummem h.
-          - source: sprechen
-            target: talk
+              - answer: hi
+                message: Hi heißt „hallo“. Hoch schreibt man mit stummem gh.
+          - source: acht
+            target: eight
             mistakes:
-              - answer: tok
-                message: Zwischen a und k steht ein stummes l.
-        hint: Denk an die Muster aus der Tabelle. Was fehlt am Anfang oder in der Mitte?
+              - answer: ate
+                message: Ate ist eine Form von eat. Die Zahl schreibt man mit stummem gh.
+        hint: Denk an die Muster aus der Tabelle.
       - type: language-task
         id: silent-letters-hoeren
         languages: { source: de, target: en }
         task: Höre zu und schreibe jeden Satz ganz auf.
         form: { case: ok, punctuation: ok }
         items:
-          - audio: ellie-talks-to-mr-hill-every-morning.mp3
-            target: Ellie talks to Mr Hill every morning.
+          - audio: peter-talks-to-mrs-parker-every-morning.mp3
+            target: Peter talks to Mrs Parker every morning.
             mistakes:
-              - answer: Ellie tocks to Mr Hill every morning.
+              - answer: Peter tocks to Mrs Parker every morning.
                 message: Zwischen a und k steht ein stummes l.
-          - audio: peter-finds-the-answer-in-the-castle.mp3
-            target: Peter finds the answer in the castle.
+          - audio: amir-wrote-a-letter-yesterday.mp3
+            target: Amir wrote a letter yesterday.
             mistakes:
-              - answer: Peter finds the anser in the castle.
-                message: Vor dem r in answer steht ein stummes w.
-          - audio: sophie-asks-two-questions-today.mp3
-            target: Sophie asks two questions today.
+              - answer: Amir rote a letter yesterday.
+                message: Vor dem r steht ein stummes w.
+          - audio: ellie-fastens-her-bag-in-the-kitchen.mp3
+            target: Ellie fastens her bag in the kitchen.
             mistakes:
-              - answer: Sophie asks too questions today.
-                message: Too heißt „auch“ oder „zu“. Die Zahl schreibt man mit stummem w, two.
+              - answer: Ellie fasens her bag in the kitchen.
+                message: In fasten steht ein stummes t.
         hint: Höre den Satz so oft, wie du willst. Schreibe jedes Wort auf, das du verstehst.
   - type: section
     id: anwenden

@@ -1,25 +1,26 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das brauchst du hier
 description: Plural, simple past mit -ed und present progressive noch einmal kurz, bevor Mr Hill die Werkstatt für Endungen aufhängt.
-recap: [englisch/plural, englisch/simple-past, englisch/present-progressive]
-scope: "Die Seite wiederholt nur drei Bausteine aus anderen Explainern: den Plural der Nomen (-s, -es, unregelmäßig), das simple past mit regelmäßigen Verben (-ed) und das present progressive (am, is, are plus -ing). Neue Inhalte gibt es nicht, auch keine Übung. Wie die Endungen klingen und wie sich die Schreibung davor ändert, kommt auf den nächsten Seiten."
+recap: [englisch/plural, englisch/simple-past, englisch/present-progressive, englisch/simple-present]
+scope: "Die Seite wiederholt nur vier Bausteine aus anderen Explainern: den Plural der Nomen (-s, -es, unregelmäßig), das simple past mit regelmäßigen Verben (-ed), das present progressive (am, is, are plus -ing) und das simple present (-s bei he, she, it). Neue Inhalte gibt es nicht, auch keine Übung. Wie die Endungen klingen und wie sich die Schreibung davor ändert, kommt auf den nächsten Seiten."
 blocks:
   - type: section
     id: einstieg
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Kannst du das schon? **Ich kann den Plural von Nomen bilden, auch die unregelmäßigen Formen wie children, men und feet.** Das ist der Baustein „Plural der Nomen“. **Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.** Das ist der Baustein „Simple past: regelmäßige Verben“. **Ich kann im present progressive sagen, was gerade passiert (She is reading.).** Das ist der Baustein „Present progressive“. Alle drei hängen eine Endung an ein Wort. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
+        text: "Kannst du das schon? **Ich kann den Plural von Nomen bilden, auch die unregelmäßigen Formen wie children, men und feet.** Das ist der Baustein „Plural der Nomen“. **Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.** Das ist der Baustein „Simple past: regelmäßige Verben“. **Ich kann im present progressive sagen, was gerade passiert (She is reading.).** Das ist der Baustein „Present progressive“. **Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.** Das ist der Baustein „Simple present“. Alle vier hängen eine Endung an ein Wort. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
       - type: table
         caption: Klassenzimmer-Poster · Die Endungen
-        header: [Form, Endung, Beispiel]
+        header: [Form, Beispiel]
         rows:
-          - [Plural, -s oder -es, "book – books, box – boxes"]
-          - [Plural, unregelmäßig, "child – children"]
-          - [Simple past, -ed, "walk – walked"]
-          - [Present progressive, "am, is oder are plus -ing", "She is reading."]
+          - [Plural mit -s oder -es, "book – books, box – boxes"]
+          - [Plural unregelmäßig, "child – children"]
+          - [Simple past mit -ed, "walk – walked"]
+          - [Present progressive mit -ing, "She is reading."]
+          - [Simple present mit -s, "She reads."]
       - type: text
-        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) und [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/)."
+        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) und [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/)."
   - type: section
     id: weiter
     title: Was jetzt kommt
