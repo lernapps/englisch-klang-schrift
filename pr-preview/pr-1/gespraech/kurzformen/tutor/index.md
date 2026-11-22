@@ -53,9 +53,9 @@ Ellie hat ihre Tasche gefunden und ruft: „That's my bag!“ Sie spricht **that
 
 **Das kannst du danach:** Du verstehst Kurzformen und schreibst sie mit Apostroph.
 
-### Aus zwei Karten wird eine
+### Aus zwei Wörtern wird eins
 
-Eine **Kurzform** verschmilzt zwei Wörter. In der Klangpartitur werden aus zwei Karten eine, und dabei fällt ein Laut weg. Ein **Apostroph** (') steht dort, wo Buchstaben fehlen. In der Tabelle siehst du, welcher Buchstabe fehlt.
+Die blauen Karten der Klangpartitur kennst du aus Lautschrift lesen: Jede Karte zeigt ein Wort in Lautschrift. Eine **Kurzform** verschmilzt zwei Wörter, also zwei Karten, zu einer, und dabei fällt ein Laut weg. Ein **Apostroph** (') steht dort, wo Buchstaben fehlen. In der Tabelle siehst du, welcher Buchstabe fehlt.
 
 Bild: Die Klangpartitur mit der unteren Zeile. Eine Karte ʃiː unter she und eine Karte ɪz unter is werden mit Plus und Gleich zu einer Karte ʃiːz unter she's. Bildunterschrift: Zwei Karten werden zu einer: she plus is ergibt she's. Das ɪ fällt weg.
 

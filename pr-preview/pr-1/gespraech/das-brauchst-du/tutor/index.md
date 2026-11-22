@@ -62,6 +62,10 @@ Klassenzimmer-Poster · Fragen und Fragewörter:
 
 Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Verb to be](https://lernapps.net/apps/map/englisch/c/to-be/), [Simple present: Fragen und Verneinung](https://lernapps.net/apps/map/englisch/c/simple-present-fragen/) und [Fragewörter](https://lernapps.net/apps/map/englisch/c/fragewoerter/).
 
+### Das kennst du aus Kapitel 1
+
+Die **Klangpartitur** hat drei Zeilen. Die untere Zeile zeigt die Laute: Jede blaue **Karte** ist ein Wort in Lautschrift, darunter steht die Schreibung (siehe Lautschrift lesen). Die obere Zeile für die Melodie war bisher leer. Sie füllt sich auf den nächsten Seiten.
+
 ### Was jetzt kommt
 
 Mr Hill sagt: „Im Gespräch sprechen wir nicht jedes Wort einzeln.“ Sophie, Ellie, Peter und Amir probieren aus, wie man zwei Wörter zu einem verschmilzt, zum Beispiel do not zu don't, und wie die Stimme bei einer Frage klingt.

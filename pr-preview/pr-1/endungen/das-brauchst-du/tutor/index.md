@@ -57,6 +57,10 @@ Klassenzimmer-Poster · Die Endungen:
 
 Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Plural der Nomen](https://lernapps.net/apps/map/englisch/c/plural/), [Simple past](https://lernapps.net/apps/map/englisch/c/simple-past/), [Present progressive](https://lernapps.net/apps/map/englisch/c/present-progressive/) und [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/).
 
+### Das kennst du aus Kapitel 1
+
+In der Klangpartitur zeigt jede blaue **Karte** ein Wort in Lautschrift (siehe Lautschrift lesen). Und du hast die Hand an den Hals gelegt: Bei einem **stimmhaften** Laut summt es, bei einem **stimmlosen** nicht (siehe Wo es am Ende summt). Das brauchst du gleich für die Endungen.
+
 ### Was jetzt kommt
 
 Mr Hill hat neben die Klangpartitur eine Werkstatt für Wörter gestellt. Peter und Ellie hängen Endungen an Wörter, und Sophie hört genau hin. Mr Hill sagt: „Eine Endung klingt nicht immer gleich, und vor einer Endung ändert sich manchmal die Schreibung.“
