@@ -10,6 +10,27 @@
       ]
     },
     {
+      "path": "klaenge/vokale/",
+      "title": "Kurz oder lang?",
+      "competencies": [
+        "vokale"
+      ]
+    },
+    {
+      "path": "klaenge/konsonanten-th-w/",
+      "title": "th, w, v und r",
+      "competencies": [
+        "konsonanten-th-w"
+      ]
+    },
+    {
+      "path": "klaenge/stimmhafte-auslaute/",
+      "title": "Wo es am Ende summt",
+      "competencies": [
+        "stimmhafte-auslaute"
+      ]
+    },
+    {
       "path": "klaenge/silent-letters/",
       "title": "Buchstaben, die man nicht hört",
       "competencies": [
@@ -24,6 +45,13 @@
         "englisch/simple-past",
         "englisch/present-progressive",
         "englisch/simple-present"
+      ]
+    },
+    {
+      "path": "endungen/endungen-s-ed/",
+      "title": "Wie -s und -ed klingen",
+      "competencies": [
+        "endungen-s-ed"
       ]
     },
     {
@@ -47,6 +75,13 @@
       "title": "Zwei Wörter, ein Klang",
       "competencies": [
         "kurzformen"
+      ]
+    },
+    {
+      "path": "gespraech/intonation-fragen/",
+      "title": "Wohin geht die Stimme?",
+      "competencies": [
+        "intonation-fragen"
       ]
     }
   ]
