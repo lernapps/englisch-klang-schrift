@@ -290,6 +290,13 @@ PARTITUREN["partitur-satzbetonung"] = (
     "legende", ["big", "small", "small", "big"], {"compact": True})
 
 
+PARTITUREN["partitur-tag-steigt"] = (
+    "Klangpartitur: der Satz Its cold, isnt it mit vier Karten; über dem Tag am Ende zeigt ein roter Pfeil nach oben",
+    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "up"], [None, None, None, None], {"compact": True})
+PARTITUREN["partitur-tag-faellt"] = (
+    "Klangpartitur: der Satz Its cold, isnt it mit vier Karten; über dem Tag am Ende zeigt ein grüner Pfeil nach unten",
+    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "down"], [None, None, None, None], {"compact": True})
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for name, (title, cols, top, mid, *kw) in PARTITUREN.items():

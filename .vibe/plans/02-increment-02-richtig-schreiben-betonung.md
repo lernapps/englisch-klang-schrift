@@ -181,7 +181,7 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
 - [x] Seite (nach dem Hörurteil): Lesestück (Peter nimmt Sophie auf), Konsonant-Vokal-Bindung und linking r (far away). Alleine.
 - [x] Seite (nach dem Hörurteil): Lesestück (Backen mit Mrs Parker), and, to, of, for als Schwa-Formen, am Satzende stark. Alleine.
 - [x] Seite (nach dem Hörurteil): Lesestück (Sophies Nachricht), Inhaltswörter und Rhythmus. Alleine.
-- [ ] Wiederholungsseite (#473) und Seite : Lesestück (Chat Sophie und Ellie), Pfeil steigt oder fällt, keine Aufnahme der Melodie. Kapitel 4 und 5 mit Rückblick, der neuen Kapitel (kommt in Commit). Alleine.
+- [x] Wiederholungsseite (#473) und Seite : Lesestück (Chat Sophie und Ellie), Pfeil steigt oder fällt, keine Aufnahme der Melodie. Kapitel 4 und 5 mit Rückblick, der neuen Kapitel (kommt in Commit). Alleine.
 <!-- tasks: slices (7 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
