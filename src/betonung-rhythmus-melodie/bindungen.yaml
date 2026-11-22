@@ -1,0 +1,228 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wörter rutschen zusammen
+description: "Peter nimmt Sophie beim Vorlesen auf und sagt, sie klinge wie ein Roboter. Du lernst, wie ein Laut am Wortende zum nächsten Wort rutscht, und was das r in far away damit zu tun hat."
+competencies: [bindungen]
+scope: "Die Seite zeigt Bindungen im Satz. Endet ein Wort auf einen Konsonanten und beginnt das nächste mit einem Vokal, rutscht der Laut hinüber (an apple klingt wie a-napple). Im britischen Englisch spricht man ein r am Wortende nicht, aber vor einem Vokal im nächsten Wort hört man es (far away). In der Klangpartitur zeigt ein roter Bogen die Bindung. Nicht hier, weil sie auf anderen Seiten stehen: Betonung im Wort, schwache Formen, Satzbetonung und Rhythmus."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie klingt wie ein Roboter
+    blocks:
+      - type: text
+        text: "Mr Hill will von jeder und jedem eine Vorleseaufnahme. Peter (9) nimmt Sophie (13) mit dem Handy auf. Du kennst die Klangpartitur: Laute unten, Betonung in der Mitte. Jetzt geht es um die Stellen **zwischen** den Wörtern."
+      - type: single-choice
+        id: bindungen-start
+        text: Was passiert in deiner Sprache oft zwischen zwei Wörtern, wenn man schnell spricht?
+        options:
+          - text: "Die Wörter rutschen zusammen, wie bei „Haste mal ’nen Euro?“"
+            correct: true
+            info: Auch im Deutschen verschmelzen Wörter, wenn man flüssig spricht.
+          - text: Man macht nach jedem Wort eine Pause.
+            correct: false
+            info: Das klingt wie ein Roboter. So spricht niemand im Alltag.
+          - text: Man spricht jedes Wort lauter als das vorige.
+            correct: false
+            info: "Das Gegenteil passiert: kleine Wörter werden leiser."
+        explanation: Wörter verschmelzen beim flüssigen Sprechen. Im Englischen ist das besonders oft so.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, wo im Satz ein Laut zum nächsten Wort rutscht, und sprichst die Wörter verbunden."
+  - type: section
+    id: lesestueck
+    title: Die Aufnahme
+    blocks:
+      - type: table
+        caption: Am Rand · Wörter aus dem Dialog
+        header: [Wort, Bedeutung]
+        rows:
+          - [robot, Roboter]
+          - [slide, gleiten]
+          - [reading, das Vorlesen]
+          - [farm, Bauernhof]
+      - type: text
+        text: |
+          **Peter:** Sophie, can I record you? Mr Hill wants a reading from everyone.
+
+          **Sophie:** ok! I read the story about the farm.
+
+          **Peter:** stop. you read like a robot. one word. stop. one word. stop.
+
+          **Sophie:** I say every word alone, like in my German class.
+      - type: text
+        text: |
+          **Peter:** listen to Mum: "Turn it off!" It sounds like one long word.
+
+          **Sophie:** oh! so the words slide together.
+
+          **Peter:** yes. the n of turn goes to the next word. And an apple sounds like a-napple.
+
+          **Sophie:** ok. again: "Turn it off. An apple. Pick it up."
+
+          **Peter:** better! now you sound like a real person.
+      - type: single-choice
+        id: bindungen-verstehen
+        text: Warum klingt Sophie am Anfang wie ein Roboter?
+        options:
+          - text: Sie spricht jedes Wort einzeln mit einer kleinen Pause.
+            correct: true
+            info: Sie sagt es selbst, dass sie jedes Wort allein spricht.
+          - text: Sie liest viel zu schnell.
+            correct: false
+            info: Peter beschwert sich über die Pausen, nicht über das Tempo.
+          - text: Sie hat die Geschichte nicht gelesen.
+            correct: false
+            info: Sie liest die Geschichte, nur klingt es abgehackt.
+        explanation: Sophie trennt die Wörter. Echtes Englisch lässt sie zusammenrutschen.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+      - type: single-choice
+        id: bindungen-belegen
+        text: Welche Zeile erklärt, was bei einer Bindung geschieht?
+        options:
+          - text: "Peter: yes. the n of turn goes to the next word. And an apple sounds like a-napple."
+            correct: true
+            info: Peter beschreibt, wie der Endlaut zum nächsten Wort rutscht.
+          - text: "Sophie: I say every word alone, like in my German class."
+            correct: false
+            info: Das ist der Fehler, nicht die Lösung.
+          - text: "Peter: better! now you sound like a real person."
+            correct: false
+            info: Das ist ein Lob. Eine Erklärung steht dort nicht.
+        explanation: In Peters Zeile steht, dass der n-Laut zum nächsten Wort geht.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+  - type: section
+    id: neu
+    title: Der rote Bogen
+    blocks:
+      - type: text
+        text: "In der Klangpartitur zeigt ein **roter Bogen** unter den Karten, dass ein Laut zum nächsten Wort rutscht. Es gibt zwei Fälle."
+      - type: figure
+        image: images/partitur-bindung-konsonant.svg
+        alt: "Klangpartitur: an apple mit vier Karten ə, n, ˈæ und pl. Ein roter Bogen verbindet das n mit dem Vokal der nächsten Karte."
+        caption: "Endet ein Wort auf einen Konsonanten und beginnt das nächste mit einem Vokal, rutscht der Laut hinüber."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Der zweite Fall ist das **linking r**. Im britischen Englisch spricht man ein r am Wortende nicht. Aber wenn das nächste Wort mit einem Vokal beginnt, hört man es."
+      - type: figure
+        image: images/partitur-bindung-r.svg
+        alt: "Klangpartitur: far away mit vier Karten fɑː, r, ə und ˈweɪ. Ein roter Bogen verbindet das r mit dem folgenden Vokal."
+        caption: "Allein klingt far wie fɑː. Vor einem Vokal hört man das r."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Konsonant + Vokal:** Endet ein Wort auf einen Konsonanten und beginnt das nächste mit einem Vokal, spricht man beides zusammen.
+              - **Linking r:** Ein r am Wortende hört man nur, wenn das nächste Wort mit einem Vokal beginnt.
+              - **Vor einem Konsonanten** gibt es keine Bindung. Die Wörter bleiben sauber getrennt.
+              - Wer jedes Wort allein spricht, klingt abgehackt.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: bindungen-erkennen
+        text: Bei welchen Wortpaaren rutscht der Endlaut zum nächsten Wort?
+        options:
+          - text: look at
+            correct: true
+            info: Das k am Ende rutscht zum Vokal von at.
+          - text: come in
+            correct: true
+            info: Das m am Ende rutscht zum Vokal von in.
+          - text: big dog
+            correct: false
+            info: Das nächste Wort beginnt mit einem Konsonanten. Es gibt keine Bindung.
+          - text: go home
+            correct: false
+            info: Das nächste Wort beginnt mit dem Konsonanten h. Es gibt keine Bindung.
+        explanation: Eine Bindung gibt es nur, wenn ein Konsonant am Wortende auf einen Vokal am Wortanfang trifft.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+      - type: single-choice
+        id: bindungen-hoeren
+        text: Wie sprichst du get up?
+        options:
+          - text: Das t rutscht zu up, es klingt wie ein Wort.
+            correct: true
+            info: Das t am Ende rutscht zum Vokal von up.
+          - text: Zwischen get und up machst du eine Pause.
+            correct: false
+            info: Die Pause trennt die Wörter und klingt abgehackt.
+          - text: Du lässt das t ganz weg.
+            correct: false
+            info: Das t verschwindet nicht, es rutscht zum nächsten Wort.
+        explanation: Bei get up rutscht das t zu up.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+      - type: single-choice
+        id: bindungen-linking-r
+        text: In welchem Satz hört man am Ende von her ein r?
+        options:
+          - text: Her eyes are blue.
+            correct: true
+            info: Nach her kommt ein Vokal. Das r wird gesprochen.
+          - text: Her friend is nice.
+            correct: false
+            info: Nach her kommt ein Konsonant. Das r bleibt stumm.
+          - text: Her name is Ellie.
+            correct: false
+            info: Nach her kommt ein Konsonant. Das r bleibt stumm.
+        explanation: Das linking r hört man nur vor einem Vokal im nächsten Wort.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+      - type: number
+        id: bindungen-zaehlen
+        text: "Wie viele Bindungen von Konsonant zu Vokal gibt es im Satz „I want to eat an egg.“? Schreibe die Zahl mit Ziffern."
+        answer: 2
+        tolerance: 0
+        mistakes:
+          - answer: 3
+            message: "to eat zählt nicht: Das Wort to endet auf einen Vokal. Gebunden wird nur ein Konsonant am Wortende."
+        hint: Suche Stellen, an denen ein Konsonant am Wortende vor einem Vokal steht.
+        explanation: Die Bindungen sind eat an und an egg.
+        links:
+          - title: Lernlandkarte Englisch · Bindungen
+            url: https://lernapps.net/apps/map/englisch/c/bindungen/
+  - type: section
+    id: anwenden
+    title: Sprich verbunden
+    blocks:
+      - type: speaking-task
+        id: bindungen-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu. Achte auf das r am Ende von far.
+        items:
+          - audio: my-father-is-far-away-today.mp3
+            text: My father is far away today.
+        hint: Verbinde far und away wie ein Wort.
+      - type: open-task
+        id: bindungen-eigene
+        task: "Schreibe drei englische Wortpaare, bei denen ein Laut zum nächsten Wort rutscht. Nimm je eines mit Konsonant plus Vokal und eines mit einem r am Wortende. Schreibe danach auf Deutsch in einem Satz, woran du die Bindung erkennst."
+        points:
+          - text: Du nennst ein Paar mit Konsonant plus Vokal.
+            source: /betonung-rhythmus-melodie/bindungen/#neu
+          - text: Du nennst ein Paar mit einem r am Wortende, nach dem ein Vokal folgt.
+            source: /betonung-rhythmus-melodie/bindungen/#neu
+          - text: Du erklärst, woran du die Bindung erkennst.
+            kind: form
+        solution: |
+          Pairs: pick up, an orange, more apples. Ich erkenne es daran, dass das erste Wort mit einem Konsonanten oder r endet und das nächste mit einem Vokal beginnt.
+        hint: Prüfe, ob das nächste Wort mit einem Vokal beginnt.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Peter spielt die Aufnahme noch einmal ab. Sophie hört, dass die Wörter jetzt fließen, aber ein paar kleine Wörter klingen anders als sonst. Das ist das Thema der nächsten Seite: schwache Formen."

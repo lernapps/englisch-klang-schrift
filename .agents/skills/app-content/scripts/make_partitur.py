@@ -275,6 +275,9 @@ PARTITUREN["partitur-wortbetonung-nomen"] = (
 PARTITUREN["partitur-wortbetonung-verb"] = (
     "Klangpartitur: das Verb present mit zwei Karten, prɪ und ˈzent; über der ersten Karte ein kleiner Punkt, über der zweiten ein großer roter",
     [("prɪ", "pre", None), ("ˈzent", "sent", None)], "legende", ["small", "big"], {"compact": True})
+PARTITUREN["partitur-bindung-konsonant"] = (
+    "Klangpartitur: an apple mit vier Karten ə, n, ˈæ und pl; ein roter Bogen verbindet das n mit dem folgenden Vokal",
+    [("ə", "a", None), ("n", "n", None), ("ˈæ", "ap", None), ("pl", "ple", None)], "legende", ["small", None, "big", "small"], {"compact": True, "bogen": [(1, 2)]})
 PARTITUREN["partitur-bindung-r"] = (
     "Klangpartitur: far away mit vier Karten fɑː, r, ə und weɪ; ein roter Bogen verbindet das r mit dem folgenden Laut",
     [("fɑː", "far", None), ("r", "(r)", None), ("ə", "a", None), ("ˈweɪ", "way", None)], "legende", ["small", None, "small", "big"], {"compact": True, "bogen": [(1, 2)]})
