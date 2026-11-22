@@ -2,7 +2,7 @@
 title: Zwei Wörter, ein Klang
 description: "Ellie ruft That's my bag! Du lernst, wie zwei Wörter zu einer Kurzform verschmelzen, wie du sie sprichst und wie du sie mit Apostroph schreibst."
 competencies: [kurzformen]
-scope: "Die Seite zeigt Kurzformen mit be und not: I'm, you're, it's, they're, don't, isn't. Zwei Wörter verschmelzen, ein Apostroph steht für die fehlenden Buchstaben, und man spricht die Kurzform wie ein Wort mit einer Silbe. Dazu der Unterschied zwischen it's (it is) und its (gehört zu es). Die Kurzformen mit have und will und 's als Besitz (Peter's bag) stehen nicht hier. Nicht hier, weil sie auf anderen Seiten stehen: Betonung und die Melodie der Frage."
+scope: "Die Seite zeigt Kurzformen mit be und not: I'm, you're, it's, they're, don't, isn't. Zwei Wörter verschmelzen, ein Apostroph steht für die fehlenden Buchstaben, und man spricht die Kurzform wie ein Wort mit einer Silbe. Dazu der Unterschied zwischen it's (it is) und its (gehört zu es) und Kurzformen mit 's für is (that's, where's, what's, how's, who's). Die Kurzformen mit have und will und 's als Besitz (Peter's bag) stehen nicht hier. Nicht hier, weil sie auf anderen Seiten stehen: Betonung und die Melodie der Frage."
 blocks:
   - type: section
     id: einstieg
@@ -15,36 +15,36 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie hat ihre Tasche gefunden und ruft: „That's my bag!“ Sie spricht **that's** wie ein einziges Wort."
+        text: "Ellie hat ihre Tasche gefunden und ruft: „That's my bag!“ Sie spricht **that's** wie ein einziges Wort. Aus Hello, Millbrook! kennst du schon I'm."
       - type: single-choice
         id: kurzformen-start
-        text: Für welche zwei Wörter steht that's in Ellies Satz?
+        text: Was bedeutet Ellies Satz „That's my bag!“?
         options:
-          - text: that is
+          - text: Das ist meine Tasche.
             correct: true
-            info: "Das 's steht hier für is: That's my bag heißt „Das ist meine Tasche“."
-          - text: that has
+            info: "Das 's in that's steht für is. That's my bag heißt „Das ist meine Tasche“."
+          - text: Das war meine Tasche.
             correct: false
-            info: "Das 's kann auch für has stehen, aber „Das hat meine Tasche“ ergibt hier keinen Sinn."
-          - text: that was
+            info: "Ellie sagt, was jetzt ist. Für „war“ gäbe es das Wort was."
+          - text: Das hat meine Tasche.
             correct: false
-            info: "Für was gibt es keine Kurzform mit 's. Ellie sagt, was jetzt ist."
-        explanation: Das 's steht in diesem Satz für is. Aus zwei Wörtern wird eine Kurzform.
+            info: "Das 's steht hier für is, nicht für has. „Das hat meine Tasche“ ergibt keinen Sinn."
+        explanation: Aus that is wird that's. Das 's steht für is.
         links:
           - title: Lernlandkarte Englisch · Kurzformen
             url: https://lernapps.net/apps/map/englisch/c/kurzformen/
       - type: text
-        text: "**Das kannst du danach:** Du sprichst Kurzformen wie ein Wort und schreibst sie mit Apostroph."
+        text: "**Das kannst du danach:** Du verstehst Kurzformen und schreibst sie mit Apostroph."
   - type: section
     id: neu
     title: Aus zwei Karten wird eine
     blocks:
       - type: text
-        text: "Eine **Kurzform** verschmilzt zwei Wörter. In der Klangpartitur werden aus zwei Karten eine. Ein **Apostroph** (') steht dort, wo Buchstaben fehlen."
+        text: "Eine **Kurzform** verschmilzt zwei Wörter. In der Klangpartitur werden aus zwei Karten eine, und dabei fällt ein Laut weg. Ein **Apostroph** (') steht dort, wo Buchstaben fehlen. In der Tabelle siehst du, welcher Buchstabe fehlt."
       - type: figure
         image: images/partitur-kurzformen.svg
         alt: "Die Klangpartitur mit der unteren Zeile. Eine Karte ʃiː unter she und eine Karte ɪz unter is werden mit Plus und Gleich zu einer Karte ʃiːz unter she's."
-        caption: "Zwei Karten werden zu einer: she plus is ergibt she's."
+        caption: "Zwei Karten werden zu einer: she plus is ergibt she's. Das ɪ fällt weg."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -63,8 +63,8 @@ blocks:
           - type: text
             text: |
               - **Der Apostroph steht dort, wo Buchstaben fehlen:** do not wird don't, denn das o fehlt.
-              - **Man spricht eine Kurzform wie ein Wort** mit einer Silbe, ohne Pause dazwischen.
-              - **it's heißt it is. its ohne Apostroph** heißt „sein“ oder „ihr“ und gehört zu einem Ding.
+              - **Man spricht eine Kurzform als ein Wort,** ohne Pause dazwischen.
+              - **it's heißt it is.** Ohne Apostroph schreibt man its („sein“, „ihr“): The cat has its bowl.
   - type: section
     id: uebung
     title: Übung
@@ -87,18 +87,18 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/kurzformen/
       - type: single-choice
         id: kurzformen-satz
-        text: Welcher Satz ist richtig?
+        text: "Welches Wort passt? The dog loves ___ ball."
         options:
-          - text: It's raining today.
+          - text: its
             correct: true
-            info: "It's heißt it is: „Es regnet heute.“"
-          - text: Its raining today.
+            info: "Its ohne Apostroph gehört zu einem Ding oder Tier: sein Ball."
+          - text: it's
             correct: false
-            info: "Its ohne Apostroph heißt „sein“ oder „ihr“. Hier braucht der Satz it is, also it's."
-          - text: It raining today.
+            info: "It's heißt it is. „The dog loves it is ball“ ergibt keinen Sinn."
+          - text: it is
             correct: false
-            info: Es fehlt das Wort is. Mit Kurzform heißt der Satz It's raining.
-        explanation: Für „es regnet“ braucht der Satz it is, in der Kurzform it's.
+            info: "Hier gehört der Ball zum Hund. Dafür braucht der Satz its."
+        explanation: Its zeigt, wem etwas gehört. It's heißt it is.
         links:
           - title: Lernlandkarte Englisch · Kurzformen
             url: https://lernapps.net/apps/map/englisch/c/kurzformen/
@@ -108,22 +108,24 @@ blocks:
         task: Schreibe die Kurzform. Wenn es zwei richtige gibt, genügt eine.
         form: { case: ok, punctuation: ok }
         items:
-          - cue: we are
-            target: we're
+          - cue: who is
+            target: who's
             mistakes:
-              - answer: were
-                message: Were ist ein anderes Wort („waren“). Die Kurzform von we are braucht einen Apostroph.
-          - cue: does not
-            target: doesn't
+              - answer: whose
+                message: Whose heißt „wessen“. Who is schreibt man who's.
+              - answer: whos
+                message: Der Apostroph fehlt. Er steht dort, wo das i fehlt.
+          - cue: I am not
+            target: I'm not
             mistakes:
-              - answer: doesnt
-                message: Der Apostroph fehlt. Er steht dort, wo das o fehlt.
-              - answer: does'nt
-                message: Der Apostroph steht an der falschen Stelle. Er steht dort, wo das o fehlt.
-          - cue: we are not
-            target: (we aren't|we're not)
+              - answer: I amn't
+                message: Von I am not gibt es nur I'm not.
+              - answer: Im not
+                message: Der Apostroph fehlt.
+          - cue: he is not
+            target: (he isn't|he's not)
             mistakes:
-              - answer: we arent
+              - answer: he isnt
                 message: Der Apostroph fehlt. Er steht dort, wo das o fehlt.
         hint: Welche Buchstaben fallen weg? An dieser Stelle steht der Apostroph.
       - type: language-task
@@ -132,17 +134,17 @@ blocks:
         task: In jedem Satz ist die Kurzform falsch. Schreibe den Satz richtig.
         form: { case: ok, punctuation: ok }
         items:
-          - cue: Its raining today.
-            target: It's raining today.
+          - cue: Were late for school.
+            target: We're late for school.
             mistakes:
-              - answer: Its raining today.
-                message: Noch nicht richtig. Hier braucht der Satz it is, also eine Kurzform mit Apostroph.
-          - cue: We dont like tea.
-            target: We don't like tea.
+              - answer: Were late for school.
+                message: Were heißt „waren“. Für we are braucht man we're.
+          - cue: Doesnt Peter like tea?
+            target: Doesn't Peter like tea?
             mistakes:
-              - answer: We dont like tea.
-                message: Noch nicht richtig. Wo fehlt ein Buchstabe? Dort steht der Apostroph.
-        hint: Prüfe, ob in der Kurzform der Apostroph fehlt oder an der falschen Stelle steht.
+              - answer: Doesnt Peter like tea?
+                message: Wo fehlt ein Buchstabe? Dort steht der Apostroph.
+        hint: Prüfe, ob in der Kurzform der Apostroph fehlt.
       - type: language-task
         id: kurzformen-hoeren
         languages: { source: de, target: en }
@@ -159,12 +161,12 @@ blocks:
             mistakes:
               - answer: Whats in your bag today?
                 message: Der Apostroph fehlt. What's heißt what is.
-          - audio: whos-that-girl-with-ellie.mp3
-            target: Who's that girl with Ellie?
+          - audio: hows-mrs-parker-today.mp3
+            target: How's Mrs Parker today?
             mistakes:
-              - answer: Whos that girl with Ellie?
-                message: Der Apostroph fehlt. Who's heißt who is.
-        hint: Höre den Satz so oft, wie du willst. Das erste Wort ist eine Kurzform.
+              - answer: Hows Mrs Parker today?
+                message: Der Apostroph fehlt. How's heißt how is.
+        hint: Höre den Satz so oft, wie du willst.
   - type: section
     id: anwenden
     title: Sprich nach
@@ -176,8 +178,8 @@ blocks:
         items:
           - audio: youre-early-and-im-late-again.mp3
             text: You're early, and I'm late again.
-          - audio: we-arent-hungry-at-the-moment.mp3
-            text: We aren't hungry at the moment.
+          - audio: we-arent-hungry-this-morning.mp3
+            text: We aren't hungry this morning.
           - audio: ellie-doesnt-like-coffee-today.mp3
             text: Ellie doesn't like coffee today.
         hint: Sprich jede Kurzform wie ein Wort, ohne Pause in der Mitte.

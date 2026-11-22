@@ -73,7 +73,7 @@ Aufbau leicht → schwer: zuordnen/wählen → Lücke → schreiben mit Cue → 
 
 Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; andere stehen unten in „Wörter außerhalb von A1/A2“). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA), geöffnet am 2026-11-21: `https://en.wikipedia.org/wiki/Help:IPA/English` (Zeichen und Beispielwörter, britische Schreibung /əʊ/ statt /oʊ/, kein r nach Vokal in nicht-rhotischen Akzenten), `English plurals`, `Intonation (linguistics)`, `English orthography`. Nicht geprüft: Oxford- oder Cambridge-Wörterbuch (kein Zugriff), deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
-Wörter außerhalb von A1/A2 (auf der Seite erklärt): `klaenge/lautschrift`: keine (alle englischen Wörter der Seite gegen die Liste geprüft, 2026-11-21; Namen ausgenommen). Pig und chips stehen nicht in der Liste und werden nicht mehr abgefragt. Weitere Seiten: mit der Skriptprüfung gegen die Liste ergänzen.
+Wörter außerhalb von A1/A2 (auf der Seite erklärt): `klaenge/lautschrift`: keine (alle englischen Wörter der Seite gegen die Liste geprüft, 2026-11-21; Namen ausgenommen). Pig und chips stehen nicht in der Liste und werden nicht mehr abgefragt. Weitere Seiten: `silent-letters`, `rechtschreibung-endungen`, `kurzformen` und die Wiederholungsseiten: keine; `hop` ist erklärt („hüpfen“, auf `rechtschreibung-endungen`); alle Hörsätze wurden mit `scripts/pruefen.py` gegen die Liste geprüft. Neue Seiten: `python3 .agents/skills/app-content/scripts/pruefen.py` ausführen (prüft auch Dubletten und audio-texte.json).
 
 ## Hörliste (vor dem Veröffentlichen von einem Menschen anzuhören)
 
@@ -81,6 +81,18 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 
 | Datei (src/audio/) | Seite | Satz | erwartetes Wort/Laut | Prüfstand |
 |---|---|---|---|---|
+| `sophie-is-shopping-with-mrs-parker.mp3` | endungen/rechtschreibung-endungen | Sophie is shopping with Mrs Parker. | shopping /ʃɒpɪŋ/ | offen |
+| `amir-carries-two-bags-upstairs.mp3` | endungen/rechtschreibung-endungen | Amir carries two bags upstairs. | carries, bags | offen |
+| `peter-is-getting-a-new-bag-today.mp3` | endungen/rechtschreibung-endungen | Peter is getting a new bag today. | getting | offen |
+| `ellie-is-running-to-the-station.mp3` | endungen/rechtschreibung-endungen | Ellie is running to the station. | running | offen |
+| `amir-studies-english-in-the-evening.mp3` | endungen/rechtschreibung-endungen | Amir studies English in the evening. | studies | offen |
+| `peter-stayed-at-home-yesterday.mp3` | endungen/rechtschreibung-endungen | Peter stayed at home yesterday. | stayed /d/ | offen |
+| `wheres-peter-this-morning.mp3` | gespraech/kurzformen | Where's Peter this morning? | where's | offen |
+| `whats-in-your-bag-today.mp3` | gespraech/kurzformen | What's in your bag today? | what's | offen |
+| `youre-early-and-im-late-again.mp3` | gespraech/kurzformen | You're early, and I'm late again. | you're, I'm | offen |
+| `ellie-doesnt-like-coffee-today.mp3` | gespraech/kurzformen | Ellie doesn't like coffee today. | doesn't | offen |
+| `hows-mrs-parker-today.mp3` | gespraech/kurzformen | How's Mrs Parker today? | how's | offen |
+| `we-arent-hungry-this-morning.mp3` | gespraech/kurzformen | We aren't hungry this morning. | aren't | offen |
 | `sophie-has-a-new-shoe-today.mp3` | klaenge/lautschrift | Sophie has a new shoe today. | shoe /ʃ/ | offen |
 | `ellie-has-a-red-chair-again.mp3` | klaenge/lautschrift | Ellie has a red chair again. | chair /tʃ/ | offen |
 | `peter-likes-to-sing-together.mp3` | klaenge/lautschrift | Peter likes to sing together. | sing /ŋ/ | offen |
@@ -91,6 +103,12 @@ Die Stimme `bf_emma` wurde hier nicht angehört (die Entwicklung läuft ohne Ohr
 | `sophie-finds-a-big-green-shoe-upstairs.mp3` | klaenge/lautschrift | Sophie finds a big green shoe upstairs. | big /ɪ/, green /iː/, shoe /ʃ/ | offen |
 | `ellie-sings-with-amir-in-the-kitchen.mp3` | klaenge/lautschrift | Ellie sings with Amir in the kitchen. | sings /ŋ/, kitchen /tʃ/ | offen |
 | `sophie-and-peter-eat-cheese-together.mp3` | klaenge/lautschrift | Sophie and Peter eat cheese together. | cheese /tʃ/, /iː/ | offen |
+| `amir-listens-to-mrs-parker.mp3` | klaenge/silent-letters | Amir listens to Mrs Parker. | listens: t stumm | offen |
+| `sophie-climbs-the-big-tree-with-ellie.mp3` | klaenge/silent-letters | Sophie climbs the big tree with Ellie. | climbs: b stumm | offen |
+| `mr-hill-writes-a-long-text-today.mp3` | klaenge/silent-letters | Mr Hill writes a long text today. | writes: w stumm | offen |
+| `peter-talks-to-mrs-parker-every-morning.mp3` | klaenge/silent-letters | Peter talks to Mrs Parker every morning. | talks: l stumm | offen |
+| `amir-wrote-a-letter-yesterday.mp3` | klaenge/silent-letters | Amir wrote a letter yesterday. | wrote: w stumm | offen |
+| `ellie-fastens-her-bag-in-the-kitchen.mp3` | klaenge/silent-letters | Ellie fastens her bag in the kitchen. | fastens: t stumm | offen |
 
 ## Adding a chapter or round
 
@@ -126,3 +144,10 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Nach der Eingabe „drei“ in einem `number`-Feld meldet die App nur „Antworte zuerst“: die Aufgabe sagt „mit Ziffern“.
 - Höchstens vier Sätze je `speaking-task` zum Anhören; mehr wirkt wie viele Aufnahmeknöpfe.
 - Pig und chips stehen nicht im Grundwortschatz: nicht abfragen.
+- Wörter einer Aufgabe zu einem Muster folgen genau den Mustern der Tabelle darüber (stumme Buchstaben: kn, wr, mb, st, lk, gh), und die Wörter der Tabelle werden nicht abgefragt; ein Wort ohne Muster (answer, castle, two, hour) ist für Kinder nur zu raten.
+- Regeln der Schreibung (Verdoppeln, y → ie, e fällt weg) mit „meist“ oder „bei kurzen Wörtern“ formulieren: visit – visited, open – opened, show – showed, fix – fixed, see – seeing sind Ausnahmen.
+- Eine Aussage zur Silbenzahl (Kurzform = eine Silbe) stimmt nicht für isn't und doesn't; sagen: „als ein Wort, ohne Pause“.
+- Übungen zu einer Kurzform fragen nicht dieselben Paare wie die Zuordnung darüber; Diktate mit Kurzformen nehmen Formen, die nicht im Poster oder in anderen Übungen stehen.
+- Hinweise im Diktat verraten nicht, dass ein Apostroph fehlt („Das erste Wort ist eine Kurzform“).
+- Die Seite sagt nur, was die App prüft: „Du verstehst/schreibst …“, nicht „Du sprichst richtig“, weil nichts die Aussprache beurteilt.
+- Der Dev-Server (`npm run dev`) wird als Hintergrundaufgabe des Werkzeugs gestartet, sonst endet er mit der Shell.
