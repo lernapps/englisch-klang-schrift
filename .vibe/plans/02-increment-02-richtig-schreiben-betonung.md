@@ -214,10 +214,11 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
       changed entry. Else skip this task.
 - [x] Fill the retrospective.
 - [x] (skipped: Kein Push auf main ohne Erlaubnis; der Plan-Stand wird mit dem Branch increment/03-einfuehrungen-kuerzen und seiner Pull Request in main gebracht.) Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
-- [ ] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
+- [x] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
       says, without asking first, see it to "bestanden", then show the creator the pull request and its result. The
       entry did not change: tell the creator that the catalog updates the app by itself.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: Eintrag besteht (Orchestrator, PR #758); keine Änderung durch die Session.
+- [x] (skipped: Kein Push auf main ohne Erlaubnis; der Plan-Stand geht mit dem Branch increment/03-einfuehrungen-kuerzen und seiner Pull Request nach main.) If the plan changed since its last push, commit it on `main` and push again.
 
 ## Retrospective
 
