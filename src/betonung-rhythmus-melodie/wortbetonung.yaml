@@ -1,0 +1,220 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Welche Silbe ist betont?
+description: "Sophie und Amir chatten über ein Geschenk und eine Aufnahme. Du lernst, welche Silbe im englischen Wort betont wird, und wie die Betonung bei present und record zwischen Nomen und Verb wechselt."
+competencies: [wortbetonung]
+scope: "Die Seite zeigt die Betonung im Wort. Jedes Wort mit mehr als einer Silbe hat eine betonte Silbe, die lauter, länger und deutlicher klingt. In der Klangpartitur steht in der mittleren Zeile ein großer roter Punkt für die betonte und ein kleiner für die unbetonte Silbe, in der Lautschrift steht das Zeichen ˈ direkt vor der betonten Silbe. Bei Wortpaaren wie present und record wechselt die Betonung: Als Nomen ist die erste Silbe betont, als Verb die zweite. Nicht hier, weil sie auf anderen Seiten stehen: Betonung im Satz, schwache Formen, Bindungen, Melodie."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Mal present
+    blocks:
+      - type: text
+        text: "Sophie (13) schreibt abends mit Amir (13). Dabei fällt ihr etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: Mill-brook hat zwei."
+      - type: single-choice
+        id: wortbetonung-start
+        text: Wie viele Silben hat das englische Wort banana?
+        options:
+          - text: Drei
+            correct: true
+            info: "Ba-na-na: Man spricht drei Takte."
+          - text: Zwei
+            correct: false
+            info: "Zähle noch einmal beim Sprechen: ba-na-na."
+          - text: Vier
+            correct: false
+            info: Das Wort ist kürzer. Du kannst jede Silbe beim Sprechen mitklopfen.
+        explanation: banana hat drei Silben. Bei jeder klopfst du einmal.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, welche Silbe im englischen Wort betont ist, und liest das Zeichen ˈ in der Lautschrift."
+  - type: section
+    id: lesestueck
+    title: Der Chat
+    blocks:
+      - type: vocabulary
+        caption: Am Rand · Wörter aus dem Chat
+        languages: { source: de, target: en }
+        entries:
+          - target: present
+            source: das Geschenk · überreichen, vorstellen
+          - target: record
+            source: die Aufnahme · aufnehmen
+          - target: stress
+            source: die Betonung
+          - target: the same
+            source: das Gleiche
+      - type: text
+        text: |
+          **Amir:** hi Sophie! what are you doing?
+
+          **Sophie:** I'm making a record of my voice. Ellie's birthday is tomorrow and I sing a song for her
+
+          **Amir:** nice! what's the box on your desk?
+
+          **Sophie:** a present for Ellie! I want to present it at the party after the song
+      - type: text
+        text: |
+          **Amir:** wait. you said present two times. the first one sounded different
+
+          **Sophie:** yes! Mr Hill told us today: the word is the same, but the stress is not
+
+          **Amir:** like record? I record a song, but I also have an old record at home?
+
+          **Sophie:** exactly. ask Mr Hill tomorrow, he knows more pairs
+      - type: single-choice
+        id: wortbetonung-verstehen
+        text: Was hat Sophie für Ellie vorbereitet?
+        options:
+          - text: Ein Geschenk und ein Lied
+            correct: true
+            info: Sophie hat ein Geschenk in der Schachtel und singt ein Lied.
+          - text: Nur ein Geschenk
+            correct: false
+            info: Im Chat singt sie außerdem ein Lied.
+          - text: Eine Party für die ganze Klasse
+            correct: false
+            info: Von der Party ist die Rede, aber sie bereitet kein Fest vor.
+        explanation: Sophie bringt ein Geschenk mit und singt ein Lied für Ellie.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+      - type: single-choice
+        id: wortbetonung-belegen
+        text: Welche Zeile zeigt, dass die Betonung etwas verändert?
+        options:
+          - text: "Sophie: yes! Mr Hill told us today: the word is the same, but the stress is not"
+            correct: true
+            info: Sophie sagt selbst, dass das Wort gleich bleibt und die Betonung wechselt.
+          - text: "Amir: hi Sophie! what are you doing?"
+            correct: false
+            info: Das ist nur die Begrüßung.
+          - text: "Amir: nice! what's the box on your desk?"
+            correct: false
+            info: Amir fragt hier nach der Schachtel, nicht nach der Betonung.
+        explanation: In Sophies Zeile steht, dass sich die Betonung ändert, das Wort aber gleich bleibt.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+  - type: section
+    id: neu
+    title: Großer Punkt, kleiner Punkt
+    blocks:
+      - type: text
+        text: "In der mittleren Zeile der Klangpartitur steht über jeder Silbe ein Punkt. Der **große rote Punkt** zeigt die betonte Silbe: Sie klingt lauter, länger und deutlicher. Der **kleine Punkt** zeigt eine unbetonte Silbe. Das Zeichen /ə/ ist das **Schwa**, ein kurzer, dumpfer Laut. Mehr dazu auf der Seite über kleine Wörter. Die Wörter present als Nomen und als Verb haben dieselben Buchstaben, aber ihre Punkte stehen an verschiedenen Stellen."
+      - type: figure
+        image: images/partitur-wortbetonung-nomen.svg
+        alt: "Klangpartitur: present als Nomen, das Geschenk. Zwei Karten, ˈprez und ənt, über der ersten ein großer roter Punkt, über der zweiten ein kleiner."
+        caption: "present als Nomen: Die erste Silbe ist betont."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/partitur-wortbetonung-verb.svg
+        alt: "Klangpartitur: present als Verb, überreichen oder vorstellen. Zwei Karten, prɪ und ˈzent, über der ersten ein kleiner Punkt, über der zweiten ein großer roter."
+        caption: "present als Verb: Die zweite Silbe ist betont."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Eine Silbe ist betont:** Sie ist lauter, länger und deutlicher als die anderen.
+              - **In der Lautschrift** steht das Zeichen ˈ direkt vor der betonten Silbe.
+              - **Wortpaare** wie present und record: Als **Nomen** ist die **erste** Silbe betont, als **Verb** die **zweite**.
+              - Die unbetonte Silbe wird kurz und schwach gesprochen. Wer jede Silbe gleich stark spricht, wird schwerer verstanden.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: wortbetonung-nomen
+        text: "Im Satz „That is an insult.“ ist insult ein Nomen (die Beleidigung). Welche Silbe ist betont?"
+        options:
+          - text: Die erste Silbe
+            correct: true
+            info: Beim Nomen ist die erste Silbe betont.
+          - text: Die zweite Silbe
+            correct: false
+            info: Das gilt beim Verb.
+          - text: Beide Silben gleich stark
+            correct: false
+            info: Im Englischen ist in jedem Wort eine Silbe stärker.
+        explanation: Beim Nomen insult ist die erste Silbe betont, wie in ˈɪnsʌlt.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+      - type: matching
+        id: wortbetonung-zuordnen
+        text: Welche Lautschrift gehört zu welchem Wort? Achte auf das Zeichen ˈ.
+        pairs:
+          - left: a contest (Nomen, der Wettbewerb)
+            right: "/ˈkɒntest/"
+          - left: to permit (Verb, erlauben)
+            right: "/pəˈmɪt/"
+          - left: an import (Nomen, die Einfuhr)
+            right: "/ˈɪmpɔːt/"
+          - left: to increase (Verb, steigen)
+            right: "/ɪnˈkriːs/"
+        explanation: Beim Nomen steht ˈ vor der ersten Silbe, beim Verb vor der zweiten.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+      - type: multiple-choice
+        id: wortbetonung-verb
+        text: Bei welchen Sätzen ist die zweite Silbe von increase betont?
+        options:
+          - text: Prices increase every year.
+            correct: true
+            info: Hier ist increase ein Verb (steigen). Die zweite Silbe ist betont.
+          - text: We want to increase the speed.
+            correct: true
+            info: Nach to steht das Verb. Die zweite Silbe ist betont.
+          - text: There is an increase in the price.
+            correct: false
+            info: Hier ist increase ein Nomen (der Anstieg). Die erste Silbe ist betont.
+          - text: The increase is small.
+            correct: false
+            info: Nach the steht das Nomen. Die erste Silbe ist betont.
+        explanation: Das Verb betont die zweite Silbe, das Nomen die erste.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+      - type: number
+        id: wortbetonung-zaehlen
+        text: "Wie viele Silben hat das Wort yesterday? Schreibe die Zahl mit Ziffern."
+        answer: 3
+        tolerance: 0
+        mistakes:
+          - answer: 2
+            message: "Zähle beim Sprechen mit: yes-ter-day. Das sind drei Takte."
+        hint: Klopfe bei jedem Takt einmal auf den Tisch.
+        explanation: yes-ter-day hat drei Silben. Die erste ist betont.
+        links:
+          - title: Lernlandkarte Englisch · Wortbetonung
+            url: https://lernapps.net/apps/map/englisch/c/wortbetonung/
+  - type: section
+    id: anwenden
+    title: Sprich nach
+    blocks:
+      - type: speaking-task
+        id: wortbetonung-nachsprechen
+        language: en
+        task: Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu. Achte darauf, welche Silbe lauter ist.
+        items:
+          - audio: i-bought-a-present-for-sophie.mp3
+            text: I bought a present for Sophie.
+          - audio: we-present-the-show-tomorrow.mp3
+            text: We present the show tomorrow.
+          - audio: this-is-a-record-of-the-game-today.mp3
+            text: This is a record of the game today.
+          - audio: we-record-the-song-tomorrow.mp3
+            text: We record the song tomorrow.
+        hint: Beim Nomen ist die erste Silbe lauter, beim Verb die zweite.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie schreibt Amir: „Jetzt höre ich die Punkte überall.“ Als Nächstes geht es um Wörter, die im Satz zusammenrücken. Du übst Bindungen: Am Ende eines Wortes hängt manchmal ein Laut am nächsten Wort."

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Nicht notwendige Relativsätze noch einmal kurz, bevor Sophie von ihren Kommas liest.
+recap: englisch/relativsaetze-nicht-notwendig
+scope: "Die Seite wiederholt nur einen Baustein aus einem anderen Explainer: nicht notwendige Relativsätze mit Kommas und den Unterschied zu notwendigen Relativsätzen ohne Kommas. Neue Inhalte gibt es nicht, auch keine Übung. Wie man Kommas im Englischen setzt, kommt auf der nächsten Seite."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann nicht notwendige Relativsätze mit Kommas bilden und von notwendigen unterscheiden.** Das ist der Baustein „Nicht notwendige Relativsätze“. Du brauchst ihn gleich für die Kommas. Lies die Tabelle und prüfe in Gedanken, ob du den Unterschied kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Relativsätze mit und ohne Komma
+        header: [Art, Beispiel]
+        rows:
+          - [Notwendig, "The girl who sits there is my cousin."]
+          - [Nicht notwendig, "My cousin, who sits there, is eleven."]
+      - type: text
+        text: "Nicht sicher? Wiederhole es auf der Seite der Lernlandkarte: [Nicht notwendige Relativsätze](https://lernapps.net/apps/map/englisch/c/relativsaetze-nicht-notwendig/)."
+  - type: section
+    id: weiter
+    title: Was jetzt kommt
+    blocks:
+      - type: text
+        text: "Sophie (13) schreibt in der Schule einen Blogeintrag über ihr erstes Trimester in Millbrook. Mr Hill hat sie dazu gebeten und achtet auf die Kommas. Wann im Englischen ein Komma steht, liest du im Blog."

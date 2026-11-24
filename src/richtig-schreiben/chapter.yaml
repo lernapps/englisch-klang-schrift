@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Richtig schreiben
+summary: Sophie schreibt Postkarten und Blogeinträge für Mr Hill. Du liest Buchstabenverbindungen wie ee, ea und igh, unterscheidest Wörter, die gleich klingen, und setzt Kommas nach englischen Regeln.
+pages: [laut-buchstabe, das-brauchst-du, kommasetzung]
+selfAssessment:
+  pages:
+    - exercises:
+        - /richtig-schreiben/laut-buchstabe/#laut-buchstabe-zuordnen
+        - /richtig-schreiben/laut-buchstabe/#laut-buchstabe-satz
+        - /richtig-schreiben/laut-buchstabe/#laut-buchstabe-schreiben
+    - exercises:
+        - /richtig-schreiben/kommasetzung/#komma-setzen
+        - /richtig-schreiben/kommasetzung/#komma-notwendig

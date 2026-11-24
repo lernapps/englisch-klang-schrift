@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Betonung, Rhythmus und Melodie
+summary: Sophie und ihre Klasse hören, wie ein englischer Satz klingt. Du lernst, welche Silbe im Wort betont wird, wie Wörter ineinander übergehen, warum kleine Wörter schwach klingen, wie der Satzrhythmus entsteht und was die Melodie bei question tags verrät.
+pages: [wortbetonung, bindungen, schwache-formen, satzbetonung, das-brauchst-du, intonation-question-tags]
+selfAssessment:
+  pages:
+    - exercises:
+        - /betonung-rhythmus-melodie/wortbetonung/#wortbetonung-zuordnen
+        - /betonung-rhythmus-melodie/wortbetonung/#wortbetonung-zaehlen
+        - /betonung-rhythmus-melodie/bindungen/#bindungen-erkennen
+    - exercises:
+        - /betonung-rhythmus-melodie/bindungen/#bindungen-zaehlen
+        - /betonung-rhythmus-melodie/schwache-formen/#schwache-formen-stark
+        - /betonung-rhythmus-melodie/schwache-formen/#schwache-formen-zuordnen
+    - exercises:
+        - /betonung-rhythmus-melodie/satzbetonung/#satzbetonung-markieren
+        - /betonung-rhythmus-melodie/satzbetonung/#satzbetonung-zaehlen
+        - /betonung-rhythmus-melodie/intonation-question-tags/#tag-zustimmung
+        - /betonung-rhythmus-melodie/intonation-question-tags/#tag-erkennen

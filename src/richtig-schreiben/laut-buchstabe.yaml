@@ -1,0 +1,229 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Ein Laut, mehrere Schreibungen
+description: "Sophie schreibt eine Postkarte, und die Rechtschreibprüfung findet einen Fehler nicht. Du lernst typische Buchstabenverbindungen wie ee, ea und igh und unterscheidest Wörter, die gleich klingen."
+competencies: [laut-buchstabe]
+scope: "Die Seite zeigt den Weg vom Laut zur Schrift. Derselbe Laut hat mehrere Schreibungen: /iː/ schreibt man ee, ea oder e-e, /aɪ/ schreibt man igh, i-e oder y. Gleich klingende Wörter (see – sea, week – weak, write – right) unterscheidet nur die Schrift, und eine Rechtschreibprüfung findet sie nicht, weil beide Wörter echt sind. Gelernt wird, die Schreibung aus dem Zusammenhang zu wählen. Nicht hier, weil sie auf anderen Seiten stehen: Laute und Lautschrift (Kapitel 1), Kommas (nächste Seite), Betonung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Eine Postkarte für Mr Hill
+    blocks:
+      - type: text
+        text: "Mr Hill gibt der Klasse eine Aufgabe: Jede und jeder schreibt eine **Postkarte** vom Meer. Sophie (13) schreibt ihre am Handy und fragt Ellie (13) um Rat. Du kennst die Laute aus Kapitel 1: Du weißt, wie ein langes i klingt."
+      - type: single-choice
+        id: laut-buchstabe-start
+        text: Welches Zeichen steht für den langen Laut in sheep?
+        options:
+          - text: "/iː/"
+            correct: true
+            info: Der Doppelpunkt macht den Vokal lang. So hast du ship und sheep unterschieden.
+          - text: "/ɪ/"
+            correct: false
+            info: "Das ist das kurze i wie in ship."
+          - text: "/aɪ/"
+            correct: false
+            info: "Das ist ein Doppellaut wie in night. Er klingt wie „ai“."
+        explanation: Das lange i schreibt die Lautschrift /iː/.
+        links:
+          - title: Lernlandkarte Englisch · Vokale
+            url: https://lernapps.net/apps/map/englisch/c/vokale/
+      - type: text
+        text: "**Das kannst du danach:** Du liest Buchstabenverbindungen wie ee, ea und igh und weißt, welches von zwei gleich klingenden Wörtern in einen Satz gehört."
+  - type: section
+    id: lesestueck
+    title: Der Chat
+    blocks:
+      - type: vocabulary
+        caption: Am Rand · Wörter aus dem Chat
+        languages: { source: de, target: en }
+        entries:
+          - target: postcard
+            source: Postkarte
+          - target: spell checker
+            source: Rechtschreibprüfung
+          - target: due
+            source: fällig
+          - target: exists
+            source: existiert, gibt es
+          - target: fits
+            source: passt
+      - type: text
+        text: |
+          **Sophie:** omg Ellie, help! Mr Hill's postcard is due tomorrow
+
+          **Ellie:** what's wrong?
+
+          **Sophie:** I wrote "I can see the see from my window". My spell checker says it's fine.
+
+          **Ellie:** read it again. slowly
+      - type: text
+        text: |
+          **Sophie:** I can see the ... wait. SEA! not see
+
+          **Ellie:** yep. see is a real word too, so the spell checker is happy. it only checks if a word exists, not if it fits
+
+          **Sophie:** ok next line: "We eat meat on the beach". meet or meat?
+
+          **Ellie:** meat with ea, it's food. meet is when you see someone
+      - type: text
+        text: |
+          **Sophie:** so ee and ea can sound the same?
+
+          **Ellie:** often, yes. one sound, two spellings. and look: night, light, bright, tonight. four words, one sound, and the gh is silent
+
+          **Sophie:** ok, I check my postcard word by word. not only with the spell checker
+
+          **Ellie:** exactly. easy
+      - type: single-choice
+        id: laut-buchstabe-verstehen
+        text: Warum findet die Rechtschreibprüfung den Fehler in Sophies Satz nicht?
+        options:
+          - text: Sie prüft nur, ob ein Wort existiert.
+            correct: true
+            info: Die Prüfung sieht nur das einzelne Wort. Sie versteht den Satz nicht.
+          - text: Sie kennt das Wort sea nicht.
+            correct: false
+            info: Das Wort sea ist ein ganz normales Wort. Die Prüfung kennt es.
+          - text: Sie prüft nur Wörter mit ee.
+            correct: false
+            info: Die Prüfung prüft jedes Wort, aber immer einzeln.
+        explanation: Eine Rechtschreibprüfung prüft, ob ein Wort existiert, nicht ob es in den Satz passt.
+        links:
+          - title: Lernlandkarte Englisch · Laut und Buchstabe
+            url: https://lernapps.net/apps/map/englisch/c/laut-buchstabe/
+      - type: single-choice
+        id: laut-buchstabe-belegen
+        text: Welche Zeile im Chat zeigt, dass zwei verschiedene Schreibungen gleich klingen können?
+        options:
+          - text: "Ellie: often, yes. one sound, two spellings."
+            correct: true
+            info: Ellie sagt es selbst. Ein Laut, zwei Schreibungen.
+          - text: "Ellie: read it again. slowly"
+            correct: false
+            info: Das ist ein Rat. Von Lauten steht in dieser Zeile nichts.
+          - text: "Sophie: ok, I check my postcard word by word."
+            correct: false
+            info: Das ist Sophies Plan. Von Lauten steht hier nichts.
+        explanation: In dieser Zeile sagt Ellie, dass ein Laut zwei Schreibungen haben kann.
+        links:
+          - title: Lernlandkarte Englisch · Laut und Buchstabe
+            url: https://lernapps.net/apps/map/englisch/c/laut-buchstabe/
+  - type: section
+    id: neu
+    title: Vom Laut zur Schrift
+    blocks:
+      - type: text
+        text: "In Kapitel 1 bist du von der Schrift zum Laut gegangen. Hier gehst du den Weg zurück: Ein Laut, eine blaue **Karte**, kann mehrere Schreibungen haben. Das Bild zeigt sie als grüne Karten."
+      - type: figure
+        image: images/partitur-laut-buchstabe.svg
+        alt: "Zwei blaue Karten für Laute, iː und aɪ. Unter iː hängen drei grüne Karten: ee mit see, ea mit sea und e-e mit these. Unter aɪ hängen drei grüne Karten: igh mit night, i-e mit time und y mit my."
+        caption: "Zwei Laute, je drei Schreibungen. Unten steht je ein Beispielwort."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Oft, nicht immer:** Es gibt noch andere Schreibungen, zum Beispiel ie in field.
+              - **e-e und i-e:** Zwischen den beiden Buchstaben steht ein Konsonant, und das letzte e bleibt stumm.
+              - **Gleich klingende Wörter** unterscheidet nur die Schrift. Der Satz sagt dir, welches gemeint ist.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: laut-buchstabe-zuordnen
+        text: Welche Lautschrift gehört zu welchem Wort?
+        pairs:
+          - left: sleep
+            right: "/sliːp/"
+          - left: flight
+            right: "/flaɪt/"
+          - left: team
+            right: "/tiːm/"
+          - left: high
+            right: "/haɪ/"
+        explanation: ee und ea ergeben /iː/, igh ergibt /aɪ/. Im Wort high steht das gh am Ende.
+        links:
+          - title: Lernlandkarte Englisch · Laut und Buchstabe
+            url: https://lernapps.net/apps/map/englisch/c/laut-buchstabe/
+      - type: single-choice
+        id: laut-buchstabe-satz
+        text: "Welches Wort passt? I read a book every ___."
+        options:
+          - text: week
+            correct: true
+            info: Week heißt „Woche“. Jede Woche liest man ein Buch.
+          - text: weak
+            correct: false
+            info: Weak klingt gleich, heißt aber „schwach“.
+          - text: wake
+            correct: false
+            info: Wake heißt „aufwachen“ und klingt anders.
+        explanation: Week und weak klingen gleich. Der Satz sagt, dass „Woche“ gemeint ist.
+        links:
+          - title: Lernlandkarte Englisch · Laut und Buchstabe
+            url: https://lernapps.net/apps/map/englisch/c/laut-buchstabe/
+      - type: language-task
+        id: laut-buchstabe-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe das Wort. Die Lautschrift und die Bedeutung sagen dir, welches gemeint ist.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: "/wiːk/ · sieben Tage"
+            target: week
+            mistakes:
+              - answer: weak
+                message: Weak heißt „schwach“. Sieben Tage heißen week, mit ee.
+          - cue: "/wiːk/ · nicht stark"
+            target: weak
+            mistakes:
+              - answer: week
+                message: Week heißt „Woche“. Nicht stark heißt weak, mit ea.
+          - cue: "/bluː/ · eine Farbe"
+            target: blue
+            mistakes:
+              - answer: blew
+                message: Blew ist eine Form von blow („wehen“). Die Farbe heißt blue.
+        hint: Beide Wörter klingen gleich. Die Bedeutung entscheidet.
+      - type: language-task
+        id: laut-buchstabe-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: please-write-the-right-word-today.mp3
+            target: Please write the right word today.
+            mistakes:
+              - answer: Please right the write word today.
+                message: Write heißt „schreiben“, right heißt „richtig“. Der Satz sagt, welches Wort wohin gehört.
+          - audio: we-can-hear-the-band-outside.mp3
+            target: We can hear the band outside.
+            mistakes:
+              - answer: We can here the band outside.
+                message: Here heißt „hier“. Hören heißt hear, mit ea.
+        hint: Höre den Satz so oft, wie du willst.
+  - type: section
+    id: anwenden
+    title: Deine Postkarte
+    blocks:
+      - type: open-task
+        id: laut-buchstabe-postkarte
+        task: "Schreibe die Postkarte von Mr Hills Aufgabe in drei bis vier englischen Sätzen. Verwende mindestens zwei Wörter aus der Übung, die gleich klingen wie ein anderes Wort. Prüfe jedes Wort."
+        points:
+          - text: In den Sätzen stehen zwei Wörter, die man leicht verwechselt, in der richtigen Schreibung.
+            source: /richtig-schreiben/laut-buchstabe/#neu
+          - text: Du hast jedes dieser Wörter noch einmal mit dem Zusammenhang des Satzes geprüft.
+            source: /richtig-schreiben/laut-buchstabe/#lesestueck
+          - text: Es sind ganze Sätze.
+            kind: form
+        solution: |
+          Dear Mum, I can see the sea from my window. The weather is good this week. I eat a piece of cake every day. See you soon, Sophie.
+        hint: Prüfe jedes Wort.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophie schickt Mr Hill ihre Postkarte. Er schreibt zurück: Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Er bittet Sophie, über ihr erstes Trimester einen Blog zu schreiben, und achtet dabei auf die Kommas. Auf den nächsten Seiten lernst du, wann im Englischen ein Komma steht."

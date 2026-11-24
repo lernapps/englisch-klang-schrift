@@ -13,11 +13,11 @@ def svg(w, h, title, body, defs=""):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img">\n  <title>{e(title)}</title>\n'
             f'  {defs}\n  <rect width="{w}" height="{h}" fill="{BG}"/>\n{body}</svg>\n')
 
-def partitur(title, cols, top="legende", mid="legende", note=None):
+def partitur(title, cols, top="legende", mid="legende", note=None, bogen=None, compact=False):
     """cols: Liste von (Lautschrift, Schreibung, stumm). stumm: Zeichen der Schreibung, die grau gesetzt werden (Position als Index-Liste).
     top: "legende" (gestrichelter Rahmen, kommt später) oder Liste "up"/"down"/None je Spalte.
     mid: "legende" (gestrichelter Rahmen, kommt später)."""
-    h = 230
+    h = 250 if bogen else 230
     b = []
     b.append(f'<text x="6" y="42" {F} font-size="22" fill="{GREY}">Melodie</text>')
     b.append(f'<text x="6" y="104" {F} font-size="22" fill="{GREY}">Betonung</text>')
@@ -28,8 +28,8 @@ def partitur(title, cols, top="legende", mid="legende", note=None):
     if mid == "legende":
         b.append(f'<rect x="130" y="78" width="342" height="34" rx="8" fill="none" stroke="{GREY}" stroke-dasharray="6 4"/>'
                  f'<text x="301" y="101" text-anchor="middle" {F} font-size="20" fill="{GREY}">kommt später</text>')
-    widths = [max(76, 17 * len(c[0] or "–") + 44) for c in cols]
-    gap = 10
+    widths = [max(50, 12 * len(c[0] or "–") + 22) for c in cols] if compact else [max(76, 17 * len(c[0] or "–") + 44) for c in cols]
+    gap = 6 if compact else 10
     x = 130 + max(0, (342 - sum(widths) - gap * (len(cols) - 1)) / 2)
     xs = []
     for (ipa, text, silent), w in zip(cols, widths):
@@ -43,6 +43,16 @@ def partitur(title, cols, top="legende", mid="legende", note=None):
         spans = "".join(f'<tspan fill="{GREY}">{e(ch)}</tspan>' if i in (silent or []) else e(ch) for i, ch in enumerate(text))
         b.append(f'<text x="{x + w / 2:.0f}" y="208" text-anchor="middle" {F} font-size="22" fill="{INK}">{spans}</text>')
         x += w + gap
+    if isinstance(mid, list):
+        for cx, d in zip(xs, mid):
+            if d == "big":
+                b.append(f'<circle cx="{cx:.0f}" cy="95" r="14" fill="{RED}"/>')
+            elif d == "small":
+                b.append(f'<circle cx="{cx:.0f}" cy="95" r="6" fill="{INK}"/>')
+    if bogen:
+        for i, j in bogen:
+            x1, x2 = xs[i] + 6, xs[j] - 6
+            b.append(f'<path d="M{x1:.0f} 218 Q{(x1 + x2) / 2:.0f} 246 {x2:.0f} 218" stroke="{RED}" stroke-width="4" fill="none" stroke-linecap="round"/>')
     if isinstance(top, list):
         for cx, d in zip(xs, top):
             if d == "up":
@@ -116,6 +126,64 @@ def verschmelzen(title, a, b, c):
 VERSCHMELZEN = {
     "partitur-kurzformen": ("Klangpartitur mit einer Zeile Laute: die Karte ʃiː für she und die Karte ɪz für is werden zu einer Karte ʃiːz für she's",
                             ("ʃiː", "she"), ("ɪz", "is"), ("ʃiːz", "she's")),
+}
+
+
+def umgekehrt(title, groups):
+    """Vom Laut zur Schrift: je Gruppe eine blaue Laut-Karte oben und darunter grüne Karten mit den Schreibungen und je einem Beispielwort."""
+    n = len(groups)
+    h = 70 + 3 * 54 + 30
+    body = []
+    body.append(f'<text x="6" y="42" {F} font-size="22" fill="{INK}">Laute</text>')
+    body.append(f'<text x="6" y="130" {F} font-size="22" fill="{INK}">Schrift</text>')
+    colw = (480 - 100) / n
+    lines, cards = [], []
+    for gi, (ipa, spell) in enumerate(groups):
+        cx = 100 + colw * gi + colw / 2
+        cards.append(f'<rect x="{cx - 50:.0f}" y="14" width="100" height="48" rx="8" fill="{BLUE}"/>'
+                     f'<text x="{cx:.0f}" y="46" text-anchor="middle" {F} font-size="26" fill="#fff">{e(ipa)}</text>')
+        lines.append(f'<path d="M{cx:.0f} 62 L{cx:.0f} {82 + (len(spell) - 1) * 54 + 22}" stroke="{GREY}" stroke-width="2" fill="none"/>')
+        for k, (letters, word) in enumerate(spell):
+            y = 82 + k * 54
+            cards.append(f'<rect x="{cx - 80:.0f}" y="{y}" width="160" height="44" rx="8" fill="{GREEN}"/>'
+                         f'<text x="{cx:.0f}" y="{y + 29}" text-anchor="middle" {F} font-size="22" fill="#fff">{e(letters)} · {e(word)}</text>')
+    body.extend(lines)
+    body.extend(cards)
+    return svg(480, h, title, "\n".join("  " + l for l in body) + "\n")
+
+
+UMGEKEHRT = {
+    "partitur-laut-buchstabe": ("Ein Laut, mehrere Schreibungen: Die blaue Karte iː hat drei grüne Karten ee (see), ea (sea) und e-e (these). Die blaue Karte aɪ hat drei grüne Karten igh (night), i-e (time) und y (my)",
+                                [("iː", [("ee", "see"), ("ea", "sea"), ("e-e", "these")]), ("aɪ", [("igh", "night"), ("i-e", "time"), ("y", "my")])]),
+}
+
+
+def satzband(title, rows):
+    """Sätze als Karten: ein Satzteil je grüne Karte; ein rotes Komma in der Lücke ist eine hörbare Pause.
+    rows: Liste von (Titel, [Teile]); ein Teil ist Text oder "," für eine Pause (Komma)."""
+    h = 40 + len(rows) * 96
+    body = []
+    for ri, (label, parts) in enumerate(rows):
+        y = 12 + ri * 96
+        body.append(f'<text x="8" y="{y + 18}" {F} font-size="18" fill="{GREY}">{e(label)}</text>')
+        x = 8
+        for part in parts:
+            if part == ",":
+                body.append(f'<text x="{x + 2}" y="{y + 66}" {F} font-size="40" font-weight="bold" fill="{RED}">,</text>')
+                x += 22
+            else:
+                w = max(40, 8.5 * len(part) + 18)
+                body.append(f'<rect x="{x}" y="{y + 30}" width="{w}" height="46" rx="8" fill="{GREEN}"/>'
+                            f'<text x="{x + w / 2:.0f}" y="{y + 60}" text-anchor="middle" {F} font-size="18" fill="#fff">{e(part)}</text>')
+                x += w + 6
+    return svg(480, h, title, "\n".join("  " + l for l in body) + "\n")
+
+
+SATZBAND = {
+    "satzband-komma": ("Drei Sätze als Karten. Erste Reihe: Last summer, rotes Komma, we went to Wales. Zweite Reihe: My brother, rotes Komma, who lives in London, rotes Komma, is a pilot. Dritte Reihe ohne Komma: The boy who lives next door is my friend",
+                       [("Einleitung, dann Komma", ["Last summer", ",", "we went to Wales"]),
+                        ("Nicht notwendiger Relativsatz: zwei Kommas", ["My brother", ",", "who lives in London", ",", "is a pilot"]),
+                        ("Notwendiger Relativsatz: kein Komma", ["The boy who lives next door", "is my friend"])]),
 }
 
 
@@ -200,13 +268,46 @@ SZENEN["szene-intonation-fragen"] = (
     bubble(10, 8, 230, "Is it big?", 70) + bubble(270, 8, 230, "It is big.", 330))
 
 
+# Kapitel 5: Betonung (mittlere Zeile): großer roter Punkt = betont, kleiner dunkler Punkt = unbetont
+PARTITUREN["partitur-wortbetonung-nomen"] = (
+    "Klangpartitur: das Hauptwort present mit zwei Karten, ˈprez und ənt; über der ersten Karte ein großer roter Punkt, über der zweiten ein kleiner",
+    [("ˈprez", "pre", None), ("ənt", "sent", None)], [None] * 7, ["big", "small"], {"compact": True})
+PARTITUREN["partitur-wortbetonung-verb"] = (
+    "Klangpartitur: das Verb present mit zwei Karten, prɪ und ˈzent; über der ersten Karte ein kleiner Punkt, über der zweiten ein großer roter",
+    [("prɪ", "pre", None), ("ˈzent", "sent", None)], [None] * 7, ["small", "big"], {"compact": True})
+PARTITUREN["partitur-bindung-konsonant"] = (
+    "Klangpartitur: an apple mit vier Karten ə, n, ˈæ und pl; ein roter Bogen verbindet das n mit dem folgenden Vokal",
+    [("ə", "a", None), ("n", "n", None), ("ˈæ", "ap", None), ("pl", "ple", None)], [None] * 7, ["small", None, "big", "small"], {"compact": True, "bogen": [(1, 2)]})
+PARTITUREN["partitur-bindung-r"] = (
+    "Klangpartitur: far away mit vier Karten fɑː, r, ə und weɪ; ein roter Bogen verbindet das r mit dem folgenden Laut",
+    [("fɑː", "far", None), ("r", "(r)", None), ("ə", "a", None), ("ˈweɪ", "way", None)], [None] * 7, ["small", None, "small", "big"], {"compact": True, "bogen": [(1, 2)]})
+PARTITUREN["partitur-schwache-formen"] = (
+    "Klangpartitur: and mit zwei Karten, einmal stark, ænd, einmal schwach, ən; beim schwachen Wort ein kleiner Punkt",
+    [("ænd", "and", None), ("ən", "and", None)], [None] * 7, ["big", "small"], {"compact": True})
+PARTITUREN["partitur-satzbetonung"] = (
+    "Klangpartitur: der Satz Go to the shop mit vier Karten; großer roter Punkt bei go und shop, kleiner Punkt bei to und the",
+    [("ˈɡəʊ", "go", None), ("tə", "to", None), ("ðə", "the", None), ("ˈʃɒp", "shop", None)],
+    [None] * 7, ["big", "small", "small", "big"], {"compact": True})
+
+
+PARTITUREN["partitur-tag-steigt"] = (
+    "Klangpartitur: der Satz Its cold, isnt it mit vier Karten; über dem Tag am Ende zeigt ein roter Pfeil nach oben",
+    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "up"], ["small", "big", "big", "small"], {"compact": True})
+PARTITUREN["partitur-tag-faellt"] = (
+    "Klangpartitur: der Satz Its cold, isnt it mit vier Karten; über dem Tag am Ende zeigt ein grüner Pfeil nach unten",
+    [("ɪts", "It's", None), ("kəʊld", "cold,", None), ("ˈɪznt", "isn't", None), ("ɪt", "it?", None)], [None, None, None, "down"], ["small", "big", "big", "small"], {"compact": True})
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
-    for name, (title, cols, top, mid) in PARTITUREN.items():
-        open(os.path.join(OUT, name + ".svg"), "w").write(partitur(title, cols, top, mid))
+    for name, (title, cols, top, mid, *kw) in PARTITUREN.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(partitur(title, cols, top, mid, **(kw[0] if kw else {})))
     open(os.path.join(OUT, "zunge-th.svg"), "w").write(zunge("Zwei Zeichnungen der Zunge: links liegt die Zungenspitze zwischen den oberen und unteren Zähnen (th), rechts hinter den oberen Zähnen (s)"))
     for name, (title, a, b, c) in VERSCHMELZEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(verschmelzen(title, a, b, c))
+    for name, (title, rows) in SATZBAND.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(satzband(title, rows))
+    for name, (title, groups) in UMGEKEHRT.items():
+        open(os.path.join(OUT, name + ".svg"), "w").write(umgekehrt(title, groups))
     for name, (title, rows) in WERKSTAETTEN.items():
         open(os.path.join(OUT, name + ".svg"), "w").write(werkstatt(title, rows))
     for name, (title, figs, extra) in SZENEN.items():

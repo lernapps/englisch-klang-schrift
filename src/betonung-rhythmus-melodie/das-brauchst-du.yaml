@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Question tags noch einmal kurz und die Melodie der Fragen aus Kapitel 3, bevor Sophie und Ellie im Chat zeigen, was die Stimme bei einem Tag verrät.
+recap: englisch/question-tags
+scope: "Die Seite wiederholt nur einen Baustein aus einem anderen Explainer: Question tags, also das kurze Anhängsel am Satzende (It's cold, isn't it?), mit be, do und did. Dazu wird die Melodie der Fragen aus Kapitel 3 in einem Satz erinnert. Neue Inhalte gibt es nicht, auch keine Übung. Was die Stimme am question tag bedeutet, kommt auf der nächsten Seite."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann an eine Aussage ein question tag anhängen (It's cold, isn't it?), auch mit do und did.** Das ist der Baustein „Question tags“. Du brauchst ihn gleich für die Melodie. Lies die Tabelle und prüfe in Gedanken, ob du die Regel kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Question tags
+        header: [Aussage, Mit Tag]
+        rows:
+          - [positiv, "It's cold, isn't it?"]
+          - [negativ, "It isn't cold, is it?"]
+          - [simple present, "Peter plays football, doesn't he?"]
+          - [simple past, "She came late, didn't she?"]
+      - type: text
+        text: "Nicht sicher? Wiederhole es auf der Seite der Lernlandkarte: [Question tags](https://lernapps.net/apps/map/englisch/c/question-tags/)."
+  - type: section
+    id: kapitel-drei
+    title: Das kennst du aus Kapitel 3
+    blocks:
+      - type: text
+        text: "In der oberen Zeile der **Klangpartitur** zeigt ein **Pfeil**, wohin die Stimme am Satzende geht. Bei einer Frage mit Ja oder Nein steigt sie, bei einer Aussage fällt sie (siehe [Wohin geht die Stimme?](/gespraech/intonation-fragen/)). Genau diesen Pfeil brauchst du gleich beim Tag."
+  - type: section
+    id: weiter
+    title: Was jetzt kommt
+    blocks:
+      - type: text
+        text: "Sophie schreibt mit Ellie über den Test am Freitag. Ellie merkt, dass Sophie manchmal nur bestätigen lassen will, was sie schon weiß. Das hört man an der Stimme, am question tag."

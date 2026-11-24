@@ -1,0 +1,226 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Klopfe den Rhythmus
+description: "Sophie schickt ihrer Klasse in Deutschland eine Sprachnachricht. Du lernst, welche Wörter im englischen Satz betont werden, und warum ein Satz einen Rhythmus hat."
+competencies: [satzbetonung]
+scope: "Die Seite zeigt die Betonung im Satz. Wörter mit Inhalt (Nomen, Verben, Adjektive, Adverbien, Fragewörter) werden betont, kleine Funktionswörter wie a, the, to, and, of sind schwach. Die betonten Silben kommen ungefähr im gleichen Abstand, und die unbetonten rücken dazwischen zusammen. In der Klangpartitur zeigen große Punkte die betonten Wörter. Nicht hier, weil sie auf anderen Seiten stehen: Betonung im einzelnen Wort, schwache Formen im Einzelnen, Bindungen und die Melodie am Satzende."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophies Sprachnachricht
+    blocks:
+      - type: text
+        text: "Sophie (13) schickt ihrer alten Klasse in Deutschland eine Sprachnachricht. Mr Hill hört sie sich vorher an und sagt: „Dein Satzrhythmus ist schon gut.“ Du kennst die Betonung im Wort und die schwachen Formen. Jetzt geht es um die Betonung im **ganzen Satz**."
+      - type: single-choice
+        id: satzbetonung-start
+        text: "Welche Wörter betonst du im deutschen Satz „Ich habe einen großen Hund“ am stärksten?"
+        options:
+          - text: großen, Hund
+            correct: true
+            info: Diese Wörter tragen die Bedeutung.
+          - text: Ich, einen
+            correct: false
+            info: Diese kleinen Wörter sind im Deutschen leiser.
+          - text: Alle Wörter gleich
+            correct: false
+            info: Dann klingt der Satz wie bei einem Roboter.
+        explanation: Im Englischen ist es genauso.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, welche Wörter im englischen Satz betont werden, und sprichst Sätze mit dem passenden Rhythmus."
+  - type: section
+    id: lesestueck
+    title: Die Nachricht
+    blocks:
+      - type: vocabulary
+        caption: Am Rand · Wörter aus der Nachricht
+        languages: { source: de, target: en }
+        entries:
+          - target: rhythm
+            source: der Rhythmus
+          - target: tap
+            source: klopfen
+          - target: castle
+            source: das Schloss
+          - target: photos
+            source: die Fotos
+      - type: text
+        text: |
+          **Hi everyone!**
+
+          Hi from Millbrook! The weather is cold and wet, but the people are warm and kind.
+
+          Every morning I walk to school with Ellie and Peter. We eat toast and drink tea.
+      - type: text
+        text: |
+          After lunch we have English with Mr Hill. He says my sentences have a nice rhythm now. I listen carefully, and I tap the strong words with my finger.
+
+          Next week we visit a castle. I will send you photos!
+
+          Bye for now, Sophie
+      - type: single-choice
+        id: satzbetonung-verstehen
+        text: Was macht Sophie, um den Rhythmus zu üben?
+        options:
+          - text: Sie klopft bei den betonten Wörtern mit dem Finger.
+            correct: true
+            info: Das steht in ihrer Nachricht.
+          - text: Sie singt die Sätze.
+            correct: false
+            info: Davon steht nichts da.
+          - text: Sie schreibt alle Wörter auf Karten.
+            correct: false
+            info: Sie klopft nur.
+        explanation: Sophie klopft bei den betonten Wörtern.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+      - type: single-choice
+        id: satzbetonung-belegen
+        text: Welche Zeile sagt, was Mr Hill über Sophies Sätze meint?
+        options:
+          - text: "He says my sentences have a nice rhythm now."
+            correct: true
+            info: Mr Hill lobt Sophies Rhythmus.
+          - text: "Next week we visit a castle."
+            correct: false
+            info: Das ist ein Plan für nächste Woche.
+          - text: "We eat toast and drink tea."
+            correct: false
+            info: Das beschreibt das Frühstück.
+        explanation: Mr Hill lobt den Rhythmus.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+  - type: section
+    id: neu
+    title: Betonte und leise Wörter
+    blocks:
+      - type: text
+        text: "Im englischen Satz tragen die Wörter mit Inhalt die Betonung: Nomen, Verben, Adjektive, Adverbien (wie today) und Fragewörter. Kleine Wörter wie a, the, to, and und of sind schwach. In der Klangpartitur zeigen große rote Punkte die betonten Wörter."
+      - type: figure
+        image: images/partitur-satzbetonung.svg
+        alt: "Klangpartitur: der Satz Go to the shop mit vier Karten. Große rote Punkte über go und shop, kleine Punkte über to und the."
+        caption: "Go to the shop: Zwei betonte Wörter, zwei schwache."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Dadurch entsteht ein **Rhythmus**: Die betonten Wörter kommen ungefähr im gleichen Abstand. Stehen zwischen ihnen mehr kleine Wörter, sprichst du diese schneller. So wird ein langer Satz nicht langsamer."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Betont** sind Nomen, Verben, Adjektive, Adverbien und Fragewörter. Sie tragen die Bedeutung.
+              - **Unbetont** sind kleine Wörter wie a, the, to, and, of.
+              - **Rhythmus:** Die betonten Wörter kommen ungefähr im gleichen Abstand. Kleine Wörter dazwischen sprichst du schneller.
+              - Wer jedes Wort gleich betont, klingt wie ein Roboter.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: satzbetonung-markieren
+        text: "Welche Wörter sind im Satz „The boy eats a big apple.“ betont?"
+        options:
+          - text: boy
+            correct: true
+            info: Nomen sind betont.
+          - text: eats
+            correct: true
+            info: Verben sind betont.
+          - text: big
+            correct: true
+            info: Adjektive sind betont.
+          - text: apple
+            correct: true
+            info: Nomen sind betont.
+          - text: the
+            correct: false
+            info: The ist ein kleines Wort und schwach.
+          - text: a
+            correct: false
+            info: A ist ein kleines Wort und schwach.
+        explanation: The und a sind schwach.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+      - type: number
+        id: satzbetonung-zaehlen
+        text: "Wie viele betonte Wörter hat der Satz „Amir drinks the hot tea.“? Schreibe die Zahl mit Ziffern."
+        answer: 4
+        tolerance: 0
+        mistakes:
+          - answer: 5
+            message: Das Wort the ist ein kleines Wort. Es ist schwach.
+        hint: Suche Nomen, Verben und Adjektive.
+        explanation: Amir, drinks, hot und tea sind betont.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+      - type: single-choice
+        id: satzbetonung-rhythmus
+        text: "Der Satz „Dogs eat bones.“ hat drei betonte Wörter. Der Satz „The dogs are eating the bones.“ hat auch drei. Wie lange dauern beide ungefähr?"
+        options:
+          - text: Ungefähr gleich lang
+            correct: true
+            info: Die kleinen Wörter werden schneller gesprochen.
+          - text: Der zweite Satz dauert viel länger.
+            correct: false
+            info: Er hat mehr Wörter, aber die kleinen sind schnell.
+          - text: Der erste Satz dauert länger.
+            correct: false
+            info: Beide haben gleich viele betonte Wörter.
+        explanation: Es zählen die betonten Wörter, nicht alle Wörter.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+      - type: single-choice
+        id: satzbetonung-frage
+        text: "Peter fragt: „Where is my bag?“ Welche Wörter sind betont?"
+        options:
+          - text: where, bag
+            correct: true
+            info: Fragewort und Nomen sind betont.
+          - text: is, my
+            correct: false
+            info: Das sind kleine Wörter. Sie sind schwach.
+          - text: where, is, my, bag
+            correct: false
+            info: Dann klingt der Satz wie ein Roboter.
+        explanation: Fragewort und Nomen sind betont.
+        links:
+          - title: Lernlandkarte Englisch · Satzbetonung
+            url: https://lernapps.net/apps/map/englisch/c/satzbetonung/
+  - type: section
+    id: anwenden
+    title: Sprich im Rhythmus
+    blocks:
+      - type: speaking-task
+        id: satzbetonung-nachsprechen
+        language: en
+        task: "Höre den Satz und nimm dich auf. Höre dich an und bewerte dich selbst. Die App hört nicht zu. Klopfe bei den betonten Wörtern mit."
+        items:
+          - audio: sophie-wants-to-go-to-the-shop-today.mp3
+            text: Sophie wants to go to the shop today.
+        hint: Klopfe bei Sophie, wants, go, shop und today.
+      - type: open-task
+        id: satzbetonung-nachricht
+        task: "Schreibe eine kurze Sprachnachricht von drei englischen Sätzen über deinen Tag. Unterstreiche in jedem Satz die betonten Wörter. Sprich die Nachricht laut und klopfe mit. Schreibe auf Deutsch einen Satz dazu: Welche Wörter hast du schnell gesprochen?"
+        points:
+          - text: Du hast in jedem Satz die betonten Wörter unterstrichen.
+            source: /betonung-rhythmus-melodie/satzbetonung/#neu
+          - text: Du hast kleine Wörter wie a, the oder to nicht unterstrichen.
+            source: /betonung-rhythmus-melodie/satzbetonung/#neu
+          - text: Du nennst die Wörter, die du schnell gesprochen hast.
+            kind: form
+        solution: |
+          I get up at seven. I eat cereal and drink milk. I walk to school with my friend. Schnell gesprochen: at, and, to, with, my.
+        hint: Nomen und Verben sind betont.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Sophies Nachricht ist abgeschickt. Auf den nächsten Seiten geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?"

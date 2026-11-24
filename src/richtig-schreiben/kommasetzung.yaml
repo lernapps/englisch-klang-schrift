@@ -1,0 +1,204 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wann steht ein Komma?
+description: "Sophie schreibt einen Blog über ihr erstes Trimester in Millbrook. Du lernst, wann im Englischen ein Komma steht: nach einer Einleitung, bei nicht notwendigen Relativsätzen und in Aufzählungen."
+competencies: [kommasetzung]
+scope: "Die Seite zeigt Kommas nach englischen Regeln. Ein Komma steht nach einer einleitenden Zeit-, Orts- oder Wortgruppe am Satzanfang (Last summer, we went to Wales), vor und nach einem nicht notwendigen Relativsatz (My brother, who lives in London, is a pilot), zwischen den Gliedern einer Aufzählung, aber im britischen Englisch meist nicht vor and. Ein notwendiger Relativsatz hat keine Kommas, und vor einem that-Satz steht kein Komma. Ein Komma zeigt eine Pause, die man auch hört. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der Relativsätze selbst, andere Satzzeichen, Betonung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill liest Sophies Blog
+    blocks:
+      - type: text
+        text: "Mr Hill liest die Blogeinträge seiner Klasse und achtet auf die Kommas. Du kennst nicht notwendige Relativsätze aus der Wiederholung: Man kann sie weglassen, ohne dass sich ändert, wer gemeint ist."
+      - type: single-choice
+        id: komma-start
+        text: In welchem Satz kann man den Relativsatz weglassen, ohne dass sich ändert, wer gemeint ist?
+        options:
+          - text: "My aunt, who lives in Leeds, is a nurse."
+            correct: true
+            info: "Der Relativsatz gibt nur eine Zusatzinformation."
+          - text: "The woman who lives next door is a nurse."
+            correct: false
+            info: "Ohne ihn weiß man nicht, welche Frau gemeint ist."
+          - text: "A girl who speaks French joined our class."
+            correct: false
+            info: "Er sagt, welches Mädchen kam."
+        explanation: Ein nicht notwendiger Relativsatz steht zwischen Kommas.
+        links:
+          - title: Lernlandkarte Englisch · Kommasetzung
+            url: https://lernapps.net/apps/map/englisch/c/kommasetzung/
+      - type: text
+        text: "**Das kannst du danach:** Du setzt Kommas im Englischen nach den Regeln und erkennst, wann kein Komma steht."
+  - type: section
+    id: lesestueck
+    title: Der Blog
+    blocks:
+      - type: vocabulary
+        caption: Am Rand · Wörter aus dem Blog
+        languages: { source: de, target: en }
+        entries:
+          - target: host mother
+            source: Gastmutter
+          - target: pancakes
+            source: Pfannkuchen
+          - target: honestly
+            source: ehrlich gesagt
+          - target: strange
+            source: seltsam, ungewohnt
+      - type: text
+        text: |
+          **My first term in Millbrook**
+
+          On Monday, I wrote my first test in English. Honestly, it was easier than I thought!
+
+          At first, everything in Millbrook felt strange. The buses are red, the milk comes in bottles and people say sorry all the time.
+      - type: text
+        text: |
+          My host mother, Mrs Parker, who makes the best pancakes in town, helped me a lot. Her son Peter, who is nine, shows me the way to school every morning.
+
+          In my class, I sit next to Ellie, who is also my host sister. The teacher who teaches us English is Mr Hill. He says that my English gets better every week.
+      - type: text
+        text: |
+          Last Friday, we had a school party with music, games and lots of cake. After the party, we cleaned the classroom together.
+
+          Now, I really like it here.
+      - type: single-choice
+        id: komma-verstehen
+        text: Wer zeigt Sophie jeden Morgen den Weg zur Schule?
+        options:
+          - text: Peter, Mrs Parkers Sohn
+            correct: true
+            info: Im Blog zeigt Peter den Weg.
+          - text: Ellie, ihre Gastschwester
+            correct: false
+            info: Ellie sitzt in Sophies Klasse.
+          - text: Mr Hill, der Lehrer
+            correct: false
+            info: Mr Hill unterrichtet Englisch.
+        explanation: Peter, Mrs Parkers Sohn, zeigt Sophie den Weg.
+        links:
+          - title: Lernlandkarte Englisch · Kommasetzung
+            url: https://lernapps.net/apps/map/englisch/c/kommasetzung/
+      - type: single-choice
+        id: komma-belegen
+        text: Welche Zeile zeigt ein Komma nach einer Einleitung am Satzanfang?
+        options:
+          - text: "Last Friday, we had a school party with music, games and lots of cake."
+            correct: true
+            info: Nach Last Friday steht ein Komma.
+          - text: "Her son Peter, who is nine, shows me the way to school every morning."
+            correct: false
+            info: Die Kommas stehen um den Relativsatz.
+          - text: "The teacher who teaches us English is Mr Hill."
+            correct: false
+            info: Hier steht gar kein Komma.
+        explanation: Nur der Satz mit Last Friday beginnt mit einer Einleitung und einem Komma.
+        links:
+          - title: Lernlandkarte Englisch · Kommasetzung
+            url: https://lernapps.net/apps/map/englisch/c/kommasetzung/
+  - type: section
+    id: neu
+    title: Ein Komma ist eine Pause
+    blocks:
+      - type: text
+        text: "Ein Komma zeigt eine kleine Pause, die man auch hört. Das Bild zeigt drei Sätze in Karten. Ein rotes Komma steht dort, wo man kurz Luft holt."
+      - type: figure
+        image: images/satzband-komma.svg
+        alt: "Drei Sätze als grüne Karten. Erster Satz: Last summer, rotes Komma, we went to Wales. Zweiter Satz: My brother, rotes Komma, who lives in London, rotes Komma, is a pilot. Dritter Satz ganz ohne Komma: The boy who lives next door is my friend, beide Karten dicht nebeneinander."
+        caption: "Ein Komma steht nach einer Einleitung und um einen nicht notwendigen Relativsatz. Im dritten Satz gibt es keine Pause."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Nach einer Einleitung** am Satzanfang steht meist ein Komma: Zeit, Ort oder ein Wort wie now. Nach ganz kurzen Einleitungen ist es freiwillig.
+              - **Nicht notwendiger Relativsatz:** ein Komma davor und eines danach. Notwendiger Relativsatz: keine Kommas.
+              - **In einer Aufzählung** stehen Kommas zwischen den Gliedern, aber im britischen Englisch meist nicht vor and.
+              - **Vor einem that-Satz** steht im Englischen kein Komma, anders als im Deutschen.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: komma-setzen
+        languages: { source: de, target: en }
+        task: Setze die fehlenden Kommas. Schreibe den ganzen Satz.
+        form: { case: ok, punctuation: wrong }
+        items:
+          - cue: On a rainy day in October we visited my grandmother.
+            target: On a rainy day in October, we visited my grandmother.
+            mistakes:
+              - answer: On a rainy day in October we visited my grandmother.
+                message: Nach einer längeren Einleitung am Satzanfang steht ein Komma.
+          - cue: My dog who is very old sleeps all day.
+            target: My dog, who is very old, sleeps all day.
+            mistakes:
+              - answer: My dog, who is very old sleeps all day.
+                message: Der Relativsatz braucht zwei Kommas.
+          - cue: She has apples pears and oranges.
+            target: She has apples, pears and oranges.
+            mistakes:
+              - answer: She has apples, pears, and oranges.
+                message: Im britischen Englisch setzt man vor and meist kein Komma.
+        hint: Wo holst du beim Vorlesen kurz Luft?
+      - type: single-choice
+        id: komma-notwendig
+        text: "In der Klasse sind viele Mädchen, aber nur eines hat das Rennen gewonnen. Welcher Satz ist richtig?"
+        options:
+          - text: "The girl who won the race is my cousin."
+            correct: true
+            info: Er sagt, welches Mädchen gemeint ist.
+          - text: "The girl, who won the race, is my cousin."
+            correct: false
+            info: Mit Kommas wäre er nur eine Zusatzinformation.
+          - text: "The girl who won the race, is my cousin."
+            correct: false
+            info: Ein einzelnes Komma trennt Subjekt und Verb.
+        explanation: Ein notwendiger Relativsatz steht ohne Kommas.
+        links:
+          - title: Lernlandkarte Englisch · Kommasetzung
+            url: https://lernapps.net/apps/map/englisch/c/kommasetzung/
+      - type: language-task
+        id: komma-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe jeden Satz ganz auf. Setze die Kommas.
+        form: { case: ok, punctuation: wrong }
+        items:
+          - audio: after-the-long-lesson-peter-plays-football-in-the-garden.mp3
+            target: After the long lesson, Peter plays football in the garden.
+            mistakes:
+              - answer: After the long lesson Peter plays football in the garden.
+                message: Nach einer längeren Einleitung am Satzanfang steht ein Komma.
+          - audio: my-teacher-who-is-very-kind-helps-us-today.mp3
+            target: My teacher, who is very kind, helps us today.
+            mistakes:
+              - answer: My teacher who is very kind helps us today.
+                message: Der Relativsatz steht zwischen zwei Kommas.
+        hint: Höre den Satz so oft, wie du willst.
+  - type: section
+    id: anwenden
+    title: Dein Blog
+    blocks:
+      - type: open-task
+        id: komma-blog
+        task: "Schreibe fünf englische Sätze für einen Blog über deine Schule. Verwende eine Einleitung am Satzanfang, einen nicht notwendigen Relativsatz und eine Aufzählung. Schreibe danach in zwei Sätzen auf Deutsch: Sind die englischen Kommaregeln für dich leichter oder schwerer als die deutschen? Begründe."
+        points:
+          - text: Nach einer längeren Einleitung am Satzanfang steht ein Komma.
+            source: /richtig-schreiben/kommasetzung/#neu
+          - text: Der nicht notwendige Relativsatz steht zwischen zwei Kommas.
+            source: /richtig-schreiben/kommasetzung/#neu
+          - text: In der Aufzählung stehen Kommas zwischen den Gliedern, aber nicht vor and.
+            source: /richtig-schreiben/kommasetzung/#neu
+          - text: Du begründest deine Meinung.
+            kind: form
+        solution: |
+          Every morning, I walk to school. My friend Tom, who lives next door, comes with me. In the canteen, we have pasta, salad and fruit. After lunch, we play football. On Fridays, my class goes swimming. Im Deutschen steht vor jedem dass-Satz ein Komma. Im Englischen nicht, darum finde ich die englischen Regeln leichter.
+        hint: Prüfe jeden Satz auf Pausen.
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Schritt
+    blocks:
+      - type: text
+        text: "Mr Hill gibt Sophies Blog zurück: Die Kommas stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um Betonung, Rhythmus und Melodie."

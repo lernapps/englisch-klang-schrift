@@ -1,0 +1,223 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Kleine Wörter sind leise
+description: "Beim Backen liest Sophie Mrs Parker ein Rezept vor, und Ellie lacht. Du lernst, warum and, to, of und for im Satz oft schwach klingen, was ein Schwa ist und wann dieselben Wörter stark klingen."
+competencies: [schwache-formen]
+scope: "Die Seite zeigt schwache Formen. Kleine Wörter wie and, to, of, for, can, the und from werden im Satz meist nicht betont und klingen dann mit dem kurzen Laut /ə/ (Schwa): and als /ən/, to als /tə/, of als /əv/, for als /fə/. Allein, am Satzende oder wenn sie betont werden, sagt man die starke Form (and /ænd/, for /fɔː/). Die Schreibung bleibt gleich. Nicht hier, weil sie auf anderen Seiten stehen: Betonung im Wort, Bindungen, Satzrhythmus und Melodie."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie liest ein Rezept
+    blocks:
+      - type: text
+        text: "Sophie (13) hilft Mrs Parker beim Backen und liest das Rezept vor. Ellie (13), Peter (9) und Mrs Parker sind auch in der Küche. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz."
+      - type: single-choice
+        id: schwache-formen-start
+        text: Was hörst du am Ende des deutschen Wortes „Hase“?
+        options:
+          - text: Ein kurzes, dumpfes e, wie in „Hase“ und „Tasse“
+            correct: true
+            info: Dieser Laut heißt Schwa und kommt im Deutschen oft am Wortende vor.
+          - text: Ein langes e, wie in „See“
+            correct: false
+            info: Das e in „Hase“ ist kurz und leise.
+          - text: Ein a
+            correct: false
+            info: Am Ende von „Hase“ steht ein e, das man als dumpfen Laut spricht.
+        explanation: Am Ende von „Hase“ hört man ein Schwa. Im Englischen ist dieser Laut sehr häufig.
+        links:
+          - title: Lernlandkarte Englisch · Schwache Formen
+            url: https://lernapps.net/apps/map/englisch/c/schwache-formen/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, welche Wörter im Satz schwach klingen, und sprichst sie mit dem Schwa."
+  - type: section
+    id: lesestueck
+    title: In der Küche
+    blocks:
+      - type: vocabulary
+        caption: Am Rand · Wörter aus dem Dialog
+        languages: { source: de, target: en }
+        entries:
+          - target: recipe
+            source: das Rezept
+          - target: flour
+            source: das Mehl
+          - target: weak
+            source: schwach
+          - target: butter
+            source: die Butter
+          - target: really short
+            source: ganz kurz
+      - type: text
+        text: |
+          **Mrs Parker:** Sophie, can you read the recipe for me? My hands are full of flour.
+
+          **Sophie:** ok. "Mix the flour and the eggs. Add a bit of sugar for the cake."
+
+          **Ellie:** haha, Sophie! you say every little word so clearly.
+
+          **Sophie:** isn't that right?
+      - type: text
+        text: |
+          **Ellie:** no. we say and, of, the and for really short. nobody says every word with full power.
+
+          **Mrs Parker:** that's true. the small words are weak. they get a short sound, the schwa. but at the end of a sentence a small word can be strong again.
+
+          **Peter:** like in "What is it for?"
+
+          **Mrs Parker:** exactly, Peter. here the word for is strong.
+      - type: single-choice
+        id: schwache-formen-verstehen
+        text: Was sagt Ellie über kleine Wörter wie and und of?
+        options:
+          - text: Man spricht sie ganz kurz und leise.
+            correct: true
+            info: Ellie sagt, dass man sie really short spricht.
+          - text: Man lässt sie beim Sprechen weg.
+            correct: false
+            info: Man spricht sie, aber nur schwach.
+          - text: Man spricht sie besonders laut.
+            correct: false
+            info: Das Gegenteil stimmt, sie sind leise.
+        explanation: Ellie sagt, dass kleine Wörter kurz und leise klingen.
+        links:
+          - title: Lernlandkarte Englisch · Schwache Formen
+            url: https://lernapps.net/apps/map/englisch/c/schwache-formen/
+      - type: single-choice
+        id: schwache-formen-belegen
+        text: Welche Zeile sagt, wann ein kleines Wort stark klingt?
+        options:
+          - text: "Mrs Parker: that's true. the small words are weak. they get a short sound, the schwa. but at the end of a sentence a small word can be strong again."
+            correct: true
+            info: Mrs Parker nennt das Satzende als Stelle für die starke Form.
+          - text: "Sophie: isn't that right?"
+            correct: false
+            info: Sophie fragt hier nur, ob sie richtig liegt.
+          - text: "Ellie: haha, Sophie! you say every little word so clearly."
+            correct: false
+            info: Ellie lacht hier über Sophies Aussprache.
+        explanation: Mrs Parker sagt, dass kleine Wörter am Satzende wieder stark klingen können.
+        links:
+          - title: Lernlandkarte Englisch · Schwache Formen
+            url: https://lernapps.net/apps/map/englisch/c/schwache-formen/
+  - type: section
+    id: neu
+    title: Stark und schwach
+    blocks:
+      - type: text
+        text: "Kleine Wörter wie and, to, of, for und the sind im Satz meist unbetont. Sie klingen dann mit dem kurzen Laut **Schwa** /ə/ oder ganz kurz. Das ist ihre **schwache Form**. Steht das Wort allein, am Satzende oder wird es betont, sagt man die **starke Form**. Geschrieben wird immer gleich. Auch andere kleine Wörter wie from, at, was und them haben schwache Formen: Bei allen wird der Vokal zum Schwa."
+      - type: figure
+        image: images/partitur-schwache-formen.svg
+        alt: "Klangpartitur: das Wort and mit zwei Karten. Links ænd mit großem roten Punkt für die starke Form, rechts ən mit kleinem Punkt für die schwache Form."
+        caption: "and: stark /ænd/, schwach /ən/."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Starke und schwache Formen
+        header: [Wort, Stark, Schwach]
+        rows:
+          - [and, "/ænd/", "/ən/"]
+          - [to, "/tuː/", "/tə/"]
+          - [of, "/ɒv/", "/əv/"]
+          - [for, "/fɔː/", "/fə/"]
+          - [can, "/kæn/", "/kən/"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Im Satz:** Kleine Wörter sind meist unbetont und klingen schwach, mit /ə/.
+              - **Stark** klingen sie allein, am Satzende oder wenn man sie betont.
+              - Das **Schwa** /ə/ ist der häufigste Laut im Englischen. Man spricht ihn kurz und leise.
+              - **Geschrieben** wird immer das volle Wort.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: schwache-formen-to
+        text: "Wie klingt to im Satz „We are going to Leeds.“?"
+        options:
+          - text: Schwach, /tə/
+            correct: true
+            info: To ist hier unbetont und klingt kurz und leise.
+          - text: Stark, /tuː/
+            correct: false
+            info: Die starke Form hört man nur allein, am Satzende oder bei Betonung.
+          - text: Man hört es gar nicht.
+            correct: false
+            info: Man hört es, aber nur ganz kurz.
+        explanation: Im Satz klingt to schwach als /tə/.
+        links:
+          - title: Lernlandkarte Englisch · Schwache Formen
+            url: https://lernapps.net/apps/map/englisch/c/schwache-formen/
+      - type: multiple-choice
+        id: schwache-formen-stark
+        text: Bei welchen Wörtern hört man die starke Form?
+        options:
+          - text: can in „Yes, she can.“
+            correct: true
+            info: Am Satzende klingt can stark, /kæn/.
+          - text: from in „Where are you from?“
+            correct: true
+            info: Am Satzende klingt from stark, /frɒm/.
+          - text: can in „She can swim well.“
+            correct: false
+            info: Mitten im Satz ist can unbetont und klingt schwach, /kən/.
+          - text: of in „a cup of tea“
+            correct: false
+            info: Mitten im Satz ist of unbetont und klingt schwach, /əv/.
+        explanation: Am Satzende klingen kleine Wörter stark, mitten im Satz schwach.
+        links:
+          - title: Lernlandkarte Englisch · Schwache Formen
+            url: https://lernapps.net/apps/map/englisch/c/schwache-formen/
+      - type: matching
+        id: schwache-formen-zuordnen
+        text: Welche schwache Form gehört zu welchem Wort? Alle vier Wörter sind im Satz unbetont.
+        pairs:
+          - left: from
+            right: "/frəm/"
+          - left: at
+            right: "/ət/"
+          - left: was
+            right: "/wəz/"
+          - left: them
+            right: "/ðəm/"
+        explanation: In allen vier Wörtern wird der Vokal zu einem Schwa.
+        links:
+          - title: Lernlandkarte Englisch · Schwache Formen
+            url: https://lernapps.net/apps/map/englisch/c/schwache-formen/
+      - type: language-task
+        id: schwache-formen-hoeren
+        languages: { source: de, target: en }
+        task: Höre zu und schreibe den Satz ganz auf.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: bread-and-butter-for-peter-and-amir.mp3
+            target: Bread and butter for Peter and Amir.
+            mistakes:
+              - answer: Bread an butter for Peter an Amir.
+                message: Du hörst /ən/, aber im Text steht and. Die schwache Form schreibt man trotzdem mit d.
+        hint: Höre den Satz so oft, wie du willst.
+  - type: section
+    id: anwenden
+    title: Deine Sätze
+    blocks:
+      - type: open-task
+        id: schwache-formen-eigene
+        task: "Schreibe vier englische Sätze über ein Rezept oder ein Essen, das du magst. Verwende in jedem Satz mindestens eines der Wörter and, to, of oder for. Schreibe danach auf Deutsch, bei welchem Wort du die schwache Form hörst und bei welchem die starke."
+        points:
+          - text: In jedem Satz steht ein kleines Wort wie and, to, of oder for.
+            source: /betonung-rhythmus-melodie/schwache-formen/#neu
+          - text: Du nennst ein Wort mit schwacher Form mitten im Satz.
+            source: /betonung-rhythmus-melodie/schwache-formen/#neu
+          - text: Du nennst ein Wort mit starker Form, allein oder am Satzende.
+            source: /betonung-rhythmus-melodie/schwache-formen/#neu
+        solution: |
+          I like pasta and cheese. We go to the shop on Saturday. I buy a bag of rice. What is the sauce for? Mitten im Satz klingt and schwach, bei for am Satzende hört man die starke Form.
+        hint: Sprich jeden Satz leise vor und achte auf die kleinen Wörter.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mrs Parker nickt: „Jetzt klingt es nach Millbrook.“ Auf der nächsten Seite hörst du, wie aus betonten und unbetonten Wörtern ein ganzer Satz mit Rhythmus wird."

@@ -1,0 +1,224 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Fragst du wirklich?
+description: "Sophie und Ellie chatten über den Test am Freitag. Du lernst, was die Stimme am question tag verrät: Fragt jemand wirklich, oder erwartet er Zustimmung?"
+competencies: [intonation-question-tags]
+scope: "Die Seite zeigt die Melodie bei question tags. Steigt die Stimme am question tag, fragt man wirklich und weiß es nicht sicher. Fällt sie, erwartet man Zustimmung und weiß es schon. Der Pfeil in der oberen Zeile der Klangpartitur zeigt es. Die Melodie wird in der App nicht vorgesprochen, weil die Stimme in dieser App sie nicht zeigen kann. Nicht hier, weil sie auf anderen Seiten stehen: Bildung der question tags, Haltung und Gefühl in der Melodie."
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Test am Freitag
+    blocks:
+      - type: text
+        text: "Sophie (13) und Ellie (13) schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Anhängsel** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht."
+      - type: single-choice
+        id: tag-melodie-start
+        text: Wohin geht die Stimme am Ende einer Frage mit Ja oder Nein, wie bei „Is it big?“?
+        options:
+          - text: Sie steigt.
+            correct: true
+            info: So fragt man mit Ja oder Nein.
+          - text: Sie fällt.
+            correct: false
+            info: Das gilt bei Aussagen.
+          - text: Sie bleibt gleich.
+            correct: false
+            info: Die Stimme bewegt sich am Ende.
+        explanation: Bei einer Frage mit Ja oder Nein steigt die Stimme am Ende.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie bei question tags
+            url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst am Pfeil, ob jemand mit einem question tag wirklich fragt oder Zustimmung erwartet, und zeigst es selbst."
+  - type: section
+    id: lesestueck
+    title: Der Chat
+    blocks:
+      - type: vocabulary
+        caption: Am Rand · Wörter aus dem Chat
+        languages: { source: de, target: en }
+        entries:
+          - target: tag
+            source: das Anhängsel am Satzende
+          - target: agree
+            source: zustimmen
+          - target: lesson
+            source: die Unterrichtsstunde
+          - target: really ask
+            source: wirklich fragen
+      - type: text
+        text: |
+          **Sophie:** hey Ellie! you're online, aren't you?
+
+          **Ellie:** yes. why?
+
+          **Sophie:** I don't know when the test is. It's on Friday, isn't it?
+
+          **Ellie:** yes, Friday, first lesson.
+      - type: text
+        text: |
+          **Sophie:** oh no. and it's so cold today, isn't it?
+
+          **Ellie:** haha, Sophie. you don't want an answer! you only want me to agree.
+
+          **Sophie:** true! you feel it too
+
+          **Ellie:** Mr Hill says: if you really ask, your voice goes up on the tag. if you want agreement, it goes down.
+      - type: single-choice
+        id: tag-verstehen
+        text: Wann will Sophie wirklich eine Antwort?
+        options:
+          - text: Bei der Frage nach dem Datum des Tests
+            correct: true
+            info: Sie weiß nicht sicher, wann der Test ist.
+          - text: Bei der Bemerkung über die Kälte
+            correct: false
+            info: Dass es kalt ist, weiß sie schon.
+          - text: Bei dem Satz „you feel it too“
+            correct: false
+            info: Das ist keine Frage.
+        explanation: Beim Testtag fragt Sophie wirklich.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie bei question tags
+            url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
+      - type: single-choice
+        id: tag-belegen
+        text: Welche Zeile erklärt, was die Stimme am question tag macht?
+        options:
+          - text: "Ellie: Mr Hill says: if you really ask, your voice goes up on the tag. if you want agreement, it goes down."
+            correct: true
+            info: Hier stehen beide Fälle.
+          - text: "Ellie: yes, Friday, first lesson."
+            correct: false
+            info: Das ist die Antwort auf Sophies Frage.
+          - text: "Sophie: true! you feel it too"
+            correct: false
+            info: Das ist Sophies Antwort auf Ellies Spott.
+        explanation: Ellie nennt beide Fälle.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie bei question tags
+            url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
+  - type: section
+    id: neu
+    title: Der Pfeil am question tag
+    blocks:
+      - type: text
+        text: "Ein **question tag** hängt an einer Aussage: It's cold, isn't it? Die Melodie am question tag zeigt, was du willst. Steigt die Stimme, **fragst du wirklich**. Fällt sie, **erwartest du Zustimmung**. Das Bild zeigt beide Fälle mit denselben Wörtern."
+      - type: figure
+        image: images/partitur-tag-steigt.svg
+        alt: "Klangpartitur: It's cold, isn't it? Über dem Tag am Ende zeigt ein roter Pfeil nach oben."
+        caption: "Der Pfeil steigt: Du weißt es nicht sicher und fragst wirklich."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/partitur-tag-faellt.svg
+        alt: "Klangpartitur: It's cold, isn't it? Über dem Tag am Ende zeigt ein grüner Pfeil nach unten."
+        caption: "Der Pfeil fällt: Du weißt es schon und erwartest Zustimmung."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Die Stimme in dieser App kann diesen Unterschied nicht vorsprechen. Darum gibt es hier keine Aufnahme. Hör zu, wie echte Sprecherinnen und Sprecher sprechen, zum Beispiel in einem englischen Video, und achte auf den Pfeil."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              - **Steigt** die Stimme am question tag, fragst du wirklich.
+              - **Fällt** die Stimme am question tag, erwartest du Zustimmung.
+              - Die Wörter bleiben gleich. Nur die Melodie ändert die Bedeutung.
+              - Im Text steht vor dem Tag ein Komma. Wie in Kapitel 4 zeigt es eine kleine Pause.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: tag-fragen
+        text: "Amir sucht seine Jacke und fragt Ellie: „You've seen my jacket, haven't you?“ Er weiß es wirklich nicht. Wohin geht die Stimme am question tag?"
+        options:
+          - text: Sie steigt.
+            correct: true
+            info: Amir fragt wirklich.
+          - text: Sie fällt.
+            correct: false
+            info: Fallen würde heißen, dass er es schon weiß.
+          - text: Sie bleibt gleich.
+            correct: false
+            info: Die Stimme bewegt sich am Ende.
+        explanation: Wer wirklich fragt, lässt die Stimme steigen.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie bei question tags
+            url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
+      - type: number
+        id: tag-zustimmung
+        text: "Ellie, Amir und Peter sehen ein Fußballspiel. Ellie sagt: „Great match, isn't it?“ Alle jubeln. Amir hat nicht hingesehen und fragt: „He scored, didn't he?“ Peter liest die Anzeigetafel und sagt: „We're winning, aren't we?“ Bei wie vielen Sätzen fällt die Stimme am question tag? Schreibe die Zahl mit Ziffern."
+        answer: 2
+        tolerance: 0
+        mistakes:
+          - answer: 1
+            message: Auch Peter weiß es schon. Er liest es auf der Tafel.
+          - answer: 3
+            message: Amir weiß es nicht. Er fragt wirklich, die Stimme steigt.
+        hint: Weiß die Person es schon?
+        explanation: Bei Ellie und Peter fällt die Stimme, bei Amir steigt sie.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie bei question tags
+            url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
+      - type: multiple-choice
+        id: tag-erkennen
+        text: In welchen Situationen fällt die Stimme am question tag?
+        options:
+          - text: "Peter sieht ein tolles Tor und sagt: „That was a great goal, wasn't it?“"
+            correct: true
+            info: Er erwartet Zustimmung.
+          - text: "Mrs Parker probiert den Kuchen und sagt: „It's delicious, isn't it?“"
+            correct: true
+            info: Sie erwartet Zustimmung.
+          - text: "Sophie weiß nicht, ob Ellie kommt, und fragt: „You're coming, aren't you?“"
+            correct: false
+            info: Sie fragt wirklich.
+          - text: "Amir ist nicht sicher, ob Mr Hill da ist, und fragt: „He's here today, isn't he?“"
+            correct: false
+            info: Er fragt wirklich.
+        explanation: Wer es schon weiß, erwartet Zustimmung.
+        links:
+          - title: Lernlandkarte Englisch · Satzmelodie bei question tags
+            url: https://lernapps.net/apps/map/englisch/c/intonation-question-tags/
+      - type: language-task
+        id: tag-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den englischen Satz mit question tag.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: Es ist heiß, oder? (Du erwartest Zustimmung.)
+            target: (It's|It is) hot, isn't it?
+            mistakes:
+              - answer: It's hot, is it?
+                message: Nach einer bejahten Aussage steht ein verneintes Tag.
+          - cue: Peter spielt Fußball, oder? (Du fragst wirklich.)
+            target: Peter plays football, doesn't he?
+            mistakes:
+              - answer: Peter plays football, isn't he?
+                message: Im simple present braucht das Tag doesn't.
+        hint: Das Tag wiederholt das Hilfsverb und das Pronomen.
+  - type: section
+    id: anwenden
+    title: Dein Chat
+    blocks:
+      - type: open-task
+        id: tag-chat
+        task: "Schreibe einen kurzen englischen Chat zwischen zwei Personen mit zwei Sätzen, die ein question tag haben. Bei einem fragt jemand wirklich, beim anderen erwartet jemand Zustimmung. Schreibe auf Deutsch dazu, wohin die Stimme jeweils geht und warum."
+        points:
+          - text: Beide Sätze haben ein question tag.
+            source: /betonung-rhythmus-melodie/intonation-question-tags/#neu
+          - text: Beim ersten Satz steigt die Stimme, weil man wirklich fragt.
+            source: /betonung-rhythmus-melodie/intonation-question-tags/#neu
+          - text: Beim zweiten Satz fällt die Stimme, weil man Zustimmung erwartet.
+            source: /betonung-rhythmus-melodie/intonation-question-tags/#neu
+        solution: |
+          A: You've got the key, haven't you? B: I think so. A: Great pizza, isn't it? B: Yes! Beim ersten Satz steigt die Stimme, weil A es nicht weiß. Beim zweiten fällt sie, weil A Zustimmung erwartet.
+        hint: Weiß die Person es schon?
+  - type: section
+    id: weiter
+    title: Rückblick und nächster Schritt
+    blocks:
+      - type: text
+        text: "Ellie schreibt: „Jetzt hörst du, wie wir wirklich sprechen.“ In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am question tag verrät."
