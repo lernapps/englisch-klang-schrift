@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-endungen-s-ed.svg
         alt: "Im Klassenzimmer sagt Sophie in einer Sprechblase „walk-ed?“. Ellie antwortet in einer Sprechblase „Nope!“. Mr Hill steht rechts."
-        caption: "Von links: Sophie (Zöpfe) liest ein Wort in zwei Teilen, Ellie (roter Pferdeschwanz) schüttelt den Kopf, rechts steht Mr Hill (graue Haare)."
+        caption: "Von links: Sophie liest ein Wort in zwei Teilen, Ellie schüttelt den Kopf, rechts steht Mr Hill."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -178,4 +178,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Peter will die Wörter mit Endungen an die Wand schreiben, aber manchmal ändert sich dabei das Wort. Mr Hill sagt: „Das schauen wir uns in der Werkstatt an.“"
+        text: Manchmal ändert sich beim Anhängen einer Endung das Wort. Das zeigt die Werkstatt auf der nächsten Seite.

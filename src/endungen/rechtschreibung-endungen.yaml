@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-rechtschreibung-endungen.svg
         alt: "Im Klassenzimmer überlegt Peter in einer Sprechblase: „plan + ed = ?“. Neben ihm stehen Ellie und Mr Hill."
-        caption: "Von links: Peter (gelbe Jacke) überlegt, Ellie (roter Pferdeschwanz) und Mr Hill (graue Haare) schauen zu."
+        caption: "Von links: Peter überlegt, Ellie und Mr Hill schauen zu."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -192,4 +192,4 @@ blocks:
     title: Rückblick und nächster Schritt
     blocks:
       - type: text
-        text: "In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor einer Endung mit dem Wort passiert. Peter schreibt seine Wörter jetzt richtig an die Werkstatttafel. Mr Hill sagt: „Jetzt sprechen wir wie im Gespräch.“ Dort kürzen wir Wörter ab, und die Stimme geht rauf und runter."
+        text: "In diesem Kapitel hast du gehört, wie -s und -ed klingen, und gesehen, was vor einer Endung mit dem Wort passiert. Im nächsten Kapitel sprechen wir wie im Gespräch: Wörter werden abgekürzt, und die Stimme geht rauf und runter."

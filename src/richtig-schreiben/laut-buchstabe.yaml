@@ -9,7 +9,7 @@ blocks:
     title: Eine Postkarte für Mr Hill
     blocks:
       - type: text
-        text: "Mr Hill gibt der Klasse eine Aufgabe: Jede und jeder schreibt eine **Postkarte** vom Meer. Sophie (13) schreibt ihre am Handy und fragt Ellie (13) um Rat. Du kennst die Laute aus Kapitel 1: Du weißt, wie ein langes i klingt."
+        text: "Die Klasse schreibt eine **Postkarte** vom Meer. Sophie schreibt ihre am Handy und fragt Ellie um Rat. Du kennst die Laute aus Kapitel 1: Du weißt, wie ein langes i klingt."
       - type: single-choice
         id: laut-buchstabe-start
         text: Welches Zeichen steht für den langen Laut in sheep?
@@ -226,4 +226,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie schickt Mr Hill ihre Postkarte. Er schreibt zurück: Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Er bittet Sophie, über ihr erstes Trimester einen Blog zu schreiben, und achtet dabei auf die Kommas. Auf den nächsten Seiten lernst du, wann im Englischen ein Komma steht."
+        text: Sophie schickt die Postkarte ab. Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Auf den nächsten Seiten lernst du, wann im Englischen ein Komma steht.

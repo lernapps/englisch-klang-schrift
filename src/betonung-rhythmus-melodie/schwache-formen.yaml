@@ -9,7 +9,7 @@ blocks:
     title: Sophie liest ein Rezept
     blocks:
       - type: text
-        text: "Sophie (13) hilft Mrs Parker beim Backen und liest das Rezept vor. Ellie (13), Peter (9) und Mrs Parker sind auch in der Küche. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz."
+        text: Sophie liest beim Backen ein Rezept vor. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz.
       - type: single-choice
         id: schwache-formen-start
         text: Was hörst du am Ende des deutschen Wortes „Hase“?
@@ -220,4 +220,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mrs Parker nickt: „Jetzt klingt es nach Millbrook.“ Auf der nächsten Seite hörst du, wie aus betonten und unbetonten Wörtern ein ganzer Satz mit Rhythmus wird."
+        text: Auf der nächsten Seite hörst du, wie aus betonten und unbetonten Wörtern ein Satz mit Rhythmus wird.

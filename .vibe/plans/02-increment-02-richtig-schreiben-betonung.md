@@ -204,19 +204,21 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
       as it says. Commit.
 - [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
-- [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
+- [x] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
+      Creator: Die Ersteller:in hat die Pull Request #2 selbst gemergt (Inkrement 02 ist online); Auftrag danach: Einführungen der Figuren kürzen (Branch increment/03-einfuehrungen-kuerzen).
+- [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
       `main`, the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
-- [ ] The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
+- [x] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
+- [x] (skipped: Die App ist nicht im Katalog gelistet, und der Auftrag der Orchestrator-Session verbietet einen Katalogeintrag.) The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
       changed entry. Else skip this task.
-- [ ] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
-- [ ] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
+- [x] Fill the retrospective.
+- [x] (skipped: Kein Push auf main ohne Erlaubnis; der Plan-Stand wird mit dem Branch increment/03-einfuehrungen-kuerzen und seiner Pull Request in main gebracht.) Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
+- [x] **Checkpoint:** list. The entry changed: open the pull request to the catalog as skill `lernapps-listing`
       says, without asking first, see it to "bestanden", then show the creator the pull request and its result. The
       entry did not change: tell the creator that the catalog updates the app by itself.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: Eintrag besteht (Orchestrator, PR #758); keine Änderung durch die Session.
+- [x] (skipped: Kein Push auf main ohne Erlaubnis; der Plan-Stand geht mit dem Branch increment/03-einfuehrungen-kuerzen und seiner Pull Request nach main.) If the plan changed since its last push, commit it on `main` and push again.
 
 ## Retrospective
 
@@ -226,7 +228,7 @@ Selbsteinschätzung: je neues Kapitel 1 bis 2 Übungen je Seite ohne Audio (Comm
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
-Commit erreicht. Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite `laut-buchstabe`, Hörurteil zur Hörprobe 2, Muster für Kapitel 5 (Antworten der Orchestrator-Session in der Rolle der Ersteller:in). Gepusht und Vorschau-PR geöffnet nach ausdrücklicher Erlaubnis der Ersteller:in; der Checkpoint „Veröffentlichen“ ist gemeldet, noch nicht beantwortet. Nicht gemergt, kein Katalogeintrag.
+Commit erreicht und abgeschlossen. Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite `laut-buchstabe`, Hörurteil zur Hörprobe 2, Muster für Kapitel 5, Veröffentlichen (die Ersteller:in hat die Pull Request #2 selbst gemergt; der Pages-Lauf auf main war erfolgreich, die Seiten sind unter der Adresse der App erreichbar). Kein Katalogeintrag (Auftrag).
 
 ### Creator turns after the plan
 

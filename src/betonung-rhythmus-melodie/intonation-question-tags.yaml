@@ -9,7 +9,7 @@ blocks:
     title: Der Test am Freitag
     blocks:
       - type: text
-        text: "Sophie (13) und Ellie (13) schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Anhängsel** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht."
+        text: Sophie und Ellie schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Anhängsel** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht.
       - type: single-choice
         id: tag-melodie-start
         text: Wohin geht die Stimme am Ende einer Frage mit Ja oder Nein, wie bei „Is it big?“?
@@ -221,4 +221,4 @@ blocks:
     title: Rückblick und nächster Schritt
     blocks:
       - type: text
-        text: "Ellie schreibt: „Jetzt hörst du, wie wir wirklich sprechen.“ In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am question tag verrät."
+        text: In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am question tag verrät.
