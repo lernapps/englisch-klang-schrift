@@ -56,4 +56,4 @@ Nicht sicher? Wiederhole es auf der Seite der Lernlandkarte: [Nicht notwendige R
 
 ### Was jetzt kommt
 
-Sophie (13) schreibt in der Schule einen Blogeintrag über ihr erstes Trimester in Millbrook. Mr Hill hat sie dazu gebeten und achtet auf die Kommas. Wann im Englischen ein Komma steht, liest du im Blog.
+Sophie schreibt einen Blogeintrag über ihr erstes Trimester in Millbrook. Wann im Englischen ein Komma steht, liest du im Blog.

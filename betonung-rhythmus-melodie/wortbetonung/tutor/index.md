@@ -45,7 +45,7 @@ Sophie und Amir chatten über ein Geschenk und eine Aufnahme. Du lernst, welche 
 
 ### Zwei Mal present
 
-Sophie (13) schreibt abends mit Amir (13). Dabei fällt ihr etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: Mill-brook hat zwei.
+Sophie schreibt abends mit Amir. Ihr fällt etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: Mill-brook hat zwei.
 
 - Aufgabe `wortbetonung-start` (unten)
 
@@ -110,7 +110,7 @@ Bild: Klangpartitur: present als Verb, überreichen oder vorstellen. Zwei Karten
 
 ### Wie es weitergeht
 
-Sophie schreibt Amir: „Jetzt höre ich die Punkte überall.“ Als Nächstes geht es um Wörter, die im Satz zusammenrücken. Du übst Bindungen: Am Ende eines Wortes hängt manchmal ein Laut am nächsten Wort.
+Als Nächstes geht es um Wörter, die im Satz zusammenrücken: Bindungen.
 
 ### Aufgabe wortbetonung-start
 

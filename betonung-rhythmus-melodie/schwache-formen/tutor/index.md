@@ -45,7 +45,7 @@ Beim Backen liest Sophie Mrs Parker ein Rezept vor, und Ellie lacht. Du lernst, 
 
 ### Sophie liest ein Rezept
 
-Sophie (13) hilft Mrs Parker beim Backen und liest das Rezept vor. Ellie (13), Peter (9) und Mrs Parker sind auch in der Küche. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz.
+Sophie liest beim Backen ein Rezept vor. Du kennst die Betonung im Wort. Jetzt geht es um die **kleinen Wörter** im Satz.
 
 - Aufgabe `schwache-formen-start` (unten)
 
@@ -117,7 +117,7 @@ Klassenzimmer-Poster · Starke und schwache Formen:
 
 ### Wie es weitergeht
 
-Mrs Parker nickt: „Jetzt klingt es nach Millbrook.“ Auf der nächsten Seite hörst du, wie aus betonten und unbetonten Wörtern ein ganzer Satz mit Rhythmus wird.
+Auf der nächsten Seite hörst du, wie aus betonten und unbetonten Wörtern ein Satz mit Rhythmus wird.
 
 ### Aufgabe schwache-formen-start
 

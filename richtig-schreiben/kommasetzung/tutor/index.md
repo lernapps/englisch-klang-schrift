@@ -45,7 +45,7 @@ Sophie schreibt einen Blog über ihr erstes Trimester in Millbrook. Du lernst, w
 
 ### Mr Hill liest Sophies Blog
 
-Mr Hill liest die Blogeinträge seiner Klasse und achtet auf die Kommas. Du kennst nicht notwendige Relativsätze aus der Wiederholung: Man kann sie weglassen, ohne dass sich ändert, wer gemeint ist.
+Die Blogeinträge der Klasse werden auf Kommas geprüft. Du kennst nicht notwendige Relativsätze aus der Wiederholung: Man kann sie weglassen, ohne dass sich ändert, wer gemeint ist.
 
 - Aufgabe `komma-start` (unten)
 
@@ -104,7 +104,7 @@ Bild: Drei Sätze als grüne Karten. Erster Satz: Last summer, rotes Komma, we w
 
 ### Rückblick und nächster Schritt
 
-Mr Hill gibt Sophies Blog zurück: Die Kommas stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um Betonung, Rhythmus und Melodie.
+Die Kommas in Sophies Blog stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um Betonung, Rhythmus und Melodie.
 
 ### Aufgabe komma-start
 

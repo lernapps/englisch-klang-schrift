@@ -45,7 +45,7 @@ Peter nimmt Sophie beim Vorlesen auf und sagt, sie klinge wie ein Roboter. Du le
 
 ### Sophie klingt wie ein Roboter
 
-Mr Hill will von jeder und jedem eine Vorleseaufnahme. Ellies kleiner Bruder Peter (9) nimmt Sophie (13) mit dem Handy auf. Du kennst die Klangpartitur: Laute unten, Betonung in der Mitte. Jetzt geht es um die Stellen **zwischen** den Wörtern.
+Peter nimmt Sophie beim Vorlesen auf. Du kennst die Klangpartitur: Laute unten, Betonung in der Mitte. Jetzt geht es um die Stellen **zwischen** den Wörtern.
 
 - Aufgabe `bindungen-start` (unten)
 
@@ -116,7 +116,7 @@ Bild: Klangpartitur: far away mit vier Karten fɑː, r, ə und ˈweɪ. Ein roter
 
 ### Wie es weitergeht
 
-Peter spielt die Aufnahme noch einmal ab. Sophie hört, dass die Wörter jetzt fließen, aber ein paar kleine Wörter klingen anders als sonst. Das ist das Thema der nächsten Seite: schwache Formen.
+Sophie hört die Aufnahme noch einmal: Die Wörter fließen jetzt, aber kleine Wörter klingen anders als sonst. Das ist das Thema der nächsten Seite: schwache Formen.
 
 ### Aufgabe bindungen-start
 

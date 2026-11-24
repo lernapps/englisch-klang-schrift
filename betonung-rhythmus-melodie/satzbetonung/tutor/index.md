@@ -45,7 +45,7 @@ Sophie schickt ihrer Klasse in Deutschland eine Sprachnachricht. Du lernst, welc
 
 ### Sophies Sprachnachricht
 
-Sophie (13) schickt ihrer alten Klasse in Deutschland eine Sprachnachricht. Mr Hill hört sie sich vorher an und sagt: „Dein Satzrhythmus ist schon gut.“ Du kennst die Betonung im Wort und die schwachen Formen. Jetzt geht es um die Betonung im **ganzen Satz**.
+Sophie schickt eine Sprachnachricht. Du kennst die Betonung im Wort und die schwachen Formen. Jetzt geht es um die Betonung im **ganzen Satz**.
 
 - Aufgabe `satzbetonung-start` (unten)
 
@@ -108,7 +108,7 @@ Dadurch entsteht ein **Rhythmus**: Die betonten Wörter kommen ungefähr im glei
 
 ### Wie es weitergeht
 
-Sophies Nachricht ist abgeschickt. Auf den nächsten Seiten geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?
+Als Nächstes geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?
 
 ### Aufgabe satzbetonung-start
 

@@ -62,4 +62,4 @@ In der oberen Zeile der **Klangpartitur** zeigt ein **Pfeil**, wohin die Stimme 
 
 ### Was jetzt kommt
 
-Sophie schreibt mit Ellie über den Test am Freitag. Ellie merkt, dass Sophie manchmal nur bestätigen lassen will, was sie schon weiß. Das hört man an der Stimme, am question tag.
+Sophie und Ellie schreiben über den Test am Freitag. An der Stimme hört man, ob jemand wirklich fragt oder Zustimmung erwartet.

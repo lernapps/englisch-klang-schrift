@@ -45,7 +45,7 @@ Sophie schreibt eine Postkarte, und die Rechtschreibprüfung findet einen Fehler
 
 ### Eine Postkarte für Mr Hill
 
-Mr Hill gibt der Klasse eine Aufgabe: Jede und jeder schreibt eine **Postkarte** vom Meer. Sophie (13) schreibt ihre am Handy und fragt Ellie (13) um Rat. Du kennst die Laute aus Kapitel 1: Du weißt, wie ein langes i klingt.
+Die Klasse schreibt eine **Postkarte** vom Meer. Sophie schreibt ihre am Handy und fragt Ellie um Rat. Du kennst die Laute aus Kapitel 1: Du weißt, wie ein langes i klingt.
 
 - Aufgabe `laut-buchstabe-start` (unten)
 
@@ -116,7 +116,7 @@ Bild: Zwei blaue Karten für Laute, iː und aɪ. Unter iː hängen drei grüne K
 
 ### Wie es weitergeht
 
-Sophie schickt Mr Hill ihre Postkarte. Er schreibt zurück: Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Er bittet Sophie, über ihr erstes Trimester einen Blog zu schreiben, und achtet dabei auf die Kommas. Auf den nächsten Seiten lernst du, wann im Englischen ein Komma steht.
+Sophie schickt die Postkarte ab. Die Wörter stimmen jetzt, aber in zwei Sätzen fehlen Kommas. Auf den nächsten Seiten lernst du, wann im Englischen ein Komma steht.
 
 ### Aufgabe laut-buchstabe-start
 

@@ -45,7 +45,7 @@ Sophie und Ellie chatten über den Test am Freitag. Du lernst, was die Stimme am
 
 ### Der Test am Freitag
 
-Sophie (13) und Ellie (13) schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Anhängsel** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht.
+Sophie und Ellie schreiben sich abends. Du kennst question tags und den Pfeil für die Melodie. Jetzt lernst du, dass **dasselbe Anhängsel** zwei Bedeutungen haben kann, je nachdem, wohin die Stimme geht.
 
 - Aufgabe `tag-melodie-start` (unten)
 
@@ -112,7 +112,7 @@ Die Stimme in dieser App kann diesen Unterschied nicht vorsprechen. Darum gibt e
 
 ### Rückblick und nächster Schritt
 
-Ellie schreibt: „Jetzt hörst du, wie wir wirklich sprechen.“ In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am question tag verrät.
+In diesem Kapitel hast du gelernt, welche Silbe und welche Wörter betont werden, wie Wörter zusammenrutschen, warum kleine Wörter leise sind und was die Melodie am question tag verrät.
 
 ### Aufgabe tag-melodie-start
 
