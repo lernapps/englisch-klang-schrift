@@ -9,7 +9,7 @@ blocks:
     title: Zwei Mal present
     blocks:
       - type: text
-        text: "Sophie (13) schreibt abends mit Amir (13). Dabei fällt ihr etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: Mill-brook hat zwei."
+        text: "Sophie schreibt abends mit Amir. Ihr fällt etwas auf: Ein Wort klingt manchmal anders, obwohl man es gleich schreibt. Du kennst die Lautkarten aus Kapitel 1. Jetzt kommt die mittlere Zeile der Klangpartitur dazu: die **Betonung**. Eine **Silbe** ist ein Sprechtakt: Mill-brook hat zwei."
       - type: single-choice
         id: wortbetonung-start
         text: Wie viele Silben hat das englische Wort banana?
@@ -217,4 +217,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie schreibt Amir: „Jetzt höre ich die Punkte überall.“ Als Nächstes geht es um Wörter, die im Satz zusammenrücken. Du übst Bindungen: Am Ende eines Wortes hängt manchmal ein Laut am nächsten Wort."
+        text: "Als Nächstes geht es um Wörter, die im Satz zusammenrücken: Bindungen."

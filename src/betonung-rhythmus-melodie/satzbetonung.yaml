@@ -9,7 +9,7 @@ blocks:
     title: Sophies Sprachnachricht
     blocks:
       - type: text
-        text: "Sophie (13) schickt ihrer alten Klasse in Deutschland eine Sprachnachricht. Mr Hill hört sie sich vorher an und sagt: „Dein Satzrhythmus ist schon gut.“ Du kennst die Betonung im Wort und die schwachen Formen. Jetzt geht es um die Betonung im **ganzen Satz**."
+        text: Sophie schickt eine Sprachnachricht. Du kennst die Betonung im Wort und die schwachen Formen. Jetzt geht es um die Betonung im **ganzen Satz**.
       - type: single-choice
         id: satzbetonung-start
         text: "Welche Wörter betonst du im deutschen Satz „Ich habe einen großen Hund“ am stärksten?"
@@ -223,4 +223,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophies Nachricht ist abgeschickt. Auf den nächsten Seiten geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?"
+        text: "Als Nächstes geht es um die Melodie: Wie zeigt die Stimme, ob jemand wirklich fragt oder nur Zustimmung erwartet?"

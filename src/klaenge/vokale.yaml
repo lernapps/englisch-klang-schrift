@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-vokale.svg
         alt: "Im Klassenzimmer zeigt Peter in einer Sprechblase „A sheep!“. Neben ihm steht Ellie. Mr Hill steht rechts und fragt in einer Sprechblase „Sheep or ship?“."
-        caption: "Von links: Peter (gelbe Jacke) zeigt ein Foto, Ellie (roter Pferdeschwanz) schaut zu, rechts steht Mr Hill (graue Haare)."
+        caption: "Von links: Peter zeigt ein Foto, Ellie schaut zu, rechts steht Mr Hill."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -180,4 +180,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill nickt: „Gut gehört.“ Sophie fällt etwas auf: Wenn sie Thank you sagt, klingt es noch deutsch. Welche anderen Laute Kinder aus Deutschland oft anders sprechen, hörst du auf der nächsten Seite."
+        text: Gut gehört! Welche anderen Laute Kinder aus Deutschland oft anders sprechen, hörst du auf der nächsten Seite.

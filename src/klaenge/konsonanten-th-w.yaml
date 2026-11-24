@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-konsonanten-th-w.svg
         alt: "Im Klassenzimmer sagt Sophie in einer Sprechblase „Sank you!“. Ellie schaut mit der Sprechblase „Eh?“ zu ihr. Mr Hill steht rechts."
-        caption: "Von links: Sophie (Zöpfe), Ellie (roter Pferdeschwanz) und rechts Mr Hill (graue Haare)."
+        caption: "Von links: Sophie sagt „Sank you!“, Ellie wundert sich, rechts steht Mr Hill."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -190,4 +190,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Sophie sagt noch einmal: „Thank you!“ Diesmal versteht Ellie sie sofort. Mr Hill sagt: „Jetzt hört genau auf das Ende der Wörter.“ Das hörst du auf der nächsten Seite."
+        text: Sophie sagt noch einmal „Thank you!“ und Ellie versteht sie sofort. Als Nächstes hörst du auf das Ende der Wörter.

@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-silent-letters.svg
         alt: "Im Klassenzimmer steht eine Tafel mit drei Zeilen. Sophie sagt in einer Sprechblase „k-nee?“, Amir lacht und sagt „Ha ha!“. Mr Hill steht rechts unter der Tafel."
-        caption: "Von links: Sophie (Zöpfe) liest ein Wort vor, Amir (Brille) lacht, rechts steht Mr Hill (graue Haare)."
+        caption: "Von links: Sophie liest ein Wort vor, Amir lacht, rechts steht Mr Hill."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -163,4 +163,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill zeigt auf die Klangpartitur: „Jetzt kennt ihr die Zeichen und die Buchstaben, die man nicht hört.“ Auf den nächsten Seiten hängen die Kinder Endungen an Wörter an, und es zeigt sich, was dabei mit der Schreibung und mit dem Klang passiert."
+        text: Jetzt kennst du die Zeichen und die Buchstaben, die man nicht hört. Auf den nächsten Seiten werden Endungen an Wörter angehängt, und es zeigt sich, was dabei mit der Schreibung und dem Klang passiert.

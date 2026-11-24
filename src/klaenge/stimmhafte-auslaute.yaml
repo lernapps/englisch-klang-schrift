@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-stimmhafte-auslaute.svg
         alt: "Im Klassenzimmer hält Amir die Hand an den Hals und sagt in einer Sprechblase „bed . . . bet“. Peter steht neben ihm, Mr Hill rechts."
-        caption: "Von links: Amir (Brille) spricht zwei Wörter, Peter (gelbe Jacke) und Mr Hill (graue Haare) hören zu."
+        caption: "Von links: Amir spricht zwei Wörter, Peter und Mr Hill hören zu."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -182,4 +182,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Mr Hill sagt: „Jetzt hört ihr die Laute, aber manche Buchstaben sprecht ihr gar nicht.“ Welche Buchstaben das sind, lernst du auf der nächsten Seite."
+        text: Jetzt hörst du die Laute, aber manche Buchstaben sprichst du gar nicht. Welche, lernst du auf der nächsten Seite.

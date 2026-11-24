@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-intonation-fragen.svg
         alt: "Im Klassenzimmer fragt Peter in einer Sprechblase „Is it big?“. Amir antwortet in einer Sprechblase „It is big.“. Mr Hill steht rechts."
-        caption: "Von links: Peter (gelbe Jacke) fragt, Amir (Brille) antwortet, rechts steht Mr Hill (graue Haare)."
+        caption: "Von links: Peter fragt, Amir antwortet, rechts steht Mr Hill."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text

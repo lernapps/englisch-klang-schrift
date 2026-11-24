@@ -9,7 +9,7 @@ blocks:
     title: Mr Hill liest Sophies Blog
     blocks:
       - type: text
-        text: "Mr Hill liest die Blogeinträge seiner Klasse und achtet auf die Kommas. Du kennst nicht notwendige Relativsätze aus der Wiederholung: Man kann sie weglassen, ohne dass sich ändert, wer gemeint ist."
+        text: "Die Blogeinträge der Klasse werden auf Kommas geprüft. Du kennst nicht notwendige Relativsätze aus der Wiederholung: Man kann sie weglassen, ohne dass sich ändert, wer gemeint ist."
       - type: single-choice
         id: komma-start
         text: In welchem Satz kann man den Relativsatz weglassen, ohne dass sich ändert, wer gemeint ist?
@@ -201,4 +201,4 @@ blocks:
     title: Rückblick und nächster Schritt
     blocks:
       - type: text
-        text: "Mr Hill gibt Sophies Blog zurück: Die Kommas stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um Betonung, Rhythmus und Melodie."
+        text: Die Kommas in Sophies Blog stimmen jetzt. In diesem Kapitel hast du Laute und Schrift verbunden und Kommas gesetzt. Im nächsten Kapitel geht es um Betonung, Rhythmus und Melodie.
